@@ -217,34 +217,33 @@ def generate_markdown(articles, date_str):
     lines.append("## Overview")
     lines.append("")
 
-    # Top picks (must_read articles)
+    # Top picks table (must_read articles)
     must_reads = sorted(
         [a for a in articles if a["verdict"] == "must_read"],
         key=lambda x: x["score"],
         reverse=True,
     )
     if must_reads:
-        lines.append("Today's top picks:")
+        lines.append("| Score | Article | Source |")
+        lines.append("|------:|---------|--------|")
         for a in must_reads[:5]:
-            lines.append(f"- [{a['title']}]({a['link']}) — {a['score']} · {a['source']}")
+            title_short = a["title"][:60] + "..." if len(a["title"]) > 60 else a["title"]
+            lines.append(f"| **{a['score']}** | [{title_short}]({a['link']}) | {a['source']} |")
         lines.append("")
 
-    # Stats line
+    # Stats + sources in blockquote
     verdict_parts = []
     for v in VERDICT_ORDER:
         c = verdict_counts.get(v, 0)
         if c > 0:
-            verdict_parts.append(f"{c} {VERDICT_LABELS[v].lower()}")
-    lines.append(f"**{len(articles)} articles**: {' · '.join(verdict_parts)}")
-    lines.append("")
-
-    # Top sources
+            verdict_parts.append(f"**{c}** {VERDICT_LABELS[v].lower()}")
     source_counts = {}
     for a in articles:
         source_counts[a["source"]] = source_counts.get(a["source"], 0) + 1
     top_sources = sorted(source_counts.items(), key=lambda x: x[1], reverse=True)[:3]
-    top_str = ", ".join(f"{name} ({count})" for name, count in top_sources)
-    lines.append(f"**Top sources**: {top_str}")
+    top_str = " · ".join(f"{name} ({count})" for name, count in top_sources)
+    lines.append(f"> {len(articles)} articles: {' · '.join(verdict_parts)}")
+    lines.append(f"> Top sources: {top_str}")
     lines.append("")
 
     # Group by verdict
