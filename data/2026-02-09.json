@@ -1,0 +1,188 @@
+{
+  "date": "2026-02-09",
+  "total": 10,
+  "verdict_counts": {
+    "must_read": 3,
+    "worth_reading": 4,
+    "neutral": 3
+  },
+  "articles": [
+    {
+      "title": "在参与OpenAI、Google、Amazon的50个AI项目后，他们总结出了大多数AI产品失败的原因",
+      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651274764&idx=1&sn=390c4cb0eb24bdb55c47a66ecca9ea24",
+      "source": "InfoQ",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-08",
+      "summary": "AI 产品失败的主因在于对问题设计的低估，而非技术门槛，非确定性 API 彻底改变了软件构建范式。",
+      "core_point": "两位参与过50多个企业级AI产品的专家指出，当前AI产品失败的主要原因是设计和对问题的理解不足，而非技术实现。",
+      "highlights": [
+        "构建成本降低，但设计和对痛点的理解成为关键瓶颈。",
+        "AI产品面临输入、输出和中间过程的“三重不确定性”，需要全新的协作方式。"
+      ],
+      "why_matters": "",
+      "score": 88,
+      "level": "收藏",
+      "verdict": "must_read"
+    },
+    {
+      "title": "11位顶尖数学家发了篇没结果的论文，陶哲轩推荐都关注一下",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247867539&idx=2&sn=1309da7e9984ffb34ce19de2568815b7",
+      "source": "量子位",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-08",
+      "summary": "顶尖数学家发起的First Proof实验，旨在通过隔离训练数据的“研究级”难题检验AI数学推理真能力。",
+      "core_point": "11位顶尖数学家发起一项实验，让AI尝试解决10道未公开答案的真实研究级数学问题，以检验其独立研究能力。",
+      "highlights": [
+        "实验旨在填补AI在真实数学研究能力评测上的空白，避免数据污染。",
+        "问题来自数学家自身研究，答案加密，允许AI使用外部资源，最终由人类专家评分。"
+      ],
+      "why_matters": "",
+      "score": 87,
+      "level": "收藏",
+      "verdict": "must_read"
+    },
+    {
+      "title": "Claude拒绝撒谎还顶撞了你，我在80页「AI 宪法」看到了最有原则的AI牛马",
+      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651080124&idx=1&sn=4673573a7ff99241913aa5c69c73c430",
+      "source": "APPSO",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-08",
+      "summary": "深度拆解Anthropic 2026版AI宪法，揭示AI从行为管教向价值观对齐的范式转移。",
+      "core_point": "疑似 PR 稿",
+      "highlights": [],
+      "why_matters": "",
+      "score": 85,
+      "level": "收藏",
+      "verdict": "must_read"
+    },
+    {
+      "title": "21天让肿瘤缩小60%！加州理工团队研发尿素驱动气泡机器人，可自主导航精准引爆肿瘤",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649790010&idx=1&sn=b41f1d62e892121e23317758bf4d1651",
+      "source": "DeepTech深科技",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-08",
+      "summary": "加州理工研发出尿素驱动的微泡机器人，实现肿瘤自主导航与超声触发的精准释药。",
+      "core_point": "加州理工团队研发出以尿素为动力的生物可吸收微泡机器人，能自主导航至肿瘤并定向释放药物，在小鼠实验中使肿瘤缩小60%。",
+      "highlights": [
+        "机器人利用人体代谢废物尿素驱动，实现自主靶向运动。",
+        "通过外部超声波触发“爆破”，实现药物的精准投送和深层渗透。"
+      ],
+      "why_matters": "",
+      "score": 78,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "Agent 时代，最稀缺的是欲望",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzkwMzY5NzU2Nw==&mid=2247488941&idx=1&sn=1e994aca2fd3eda0b2130b0ec4157af9",
+      "source": "有机大橘子",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-08",
+      "summary": "Agent 时代 SaaS 将转向 2A (To Agent)，公司最稀缺的不再是劳动力，而是发现机会的欲望与判断力。",
+      "core_point": "文章认为，在Agent时代，最稀缺的是人类的欲望和判断力，Agent将取代执行性劳动，改变公司组织和SaaS商业模式。",
+      "highlights": [
+        "Agent不是更好的工具，而是会使用工具的人，将取代大量执行工作。",
+        "未来的SaaS客户可能从人类转向Agent（2A），软件需从面向人类的产品转变为面向Agent的基础设施。"
+      ],
+      "why_matters": "",
+      "score": 78,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "机器人成精了？Figure 03下厨房，不经意关抽屉那一下，太像人了",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652673084&idx=3&sn=98cf2158bea20402903319d46f21e150",
+      "source": "新智元",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-08",
+      "summary": "Figure 03通过单一神经系统实现全身协同运动，标志着机器人从回合制动作向流畅自主行为的进化。",
+      "core_point": "Figure AI发布最新人形机器人Figure 03，其Helix 02系统实现了全身协同的自主控制，能像人类一样在厨房中流畅完成复杂任务。",
+      "highlights": [
+        "机器人展示了利用全身（如胯部关抽屉、用脚抬门）协作完成任务的“智能控制”能力。",
+        "采用单一神经网络统一控制行走与操作，告别了传统机器人“回合制”的僵硬模式。"
+      ],
+      "why_matters": "",
+      "score": 76,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "佛祖也写免责声明？和你的prompt有什么关系 ｜MindCode周报 No.60",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzAxNTYwMzcyNw==&mid=2247485970&idx=1&sn=d856e3b9332bc4a8db9264929c0232fd",
+      "source": "MindCode",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-08",
+      "summary": "通过佛教哲学视角反思Prompt本质，强调个人偏见在AI时代的独特价值。",
+      "core_point": "文章借用佛教概念探讨AI时代的人机交互与个人价值，认为应避免被AI的固有概念束缚，并强调个人的独特“偏见”具有分发价值。",
+      "highlights": [
+        "提示词（Prompt）本身会扭曲真实意图，应通过具体细节不断对话来生成真正需求。",
+        "在AI掌握标准答案的时代，个人基于独特生命经验形成的“偏见”和智慧成为核心价值。"
+      ],
+      "why_matters": "",
+      "score": 75,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "AI看图一本正经胡说八道？「一拉一推」让模型看得全又准｜微软x清华",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247867539&idx=3&sn=f8ba8daaa09c6980e56ca0e87b21ef67",
+      "source": "量子位",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-08",
+      "summary": "微软与清华提出 BiPS 机制，通过“一拉一推”的双重感知塑形，在训练阶段让视觉语言模型内化“看哪儿”的能力。",
+      "core_point": "微软与清华提出BiPS方法，在训练阶段教会视觉-语言模型“带着问题看图”，从而在推理时能自动聚焦关键证据，提升准确率。",
+      "highlights": [
+        "从“推理时补救”转向“训练时内化”，让模型学会识别与问题相关的关键视觉证据。",
+        "通过“一拉一推”机制，先确保看到所有相关证据，再聚焦最关键细节。"
+      ],
+      "why_matters": "",
+      "score": 72,
+      "level": "精读",
+      "verdict": "neutral"
+    },
+    {
+      "title": "配置一改就要重启的时代结束了：Dev Proxy 2.1 正式上线",
+      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651274764&idx=4&sn=781091dc55c040ec959babdd46956465",
+      "source": "InfoQ",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-08",
+      "summary": "Dev Proxy 2.1 发布，支持配置热重载与 Stdio 流量代理，优化 AI 工具链开发体验。",
+      "core_point": "Dev Proxy 2.1 版本发布，新增配置热重载和Stdio流量代理功能，旨在提升开发迭代效率和扩展对现代开发工具链的支持。",
+      "highlights": [
+        "配置热重载功能可自动监听并应用配置文件更改，无需手动重启。",
+        "新增Stdio流量代理能力，支持拦截和模拟命令行工具等非HTTP通信，便于测试调试。"
+      ],
+      "why_matters": "",
+      "score": 64,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "教科书《性能之巅》作者入职OpenAI！迷弟总裁亲自欢迎",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247867539&idx=1&sn=fe1aa03c4b1e0927a9d217a18bcc4eaa",
+      "source": "量子位",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-08",
+      "summary": "性能优化专家Brendan Gregg入职OpenAI，标志着AI基础设施优化的重心转向。",
+      "core_point": "系统性能优化领域顶级专家Brendan Gregg加入OpenAI，旨在解决ChatGPT背后的性能瓶颈，应对AI时代全新的基础设施挑战。",
+      "highlights": [
+        "Brendan Gregg是《性能之巅》作者、火焰图发明者，被视为“性能之神”。",
+        "他认为通用计算时代的性能优化方法已不适用于万卡GPU集群和神经网络，需构建新方法。"
+      ],
+      "why_matters": "",
+      "score": 63,
+      "level": "速览",
+      "verdict": "neutral"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-publish_harvest.py — Extract daily AI articles from briefing ODS cache
-and publish as structured JSON + readable Markdown.
+publish_harvest.py — Extract daily AI articles from briefing ODS cache,
+assign verdicts, and publish as structured JSON + readable Markdown.
 
 Usage:
     python3 publish_harvest.py                  # today
@@ -12,8 +12,10 @@ Reads from:
     briefing/cache/wechat-ai/briefing_data_{date}.json
 
 Outputs to:
-    ai-daily-harvest/data/{date}.json
-    ai-daily-harvest/daily/{date}.md
+    ai-daily-harvest/data/{date}.json           # full article data (public)
+    ai-daily-harvest/daily/{date}.md            # readable version (public)
+    ai-daily-harvest/lists/daily-picks.json     # red/black list (public)
+    ai-daily-harvest/sources/source_stats.json  # source stats (private, .gitignore)
 """
 
 import json
@@ -29,21 +31,16 @@ HARVEST_DIR = os.path.join(WORKSPACE, "ai-daily-harvest")
 # Channels to include (AI-related only)
 CHANNELS = ["overseas", "wechat-ai"]
 
-# Fields to keep in public output
-PUBLIC_FIELDS = {
-    "title", "link", "source", "category", "pub_date",
-    "summary", "core_point", "highlights", "why_matters",
-    "score", "level",
-    # scoring dimensions (nested separately)
-    "novelty", "depth", "actionability", "credibility",
-    "logic", "timeliness", "noise",
+# Verdict display labels
+VERDICT_LABELS = {
+    "must_read": "Must Read",
+    "worth_reading": "Worth Reading",
+    "neutral": "Neutral",
+    "noise": "Noise",
+    "overhyped": "Overhyped",
 }
 
-# Channel display names
-CHANNEL_NAMES = {
-    "overseas": "Overseas",
-    "wechat-ai": "WeChat AI",
-}
+VERDICT_ORDER = ["must_read", "worth_reading", "neutral", "noise", "overhyped"]
 
 
 def load_cache(channel, date_str):
@@ -60,17 +57,28 @@ def load_cache(channel, date_str):
     return articles
 
 
+def assign_verdict(article):
+    """Assign verdict based on scoring dimensions. Returns verdict string."""
+    score = article.get("score", 0)
+    novelty = article.get("novelty", 0)
+    depth = article.get("depth", 0)
+    noise = article.get("noise", 0)
+    credibility = article.get("credibility", 0)
+
+    if score >= 85:
+        return "must_read"
+    if 75 <= score <= 84 and (novelty >= 2 or depth >= 2):
+        return "worth_reading"
+    if 60 <= score <= 69 and noise <= 1:
+        return "noise"
+    if score >= 70 and novelty == 0 and credibility <= 1:
+        return "overhyped"
+    return "neutral"
+
+
 def clean_article(article, channel):
-    """Extract public fields from an ODS article."""
-    scoring = {
-        "novelty": article.get("novelty", 0),
-        "depth": article.get("depth", 0),
-        "actionability": article.get("actionability", 0),
-        "credibility": article.get("credibility", 0),
-        "logic": article.get("logic", 0),
-        "timeliness": article.get("timeliness", 0),
-        "noise": article.get("noise", 0),
-    }
+    """Extract public fields from an ODS article. No scoring dimensions exposed."""
+    verdict = assign_verdict(article)
     return {
         "title": article.get("title", ""),
         "link": article.get("link", ""),
@@ -84,16 +92,23 @@ def clean_article(article, channel):
         "why_matters": article.get("why_matters", ""),
         "score": article.get("score", 0),
         "level": article.get("level", ""),
-        "scoring": scoring,
+        "verdict": verdict,
     }
 
 
 def generate_json(articles, date_str):
     """Write structured JSON output."""
+    sorted_articles = sorted(articles, key=lambda x: x["score"], reverse=True)
+    verdict_counts = {}
+    for a in sorted_articles:
+        v = a["verdict"]
+        verdict_counts[v] = verdict_counts.get(v, 0) + 1
+
     output = {
         "date": date_str,
-        "total": len(articles),
-        "articles": sorted(articles, key=lambda x: x["score"], reverse=True),
+        "total": len(sorted_articles),
+        "verdict_counts": verdict_counts,
+        "articles": sorted_articles,
     }
     path = os.path.join(HARVEST_DIR, "data", f"{date_str}.json")
     with open(path, "w", encoding="utf-8") as f:
@@ -102,31 +117,124 @@ def generate_json(articles, date_str):
     return path
 
 
-def generate_markdown(articles, date_str):
-    """Write human-readable Markdown output."""
-    # Group by channel
-    by_channel = {}
-    for a in articles:
-        ch = a["source_channel"]
-        by_channel.setdefault(ch, []).append(a)
+def generate_daily_picks(articles, date_str):
+    """Write daily red/black list JSON."""
+    picks = {"date": date_str}
+    for v in VERDICT_ORDER:
+        group = [a for a in articles if a["verdict"] == v]
+        group.sort(key=lambda x: x["score"], reverse=True)
+        picks[v] = [
+            {
+                "title": a["title"],
+                "link": a["link"],
+                "source": a["source"],
+                "score": a["score"],
+                "why": a.get("why_matters", ""),
+            }
+            for a in group
+        ]
 
-    # Count unique sources
+    lists_dir = os.path.join(HARVEST_DIR, "lists")
+    os.makedirs(lists_dir, exist_ok=True)
+    path = os.path.join(lists_dir, "daily-picks.json")
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(picks, f, ensure_ascii=False, indent=2)
+    print(f"  [ok] {path}")
+    return path
+
+
+def update_source_stats(articles, date_str):
+    """Update cumulative per-source statistics (private, not pushed to GitHub)."""
+    sources_dir = os.path.join(HARVEST_DIR, "sources")
+    os.makedirs(sources_dir, exist_ok=True)
+    stats_path = os.path.join(sources_dir, "source_stats.json")
+
+    # Load existing stats
+    stats = {}
+    if os.path.exists(stats_path):
+        with open(stats_path, "r", encoding="utf-8") as f:
+            stats = json.load(f)
+
+    sources_data = stats.get("sources", {})
+
+    # Aggregate today's data per source
+    today_by_source = {}
+    for a in articles:
+        src = a["source"]
+        if src not in today_by_source:
+            today_by_source[src] = {"scores": [], "verdicts": []}
+        today_by_source[src]["scores"].append(a["score"])
+        today_by_source[src]["verdicts"].append(a["verdict"])
+
+    # Update cumulative stats
+    for src, data in today_by_source.items():
+        if src not in sources_data:
+            sources_data[src] = {
+                "articles_count": 0,
+                "total_score": 0,
+                "must_read_count": 0,
+                "noise_count": 0,
+                "first_seen": date_str,
+                "last_seen": date_str,
+            }
+        s = sources_data[src]
+        s["articles_count"] += len(data["scores"])
+        s["total_score"] += sum(data["scores"])
+        s["must_read_count"] += data["verdicts"].count("must_read")
+        s["noise_count"] += (
+            data["verdicts"].count("noise") + data["verdicts"].count("overhyped")
+        )
+        s["last_seen"] = date_str
+        # Computed fields
+        s["avg_score"] = round(s["total_score"] / s["articles_count"], 1)
+        s["must_read_rate"] = round(s["must_read_count"] / s["articles_count"] * 100, 1)
+        s["noise_rate"] = round(s["noise_count"] / s["articles_count"] * 100, 1)
+
+    stats["sources"] = sources_data
+    stats["updated"] = date_str
+
+    with open(stats_path, "w", encoding="utf-8") as f:
+        json.dump(stats, f, ensure_ascii=False, indent=2)
+    print(f"  [ok] {stats_path} ({len(sources_data)} sources tracked)")
+    return stats_path
+
+
+def generate_markdown(articles, date_str):
+    """Write human-readable Markdown, grouped by verdict."""
     all_sources = set(a["source"] for a in articles)
+
+    # Count verdicts
+    verdict_counts = {}
+    for a in articles:
+        v = a["verdict"]
+        verdict_counts[v] = verdict_counts.get(v, 0) + 1
 
     lines = []
     lines.append(f"# AI Daily Harvest — {date_str}")
     lines.append("")
-    lines.append(f"> {len(articles)} articles curated from {len(all_sources)} sources")
+
+    # Stats line
+    stats_parts = [f"{len(articles)} articles from {len(all_sources)} sources"]
+    if verdict_counts.get("must_read"):
+        stats_parts.append(f"{verdict_counts['must_read']} must-reads")
+    if verdict_counts.get("noise", 0) + verdict_counts.get("overhyped", 0) > 0:
+        n = verdict_counts.get("noise", 0) + verdict_counts.get("overhyped", 0)
+        stats_parts.append(f"{n} noise")
+    lines.append(f"> {' · '.join(stats_parts)}")
     lines.append("")
 
-    for channel in CHANNELS:
-        channel_articles = by_channel.get(channel, [])
-        if not channel_articles:
+    # Group by verdict
+    for verdict in VERDICT_ORDER:
+        group = [a for a in articles if a["verdict"] == verdict]
+        if not group:
             continue
-        channel_articles.sort(key=lambda x: x["score"], reverse=True)
-        lines.append(f"## {CHANNEL_NAMES.get(channel, channel)}")
+        group.sort(key=lambda x: x["score"], reverse=True)
+
+        label = VERDICT_LABELS[verdict]
+        lines.append(f"## {label}")
         lines.append("")
-        for a in channel_articles:
+
+        for a in group:
             title = a["title"]
             link = a["link"]
             score = a["score"]
@@ -137,6 +245,7 @@ def generate_markdown(articles, date_str):
             core_point = a["core_point"]
             highlights = a["highlights"]
             why_matters = a["why_matters"]
+
             lines.append(f"### [{title}]({link}) — {score}/100")
             lines.append(f"**{source}** · {category} · {level}")
             lines.append(f"> {summary}")
@@ -171,8 +280,11 @@ def main():
 
     print(f"AI Daily Harvest — publishing {date_str}")
 
+    # Ensure output dirs exist
+    for subdir in ["data", "daily", "lists", "sources"]:
+        os.makedirs(os.path.join(HARVEST_DIR, subdir), exist_ok=True)
+
     # Collect articles from all channels
-    # Filter: not rejected, score >= 60 (skip unscored HN items and noise)
     all_articles = []
     for channel in CHANNELS:
         raw = load_cache(channel, date_str)
@@ -192,8 +304,17 @@ def main():
 
     # Generate outputs
     generate_json(all_articles, date_str)
+    generate_daily_picks(all_articles, date_str)
     generate_markdown(all_articles, date_str)
-    print(f"Done. {len(all_articles)} articles published.")
+    update_source_stats(all_articles, date_str)
+
+    # Summary
+    verdicts = {}
+    for a in all_articles:
+        v = a["verdict"]
+        verdicts[v] = verdicts.get(v, 0) + 1
+    v_summary = ", ".join(f"{v}={c}" for v, c in sorted(verdicts.items()))
+    print(f"Done. {len(all_articles)} articles published. [{v_summary}]")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,23 @@
+# AI Daily Harvest
+
+> Opinionated daily AI content feed. Algorithm-driven, personally curated.
+
+Covers 40+ Chinese and English AI sources. Each article is scored (0-100) and assigned a verdict: must_read, worth_reading, neutral, noise, or overhyped.
+
+## Endpoints
+
+- daily/{date}.json: Full scored articles for a given date
+- daily/{date}.md: Human-readable daily digest
+- lists/daily-picks.json: Today's must-reads and noise (red/black list)
+
+## Quick Start
+
+Fetch today's must-reads:
+  GET https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/lists/daily-picks.json
+
+Fetch full data for a date:
+  GET https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/data/2026-02-25.json
+
+## Schema
+
+See llms-full.txt for complete field definitions and usage guide.

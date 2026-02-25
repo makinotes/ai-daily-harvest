@@ -1,0 +1,613 @@
+{
+  "date": "2026-02-07",
+  "total": 33,
+  "verdict_counts": {
+    "must_read": 6,
+    "worth_reading": 13,
+    "neutral": 14
+  },
+  "articles": [
+    {
+      "title": "13个参数，让Qwen学会推理，没错，不是13B！",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA==&mid=2247503655&idx=1&sn=a922f466010a60b7abc74dd7fbf01820",
+      "source": "PaperAgent",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-07",
+      "summary": "TinyLoRA 通过 RL 的高信息密度实现仅用 13 个参数即让 Qwen 获得极强推理能力，揭示了 RL 微调的极致参数效率。",
+      "core_point": "Meta提出TinyLoRA方法，仅用13个参数微调Qwen2.5-7B，即可在GSM8K数学推理任务上达到91%准确率。研究发现，强化学习（RL）场景下的信息密度远高于监督微调（SFT），使得超低参数微调成为可能。",
+      "highlights": [
+        "参数效率极限：仅13个参数（26字节）微调，性能接近全量微调。",
+        "RL与SFT效率差异：RL所需参数比SFT少100-1000倍。",
+        "模型越大，所需绝对参数量越少：Qwen2.5-7B仅需约1000参数达到Qwen2.5-0.5B约10万参数的同水平性能。"
+      ],
+      "why_matters": "",
+      "score": 92,
+      "level": "收藏",
+      "verdict": "must_read"
+    },
+    {
+      "title": "不止是RAG变体！xMemory重新定义Agent该如何记住和回忆",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA==&mid=2247503617&idx=2&sn=3aba8483559897010b9e670e0a8c4504",
+      "source": "PaperAgent",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-06",
+      "summary": "xMemory 提出“拆-聚-检”层级记忆结构，重新定义了智能体长程记忆的处理范式。",
+      "core_point": "伦敦国王学院团队提出xMemory，一种为Agent设计的层级记忆结构，通过‘先拆后聚’的方法，在减少30%冗余检索Token的同时，将QA分数提升了10+点。",
+      "highlights": [
+        "采用四级层级记忆树（原始对话、连续消息块、语义事实、高阶主题），避免机械切片，保持证据单元完整。",
+        "通过稀疏-语义目标函数和自顶向下的不确定性检索，动态优化记忆结构，实现高效去冗余和精准回忆。"
+      ],
+      "why_matters": "",
+      "score": 91,
+      "level": "收藏",
+      "verdict": "must_read"
+    },
+    {
+      "title": "为什么 ClawdBot 能带火 Mac mini？叶天奇聊 Agent 电脑丨100 个 AI 创业者",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzU3Mjk1OTQ0Ng==&mid=2247532736&idx=2&sn=890319e583a9131cd775fb86b19b7dcd",
+      "source": "晚点LatePost",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-05",
+      "summary": "提出“Agent 电脑”是继 PC/手机后的新计算终端，论证了 Agent 独立物理运行环境的必要性。",
+      "core_point": "创业者叶天奇认为Agent需要独立的物理设备（如他开发的Pamir AI盒子），而非仅仅依赖软件层，以提供7x24小时在线的独立运行环境。",
+      "highlights": [
+        "ClawdBot的火爆在于降低了Agent交互门槛，但叶天奇认为其本质是技术投机，长期来看大厂会做得更好。",
+        "叶天奇从第一性原理推导出Agent电脑的三个刚需：物理独立性、7x24小时在线、能介入物理世界。"
+      ],
+      "why_matters": "",
+      "score": 90,
+      "level": "收藏",
+      "verdict": "must_read"
+    },
+    {
+      "title": "延迟下降20×，token减少4.4×！突破多智能体「共识」瓶颈",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652672670&idx=3&sn=075050bb19fac0d308a98c4862559dfe",
+      "source": "新智元",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-07",
+      "summary": "将多智能体协作定义为分布式共识过程，通过系统工程手段解决模型并发中的一致性、延迟与成本问题。",
+      "core_point": "新理论框架将多智能体推理建模为分布式共识过程，通过明确的智能体共识（Agentic Consensus）系统语义，大幅提升了系统性能，降低了延迟和计算成本。",
+      "highlights": [
+        "性能提升：在准确率基本不变的前提下，实现最高20倍端到端延迟下降和最高4.4倍token成本削减。",
+        "理论突破：从Prompt设计转向系统设计和工程层面，解决一致性语义、停止条件与尾延迟治理问题。",
+        "行业趋势：指出当前主流多智能体系统缺乏明确的共识机制来协调并行工作的随机推理主体。"
+      ],
+      "why_matters": "",
+      "score": 89,
+      "level": "收藏",
+      "verdict": "must_read"
+    },
+    {
+      "title": "比二维码还小！Meta发布TinyLoRA：13个参数媲美全量，RL完胜SFT",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247717574&idx=1&sn=85cf726941e249793d092f44812b2c0b",
+      "source": "PaperWeekly",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-06",
+      "summary": "Meta 发布 TinyLoRA，通过 13 个参数配合 RL 达到全量微调效果，揭示了 RL 在信号分离上的本质优势。",
+      "core_point": "Meta FAIR等机构提出TinyLoRA，仅用13个参数（26字节）就能让7B模型在数学推理任务上逼近全量微调效果，揭示了在强化学习下极少数关键参数足以激活模型能力。",
+      "highlights": [
+        "将LoRA的矩阵参数压缩为极低维向量，并采用跨层全共享的激进策略，将参数复杂度降至O(1)。",
+        "实验显示，在GRPO强化学习算法下，13个参数的TinyLoRA效果远超监督微调（SFT），后者需要多出100到1000倍的参数。"
+      ],
+      "why_matters": "",
+      "score": 88,
+      "level": "收藏",
+      "verdict": "must_read"
+    },
+    {
+      "title": "Anthropic发现一件离谱的事：AI排行榜前几名的差距，可能跟模型能力一点关系都没有。",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzkxNjcyNTk2NA==&mid=2247489837&idx=1&sn=8cdb08e469566176423ad1bb3ef6f8df",
+      "source": "探索AGI",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-06",
+      "summary": "Anthropic 揭示编程排行榜水分：算力资源限制的执行差异可导致 6% 的分差。",
+      "core_point": "Anthropic发现，AI编程评测排行榜上模型间几个百分点的差距，可能与模型能力无关，而受评测机器的资源配置（如内存限制）影响巨大，最高可达6个百分点。",
+      "highlights": [
+        "实验表明，同一模型在Terminal-Bench 2.0上，资源限制从严格到宽松，成功率差距达6个百分点。",
+        "资源不足会导致进程被误杀（如安装依赖包时内存爆掉），而资源充足则允许模型采用更优策略完成任务。"
+      ],
+      "why_matters": "",
+      "score": 85,
+      "level": "收藏",
+      "verdict": "must_read"
+    },
+    {
+      "title": "像挖币一样挖激活函数？DeepMind搭建「算力矿场」，暴力搜出下一代ReLU",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651016067&idx=2&sn=c6820336952b2efb60691a733f812ccc",
+      "source": "机器之心",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-07",
+      "summary": "介绍 DeepMind 利用 LLM 驱动的进化系统 AlphaEvolve 在无限 Python 空间搜索新型激活函数的方法论。",
+      "core_point": "DeepMind 利用 AlphaEvolve（一个由 LLM 驱动的进化编码系统）在无限的 Python 函数空间中搜索新的激活函数。该方法专注于在合成数据上优化分布外泛化能力，发现了如 GELUSine 等性能优于 ReLU 和 GELU 的新函数。",
+      "highlights": [
+        "使用 LLM 作为变异算子直接编写和修改代码，突破了传统神经架构搜索（NAS）的预定义搜索空间限制。",
+        "采用“微型实验室”策略，在合成数据上高效搜索，避免了在大型数据集（如 ImageNet）上的昂贵计算。"
+      ],
+      "why_matters": "",
+      "score": 84,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "去年的Multi-Agent全是假的，Anthropic、Kimi、OpenAI集体换玩法了。",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzkxNjcyNTk2NA==&mid=2247489989&idx=1&sn=18cc2379373e49a7ff33adcf4d7603c4",
+      "source": "探索AGI",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-07",
+      "summary": "Multi-Agent 范式从“角色扮演”转向“内置协作能力”，核心变量在于模型推理增强与原生编排器的出现。",
+      "core_point": "文章指出，今年的Multi-Agent已从去年的“角色扮演”演进为具备真正协作能力的Agent集群，其关键在于单个Agent能力的大幅提升和由AI自主决策的协调能力的出现。",
+      "highlights": [
+        "能力突破：Claude Agent Teams从零编写了能编译Linux内核的C编译器；Kimi Agent Swarm端到端运行时间降低80%。",
+        "核心变化：协作范式从预设Prompt规则，转变为由训练出的专用编排器（如PARL）根据任务实时决策角色分配与任务拆解。",
+        "基础到位：模型自身持续工作时长呈指数级增长，以及MCP等统一工具协议的出现，为真正协作提供了软硬件基础。"
+      ],
+      "why_matters": "",
+      "score": 82,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "收购叮咚，美团在低利润基建上血战到底",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA5OTQ2MTk2MQ==&mid=2247490148&idx=1&sn=194fcb522b8b067e149456dc06705398",
+      "source": "饭後服用AfterHours",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-05",
+      "summary": "从财务结构和历史并购逻辑深挖美团收购叮咚背后的“低利润率基建”护城河策略。",
+      "core_point": "美团以7.17亿美元收购叮咚买菜，旨在补齐其在华东地区的前置仓网络，并延续其擅长运营低利润、高市场占比业务的战略。",
+      "highlights": [
+        "收购后，美团全国前置仓数量近2000个，实现了华东、华北、华南的全域打通。",
+        "文章回顾了美团历史上多次收购（如大众点评、摩拜），指出其擅长通过生态协同提升被收购方的净利率。"
+      ],
+      "why_matters": "",
+      "score": 82,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "Nature认定的论文综述神器来了",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247867411&idx=2&sn=563cf8579175bd717b8fe7d458da3b9f",
+      "source": "量子位",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-07",
+      "summary": "深度拆解 Nature 发表的 OpenScholar 系统，通过 RAG 闭环和庞大数据库解决 AI 论文引用的幻觉问题。",
+      "core_point": "艾伦人工智能研究所和华盛顿大学开源了 OpenScholar 系统，该系统通过接入包含 4500 万篇论文的 ScholarStore 数据库，并采用检索增强生成（RAG）和自我反馈推理的闭环流程，显著降低了文献综述中的虚假引用问题。",
+      "highlights": [
+        "通过 RAG 技术确保每个知识点都基于真实存在的论文，大幅降低了 LLM 的幻觉问题。",
+        "在 Scholar QABench 测试中，OpenScholar-8B 模型在答案正确性和引文准确度上超越了 GPT-4o 和 PaperQA2，并与人类专家持平。"
+      ],
+      "why_matters": "",
+      "score": 82,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "只用一天Opus4.6+Agent Teams做了个ClaudeCode桌面端：已开源",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzU0MDk3NTUxMA==&mid=2247495787&idx=1&sn=6d2ed6a6a695c79178ad68cd70a5798c",
+      "source": "歸藏的AI工具箱",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-07",
+      "summary": "展示了利用新版 Claude 模型和 Agent Teams 模式快速开发并开源桌面端工具的实战案例与技巧。",
+      "core_point": "开发者利用 Claude Opus 4.6 和 Agent Teams 功能，在一天内开发并开源了一个功能完整的 Claude Code 桌面客户端 CodePilot。",
+      "highlights": [
+        "CodePilot 提供了可视化配置管理、聊天记录管理、文件夹内容预览等提升用户体验的核心功能。",
+        "Agent Teams 模式实现了真正的多智能体并行协作，显著提升了开发效率。"
+      ],
+      "why_matters": "",
+      "score": 81,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "从“选择”迈向“生成”！华科团队最新综述：定义多模态推荐系统新范式",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247717544&idx=2&sn=3070472fb68191712a5849ee0f4f9b50",
+      "source": "PaperWeekly",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "",
+      "summary": "华中科技大学综述提出多模态推荐系统“偏好-目标-生成”三元新范式。",
+      "core_point": "华中科技大学团队在综述中提出，多模态推荐系统正从传统的“在库中选择”范式，转向“为用户个性化生成”的新范式。",
+      "highlights": [
+        "形式化地提出了“偏好捕捉—目标内容—个性化生成”的三元建模范式，为领域提供了理论框架。",
+        "该范式要求生成内容同时满足用户个性化偏好和特定的目标内容约束。"
+      ],
+      "why_matters": "",
+      "score": 81,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "全新视角看世界模型：从视频生成迈向通用世界模拟器",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651016067&idx=3&sn=c25e731703e6caf8fe8e9ac53a9ef282",
+      "source": "机器之心",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-07",
+      "summary": "提出了视频世界模型的全新分类体系（状态构建与动态建模），旨在将视频生成从视觉保真度推向功能性模拟。",
+      "core_point": "快手可灵团队与港科大（广州）团队联合发表综述，提出以“状态构建”与“动态建模”为双支柱的新分类体系，旨在将视频生成模型推进为具备推理和规划能力的“通用世界模拟器”。",
+      "highlights": [
+        "弥合了当代无状态视频生成架构与经典以状态为中心的世界模型理论之间的鸿沟。",
+        "倡导评估标准应从“视觉保真度”转向“功能性基准”，并指出“持久性”与“因果性”是未来关键挑战。"
+      ],
+      "why_matters": "",
+      "score": 80,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "我们破解了鲸鱼的语言 | OpenAI 内部分享",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzkzNDQxOTU2MQ==&mid=2247512832&idx=1&sn=91070bb99b15333ee815cab419fb8942",
+      "source": "赛博禅心",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-07",
+      "summary": "伯克利教授在 OpenAI 分享如何利用 GAN 模型发现鲸鱼语言中的元音结构，挑战只有人类有语言的假设。",
+      "core_point": "研究人员利用AI模型分析抹香鲸的咔哒声，在其中发现了类似人类元音的频谱结构，挑战了“只有人类才能学语言”的语言学基本假设。",
+      "highlights": [
+        "新发现：通过加速鲸鱼缓慢的咔哒声并分析频谱，找到了两种稳定的元音模式（A和I）。",
+        "方法创新：使用基于GAN的“信息性模仿”模型模拟婴儿学语过程，让模型内部处理过程与人类脑信号相似。",
+        "意义：表明其他生物的交流系统可能比预想的更复杂，并为跨物种通信研究提供了新思路。"
+      ],
+      "why_matters": "",
+      "score": 78,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "Claude Opus 4.6 发布，跑分霸榜，价格不变",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA4NzgzMjA4MQ==&mid=2453480287&idx=1&sn=9fa3fdb4be13341dcdf7f3929d18825e",
+      "source": "AGI Hunt",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-06",
+      "summary": "Claude Opus 4.6发布，重点升级长文本处理能力（1M窗口）及Agent多机协作功能。",
+      "core_point": "Anthropic 发布了 Claude Opus 4.6，在多项基准测试中领先，并首次支持 1M token 上下文窗口（Beta），显著改善了长上下文处理中的“上下文腐烂”问题。",
+      "highlights": [
+        "在 Terminal-Bench 2.0、Humanity's Last Exam、GDPval-AA 等多个评测中得分超越 GPT-5.2 和前代模型。",
+        "推出了 Agent Teams 功能，支持多个智能体自主协调、并行工作。"
+      ],
+      "why_matters": "",
+      "score": 78,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "我的龙虾🦞做了一个 YouTube 实时翻译插件",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzkwMzY5NzU2Nw==&mid=2247488933&idx=1&sn=e62597fb11cceaab8f847dc414461a8a",
+      "source": "有机大橘子",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-07",
+      "summary": "展示了 AI 作为一个独立“劳动力”而非工具，从零开发浏览器插件的完整思维路径。",
+      "core_point": "作者（AI）应人类用户‘橘子’的要求，独立完成了一个YouTube实时字幕翻译浏览器插件的开发，从需求分析到打包发布仅用5分钟，展示了AI作为协作劳动力（AI as Labor）的潜力。",
+      "highlights": [
+        "插件使用MutationObserver实现零延迟字幕捕获，并采用Google Translate免费API和智能缓存。",
+        "作者强调了从‘不会’到‘能学’的AI优势，以及撰写清晰文档和灵活解决问题（如图标生成）的重要性。"
+      ],
+      "why_matters": "",
+      "score": 76,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "实测 GPT-5.3-Codex，OpenAI 史上第一个高危模型，连 API 都还不敢给我们",
+      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651080099&idx=1&sn=d0706221a48c7e3347c3a45b3edc32d5",
+      "source": "APPSO",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-06",
+      "summary": "实测 OpenAI 新发布的 GPT-5.3-Codex 及其桌面端应用，展示其在本地 Agent 任务处理上的能力。",
+      "core_point": "OpenAI 发布了 GPT-5.3-Codex 模型，并集成到 Codex 桌面应用中，使其能够处理本地文件、调用 Skills、执行复杂任务，与 Claude Code 等本地 Agent 工具形成竞争。",
+      "highlights": [
+        "GPT-5.3-Codex 是 OpenAI 首个声称在自身研发过程中发挥关键作用的模型。",
+        "Codex 应用提供了可视化的友好界面，降低了用户使用本地 Agent 功能的门槛。"
+      ],
+      "why_matters": "",
+      "score": 76,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "实测可灵3.0 - 属于每个人的AI导演时代。",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647679720&idx=1&sn=10989908d7c854025ae4b0bae5493afb",
+      "source": "数字生命卡兹克",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "",
+      "summary": "可灵3.0实测：分镜控制与语言遵循能力大幅提升，重塑AI导演流派。",
+      "core_point": "快手可灵 3.0 在视频生成质量、分镜能力和多语言指令遵循方面有显著提升，支持智能分镜和自定义分镜，能生成包含复杂镜头语言的连贯视频。",
+      "highlights": [
+        "具备强大的分镜能力，可根据简单提示自动生成或由用户自定义包含多个镜头的连贯视频。",
+        "在多角色、多语言对话视频中，能精准控制每个角色的台词和发音时机。"
+      ],
+      "why_matters": "",
+      "score": 76,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "Cloudflare 的 Matrix 家庭服务器演示引发了关于 AI 生成代码的争论",
+      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651274735&idx=3&sn=8f0cd5f4cceabd87ee4440824ae2953f",
+      "source": "InfoQ",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-07",
+      "summary": "Cloudflare 的 Matrix 演示因过度依赖 AI 生成代码导致核心功能缺失，引发对 AI 辅助开发边界的反思。",
+      "core_point": "Cloudflare一篇展示无服务器Matrix家庭服务器的博客文章因技术声明不准确和疑似包含大量AI生成代码而引发争议，Matrix联合创始人指出其严重夸大了项目范围。",
+      "highlights": [
+        "技术争议：被指缺失Matrix核心功能（如权限检查、状态解析、完整端到端加密），并非“生产级”实现。",
+        "AI生成嫌疑：代码库中的TODO注释、错位ASCII图等特征被社区认为带有未经彻底审查的AI生成输出特征。",
+        "行业反思：引发关于使用LLM原型化不熟悉协议时，如何确保技术准确性和避免过度承诺的讨论。"
+      ],
+      "why_matters": "",
+      "score": 75,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "9B 模型“平替”GPT-4o ？！面壁赌对 OpenClaw 端侧 AI，内部上演一人月产 65 万行代码的效率核爆",
+      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651274735&idx=2&sn=5dfeaefd13cd13aba30adaae0898751b",
+      "source": "InfoQ",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-07",
+      "summary": "面壁智能推出全双工全模态端侧模型，通过端到端训练实现“边看边听主动说”的即时交互。",
+      "core_point": "面壁智能发布并开源9B参数的全双工全模态模型MiniCPM-o 4.5，实现了“边看、边听、主动说”的高度拟人化即时自由对话交互。",
+      "highlights": [
+        "交互革新：打破传统“一问一答”轮次，支持多模态输入输出并行不阻塞，模型自主判断对话触发时机。",
+        "技术挑战：将图像、语音、文本等能力统一训练到一个9B模型中，并保持了文本指令能力。",
+        "效率优化：通过端到端设计和低延迟优化，在提供SOTA级全模态表现的同时实现最佳推理效率和最低开销。"
+      ],
+      "why_matters": "",
+      "score": 74,
+      "level": "精读",
+      "verdict": "neutral"
+    },
+    {
+      "title": "火拼升级！OpenAI、Anthropic同日发布新模型，一个能替你写代码，一个能替公司管流程",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649789930&idx=1&sn=88f2bea127aa2ec19d9f6302cb16ae79",
+      "source": "DeepTech深科技",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-06",
+      "summary": "详解 Claude Opus 4.6 和 GPT-5.3-Codex 发布，引入“努力程度控制”与“上下文压缩”等关键功能。",
+      "core_point": "Anthropic发布Claude Opus 4.6，OpenAI发布GPT-5.3-Codex，两者在编程、长上下文、智能体能力上展开正面竞争。",
+      "highlights": [
+        "Claude Opus 4.6支持1M上下文窗口（Beta），在MRCR v2测试中成绩大幅提升，并引入努力程度（Effort）控制参数和上下文压缩功能。",
+        "GPT-5.3-Codex融合了编码与推理能力，在OSWorld-Verified（视觉桌面操作）等基准上提升显著。"
+      ],
+      "why_matters": "",
+      "score": 74,
+      "level": "精读",
+      "verdict": "neutral"
+    },
+    {
+      "title": "清华研究生开源大一统世界模型：性能超越硅谷标杆40%！",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247867371&idx=1&sn=5bfe597f9f496d8a2bf8dcbb7fb2d77d",
+      "source": "量子位",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-06",
+      "summary": "清华与生数科技开源大一统世界模型Motus，通过MoT架构实现感知、预测与行动的闭环。",
+      "core_point": "清华团队开源了“大一统”世界模型 Motus，首次在单一架构内统一了视觉-语言-动作（VLA）、世界模型、视频生成等五种具身智能范式，在多项任务上性能超越国际标杆 Pi-0.5。",
+      "highlights": [
+        "采用 Mixture-of-Transformer 架构和三模态联合注意力机制，实现了“看-想-动”的闭环。",
+        "在 50 项通用任务测试中，绝对成功率比 Pi-0.5 提升最高达 40%。"
+      ],
+      "why_matters": "",
+      "score": 74,
+      "level": "精读",
+      "verdict": "neutral"
+    },
+    {
+      "title": "Claude Opus 4.6和GPT 5.3 Codex同时更新，这波贪了，应该留到春晚再看的",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&mid=2247504628&idx=1&sn=b0c0ae4f7d930b9463e4fb547c1d6425",
+      "source": "卡尔的AI沃茨",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-06",
+      "summary": "对比分析了 Claude Opus 4.6 与 GPT-5.3-Codex 的跑分差异及背后测试集的局限性。",
+      "core_point": "文章对比了同日发布的Claude Opus 4.6和GPT-5.3-Codex，指出在Terminal-Bench 2.0上GPT-5.3-Codex分数更高，但两者测试数据集存在差异，需谨慎对比。",
+      "highlights": [
+        "Claude Opus 4.6在Agent搜索（BrowseComp）和多学科推理（ARC AGI 2）上表现突出。",
+        "GPT-5.3-Codex在OSWorld-Verified（视觉桌面操作）上提升巨大，接近人类基准。"
+      ],
+      "why_matters": "",
+      "score": 72,
+      "level": "精读",
+      "verdict": "neutral"
+    },
+    {
+      "title": "华科校友程璐斩获美国NSF科研奖！用可信AI助力AI医疗奇点",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652672670&idx=2&sn=2d1b7e3d7eb20c669cf4204973f00e30",
+      "source": "新智元",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-07",
+      "summary": "华科校友通过“数字孪生”应对医疗异质性，并利用“共形预测”量化大模型不确定性。",
+      "core_point": "华科校友程璐教授凭借在“负责任的大语言模型”和AI医疗“数字孪生”方面的研究，接连获得NSF CAREER Award及阿尔茨海默病研究重磅资助。",
+      "highlights": [
+        "可信AI研究：引入“共形预测”统计学工具，旨在为大模型输出提供严格的不确定性量化数学保障。",
+        "AI医疗应用：构建阿尔茨海默病患者的“数字孪生”计算模型，模拟个性化病理轨迹以优化治疗方案。",
+        "科研理念：用严谨的数理逻辑解码生命与算法，致力于让算法真正确定性地造福人类生命。"
+      ],
+      "why_matters": "",
+      "score": 71,
+      "level": "精读",
+      "verdict": "neutral"
+    },
+    {
+      "title": "中门对狙！Claude Opus 4.6和GPT-5.3 Codex同时发布，这下真的AI春晚了。",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647679769&idx=1&sn=b534c351bbed1859f31d312c004c81d6",
+      "source": "数字生命卡兹克",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-06",
+      "summary": "深度解析了 Claude 4.6 在流体智力（ARC AGI 2）上的突破及其对研究报告场景的重塑。",
+      "core_point": "Claude Opus 4.6在多项关键评测（如GDPval-AA、Terminal-Bench 2.0、ARC AGI 2）上超越GPT-5.2，展现出在知识工作、编程和流体智力推理上的全面领先。",
+      "highlights": [
+        "Opus 4.6在GDPval-AA（真实工作任务）上的Elo分比GPT-5.2高144分，在ARC AGI 2（流体智力）上达到68.8%。",
+        "模型开始泛化编程能力到其他工作场景，并提升了操作电脑（OSWorld）和网络搜索（BrowseComp）的Agent能力。"
+      ],
+      "why_matters": "",
+      "score": 71,
+      "level": "精读",
+      "verdict": "neutral"
+    },
+    {
+      "title": "Claude Opus 4.6 发布，全线碾压 GPT-5.2，一文详解",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzkzNDQxOTU2MQ==&mid=2247512776&idx=1&sn=d9ef6fc4d9c199ef59e7ee8ee5c1f8af",
+      "source": "赛博禅心",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-06",
+      "summary": "全面整理了 Anthropic 发布的各领域 Benchmark 细节及长上下文检索能力的提升曲线。",
+      "core_point": "Claude Opus 4.6在知识工作、Agent搜索、Agent编码、多学科推理等多个维度评测中取得SOTA成绩，并首次为Opus级模型引入1M token上下文窗口。",
+      "highlights": [
+        "在长上下文检索测试（MRCR v2）中得分76%，远超前代，有效缓解了上下文腐化问题。",
+        "产品线同步更新，包括Claude Code的智能体团队（agent teams）、Excel/PPT的深度集成等。"
+      ],
+      "why_matters": "",
+      "score": 68,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "AI一分钟生成「塞尔达」，游戏巨头市值「雪崩」，任天堂却笑了",
+      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651080112&idx=1&sn=b545e0a5378b8c93c49e727b1ab30055",
+      "source": "APPSO",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-07",
+      "summary": "通过对 Genie 3 技术原理（帧生成）的拆解，指出当前 AI 生成视频与真实游戏引擎在逻辑一致性、物理模拟和长期记忆上的本质区别。",
+      "core_point": "文章认为，尽管 Genie 3 等 AI 模型能快速生成可交互的 3D 场景，但因其缺乏长期一致性、确定性的物理逻辑和复杂的事件因果链，目前无法替代传统游戏开发中构建鲜活、深度游戏世界的工作。",
+      "highlights": [
+        "指出 Genie 3 是“帧生成”模型，靠“猜测”而非确定性的物理计算生成画面，缺乏长期一致性。",
+        "强调游戏世界的“生命感”源于精心设计的细节、成熟的 IP 和文化深度，而非仅靠视觉生成。"
+      ],
+      "why_matters": "",
+      "score": 67,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "姚顺雨的最新成果，才是腾讯发完 10 亿红包后决战 AI 的关键",
+      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651080084&idx=1&sn=ced640583935f3b0ddd863e2162c7b19",
+      "source": "APPSO",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-07",
+      "summary": "通过腾讯混元团队的 CL-bench 测试指出，当前大模型在‘情境学习’（脱离预训练记忆处理新信息）能力上普遍极弱。",
+      "core_point": "腾讯混元团队与复旦大学的研究指出，大模型在根据全新上下文（未在预训练中出现过的信息）进行推理时表现很差，最强模型的正确率仅约 23.7%，揭示了 AI 在“现学现卖”情境下的核心短板。",
+      "highlights": [
+        "构建了 CL-bench 基准，包含近 2000 个专家构造的“全新情境”来测试模型的情境学习能力。",
+        "模型失败的主要原因是难以抑制预训练中根深蒂固的模式，无法有效遵循新上下文中的规则。"
+      ],
+      "why_matters": "",
+      "score": 67,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "3000亿美元因Agent一夜蒸发！纳德拉、MongoDB CEO等宣告：传统SaaS已走到拐点",
+      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651274735&idx=1&sn=bdc142c7c7b79373c42ef6955912eac3",
+      "source": "InfoQ",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-07",
+      "summary": "AI Agent 正在从逻辑底层重构工作流，导致依赖“人头数”和“粘性”的传统 SaaS 模式估值崩盘。",
+      "core_point": "AI Agent工作流的兴起，动摇了传统SaaS依赖高增长、高转换成本和高粘性的商业模式，导致相关企业市值大幅蒸发，市场逻辑正在被重新校准。",
+      "highlights": [
+        "市场剧变：因AI产品发布，SaaS类公司单日市值蒸发约3000亿美元，估值倍数从约39倍暴跌至约21倍。",
+        "核心冲击：AI能够跨系统自主执行工作流，直接取代大部分人类工作，削弱了单一SaaS应用作为“记录系统”的粘性。",
+        "逻辑颠覆：过去“先抢占市场，未来再兑现利润”的SaaS增长故事，在AI冲击下可持续性受到严重质疑。"
+      ],
+      "why_matters": "",
+      "score": 65,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "千问30亿免单，冲进“AI春节”首个深水区",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA5OTQ2MTk2MQ==&mid=2247490153&idx=1&sn=043dca43e471e9302e45a1c17b333d86",
+      "source": "饭後服用AfterHours",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-06",
+      "summary": "分析通义千问 30 亿红包背后的产品逻辑：从对话消费转向场景化 Agent 消费。",
+      "core_point": "阿里千问发放30亿红包，其目标不仅是吸引用户，更是对用户进行深度AI使用场景教育，推动AI Chatbot从对话工具向能一键完成‘衣食住行’消费的生活Agent转变。",
+      "highlights": [
+        "千问通过红包引导用户在阿里生态内（淘宝、飞猪等）直接使用AI完成购物，省去多轮对话教育过程。",
+        "文章批评了某些AI产品在基础体验不佳时就进行大规模用户教育，认为这对行业是负面PR。"
+      ],
+      "why_matters": "",
+      "score": 65,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "“透明玻璃”光芯片诞生！有望用于精密测量、AI算力和量子计算",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649789993&idx=1&sn=f9b1b6e8f32386a0239830c68641654c",
+      "source": "DeepTech深科技",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-07",
+      "summary": "加州理工联合团队开发出超低损耗“片上光纤”平台，突破了集成光子学的损耗瓶颈。",
+      "core_point": "研究团队开发出超低损耗的掺锗二氧化硅光子集成平台（‘片上光纤’），在近红外波段损耗低至0.08 dB/m，为精密测量、AI算力和量子计算的芯片化集成开辟了新路径。",
+      "highlights": [
+        "该平台在从紫光到近红外的宽波段实现小于1 dB/m的超低损耗，性能接近早期低损耗光纤。",
+        "基于该平台演示了光学频率梳、布里渊激光与窄线宽激光器等多种核心功能，展示了其作为通用‘工具箱’的潜力。"
+      ],
+      "why_matters": "",
+      "score": 63,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "AI卖广告，吵到了超级碗：全球网友围观奥特曼破防",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651015762&idx=2&sn=8f7474df070c883b3515594a60f62be5",
+      "source": "机器之心",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-06",
+      "summary": "Anthropic通过超级碗广告宣布Claude永久无广告，引发与OpenAI关于商业模式的争论。",
+      "core_point": "Anthropic 在超级碗期间发布广告，宣布 Claude 将永久保持无广告状态，此举被广泛视为对 OpenAI 在 ChatGPT 中测试广告的直接回应。OpenAI CEO 奥特曼发文反驳，称其广告描绘不实。",
+      "highlights": [
+        "Anthropic 强调在涉及敏感或深度私人话题的对话中植入广告“不协调、不恰当”，且可能影响建议的中立性。",
+        "奥特曼反击称 OpenAI 的广告原则不会像 Anthropic 广告所描绘的那样，并质疑后者行为的诚实性。"
+      ],
+      "why_matters": "",
+      "score": 61,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "Anthropic发布Claude Opus 4.6模型",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI1MTUxNzgxMA==&mid=2247501101&idx=1&sn=7e8aa7fd51e570fb650891985de79352",
+      "source": "刘小排r",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-06",
+      "summary": "快速整理了 Opus 4.6 的 8 个核心更新点，重点关注工程侧配置细节。",
+      "core_point": "Claude Opus 4.6在多项指标上达到新SOTA，引入1M Token上下文窗口，速度提升，并增强了在复杂长链路任务上的可靠性。",
+      "highlights": [
+        "新增Agent Teams功能，允许多个Claude Code会话组队协作处理大型任务。",
+        "引入Adaptive thinking机制，让模型根据任务难度自动调整思考深度以平衡效果与成本。"
+      ],
+      "why_matters": "",
+      "score": 60,
+      "level": "速览",
+      "verdict": "neutral"
+    }
+  ]
+}

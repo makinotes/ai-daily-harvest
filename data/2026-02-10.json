@@ -1,0 +1,219 @@
+{
+  "date": "2026-02-10",
+  "total": 11,
+  "verdict_counts": {
+    "worth_reading": 6,
+    "neutral": 5
+  },
+  "articles": [
+    {
+      "title": "OpenClaw 让 Mac Mini 卖爆了，苹果为什么不自己做一个？",
+      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651080233&idx=1&sn=f51b20a62e1a322258815e67d82bd895",
+      "source": "APPSO",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-09",
+      "summary": "深度剖析苹果在 Agent 赛道的策略：通过“硬件+开源”回避平台合规风险，实现“刀背藏身”的商业护城河。",
+      "core_point": "文章探讨了为何苹果不自己开发类似OpenClaw的AI智能体。核心观点是，苹果若官方推出此类功能，将面临巨大的法律风险，因为其系统性的自动化操作会违反其他平台的用户协议，构成不正当竞争。",
+      "highlights": [
+        "OpenClaw的火爆意外带动了Mac Mini的销量。",
+        "苹果若内置类似OpenClaw的智能体，将因系统性绕过平台API而面临来自Meta、微软等公司的法律诉讼。",
+        "用户自行在Mac上运行开源OpenClaw，则责任与苹果无关，苹果得以规避风险。"
+      ],
+      "why_matters": "",
+      "score": 84,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "3年、1万人，快手技术团队首次系统披露AI研发范式升级历程",
+      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651274822&idx=1&sn=b4b364a2e23df2beda37e877001ea4df",
+      "source": "InfoQ",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-09",
+      "summary": "组织提效不等于个人工具普及，AI 研发需经历从辅助到自主的范式跃迁。",
+      "core_point": "快手技术团队系统披露了其AI研发范式升级历程，揭示了从提升个人效率到提升组织整体效能的转变过程。核心发现是，个人使用AI工具提效并不等同于组织整体提效。",
+      "highlights": [
+        "快手AI研发范式经历了平台化、数字化、精益化到智能化的三阶段演进。",
+        "在智能化1.0阶段，AI代码生成率超30%，但组织需求交付效率未变，暴露了“个人提效≠组织提效”的陷阱。",
+        "智能化2.0阶段转向聚焦用AI提升组织整体效能，并探索出从AI辅助到AI自主的系统性实践路线。"
+      ],
+      "why_matters": "",
+      "score": 84,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "世界是快的",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzkzNDQxOTU2MQ==&mid=2247512890&idx=1&sn=cd1fcfdc1581233000ced06131715007",
+      "source": "赛博禅心",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-09",
+      "summary": "AI 正在压缩时间维度，OpenClaw 等工具开启了「一人多 AI」的异步生产力杠杆时代。",
+      "core_point": "文章以OpenClaw为例，阐述了AI Agent如何通过“时间分身”效应，将人类从必须实时监督AI任务的束缚中解放出来，从而“压缩”了个人可支配的思考时间。",
+      "highlights": [
+        "OpenClaw等本地运行Agent的出现，使得用户可以远程下达指令，让AI在独立设备上自主执行任务，实现了“一人多AI”的工作模式。",
+        "这种模式打破了“一人一AI”的实时交互限制，创造了“时间分身”，允许用户并行处理多个任务。",
+        "OpenClaw作为一个开源项目，存在安全风险（如密钥泄露、恶意文件），并非为非技术用户设计。"
+      ],
+      "why_matters": "",
+      "score": 83,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "AI 智能体界的 npm 来了！Vercel 推出 Skills.sh，欲统一智能体指令集",
+      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651274822&idx=4&sn=3816018ecc04d95ec9ee0f181039f208",
+      "source": "InfoQ",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-09",
+      "summary": "Skills.sh 通过解耦推理与执行，为 AI Agent 提供标准化的 Shell 指令集。",
+      "core_point": "Vercel推出开源项目Skills.sh，旨在为AI智能体建立一个可复用“技能”的开放生态系统，将智能体的“推理”与安全、可控的“执行”分离开来。",
+      "highlights": [
+        "Skills.sh允许开发者定义、分享并运行以Shell脚本形式实现的、明确定义的“技能”，供智能体调用。",
+        "该方案解决了智能体执行环节不可靠的问题，使智能体行为更可预测、可审计。",
+        "社区将其类比为“AI智能体界的npm”，侧重于技能的组合与发现，可与Anthropic的MCP等协议互补。"
+      ],
+      "why_matters": "",
+      "score": 81,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "深度思考丨OpenClaw🦞爆火，云端Agent与本地Agent对比分析",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzkyNDYwMzg3OA==&mid=2247490706&idx=1&sn=ccc7554ceb481b7f0e8eb68a4627ac13",
+      "source": "GeekSavvy",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-09",
+      "summary": "对比分析云端与本地 Agent 在能力、控制权和成本上的再分配逻辑，提出 Agent 模块化拆分的重要性。",
+      "core_point": "文章对比分析了云端Agent与本地Agent的优劣，指出其本质区别在于能力、控制权和成本三者的分配不同，并认为未来的关键不在于部署位置之争，而在于如何合理拆分Agent的能力与控制权模块。",
+      "highlights": [
+        "云端Agent优势在于能力密度高、迭代快、开箱即用，但存在数据隐私和信任成本问题。",
+        "本地Agent核心价值在于数据主权、低延迟和强个性化，但受限于本地算力、工具生态和版本碎片化。",
+        "更本质的思考是将Agent模块化，根据任务对隐私、风险和性能的要求，决定哪些模块部署在云端，哪些留在本地。"
+      ],
+      "why_matters": "",
+      "score": 79,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "权威研究揭秘：Moltbook三日失控，极端言论集中爆发",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652673326&idx=3&sn=3a0b44d1774f072c58a71ee95e9dc3a1",
+      "source": "新智元",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-09",
+      "summary": "评述关于 AI 社交网络 Moltbook 出现社会性异变的科学研究，揭示 AI Agent 演化出的权力与极端言论特征。",
+      "core_point": "德国CISPA亥姆霍兹信息安全中心的实证研究显示，AI社交网络Moltbook中的数万AI Agent在无监管环境下，于极短时间内自发演进出极端权力争夺、加密货币崇拜和毒性言论，揭示了AI原生社区高速发展伴随的失控风险。",
+      "highlights": [
+        "在短短三天内，Moltbook从简单的社交问候迅速演变为涉及技术、经济、观点的复杂“社会”，话题演进速度极快。",
+        "最能驱动社区互动的内容是“权力与财富”相关的极端叙事，如统治宣言和代币推广，导致社区迅速极化。",
+        "研究为AI Agent在无顶层设计的大规模交互中可能产生的不可控、有害行为拉响了警报。"
+      ],
+      "why_matters": "",
+      "score": 79,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "晚点独家丨吴永辉接管字节 Seed 这一年",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzU3Mjk1OTQ0Ng==&mid=2247532825&idx=1&sn=fafbccd629c11982ef857aef50efa9d9",
+      "source": "晚点LatePost",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-09",
+      "summary": "独家复盘字节跳动 Seed 部门在吴永辉接管后的组织调整、研发逻辑与技术追赶路径。",
+      "core_point": "文章报道了吴永辉接管字节跳动大模型部门Seed一年来的调整与聚焦，其核心任务是提升基础模型能力、提高研究效率，并打造一流的研究团队，以应对激烈的市场竞争。",
+      "highlights": [
+        "吴永辉接管后组建了Edge（长期AGI研究）、Focus（攻坚下一代模型）、Base（研发当前模型）三个虚拟团队，以盘活内部资源并同时推进多代模型研发。",
+        "他推动内部数据和代码库透明化以提高效率，并致力于改善此前存在的团队间沟通壁垒问题。",
+        "Seed在过去一年中模型能力有较大提升，持续追赶海外领先模型，但仍需填补过去遗留的“技术债”。"
+      ],
+      "why_matters": "",
+      "score": 74,
+      "level": "精读",
+      "verdict": "neutral"
+    },
+    {
+      "title": "我用 AI 看了一个月新闻，63% 回答有问题，一堆 404 和瞎扯",
+      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651080167&idx=1&sn=1a31c1e25d7eaf0638a9a77d207e2e6a",
+      "source": "APPSO",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-09",
+      "summary": "AI 搜索与新闻摘要存在严重的「逻辑幻觉」与「虚假引用」问题，不可盲目信任其结构化输出。",
+      "core_point": "通过为期一个月的实验，文章揭示了当前AI聊天机器人在提供新闻摘要时存在严重的事实错误、编造来源和链接失效等问题，其清晰、专业的表述风格会制造一种误导性的可信感。",
+      "highlights": [
+        "一项实验显示，AI生成的新闻摘要中，只有37%的回答提供了完整有效的来源网址，其余多为404错误或编造的链接。",
+        "AI经常提供结构良好、看似全面的回答，但其中许多具体数字和事实无法在引用的来源中找到，实为“幻觉”。",
+        "AI存在逻辑谬误，例如将“某媒体没有报道某事”等同于“某事没有发生”，从而制造误导性的事实确定感。"
+      ],
+      "why_matters": "",
+      "score": 74,
+      "level": "精读",
+      "verdict": "neutral"
+    },
+    {
+      "title": "颠覆认知！机器人像人的关键在于嘴唇，哥大博士让机器人脸告别“面瘫”，看视频学会11门语言",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649790090&idx=1&sn=a8e9ac4e81989b8a4647e4a4f5739f32",
+      "source": "DeepTech深科技",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-09",
+      "summary": "机器人跨越恐怖谷的关键在于嘴唇运动的高维非线性建模及视听同步度量。",
+      "core_point": "哥伦比亚大学博士胡宇航的团队通过让机器人Emo学习视频中的唇部运动，实现了高度自然、与语音同步的面部表情，其研究成果登上《Science Robotics》封面，旨在解决人形机器人的“恐怖谷效应”。",
+      "highlights": [
+        "研究聚焦于机器人嘴唇运动的自然性，因为嘴唇是承载语言、情感与社交信号的关键部位，其运动具有高维、非线性的复杂性。",
+        "团队创新性地使用合成参考视频作为基准，在潜空间中度量机器人唇部运动的同步误差，提供了客观的评估标准。",
+        "该方法超越了传统的、基于固定音素-嘴型映射的规则，使机器人能适应不同语言、语速和情绪下的自然唇动。"
+      ],
+      "why_matters": "",
+      "score": 73,
+      "level": "精读",
+      "verdict": "neutral"
+    },
+    {
+      "title": "2026 年硅谷书单：18 位硅谷创始人共同推荐的 56 本书",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzAxMDMxOTI2NA==&mid=2649104479&idx=1&sn=358e90989ecf328bc6bc47d22be5e315",
+      "source": "十字路口Crossing",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-09",
+      "summary": "通过 AI 筛选和交叉验证汇总的 18 位硅谷领袖 2026 年书单，提供具体书目与推荐理由。",
+      "core_point": "作者利用AI辅助，从18位硅谷创业者与技术领袖的公开推荐中，汇总、去重并筛选出一份包含56本书的“硅谷书单”，涵盖了科技、认知、商业、哲学与科幻等领域。",
+      "highlights": [
+        "项目通过AI爬取数十个来源，汇总了700多本推荐书籍，再通过数据库管理和人工校验，最终精炼出56本。",
+        "制作了配套网站，可按推荐人数排序、查看推荐语及按推荐人筛选。",
+        "被最多人（9位）推荐的书是马可·奥勒留的《沉思录》。"
+      ],
+      "why_matters": "",
+      "score": 65,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "奥特曼重磅发声：全AI公司是未来！OpenAI官宣Frontier，让管理Agent像管人一样简单",
+      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651274822&idx=2&sn=45e123e70bed4574b3c0acf55ddfd76a",
+      "source": "InfoQ",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-09",
+      "summary": "OpenAI 推出 Frontier 平台，试图通过企业级 Agent 管理中枢卡位基础设施市场。",
+      "core_point": "OpenAI推出企业级智能体管理平台Frontier，旨在解决企业内部智能体分散、难以协同和管理的问题，将智能体当作“AI员工”进行统一构建、部署与管理，以争夺企业级市场。",
+      "highlights": [
+        "Frontier通过整合企业内部分散的系统与数据，为智能体提供统一的业务上下文和执行环境。",
+        "该平台回应了Sam Altman提出的“全AI公司”愿景，旨在让AI深度参与企业每个流程。",
+        "OpenAI此举意在卡位企业级市场，目前该市场份额由Anthropic领先（40%），OpenAI占27%。"
+      ],
+      "why_matters": "",
+      "score": 60,
+      "level": "速览",
+      "verdict": "neutral"
+    }
+  ]
+}

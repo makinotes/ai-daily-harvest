@@ -1,105 +1,75 @@
 # AI Daily Harvest
 
-A curated daily feed of AI-related articles, scored and structured by an automated briefing system.
+An opinionated daily AI content feed. Algorithm-driven, shaped by personal taste, growing.
 
-Every day, this repo is updated with hand-picked articles from top tech blogs and Chinese AI WeChat accounts — each article scored on 7 dimensions, summarized, and enriched with core insights.
+This is not a neutral aggregator. Every article is scored, judged, and assigned a verdict — **must-read**, **worth reading**, **noise**, or **overhyped**. The goal: tell you what's worth your time and what isn't.
 
 > **中文介绍**
 >
-> 这是一个每日自动更新的 AI 内容精选库。数据来源于一套自建的简报系统（Personal AI Infra），覆盖海外科技博客和国内 AI 公众号。每篇文章经过 7 维度自动评分、摘要提炼和核心观点提取。
+> 一个有态度的 AI 内容精选。算法驱动，个人品味加权，持续扩充。
 >
-> 两种消费方式：机器读 `data/*.json`，人读 `daily/*.md`。
+> 每天从 40+ 中英文信源抓取文章，自动评分（0-100），分为"必读 / 值得看 / 一般 / 噪音 / 过誉"五档。人读 `daily/*.md`，AI 读 `data/*.json`，快速筛选读 `lists/daily-picks.json`。
 
-## Data Sources
+## What You Get
 
-| Channel | Coverage | Language |
-|---------|----------|----------|
-| **Overseas** | Tech blogs, HN, research papers (Simon Willison, Modal, Anthropic, etc.) | EN |
-| **WeChat AI** | Top Chinese AI/Tech accounts (PaperAgent, 赛博禅心, etc.) | CN |
+| File | For | Content |
+|------|-----|---------|
+| `daily/{date}.md` | Humans | Formatted digest, grouped by verdict |
+| `data/{date}.json` | Agents | Full scored articles with analysis |
+| `lists/daily-picks.json` | Both | Today's red list (must-read) and black list (noise) |
+| `llms.txt` | LLMs | Schema overview for AI consumption |
 
-## Daily Output
+## Verdicts
 
-### JSON (`data/{date}.json`)
+Every article gets one:
 
-Structured for programmatic consumption. Each article includes:
+| Verdict | Meaning |
+|---------|---------|
+| **must_read** | Exceptionally high quality, novel insights |
+| **worth_reading** | Good quality with notable depth or novelty |
+| **neutral** | Acceptable, nothing remarkable |
+| **noise** | Low signal-to-noise ratio, skip |
+| **overhyped** | Looks important but lacks substance |
+
+## Article Schema
 
 ```json
 {
-  "title": "Directory Snapshots: Resumable project state for Sandboxes",
-  "link": "https://modal.com/blog/...",
-  "source": "Modal Labs Blog",
-  "source_channel": "overseas",
-  "category": "Builder 实践",
-  "pub_date": "2026-02-24",
-  "summary": "One-line summary in Chinese",
-  "core_point": "CEI-format analysis: Claim → Evidence → Implication",
+  "title": "Article title",
+  "link": "https://...",
+  "source": "Publisher name",
+  "source_channel": "overseas | wechat-ai",
+  "category": "AI/Tech",
+  "pub_date": "2026-02-25",
+  "summary": "One-line summary",
+  "core_point": "Structured analysis (Claim → Evidence → Implication)",
   "highlights": ["Key insight 1", "Key insight 2"],
   "why_matters": "Why this matters to practitioners",
   "score": 83,
   "level": "精读",
-  "scoring": {
-    "novelty": 2,
-    "depth": 2,
-    "actionability": 3,
-    "credibility": 3,
-    "logic": 3,
-    "timeliness": 3,
-    "noise": 3
-  }
+  "verdict": "worth_reading"
 }
 ```
 
-### Markdown (`daily/{date}.md`)
+## For AI Agents
 
-Human-readable daily digest, grouped by channel, sorted by score.
+Start with [`llms.txt`](llms.txt) for a quick schema overview, or [`llms-full.txt`](llms-full.txt) for complete field definitions and usage examples.
 
-## Scoring System
-
-Each article is evaluated on 7 dimensions (1-3 scale):
-
-| Dimension | What it measures |
-|-----------|-----------------|
-| **Novelty** | How new is the information? |
-| **Depth** | How deep is the analysis? |
-| **Actionability** | Can you act on this today? |
-| **Credibility** | Is the source trustworthy? |
-| **Logic** | Is the reasoning sound? |
-| **Timeliness** | Is this time-sensitive? |
-| **Noise** | Signal-to-noise ratio (3 = clean) |
-
-**Total score** = weighted composite (0-100). Articles are tiered:
-
-| Level | Score Range | Meaning |
-|-------|------------|---------|
-| 收藏 (Bookmark) | 90+ | Must-read, high long-term value |
-| 精读 (Deep Read) | 75-89 | Worth reading in full |
-| 速览 (Skim) | 60-74 | Scan the summary |
+Quick access to today's must-reads:
+```
+GET https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/lists/daily-picks.json
+```
 
 ## How This Works
 
-This repo is updated daily by an automated pipeline:
-
 ```
-Information Sources → Fetch & Deduplicate → AI Scoring (7-dim)
-    → Summarize & Extract Insights → Publish to GitHub
+40+ Sources → Fetch & Deduplicate → Algorithm Scoring → Verdict Assignment → Publish
 ```
 
-The system is part of a Personal AI Infrastructure project. For details, see the [马奇诺 (Maginot)](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzg5MjcxOTEzMA==&action=getalbum&album_id=3913802068766040068) WeChat account.
+Scoring is algorithmic. Source selection reflects personal taste — the kind of content an AI practitioner and investor actually finds valuable. The library grows as new quality sources are discovered.
 
-## Usage
-
-**For humans**: Read the daily markdown files in `daily/`.
-
-**For agents/scripts**:
-```python
-import json
-with open("data/2026-02-25.json") as f:
-    feed = json.load(f)
-for article in feed["articles"]:
-    if article["score"] >= 85:
-        print(article["title"], article["core_point"])
-```
+Part of a Personal AI Infrastructure project. See [马奇诺 (Maginot)](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzg5MjcxOTEzMA==&action=getalbum&album_id=3913802068766040068) for context.
 
 ## License
 
-The article metadata and AI-generated summaries in this repository are provided under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Original article content belongs to their respective authors — only links, summaries, and scoring are included here.
+Article metadata and AI-generated analysis provided under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Original content belongs to respective authors — only links, summaries, and scoring are included.
