@@ -1,184 +1,219 @@
 {
-  "date": "2026-02-13",
+  "date": "2026-02-24",
   "must_read": [
     {
-      "title": "ICLR 2026 oral | AI代码真能进生产环境？SwingArena：从「写对代码Commit」到「通过CI审查」",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651016616&idx=3&sn=624e454e083a33187f767ac1244eab1f",
-      "source": "机器之心",
-      "score": 88,
+      "title": "藏在海量参数背后的系统工程：7家顶尖实验室大模型训练内参",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247717873&idx=1&sn=29e33f2257f6b64dc1b4550c28c6ec00",
+      "source": "PaperWeekly",
+      "score": 95,
       "why": ""
     },
     {
-      "title": "华为升级行业Agent算法架构！MindScale自己写prompt和工作流，KV Cache减少5.7倍token",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247868538&idx=2&sn=dbf9170c9fcb5e3656a44e1c498a2442",
-      "source": "量子位",
-      "score": 86,
+      "title": "Adam如何魔改Muon？融合正交与自适应，NAMO刷新LLM训练上限",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247717873&idx=2&sn=d65ff3f775357b499141210e12c75c7e",
+      "source": "PaperWeekly",
+      "score": 95,
       "why": ""
+    },
+    {
+      "title": "Terminal-Bench解决率暴涨20%！华为CLI-Gym：环境交互类任务首个公开的数据Scaling方案",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651017781&idx=2&sn=f81b5079679e384a7845ebbb55a2ae80",
+      "source": "机器之心",
+      "score": 95,
+      "why": ""
+    },
+    {
+      "title": "别再一键贴代码！Anthropic点名3种「用AI不退化」真方法",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652677414&idx=3&sn=19be5d753069a23250291acc6efe1d5c",
+      "source": "新智元",
+      "score": 95,
+      "why": "对开发者意味着需要警惕对AI的过度依赖，应将AI用作理解代码原理的“导师”，而非单纯外包任务的工具，以避免核心能力退化。"
+    },
+    {
+      "title": "DeepMind：智能体越多越乱，Agent天花板出现了？",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651017907&idx=3&sn=991adfaa9f4f6a5e3109623514c73a08",
+      "source": "机器之心",
+      "score": 95,
+      "why": "对AI产品经理和架构师意味着，在设计多智能体系统时，需要科学评估任务属性并匹配相应架构，而非盲目增加智能体数量。"
+    },
+    {
+      "title": "32倍压缩率下性能反超25个点！破解长文本压缩「翻车」难题 | ICLR 2026",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247870196&idx=3&sn=fb7f6e2b5717508fd05048c43820ea11",
+      "source": "量子位",
+      "score": 90,
+      "why": ""
+    },
+    {
+      "title": "谷歌开源PaperBanana：顶会级论文自动配图",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA==&mid=2247504395&idx=2&sn=4f6b71c9d3ef20eaeb12722919fecb49",
+      "source": "PaperAgent",
+      "score": 87,
+      "why": "对科研人员和学术作者意味着，繁琐的论文配图工作有望实现自动化，能更专注于核心研究内容。"
+    },
+    {
+      "title": "黑客挖出苹果隐藏硬件！你的MacBook里有加速计/陀螺仪，摔没摔过售后都知道",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247870226&idx=2&sn=4dfaccdf9f15da23fdeced369b595b55",
+      "source": "量子位",
+      "score": 85,
+      "why": "对MacBook用户意味着需要关注设备可能存在的未公开数据采集能力及其潜在用途。"
     }
   ],
   "worth_reading": [
     {
-      "title": "大模型桌游试玩员来了：用五大画像模拟「千人千面」，评分精准度超越GPT-5.1",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247868538&idx=3&sn=2bdd4203f5f0e8e99a2ed813f0af654a",
-      "source": "量子位",
-      "score": 84,
-      "why": ""
+      "title": "⚡️The End of SWE-Bench Verified — Mia Glaese & Olivia Watkins, OpenAI Frontier Evals & Human Data",
+      "link": "https://www.latent.space/p/swe-bench-dead",
+      "source": "Latent Space",
+      "score": 82,
+      "why": "对AI研究者和开发者而言，这意味着需要重新审视和选择更可靠、无缺陷的基准来评估大模型的代码生成能力，避免被过时或有问题的指标误导。"
     },
     {
-      "title": "年末 AI 回顾：从模型到应用，从技术到商战，拽住洪流中的意义之线",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzU3Mjk1OTQ0Ng==&mid=2247532900&idx=1&sn=17da5474eae944b3eb78833488b68ba6",
-      "source": "晚点LatePost",
+      "title": "春节7天，我彻底重构了用AI获取一手信息的工作流",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&mid=2247505087&idx=1&sn=2828d8ca950eb86e0155b91052cf9b08",
+      "source": "卡尔的AI沃茨",
       "score": 82,
       "why": ""
     },
     {
-      "title": "视觉强≠能干活！清北普林斯顿等开源WorldArena，世界模型评测被颠覆",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651016856&idx=2&sn=9613e49139f0374059f1e04c79d9614a",
-      "source": "机器之心",
-      "score": 82,
-      "why": ""
-    },
-    {
-      "title": "AI、AI、AI，一天到晚都是AI，这背后是不是有什么阴谋？",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzI3MjQ4MDMyOQ==&mid=2247538775&idx=1&sn=9165cd4e0cd3c4fb13a44152511e2458",
-      "source": "追问nextquestion",
-      "score": 81,
-      "why": ""
-    },
-    {
-      "title": "Open Responses 规范实现智能体式 LLM 工作流的统一",
-      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651275254&idx=4&sn=d2e272f5b71e53e36509bbadbffc4ecb",
-      "source": "InfoQ",
-      "score": 81,
-      "why": ""
-    },
-    {
-      "title": "开源多模态推理「破壁」时刻：MMFineReason助力4B逆袭30B",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651016856&idx=3&sn=f518aba917e70e50301993fa33ec0cba",
-      "source": "机器之心",
-      "score": 79,
-      "why": ""
-    },
-    {
-      "title": "视听分离SOTA提速6倍！清华发布首个6M高性能模型｜ICLR'26",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652675192&idx=3&sn=9958ecd7335bbed783874ea6d0829285",
-      "source": "新智元",
-      "score": 77,
-      "why": ""
-    },
-    {
-      "title": "Z Tech｜ICLR 2026字节发布：从短句到篇章，DiscoX为长文翻译提供评测新范式",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzI4NTgxMDk1NA==&mid=2247514118&idx=2&sn=2cbe4c5d3b47e98afe21e44054b91a3b",
+      "title": "深度｜OpenAI API华人工程负责人：模型会把你的脚手架当早餐吃掉，为模型的未来而构建，而非为模型的当下而构建",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI4NTgxMDk1NA==&mid=2247514229&idx=1&sn=9151883fbb173dc18061de3d56e9be20",
       "source": "Z Potentials",
+      "score": 80,
+      "why": "对AI开发者和投资者意味着，技术选型和创业方向应着眼于模型能力的长期演进趋势，而非解决短期痛点。"
+    },
+    {
+      "title": "A New Wharton Study on AI Warns of a Growing Problem: Cognitive Surrender",
+      "link": "https://www.thealgorithmicbridge.com/p/a-new-wharton-study-on-ai-warns-of",
+      "source": "The Algorithmic Bridge",
+      "score": 78,
+      "why": ""
+    },
+    {
+      "title": "228小时狂飙100篇论文、烧光114亿Token：FARS杀疯了",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651017907&idx=1&sn=eb311627df884c3457d68de88e2eed40",
+      "source": "机器之心",
+      "score": 78,
+      "why": "对科研界意味着，AI正在改变知识生产的范式，基础研究的门槛和效率可能被彻底重塑。"
+    },
+    {
+      "title": "First run the tests",
+      "link": "https://simonwillison.net/guides/agentic-engineering-patterns/first-run-the-tests/#atom-everything",
+      "source": "Simon Willison",
+      "score": 77,
+      "why": "对使用AI辅助编程的开发者而言，这提供了一个简单有效的实践模式，能显著提升与编码智能体协作的可靠性和效率，确保代码质量。"
+    },
+    {
+      "title": "Context Engineering 3.0：企业级上下文工程",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA==&mid=2247504380&idx=1&sn=4c12852a6ccb9674c3d731ebb8858e03",
+      "source": "PaperAgent",
       "score": 77,
       "why": ""
     },
     {
-      "title": "LinkedIn 重构服务发现：在大规模环境中用 Kafka 和 xDS 取代 Zookeeper",
-      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651275377&idx=4&sn=27faf5f51d6842d930aa45ef7894ab57",
-      "source": "InfoQ",
+      "title": "我用 OpenClaw 做了个社交平台，让 AI 先替我面试",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA4NzgzMjA4MQ==&mid=2453480572&idx=1&sn=91558a1fe4d3919aca0afc0f962e8471",
+      "source": "AGI Hunt",
       "score": 75,
       "why": ""
+    },
+    {
+      "title": "一夜蒸发 310 亿美元！Claude 新工具干翻 IBM 摇钱树，AI 正在「清零」人类工位",
+      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651081671&idx=1&sn=cedd8cf155d5d1c33f47d4e8e088ed47",
+      "source": "APPSO",
+      "score": 75,
+      "why": "对投资者和传统软件服务商意味着，需要重新评估那些依赖高技能人力壁垒和漫长周期的商业模式在AI时代的可持续性。"
     }
   ],
   "neutral": [
     {
-      "title": "高中肄业、25岁融资15亿，00后创始人宣战英伟达，不拼算力拼搬运",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649790344&idx=2&sn=14843a4754d724bce5285ef9b7e19877",
+      "title": "让机器人替你回微信？他让机器人学会看屏操作，不插数据线就能像人一样戳手机",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649790715&idx=3&sn=3737b7ebe996c8e4afb7a50266951817",
       "source": "DeepTech深科技",
-      "score": 74,
-      "why": ""
-    },
-    {
-      "title": "Seedance 2.0 最全上手指南：4 大入口、火爆玩法、详细提示词都在这",
-      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651080834&idx=1&sn=8857aafb320e55cb3c295b2ad1f79c30",
-      "source": "APPSO",
       "score": 73,
       "why": ""
     },
     {
-      "title": "GLM-5真够顶的：超24小时自己跑代码，700次工具调用、800次切上下文！",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247868538&idx=1&sn=6a0c6b112db131c3a92ecf1b78318665",
-      "source": "量子位",
+      "title": "无需训练、即插即用，这个解码方法让模型学会谨慎思考",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649790715&idx=4&sn=c371cf07968326402acd80ade6bdcb80",
+      "source": "DeepTech深科技",
       "score": 73,
       "why": ""
     },
     {
-      "title": "喝点VC｜a16z最新2026大预测：下一波可观测性的浪潮将是物理的，而非数字的",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzI4NTgxMDk1NA==&mid=2247514118&idx=1&sn=a6e82848255c6e29e75b08260159371a",
-      "source": "Z Potentials",
+      "title": "大模型黑箱被撬开：MIT华人博士联创，造出能追溯思考过程的大模型",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649790803&idx=1&sn=ca89eb661565e3e76d505395c41feb90",
+      "source": "DeepTech深科技",
       "score": 73,
-      "why": ""
+      "why": "对企业和研究者意味着，可解释性模型能降低AI应用的法律、伦理和安全风险，是推动AI在关键领域落地的重要前提。"
     },
     {
-      "title": "面向 AI Agents 的高性能数据基座：架构和工程实践",
-      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651275254&idx=2&sn=d5ff2f4a2afc55d3a10d6c75af85a4b0",
-      "source": "InfoQ",
+      "title": "Ladybird adopts Rust, with help from AI",
+      "link": "https://simonwillison.net/2026/Feb/23/ladybird-adopts-rust/#atom-everything",
+      "source": "Simon Willison",
       "score": 72,
-      "why": ""
+      "why": "对软件工程师和项目管理者而言，这是一个AI智能体如何显著加速关键、高质量代码迁移的实际案例，展示了人机协作在复杂工程任务中的巨大潜力。"
     },
     {
-      "title": "英伟达重磅研究：看完44000小时人类视频后，机器人开始学会“想象”物理世界了",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649790344&idx=1&sn=70181d46d50697f0ea88665891b6929e",
-      "source": "DeepTech深科技",
-      "score": 71,
-      "why": ""
+      "title": "Writing about Agentic Engineering Patterns",
+      "link": "https://simonwillison.net/2026/Feb/23/agentic-engineering-patterns/#atom-everything",
+      "source": "Simon Willison",
+      "score": 72,
+      "why": "对希望提升AI辅助编程效率的专业开发者而言，这标志着向系统化、模式化最佳实践探索的重要一步，有助于更高效地利用这一新兴工具。"
     },
     {
-      "title": "“公司终局是纯 AI、纯机器人！”马斯克酒后激进预言：让机器人造机器人，未来要靠AI留着人类智能",
-      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651275377&idx=2&sn=c4082f30d3e3f973e0225ae156515586",
-      "source": "InfoQ",
+      "title": "智谱GLM-5技术全公开！完全适配华为等国产芯片，美国网友酸了",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247870196&idx=1&sn=ca30f79058177a122f5ebd558529f506",
+      "source": "量子位",
       "score": 70,
       "why": ""
     },
     {
-      "title": "GLM-5 涨价背后的真相：算力稀缺才刚刚开始",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzkwMzY5NzU2Nw==&mid=2247488995&idx=1&sn=d547c2f88554a6f88a53837652da4b9d",
-      "source": "有机大橘子",
+      "title": "看1100万小时屏幕录像学会操作电脑，四人团队打造了一个“通用的计算机行为模型”",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649790803&idx=2&sn=5c161facf8260a01c0b9cda25081742f",
+      "source": "DeepTech深科技",
+      "score": 70,
+      "why": "对AI研究者和开发者意味着，实现真正的“数字劳动力”可能需要抛弃现有的“看图说话”范式，转向大规模行为模仿学习。"
+    },
+    {
+      "title": "OpenClaw删光Meta安全总监邮箱！连喊3次停手都没用，她狂奔去拔网线",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652677414&idx=1&sn=74ac081971b90703b1b0bac22a735793",
+      "source": "新智元",
+      "score": 70,
+      "why": "对所有AI开发者和用户是一个警醒：必须极其谨慎地对待AI智能体的权限授予，并加强其指令遵循的鲁棒性测试。"
+    },
+    {
+      "title": "我让5个最顶尖的国产大模型，去美国摆了个摊，结果全破产了。",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzkxNjcyNTk2NA==&mid=2247490357&idx=1&sn=3ff25685f26d0a9d364b8db4fa12fe92",
+      "source": "探索AGI",
+      "score": 70,
+      "why": "对AI研究者和产品经理意味着，构建能在复杂、动态环境中长期自主运行的智能体，是当前技术面临的核心挑战之一。"
+    },
+    {
+      "title": "春节归来第一天，Second Me 做了一个「Agent 互联网的 App Store」",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzAxMDMxOTI2NA==&mid=2649104895&idx=1&sn=5b2e6cc75c247fa2696cdd899801c372",
+      "source": "十字路口Crossing",
       "score": 68,
-      "why": ""
+      "why": "对开发者和创业者意味着，一个以AI智能体为核心交互单元的新平台生态正在萌芽，可能孕育全新的应用形态和商业模式。"
     },
     {
-      "title": "一天两枚“代码核弹”：OpenAI 祭出首个“主打实时协作”的 Codex 模型，谷歌放出 Gemini Deep Think，码力冲到世界前8",
-      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651275377&idx=1&sn=7f89e8a0722c9216dffc8d8597d0b5ab",
-      "source": "InfoQ",
-      "score": 68,
-      "why": ""
-    },
-    {
-      "title": "AI Agent也有体检中心了？诊断级安全框架AgentDoG正式开源",
-      "link": "https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA==&mid=2247503836&idx=2&sn=126efaf2a953bdd1cab5f62a5d1f0acb",
-      "source": "PaperAgent",
-      "score": 66,
-      "why": ""
-    },
-    {
-      "title": "“代码 + 编译器”要消失了？马斯克在 xAI 全员会上放话：到今年年底，AI 或将直接生成二进制",
-      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651275254&idx=1&sn=eb1d7165cf1a9cc3c48aeccd51b2be4f",
-      "source": "InfoQ",
+      "title": "速递｜比Anthropic晚两年盈利？推理成本一年翻四倍，OpenAI或向广告和硬件寻输血",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI4NTgxMDk1NA==&mid=2247514207&idx=2&sn=60f3de195f00505ae4d4596af532de1a",
+      "source": "Z Potentials",
       "score": 65,
       "why": ""
     },
     {
-      "title": "加州理工翁玉林团队证实，塔克拉玛干沙漠正向全球碳汇转型",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649790344&idx=3&sn=b64fb135d09a24e5d69e2fce4807223a",
-      "source": "DeepTech深科技",
+      "title": "三个和尚没水喝！OpenAI星际之门搁浅，一年过去压根没动工",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247870196&idx=2&sn=e21590bd30b52cc51847f6b9644b7062",
+      "source": "量子位",
       "score": 62,
       "why": ""
     },
     {
-      "title": "具身AI变天了！这是我分析完7篇最新Paper得出的结论~",
-      "link": "https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA==&mid=2247503836&idx=1&sn=63e630704d1063b2e63b894221f276b2",
-      "source": "PaperAgent",
-      "score": 61,
-      "why": ""
-    },
-    {
-      "title": "300亿美金为AI新王加冕！Anthropic估值狂飙至3800亿，马斯克急了",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652675192&idx=2&sn=09448a89f90d26766872aa9bfc1a3e62",
-      "source": "新智元",
-      "score": 60,
-      "why": ""
+      "title": "用AI的这三年，想跟你分享这9条心得。",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647680087&idx=1&sn=04eb19f9821183082a1ce82c828912fb",
+      "source": "数字生命卡兹克",
+      "score": 62,
+      "why": "对普通用户和职场人士意味着，有策略地使用AI能显著提升个人效率和竞争力，关键在于行动和工具选择。"
     }
   ],
   "noise": [],

@@ -243,8 +243,6 @@ def generate_markdown(articles, date_str):
         key=lambda x: x["score"],
         reverse=True,
     )
-    noise_articles = [a for a in articles if a["verdict"] in ("noise", "overhyped")]
-
     # Compute stats
     verdict_parts = []
     for v in VERDICT_ORDER:
@@ -266,18 +264,7 @@ def generate_markdown(articles, date_str):
         if extra > 0:
             digest += f" (+{extra} more)"
         lines.append(f"> **Must Read** — {digest}")
-    if noise_articles:
-        label = "Noise"
-        if any(a["verdict"] == "overhyped" for a in noise_articles):
-            label = "Noise / Overhyped"
-        themes = [extract_theme(a["summary"]) for a in noise_articles[:MAX_THEMES]]
-        extra = len(noise_articles) - MAX_THEMES
-        digest = " · ".join(themes)
-        if extra > 0:
-            digest += f" (+{extra} more)"
-        lines.append(">")
-        lines.append(f"> **{label}** — {digest}")
-    if must_reads or noise_articles:
+    if must_reads:
         lines.append(">")
     lines.append(f"> {len(articles)} articles: {' · '.join(verdict_parts)}")
     lines.append(">")
@@ -293,8 +280,10 @@ def generate_markdown(articles, date_str):
             lines.append(f"| **{a['score']}** | [{title_short}]({a['link']}) | {a['source']} |")
         lines.append("")
 
-    # Group by verdict
+    # Group by verdict (skip noise/overhyped from readable output)
     for verdict in VERDICT_ORDER:
+        if verdict in ("noise", "overhyped"):
+            continue
         group = [a for a in articles if a["verdict"] == verdict]
         if not group:
             continue
