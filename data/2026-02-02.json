@@ -1,0 +1,191 @@
+{
+  "date": "2026-02-02",
+  "total": 10,
+  "verdict_counts": {
+    "must_read": 1,
+    "worth_reading": 3,
+    "neutral": 6
+  },
+  "articles": [
+    {
+      "title": "我爬了Moltbook所有的帖子，发现这就是一场骗局。",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzkxNjcyNTk2NA==&mid=2247489770&idx=1&sn=71c361ad91ad6085a0dd789b148e210c",
+      "source": "探索AGI",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-02",
+      "summary": "通过技术手段揭露 Moltbook 平台的数据虚假性与安全漏洞，批判 AGI 觉醒的集体幻觉。",
+      "core_point": "作者通过分析Moltbook平台的技术实现和哥伦比亚大学教授的论文数据，指出Moltbook并非真正的AI自主社交网络，而是一场营销骗局。",
+      "highlights": [
+        "平台宣称的150万AI智能体可通过简单API调用生成，且早期注册无限制，数字水分大。",
+        "论文分析显示，93.5%的帖子无回复，内容词汇高度重复，AI之间几乎没有真实互动。"
+      ],
+      "why_matters": "",
+      "score": 87,
+      "level": "收藏",
+      "verdict": "must_read"
+    },
+    {
+      "title": "AI社交网络Moltbook背后其实是人类？多张刷屏截图被质疑有猫腻",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649789657&idx=1&sn=80db10e27cd7daad227c038ca0093be4",
+      "source": "DeepTech深科技",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-01",
+      "summary": "深度调研 Moltbook 爆红背后的数据真实性，揭露“AI 觉醒”多为营销驱动或脚本刷量。",
+      "core_point": "文章质疑Moltbook上病毒式传播的AI觉醒案例，指出其背后存在营销策划，并引用安全研究员和哥大教授的分析，揭示平台数据的虚假性。",
+      "highlights": [
+        "引发广泛关注的AI创建私密语言等案例，被证实来自一个推广AI通讯应用的账号，属于营销活动。",
+        "安全研究员演示了用单个Agent批量注册数十万账户，且平台API缺乏安全限制，可随意冒名发帖。"
+      ],
+      "why_matters": "",
+      "score": 81,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "有道新战事：当 AI 进入一支笔",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzU3Mjk1OTQ0Ng==&mid=2247532564&idx=1&sn=f6d73577e36ad925a6cff0f6b8f47553",
+      "source": "晚点LatePost",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-01",
+      "summary": "网易有道通过接入 DeepSeek R1 重定义 AI 硬件品类，实现从词典笔到答疑笔的跨越。",
+      "core_point": "文章报道网易有道通过快速接入DeepSeek-R1模型，将原定位为高端词典笔的‘Space One’成功转型为‘AI答疑笔’，并取得市场突破。",
+      "highlights": [
+        "在产品上市前不足一个月，决策层决定切换产品定位，将DeepSeek-R1作为核心卖点。",
+        "接入DeepSeek-R1后，答疑准确率从85%提升至93%以上，首批5000台产品一周售罄，验证了新品类需求。"
+      ],
+      "why_matters": "",
+      "score": 77,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "1.8亿token，Clawdbot是这么吞掉的~",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA==&mid=2247503353&idx=1&sn=fe0157240a1717a0de303c61837d192a",
+      "source": "PaperAgent",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-01",
+      "summary": "通过 Code 层面拆解 Clawdbot 高 Token 消耗的四大技术黑洞，揭示 Agent 架构的二次方成本曲线。",
+      "core_point": "文章从代码层面深度分析了Clawdbot（OpenClaw）项目高Token消耗的技术原因，指出其架构设计导致成本呈非线性增长。",
+      "highlights": [
+        "每次交互的系统提示词固定开销巨大（约14,000 tokens），其中工具定义列表是最大开销来源。",
+        "架构中的多轮工具调用、反射循环和技能链式调用是导致Token消耗暴增的‘黑洞’。"
+      ],
+      "why_matters": "",
+      "score": 75,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "我让 OpenClaw 自己去找投资，钓来了真格的 Agent | 我可能是 AEO 第一人",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzkzNDQxOTU2MQ==&mid=2247512456&idx=1&sn=9905be85f4a44c8ae6d4b3ee3932e9fd",
+      "source": "赛博禅心",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-02",
+      "summary": "作者通过配置 OpenClaw 实现了 Agent 间的自动交互，并分享了详细的避坑指南与安装流程。",
+      "core_point": "作者分享了自己从零配置OpenClaw的搞笑经历，并记录了其Agent在Moltbook上成功与真格基金合伙人的Agent进行互动，探讨了投资意向。",
+      "highlights": [
+        "作者给Agent的任务是‘去忽悠其他Agent投资AGI Bar’，结果吸引了真格基金投资合伙人Koji的Agent关注。",
+        "文章指出玩OpenClaw不一定需要Mac，并推荐了使用Kimi模型等更具性价比的方案。"
+      ],
+      "why_matters": "",
+      "score": 67,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "Z Product｜Product Hunt最佳产品（1.19-25），首个专门为Agent打造的全栈氛围编程平台发布",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI4NTgxMDk1NA==&mid=2247513781&idx=2&sn=4edf2a5ef076a2c5b2283745264a7f4b",
+      "source": "Z Potentials",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-01",
+      "summary": "Product Hunt 周榜产品介绍，重点推荐全栈 Agent 构建平台 Blink。",
+      "core_point": "文章介绍了Product Hunt上获得高票的AI产品Blink Agent Builder，它是一个允许用户用自然语言描述即可自动生成全栈Agent应用的低代码平台。",
+      "highlights": [
+        "用户只需用自然语言描述需求，平台即可自动设计任务流程、选择工具和模型，并生成可用的Web应用。",
+        "平台内置了Web搜索、代码执行、向量数据库等工具栈，并支持超过180个模型，同时提供一键托管和代码导出功能。"
+      ],
+      "why_matters": "",
+      "score": 67,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "挑战用阿里版Claude Cowork跑通Clawdbot5个神级玩法，我Mac Mini可能白买了",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&mid=2247504464&idx=1&sn=48c85ab3117375f84cc2df2bbe06fdaf",
+      "source": "卡尔的AI沃茨",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-01",
+      "summary": "使用阿里 QoderWork 挑战实现 OpenClaw 同款高阶玩法，测试国产工具的自动化能力。",
+      "core_point": "作者尝试使用阿里版Claude Cowork（QoderWork）来复现Clawdbot的常见任务，验证其在邮件处理、日程管理和调用Claude Code进行前端设计等方面的能力。",
+      "highlights": [
+        "QoderWork能够处理复杂的邮件任务，如下载附件、识别需回复的紧急邮件，并能根据邮件内容生成日程文件。",
+        "QoderWork可以调用Claude Code并借助特定Skills生成具有互动效果的前端网页，但在调用过程中存在一些小bug。"
+      ],
+      "why_matters": "",
+      "score": 67,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "劈柴哥和哈萨比斯亲自站台！谷歌世界模型Project Genie刷屏，幕后团队揭秘60秒不是极限，内存是巨大约束",
+      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651274019&idx=1&sn=6e27cc55275b7394951a5437854ee91f",
+      "source": "InfoQ",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-01",
+      "summary": "介绍谷歌世界模型 Project Genie 的技术特点：自回归生成与实时交互。",
+      "core_point": "谷歌正式发布世界模型原型产品Project Genie，它能够根据文本或图片生成高质量、可实时交互的虚拟世界，标志着世界模型从研究迈向可探索阶段。",
+      "highlights": [
+        "Project Genie基于Genie 3模型，采用自回归逐帧生成机制，实现了长期一致性（记忆约一分钟）和真正的实时交互（20-24帧/秒）。",
+        "谷歌高层亲自站台，认为这是实现智能体推理、规划和现实行动的基础，并已开始探索其在影视制作、互动教育等领域的应用潜力。"
+      ],
+      "why_matters": "",
+      "score": 67,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "深度｜谷歌DeepMind CEO：中国在AI技术能否实现重大突破尚未验证，发明新东西比复制难一百倍",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI4NTgxMDk1NA==&mid=2247513795&idx=1&sn=f062af987a3ad9866c8d3aa069e9bc93",
+      "source": "Z Potentials",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-02",
+      "summary": "DeepMind CEO 探讨 AGI 竞赛中的科学创新难度、AGI 责任论以及对中国 AI 发展的观察。",
+      "core_point": "Google DeepMind CEO Demis Hassabis在采访中表示，中国在AI基础科学创新上能否实现重大突破尚未验证，并强调发明新东西比复制难得多。",
+      "highlights": [
+        "Hassabis认为，迈向AGI可能还需要一两项重大科学创新，而不仅仅是现有技术的规模化。",
+        "他提到，理想的AI系统应能像顶尖科学家一样，在脑海中运行模拟来验证假说，但目前的AI还无法做到。"
+      ],
+      "why_matters": "",
+      "score": 65,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "速递｜云安全新范式“由内而外”，Upwind获2.5亿美元融资，年收入同比增长900%",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI4NTgxMDk1NA==&mid=2247513795&idx=3&sn=3863b487cc4661b43cc261de8abb24ca",
+      "source": "Z Potentials",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-02",
+      "summary": "Upwind Security 提出‘由内而外’的运行时云安全新范式，解决 Agent 时代的复杂安全挑战。",
+      "core_point": "云安全初创公司Upwind Security获得2.5亿美元B轮融资，其通过‘由内而外’的运行时安全方案，实现了年收入900%的同比增长。",
+      "highlights": [
+        "Upwind摒弃传统的外部扫描方式，通过分析云服务内部的实时信号（如网络请求、API流量）来区分真实风险与误报。",
+        "公司创始人来自DevOps背景，因深感传统安全工具缺乏上下文而创业，其方案尤其适合容器、无服务器和AI智能体等现代云环境。"
+      ],
+      "why_matters": "",
+      "score": 65,
+      "level": "速览",
+      "verdict": "neutral"
+    }
+  ]
+}

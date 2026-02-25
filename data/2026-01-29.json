@@ -1,0 +1,584 @@
+{
+  "date": "2026-01-29",
+  "total": 32,
+  "verdict_counts": {
+    "must_read": 8,
+    "worth_reading": 11,
+    "neutral": 13
+  },
+  "articles": [
+    {
+      "title": "拒绝调包！纯NumPy手搓Ilya推荐的30篇论文，连反向传播都是手写的",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247717338&idx=1&sn=0e0978348694bee2d2b51af070dde292",
+      "source": "PaperWeekly",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-29",
+      "summary": "通过纯 NumPy 手写实现 Ilya 书单中的 30 篇论文，深度拆解深度学习底层逻辑，拒绝黑盒。",
+      "core_point": "一个GitHub项目仅用NumPy从零复现了Ilya Sutskever推荐的30篇AI核心论文，包括手写反向传播和Attention机制。",
+      "highlights": [
+        "项目遵循四条铁律：纯NumPy、零外部数据依赖、可视化、交互式Notebook。",
+        "复现路径分为四个阶段，从基础概念到现代架构，涵盖LSTM、Transformer等关键模型。"
+      ],
+      "why_matters": "",
+      "score": 91,
+      "level": "收藏",
+      "verdict": "must_read"
+    },
+    {
+      "title": "谷歌新模型登顶Nature，人类基因密码被解码",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA==&mid=2247503191&idx=2&sn=80ee6523420f88c4a3cfc7ff9a6d1d4b",
+      "source": "PaperAgent",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-29",
+      "summary": "AlphaGenome通过U-Net-Transformer架构实现1Mb序列下采样与多模态联合训练，刷新基因变异预测SOTA。",
+      "core_point": "谷歌DeepMind开发的AlphaGenome模型在《自然》杂志发表，该AI模型能输入长达100万个碱基对的DNA序列，以单碱基分辨率同时预测多种基因调控功能。",
+      "highlights": [
+        "在26个变异效应预测基准任务中，有25个达到或超越现有最强模型。",
+        "模型采用U-Net-Transformer混合架构，并通过集成蒸馏提升鲁棒性和推理速度。"
+      ],
+      "why_matters": "",
+      "score": 87,
+      "level": "收藏",
+      "verdict": "must_read"
+    },
+    {
+      "title": "今天，分享Clawdbot记忆系统最佳工程实践",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA==&mid=2247503157&idx=1&sn=2c59cf19be5d0b407830786d42490427",
+      "source": "PaperAgent",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-28",
+      "summary": "Clawdbot 展示了基于本地 Markdown 的两层持久化记忆系统，区分了上下文与记忆的工程边界。",
+      "core_point": "Clawdbot的持久记忆系统是其核心特色，通过本地Markdown文件实现24/7的上下文保留和无限记忆。",
+      "highlights": [
+        "记忆系统分为两层：每日日志和长期记忆文件，存储在本地工作区。",
+        "代理通过专门的工具（memory_search, memory_get）访问记忆，写入则由标准文件编辑工具完成。"
+      ],
+      "why_matters": "",
+      "score": 87,
+      "level": "收藏",
+      "verdict": "must_read"
+    },
+    {
+      "title": "在机器人眼中，玻璃并不存在",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzkzNDQxOTU2MQ==&mid=2247511795&idx=1&sn=e7603f418213005f1cd83e459afcf62e",
+      "source": "赛博禅心",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-27",
+      "summary": "从 3D 扫描硬件痛点出发，解析 LingBot-Depth 如何利用 AI 补全思路解决透明/反光物体的深度测量难题。",
+      "core_point": "传统3D扫描设备无法有效捕捉透明和反光物体，而LingBot-Depth项目通过AI补全深度图解决了这一问题。",
+      "highlights": [
+        "项目将深度图中“测不准”的区域作为训练材料，让AI学习理解并补全透明/反光物体的形状。",
+        "该方法使机器人能稳定抓取透明玻璃杯等物体，项目已开源。"
+      ],
+      "why_matters": "",
+      "score": 87,
+      "level": "收藏",
+      "verdict": "must_read"
+    },
+    {
+      "title": "年度最勇投稿！手持300篇假引用名单踢馆，ACL审稿人敢拒这篇吗？",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247717298&idx=1&sn=c96a107e85b244c0820fe2cb1003a37e",
+      "source": "PaperWeekly",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-28",
+      "summary": "NAIST 团队通过审计 ACL 系列会议论文，揭露了生成式 AI 导致的‘幻觉引用’（HalluCitation）危机，EMNLP 2025 成为重灾区。",
+      "core_point": "一篇名为《HalluCitation Matters》的投稿论文对过去两年ACL系列会议的17,000多篇论文进行学术审计，揪出近300篇包含虚假引用的论文，并在附录中实名列出。",
+      "highlights": [
+        "论文定义并量化了由AI辅助写作工具引发的“幻觉引用”问题，即参考文献被彻底虚构。",
+        "审计数据显示，EMNLP 2025主会的幻觉论文比例高达2.60%，是Findings的三倍以上，表明现有审稿机制存在系统性失效。"
+      ],
+      "why_matters": "",
+      "score": 86,
+      "level": "收藏",
+      "verdict": "must_read"
+    },
+    {
+      "title": "破案实锤！Qwen用假信号也能拿高分？虚假的RLVR如何激活隐藏记忆回路？",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247717298&idx=2&sn=347f6895b983640f1b1947de98204660",
+      "source": "PaperWeekly",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-28",
+      "summary": "通过机制解释学拆解 Qwen 在虚假奖励下的表现，发现 RLVR 实际上激活了模型内部的‘记忆捷径’而非推理能力。",
+      "core_point": "一项研究揭示了虚假的RLVR训练并非真正提升模型推理能力，而是通过激活模型内部的记忆捷径，使其更高效地检索训练集中的污染知识。",
+      "highlights": [
+        "研究发现“困惑度悖论”：虚假RLVR训练中，模型对答案的困惑度下降，但对问题的困惑度上升，表明其牺牲了语言理解能力来记忆答案。",
+        "通过路径修补等技术，研究精准定位到第18-20层是驱动这种记忆检索的关键“功能锚点层”。"
+      ],
+      "why_matters": "",
+      "score": 86,
+      "level": "收藏",
+      "verdict": "must_read"
+    },
+    {
+      "title": "Agent 真正的护城河，正在从工具转向记忆资产",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mzg5NTc0MjgwMw==&mid=2247522477&idx=1&sn=84191842ab39ae2e0ceff7599f5ecfbc",
+      "source": "Founder Park",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-27",
+      "summary": "Agent 的核心竞争力正转向独立的记忆系统，它是解决上下文冗余与跨域连续性的关键。",
+      "core_point": "文章认为独立的记忆系统（Memory层）正在成为AI Agent的关键基础设施，而不仅仅是依赖长上下文或RAG。",
+      "highlights": [
+        "长上下文和RAG在管理持续增长、需要版本控制的记忆数据流时存在根本性局限。",
+        "行业需要一套工程化的记忆系统来维护用户画像、跨任务记忆，并实现更主动的Agent。"
+      ],
+      "why_matters": "",
+      "score": 86,
+      "level": "收藏",
+      "verdict": "must_read"
+    },
+    {
+      "title": "告别CLIP！DeepSeek-OCR-2开源：首创视觉因果流，用LLM重构视觉编码",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247717257&idx=1&sn=a3aec70f61b99d4c3192d4e33f63db8e",
+      "source": "PaperWeekly",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-27",
+      "summary": "深度解析 DeepSeek-OCR-2 弃用 CLIP 转向 LLM 原生编码的底层架构，提出“视觉因果流”新范式。",
+      "core_point": "DeepSeek-OCR-2开源，它摒弃CLIP，直接用LLM作为视觉编码器，并提出“视觉因果流”范式来改善文档解析。",
+      "highlights": [
+        "核心创新是DeepEncoder V2，它通过可学习查询和因果注意力机制，将2D图像按语义逻辑重排为1D序列。",
+        "该方法旨在解决传统视觉编码器因光栅扫描导致的文档阅读顺序混乱问题。"
+      ],
+      "why_matters": "",
+      "score": 85,
+      "level": "收藏",
+      "verdict": "must_read"
+    },
+    {
+      "title": "告别 AI 土味审美！Kimi K2.5 实测：扔个视频复刻 iOS 级丝滑动效",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzU0MDk3NTUxMA==&mid=2247495499&idx=1&sn=37e70156ebed4f8e50010b82bf6cf1ea",
+      "source": "歸藏的AI工具箱",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-27",
+      "summary": "实测 Kimi K2.5 的视频多模态识别与前端动效复刻能力，强调视觉反馈在代码生成中的重要性。",
+      "core_point": "Kimi K2.5模型增强了多模态识别能力，能根据视频参考生成具有iOS级丝滑交互动效的前端代码。",
+      "highlights": [
+        "模型支持输入图片、视频或网页链接作为参考，通过截图标记进行迭代修改，显著提升了前端设计审美。",
+        "测试显示，K2.5能准确复刻复杂交互视频中的细节，如Tab切换、弹性动画等。"
+      ],
+      "why_matters": "",
+      "score": 82,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "他用100年前的哲学，颠覆了整个神经科学：时间，根本不在大脑里 | 万字追问",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI3MjQ4MDMyOQ==&mid=2247538336&idx=1&sn=55a4cb077e764511ec2a55694349c2d8",
+      "source": "追问nextquestion",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-27",
+      "summary": "通过柏格森哲学与神经科学实验，探讨时间感知的非大脑中心性，对比人脑与 AI 的本质区别。",
+      "core_point": "神经科学家大卫·罗比基于哲学思想和动物实验提出，时间感知并非产生于大脑内部，而是源于生物体与环境的互动。",
+      "highlights": [
+        "研究认为，大脑不包含内在的“时钟”，对时间的估计依赖于刻板行为或外部规律运动。",
+        "文章将这种观点与人工智能（被视为一系列无时间性的事件）进行了对比。"
+      ],
+      "why_matters": "",
+      "score": 82,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "万字追问：当红的意识整合信息论，为何在他眼中只是一个漂亮的营销工具？",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI3MjQ4MDMyOQ==&mid=2247538428&idx=1&sn=1eeb265dc427e5a7b9ae4d6cb1a2258b",
+      "source": "追问nextquestion",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-29",
+      "summary": "认知科学家 Joscha Bach 对意识整合信息论（IIT）的深度批判，认为意识是基于模型生成的虚拟叙事，而非纯粹数学公理。",
+      "core_point": "认知科学家约夏·巴赫与物理学家徐道辉讨论了意识的本质，巴赫认为所有意识体验本质上都是虚拟的建构，并批评整合信息理论更像是一个营销工具。",
+      "highlights": [
+        "巴赫提出，区分“虚构的意识”与“真实的意识”在现象学层面近乎无解，因为所有意识体验都是大脑生成的模型。",
+        "巴赫指出整合信息理论的“公理”只是文字描述而非数学公理，其核心度量φ值更像是理论的推销工具。"
+      ],
+      "why_matters": "",
+      "score": 81,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "实测 Prism：OpenAI 的论文写作工具，完全免费",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzkzNDQxOTU2MQ==&mid=2247511862&idx=1&sn=eac53129f541cedc07ac1e54fee170af",
+      "source": "赛博禅心",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-29",
+      "summary": "OpenAI 论文写作工具 Prism 的深度测评，对比了 Overleaf 并警示了数据安全风险。",
+      "core_point": "OpenAI 发布了免费的云端 LaTeX 写作工具 Prism，深度集成 GPT-5.2，旨在辅助科研写作。",
+      "highlights": [
+        "Prism 具备项目级上下文理解、原地编辑、内置 arXiv 文献检索和图片转 LaTeX 公式等核心功能。",
+        "该工具完全免费，但用户内容默认可能被用于模型训练，存在数据隐私考量。"
+      ],
+      "why_matters": "",
+      "score": 81,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "AI记忆革命爆发！Clawdbot如何像大脑般记住一切",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652668689&idx=2&sn=2adbbe870cd79a9b16a3139cb1011429",
+      "source": "新智元",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-28",
+      "summary": "开源项目Clawdbot通过本地Markdown存储机制实现了长时记忆与任务执行，区别于大厂云端方案。",
+      "core_point": "Clawdbot是一个开源的、可在本地运行的AI助手，其核心特点是具备持久的长时记忆系统，并能自主处理现实世界任务。",
+      "highlights": [
+        "记忆系统独立于模型上下文，可无限增长且存储在本地，用户拥有完全控制权。",
+        "能集成到Discord等聊天平台，并管理邮件、安排日历等后台任务。"
+      ],
+      "why_matters": "",
+      "score": 81,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "DeepMind & Anthropic：当 AGI 来临后｜Vital Views",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mzg4MzI4OTA3OQ==&mid=2247518902&idx=1&sn=08cb4304a259c1432b6db14b521c5430",
+      "source": "緑洲资本 Vitalbridge",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-28",
+      "summary": "DeepMind 与 Anthropic 掌舵者对 AGI 到来后社会变革的对谈：代码能力将是加速 AGI 循环闭合的核心驱动力。",
+      "core_point": "疑似 PR 稿",
+      "highlights": [],
+      "why_matters": "",
+      "score": 80,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "燃尽三年重启十天，访谈 Clawdbot 创始人用 AI 搓出了 GitHub 最陡增长曲线",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA5OTQ2MTk2MQ==&mid=2247490081&idx=1&sn=749af6cc8c685791426adc6f551e101e",
+      "source": "饭後服用AfterHours",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-29",
+      "summary": "Clawdbot 创始人复盘如何利用 AI 编程实现爆发式增长，提出“Vibe-coding”与个人智能体的新趋势。",
+      "core_point": "前 PSPDFKit 创始人 Peter Steinberger 在经历三年倦怠期后，受 Claude Code 启发，仅用 10 天开发出 GitHub 爆款项目 Clawdbot（Moltbot）。",
+      "highlights": [
+        "Peter Steinberger 认为 2026 年是“个人助手智能体年”，并自称点燃了这把火。",
+        "他通过亲身经历描述了从对 AI 编程上瘾到快速构建出 WhatsApp 个人助手原型的过程。"
+      ],
+      "why_matters": "",
+      "score": 78,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "DeepMind团队独家揭秘AlphaGenome内幕：两年攻坚，让AI读懂基因组98%的非编码区",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649789546&idx=1&sn=510c345b0f1617863ba6611827e2143a",
+      "source": "DeepTech深科技",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-29",
+      "summary": "DeepMind开源AlphaGenome模型，通过1Mb长序列输入实现对基因组98%非编码区的功能精准预测。",
+      "core_point": "DeepMind团队开发的AlphaGenome模型旨在解读占人类基因组98%的非编码区，能高效预测遗传变异对基因调控的功能影响。",
+      "highlights": [
+        "模型能一次性输出基因表达、剪接、染色质开放性等多种功能特征。",
+        "在癌症研究和罕见病诊断等领域有广泛应用前景，例如已成功解析T细胞白血病的致病非编码突变。"
+      ],
+      "why_matters": "",
+      "score": 78,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "Clawdbot火了，Anthropic急了，Claude Code连夜更新了Agent任务系统。",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzkxNjcyNTk2NA==&mid=2247489682&idx=1&sn=95dc92a7e9d000be502857c5b8ca527e",
+      "source": "探索AGI",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-29",
+      "summary": "Claude Code 任务系统从线性 Todo 升级为持久化的 DAG 依赖图，解决了长上下文任务中断与多 Agent 协作的底层基建问题。",
+      "core_point": "Claude Code 将原有的 TODO 系统升级为 Tasks 系统，实现了任务持久化、依赖图调度和多 Agent 协作。",
+      "highlights": [
+        "任务状态现在存储在本地文件中，解决了因上下文丢失或会话切换导致任务进度丢失的问题。",
+        "新的任务系统采用有向无环图管理任务依赖关系，避免了任务执行的逻辑混乱，并支持多个 Agent 共享同一任务图进行协作。"
+      ],
+      "why_matters": "",
+      "score": 77,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "实测 Kimi 新品：前端设计，追平 Gemini 3 Pro",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIzNDU0NzY1MA==&mid=2247489473&idx=1&sn=109796c96afbff45c0e67315b7a71f35",
+      "source": "一泽Eze",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-27",
+      "summary": "详细实测了 Kimi K2.5 的多模态视觉 Coding 能力与 Agent 集群模式，并对国产模型演进给出了清晰判断。",
+      "core_point": "Kimi发布K2.5等多款新品，其中K2.5作为多模态混合推理模型，显著提升了视觉Coding和前端设计能力。",
+      "highlights": [
+        "K2.5支持看图/视频生成或修改应用，其设计审美被认为追平了Gemini 3 Pro。",
+        "同时发布的Agent集群模式支持并行调度成百上千个子智能体协作完成任务。"
+      ],
+      "why_matters": "",
+      "score": 76,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "美联储杀人，AI埋尸？牛津曝光L型死局：10亿打工人再无归路",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652667926&idx=2&sn=dcbeefa83632b326a71cb2ab3f523e63",
+      "source": "新智元",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-27",
+      "summary": "基于牛津大学研究，反思 2022 年裁员潮的主因是宏观利率而非 AI 替代，纠正了行业认知偏差。",
+      "core_point": "牛津大学研究指出，2022年全球科技大裁员的主要驱动因素是宏观经济周期（如美联储加息），而非AI替代。",
+      "highlights": [
+        "数据显示，高AI暴露率职业的招聘需求在ChatGPT发布前就已开始断崖式下跌，与纳斯达克指数走势高度重合。",
+        "研究认为，AI在当时更多是资本进行周期性缩编的“替罪羊”。"
+      ],
+      "why_matters": "",
+      "score": 75,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "蚂蚁深夜开源比肩Genie 3的世界模型，我也看到了具身智能的未来。",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647679339&idx=1&sn=9f40ca981e803254db26220dcf701a90",
+      "source": "数字生命卡兹克",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-29",
+      "summary": "蚂蚁灵波科技开源实时交互世界模型 LingBot-World，标志着从预渲染视频生成向实时演算模拟器的跨越。",
+      "core_point": "蚂蚁集团旗下的灵波科技开源了可实时交互生成的世界模型 LingBot-World，其质量被认为可对标 Google Genie 3。",
+      "highlights": [
+        "LingBot-World 能够根据用户的指令（如方向键或文本命令）实时生成并扩展视频世界，而非预渲染固定内容。",
+        "模型展示了强大的场景一致性和长时记忆能力，例如在10分钟的古建筑探索视频中，场景未发生崩溃。"
+      ],
+      "why_matters": "",
+      "score": 72,
+      "level": "精读",
+      "verdict": "neutral"
+    },
+    {
+      "title": "Gemini 3 Pro的位置，Kimi K2.5也想坐坐？",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA4NzgzMjA4MQ==&mid=2453480046&idx=1&sn=8c96484e236e54dff94d0b0e7228c79a",
+      "source": "AGI Hunt",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-28",
+      "summary": "Kimi K2.5 通过原生多模态训练实现‘审美涌现’，在视觉编程（Visual Coding）领域挑战 Gemini 3.0 的领先地位。",
+      "core_point": "Kimi 发布的 K2.5 模型在视觉编程能力上取得显著进步，能够根据设计图或操作视频生成具有良好审美的网页代码。",
+      "highlights": [
+        "K2.5 通过原生多模态训练，使其生成的网页在布局、色彩、留白等方面更符合设计美学，减少了“AI味”。",
+        "模型能够理解动态交互逻辑，支持从视频直接生成可用的网页代码。"
+      ],
+      "why_matters": "",
+      "score": 72,
+      "level": "精读",
+      "verdict": "neutral"
+    },
+    {
+      "title": "新瓶旧酒or涅槃重生？操作系统的 AI 进化终将走向何方？",
+      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651273560&idx=3&sn=195407687856484627763b5a6173bb0a",
+      "source": "InfoQ",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-29",
+      "summary": "AI时代OS的进化正从“以芯片为中心”转向“系统级重构”，国内通过“以软补硬”和开源协同实现突围。",
+      "core_point": "文章探讨了AI时代操作系统的进化方向，指出国内外技术路线存在差异：国外如英伟达进行系统级重构，而国内通过开源社区协同和软硬协同优化进行突围。",
+      "highlights": [
+        "阿里云在龙蜥社区推动内核与基础组件统一，并通过Attention Forward Disaggregation等方案优化异构算力性能。",
+        "在“AI for OS”方向，国内外基本处于同一起跑线，国内拥有独特的场景优势。"
+      ],
+      "why_matters": "",
+      "score": 71,
+      "level": "精读",
+      "verdict": "neutral"
+    },
+    {
+      "title": "对话鸣鸣很忙晏周：千亿零食王国的诞生、合并与远征",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzU3Mjk1OTQ0Ng==&mid=2247532485&idx=1&sn=72b6931a9d7a3400a18446e3cd2ee7c3",
+      "source": "晚点LatePost",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-28",
+      "summary": "鸣鸣很忙晏周首谈零食零售逻辑：极致效率与最大公约数生意的县城突围。",
+      "core_point": "鸣鸣很忙（由零食很忙和赵一鸣零食合并而成）通过极致性价比和高效率，成长为中国最大的休闲零食零售公司。",
+      "highlights": [
+        "公司采用直接从厂商进货的模式，降低价格（如可乐1.8元），商品库存周转仅需11天。",
+        "创始人晏周认为零食是跨越地域和阶层的“最大公约数”生意，只要有中国人的地方就能开店。"
+      ],
+      "why_matters": "",
+      "score": 71,
+      "level": "精读",
+      "verdict": "neutral"
+    },
+    {
+      "title": "50个Agent分工干活，Kimi K2.5的Agent“军团”把我看呆了。。。",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzkxNjcyNTk2NA==&mid=2247489651&idx=1&sn=73062ce38c4d77b4b0f2662b18c62bdd",
+      "source": "探索AGI",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-27",
+      "summary": "展示 Kimi K2.5 的 Agent Swarm 场景，通过 50 个分身并行执行任务。",
+      "core_point": "Kimi K2.5的多模态能力和Agent集群（Swarm）功能令人印象深刻，能根据视频复刻网站，并调度大量子智能体协作。",
+      "highlights": [
+        "用户可通过上传设计图、视频或链接，让K2.5复刻网站，并支持在预览界面上进行可视化圈选修改。",
+        "Agent Swarm场景可让用户分出大量子智能体并行完成任务，如批量收集信息、出图等。"
+      ],
+      "why_matters": "",
+      "score": 69,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "Vidu悄悄上线万物可参考视频模型，电影里的特效/材质/动作...都是我的了",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&mid=2247504315&idx=1&sn=1d906b115faf6fde76f7fd1c4973ab31",
+      "source": "卡尔的AI沃茨",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-27",
+      "summary": "介绍了 Vidu Q2 的多维度参考生视频功能，强调了材质迁移和动作/表情复合迁移的实用性。",
+      "core_point": "Vidu Q2 参考生 Pro 视频模型支持多素材参考，能复刻视频中的特效、材质、动作和情绪，并实现精准的视频编辑。",
+      "highlights": [
+        "模型可上传最多4张图片和2个视频作为参考，实现元素（如材质、动作、表情）的分离与组合迁移。",
+        "功能涵盖复刻电影特效、改变视频背景、替换主体等，适用于AI短剧等创意制作。"
+      ],
+      "why_matters": "",
+      "score": 69,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "Clawdbot 爆火的 4 个原因",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzAxMDMxOTI2NA==&mid=2649104145&idx=1&sn=16d085f9d56da1a8f50a72c190cd93be",
+      "source": "十字路口Crossing",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-27",
+      "summary": "总结了开源项目 Clawdbot 爆火的四个原因，分析了本地 Agent 与主动式 AI 的新范式。",
+      "core_point": "Clawdbot爆火的原因在于其可直接在IM应用中使用、能在电脑本地执行任务、具备长记忆工程能力以及支持主动交互。",
+      "highlights": [
+        "项目将对话记录以Markdown文件形式存储在本地，构建了跨时间、跨场景的个人记忆系统。",
+        "它更像一个给极客的玩具，但其展示的范式（如本地化、长记忆、主动式）为AI应用进化提供了方向。"
+      ],
+      "why_matters": "",
+      "score": 69,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "昇腾MindSpeed：分布式训练加速库的创新实践与突破",
+      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651273560&idx=2&sn=e20836a49dcba90ef55b86f5b54b79bf",
+      "source": "InfoQ",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-29",
+      "summary": "华为昇腾MindSpeed通过分布式并行技术、算子优化及DeepSeek式的工程创新提升大模型训练效率。",
+      "core_point": "华为昇腾MindSpeed是一个分布式训练加速库，通过在计算、通信和显存等多个维度进行优化，以提升大模型训练效率。",
+      "highlights": [
+        "支持主流大模型和多模态模型的训练，并提供端到端的训练方案。",
+        "指出DeepSeek开创了通过可接受的精度损失来极大降低训练成本的工程创新范式。"
+      ],
+      "why_matters": "",
+      "score": 68,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "Rebuttal还在手动查文献？Paper2Rebuttal一键生成有理有据的学术回复",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247717338&idx=2&sn=a6097ceeb55007c39802caf08b459aa6",
+      "source": "PaperWeekly",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-29",
+      "summary": "RebuttalAgent 通过多智能体协作框架，将学术回复转化为以证据为中心的规划任务。",
+      "core_point": "Paper2Rebuttal是一个多智能体框架，能自动为学术论文审稿意见生成有理有据的回复，包括检索文献和核实论据。",
+      "highlights": [
+        "框架工作流分为三步：结构化解析审稿意见、混合证据构建（内外部检索）、战略规划与人机回环。",
+        "它生成带占位符的严谨回复模板和待办清单，旨在减少幻觉，提高回复的准确性和效率。"
+      ],
+      "why_matters": "",
+      "score": 68,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "Hugging Face 发布 FineTranslations：一个万亿级的多语言平行文本数据集",
+      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651273560&idx=4&sn=e1825b8f6342677723f8f7f723373367",
+      "source": "InfoQ",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-29",
+      "summary": "Hugging Face发布万亿级多语言平行数据集FineTranslations，利用Gemma3翻译技术解决低资源语言翻译难题。",
+      "core_point": "Hugging Face发布了名为FineTranslations的大规模多语言平行文本数据集，包含超过1万亿个Token，覆盖500多种语言。",
+      "highlights": [
+        "数据集通过使用Gemma3 27B模型将FineWeb2中的非英语内容翻译成英语而创建，流程可复现。",
+        "旨在提升机器翻译质量，特别是资源较少语言的英译方向，同时生成的英语语料也可用于仅限英语的模型预训练。"
+      ],
+      "why_matters": "",
+      "score": 62,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "周亚辉为什么把时间花在“写歌”上？| 实测Mureka V8",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzAxMDMxOTI2NA==&mid=2649104236&idx=1&sn=aced12d6c40c5ae42fae52266adb603f",
+      "source": "十字路口Crossing",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-29",
+      "summary": "Mureka V8通过引入音乐思维链（CoT）机制，试图解决AI音乐结构松散和情感缺失的问题。",
+      "core_point": "昆仑万维发布的AI音乐模型Mureka V8引入了音乐思维链机制，旨在让AI在生成前先理解歌曲的整体结构，以生成更完整、可用的音乐。",
+      "highlights": [
+        "提供了“简易模式”和“自定义模式”两种生成方式，用户可用自然语言描述或输入歌词来创作。",
+        "官方演示曲目M:RA《MCE》已在音乐平台上线，展示了其生成完整流行歌曲的能力。"
+      ],
+      "why_matters": "",
+      "score": 61,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "没有亏损也没有现金，猪周期底部的牧原急赴港股",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzU3Mjk1OTQ0Ng==&mid=2247532485&idx=2&sn=783a39904ed581fdcbc20aa09377b9f2",
+      "source": "晚点LatePost",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-28",
+      "summary": "分析牧原股份在猪周期底部的债务缩表与经营现金流挑战。",
+      "core_point": "牧原股份在猪周期底部赴港上市，其核心挑战在于用波动性的经营现金流应对固定的债务偿还压力。",
+      "highlights": [
+        "牧原通过独特的育种体系和养殖效率，实现了低于行业平均的完全成本，领先行业。",
+        "公司正在用经营活动所得现金缩减债务，但行业周期性波动使得现金流管理成为持续考验。"
+      ],
+      "why_matters": "",
+      "score": 60,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "1. 人人皆开发者的观点存在偏差，大量人群对构建技术产品兴趣不高。/ Mark Tenenholtz 2. 智能体编程带来的速度提升不仅体现在执行效率，更扩展了可开发领域。/ Andrej Karpathy 3. 我的编码方式已从 80% 手写转为 80% 由智能体生成，基本用英语驱动开发。/ Andrej Karpathy 4. 十倍工程师的产能差距可能加大，通才配备 LLM 后或超越专家。/ Andrej Karpathy 5. 到今年年底，凭借 100 至 1000 美元推理成本和一个好创意，个人能创建过去需多人一年的软件。/ Sam Altman 6. Clawdbot 理念虽好，但实际效果未达预期。/ Eric Hartford 7. AlphaGo 不到 24 小时掌握国际象棋，这种自我提升循环同样适用于编码和数学。/ Demis Hassabis 8. AI 反馈循环已经开始形成，未来几个月乃至几年将快速加速。/ Dario Amodei 9. 人类智能的核心在于处理开放世界的新颖情况，而非在有大量数据支持的标准任务上表现超人。/ Subbarao Kambhampati 10. AI 将优先替代理性且重复的动词性任务，需要信任和归责的岗位暂时保留优势。/ signüll 11. 24/7 数字员工极具吸引力，以至于用户往往忽略便利性和安全性之间的妥协。/ Sam Altman 12. 实现全自主人形机器人的复杂度约为 Robotaxi 的二十万倍。/ ARK Invest 13. 信念聚合使个体获得权力和地位，这源于整合群体认同，而非个体本身属性。/ signüll 14. 加州一城市的杏仁种植耗水量超过了人工智能行业的整体水资源消耗。/ Lucas Beyer",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA4NzgzMjA4MQ==&mid=2453480008&idx=1&sn=32e9d53ccd1ff6f4bf27920564b35078",
+      "source": "AGI Hunt",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-27",
+      "summary": "AI 领袖观点集锦：从智能体编程到推理成本降低带来的个人软件时代。",
+      "core_point": "这是一系列关于AI行业现状与未来的观点摘要，涉及开发者生产力、AI替代、智能体效果及资源消耗等话题。",
+      "highlights": [
+        "Andrej Karpathy称其80%的代码已由智能体生成，Sam Altman预测低成本个人开发将成为可能。",
+        "观点指出AI将优先替代重复性任务，而Clawdbot等项目的实际效果可能未达预期。"
+      ],
+      "why_matters": "",
+      "score": 60,
+      "level": "速览",
+      "verdict": "neutral"
+    }
+  ]
+}

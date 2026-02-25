@@ -1,0 +1,281 @@
+{
+  "date": "2026-01-26",
+  "total": 15,
+  "verdict_counts": {
+    "must_read": 2,
+    "worth_reading": 5,
+    "neutral": 8
+  },
+  "articles": [
+    {
+      "title": "再来谈谈Sparse Attention",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzUxNzQ5MTExNw==&mid=2247497431&idx=1&sn=4e1f581d24616f2d0e7dfb076771447d",
+      "source": "zartbot",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-26",
+      "summary": "从数学本质出发，证明了亚二次方注意力机制无法实现‘渐近精确’，并揭示了注意力机制与最优传输理论的深层联系。",
+      "core_point": "文章探讨了标准缩放点积注意力（SDPA）机制在数学上等价于一个特定形式的熵优化输运（EOT）问题的精确解。同时，作者论证了任何亚二次方复杂度的注意力机制都无法在所有输入上实现渐近精确。",
+      "highlights": [
+        "标准自注意力（SDPA）被揭示为特定EOT问题的精确解。",
+        "通过“大海捞针”构造，论证了亚二次方注意力机制无法实现渐近精确。"
+      ],
+      "why_matters": "",
+      "score": 91,
+      "level": "收藏",
+      "verdict": "must_read"
+    },
+    {
+      "title": "谈谈基于ScaleUP的存储扩展和三网融合",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzUxNzQ5MTExNw==&mid=2247497421&idx=1&sn=e921514eb03119288952963e82b47850",
+      "source": "zartbot",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-25",
+      "summary": "探讨AI推理元年基础设施的演进，提出‘三网融合’是降低推理成本、重构服务器架构的核心路径。",
+      "core_point": "文章讨论了AI推理基础设施中ScaleUP、ScaleOut和FrontEnd三网融合的必要性与挑战，并指出GPU应成为数据中心的核心，重构服务器架构以扩展内存、存储和IO。",
+      "highlights": [
+        "提出伴随Agent部署，2026年将成为推理基础设施元年，三网融合是关键。",
+        "分析了CXL方案的“主机税”限制和NVLink生态的封闭性问题。"
+      ],
+      "why_matters": "",
+      "score": 86,
+      "level": "收藏",
+      "verdict": "must_read"
+    },
+    {
+      "title": "为什么有些人看起来毫不费力却成就很大？｜MindCode周报No.58",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzAxNTYwMzcyNw==&mid=2247485915&idx=1&sn=75483423d448683536b98694e47e734c",
+      "source": "MindCode",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-25",
+      "summary": "提出成事的三要素：纪律（战略定位）、频率（社交共振）、心率（弹性压力管理）。",
+      "core_point": "文章提出了成事的三个核心要素：纪律、频率和心率，强调通过简明的纪律、稳定的频率和温和灵活的心率状态来最大化个人成就。",
+      "highlights": [
+        "纪律是战略的制定与执行，频率的价值在于维持输出和引发共振。",
+        "心率状态应有弹性，具备温和基线、灵活响应和快速回弹的特征。"
+      ],
+      "why_matters": "",
+      "score": 84,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "2026，一篇不错的高效Agents技术全面综述",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA==&mid=2247502935&idx=1&sn=fd98f4a1c8bd080294ad271f59c228a3",
+      "source": "PaperAgent",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-26",
+      "summary": "多校联合发布的 Agent 综述，系统拆解了提升智能体效率的记忆、工具学习与规划三大战略方向。",
+      "core_point": "文章介绍了一篇由多所高校联合发表的关于高效智能体（Agents）的综述，指出高效智能体的核心在于优化记忆、工具使用和规划模块，以在最大化任务成功率的同时最小化资源消耗。",
+      "highlights": [
+        "定义了高效智能体：非更小模型，而是优化记忆、工具、规划模块以平衡成功率和资源消耗的系统。",
+        "系统梳理了高效智能体的三大战略方向：高效记忆、高效工具学习和高效规划，并列举了各类代表性方法。"
+      ],
+      "why_matters": "",
+      "score": 83,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "微信的“小而美”，装不下腾讯的大模型",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA5OTQ2MTk2MQ==&mid=2247490014&idx=1&sn=ae1b949e213be117a4b70b436380b820",
+      "source": "饭後服用AfterHours",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-26",
+      "summary": "深度剖析腾讯AI战略的路径依赖，指出其过度依赖微信‘收拾残局’的模式在AI时代正成为枷锁。",
+      "core_point": "文章分析了腾讯在AI时代的战略困境，指出其过度依赖微信的“救场”模式，导致在AI布局上行动迟缓，与字节、阿里的激进投入形成对比。",
+      "highlights": [
+        "腾讯的创新轨迹呈现“各BU赛马失败，微信下场收拾残局”的模式。",
+        "与字节的“暴力美学”投入和阿里的“开源+云服务”豪赌相比，腾讯的AI战略显得犹豫和被动。"
+      ],
+      "why_matters": "",
+      "score": 82,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "ICML取号破3万！DeepMind同款写作Skill开源，零幻觉拯救截稿焦虑",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247717180&idx=1&sn=22d864847b5b428f53ac2de4cecd7a2c",
+      "source": "PaperWeekly",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-25",
+      "summary": "针对科研写作‘幻觉’痛点，介绍了一款通过5步验证流实现参考文献‘零幻觉’的开源工具。",
+      "core_point": "文章介绍了一个名为AI-research-SKILLs的开源项目，该项目通过严格的验证流程和Claude Skill，旨在解决AI辅助学术写作中的“幻觉”问题，帮助生成符合顶会标准的论文。",
+      "highlights": [
+        "项目包含顶会模板，并将学者写作逻辑转化为可执行的Claude Skill。",
+        "通过五步验证流（检索、双源验证、获取、核对、写入）实现“零幻觉”引用。"
+      ],
+      "why_matters": "",
+      "score": 79,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "对话拓竹陶冶：我们一群工程师，一起造个朴素的硬核公司",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzU3Mjk1OTQ0Ng==&mid=2247532366&idx=1&sn=035f91c40b1eaa7fa4aca6ba4b15105a",
+      "source": "晚点LatePost",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-26",
+      "summary": "通过拓竹创始人的深度访谈，拆解了工程师文化如何转化为精确的商业执行力，并重新定义了硬件创业的准入标准。",
+      "core_point": "文章讲述了拓竹科技如何通过硬核工程创新，将难用的消费级3D打印机变得易用，从而引爆市场，成为行业第一的创业故事。",
+      "highlights": [
+        "拓竹通过加装传感器和自研软硬件，实现了3D打印全流程自动化。",
+        "公司由工程师文化驱动，追求极客精神和解决用户需求，而非低价或抄袭。"
+      ],
+      "why_matters": "",
+      "score": 78,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "告别上帝视角！MVGGT提出3D分割新范式，仅凭几张图精准锁定3D目标",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247717180&idx=2&sn=c81744bb6ef5bb90b317593e7939cf82",
+      "source": "PaperWeekly",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-25",
+      "summary": "介绍了一种名为MVGGT的新架构，解决具身智能在稀疏视角下的3D指代分割难题。",
+      "core_point": "文章介绍了一种名为MVGGT的新方法，用于解决在稀疏多视角RGB图像条件下进行3D指代分割的难题，无需依赖完整的稠密点云。",
+      "highlights": [
+        "定义了更贴近现实应用的多视图3D指代分割（MV-3DRES）任务。",
+        "提出双分支Transformer架构，实现几何与语言信息的早期融合。"
+      ],
+      "why_matters": "",
+      "score": 73,
+      "level": "精读",
+      "verdict": "neutral"
+    },
+    {
+      "title": "对话优必选周剑：为了造出真正的人形机器人，我愿意赌上一切",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzU3Mjk1OTQ0Ng==&mid=2247532335&idx=1&sn=1874cb4e04758ccd52fcc8cbdc8f67ef",
+      "source": "晚点LatePost",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-25",
+      "summary": "优必选周剑对人形机器人行业的反思，批判‘预编程’的炫技行为，强调All-in底层技术的必要性。",
+      "core_point": "文章通过对话展现了优必选创始人周剑对人形机器人行业的反思及其All in的创业历程，强调打造真正具备“大脑”的人形机器人的艰难与坚持。",
+      "highlights": [
+        "周剑批评行业存在大量“人形机器”（预编程遥控）而非“人形机器人”。",
+        "优必选坚持全栈技术研发，Walker机器人研发近10年，投入巨大。"
+      ],
+      "why_matters": "",
+      "score": 71,
+      "level": "精读",
+      "verdict": "neutral"
+    },
+    {
+      "title": "氛围编程将死！谷歌总监警告：只会写Prompt的程序员，2026年将被淘汰",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652667498&idx=2&sn=af7f510800980a0c6e3b68a72529ed32",
+      "source": "新智元",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-25",
+      "summary": "谷歌专家警告「氛围编程」（Vibe Coding）的局限性，强调在 AI 时代人类工程师的专业判断和质量把控是处理剩下的 30% 核心难题的关键。",
+      "core_point": "谷歌工程负责人警告，依赖感觉和提示而不进行严格测试与审查的“氛围编程”将难以为继，AI辅助编程的下半场需要人类专家的深度参与以保证质量。",
+      "highlights": [
+        "指出AI能解决项目70%的问题，但剩下30%的关键质量保证仍需人类专家。",
+        "调查显示开发者对AI准确性的信任度在下降，因AI生成的代码可能引入隐蔽问题。"
+      ],
+      "why_matters": "",
+      "score": 70,
+      "level": "精读",
+      "verdict": "neutral"
+    },
+    {
+      "title": "追问weekly | 过去一周，脑科学领域有哪些新发现？",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI3MjQ4MDMyOQ==&mid=2247538321&idx=1&sn=320b1c5bbfcdabddb9cdd144c2331936",
+      "source": "追问nextquestion",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-26",
+      "summary": "脑科学与 AI 交叉领域的周报，汇集了从神经元运算到大模型意识证伪等前沿研究摘要。",
+      "core_point": "文章汇总了过去一周脑科学领域的新发现，涵盖神经科学、认知科学、疾病与健康、AI驱动科学、大模型技术以及意识与脑机接口等多个子领域。",
+      "highlights": [
+        "内容覆盖面广，从基础神经机制（如钙离子尖峰导航）到应用技术（如AI预测疾病风险、新型脑机接口）均有涉及。",
+        "信息呈现为分类列表，便于读者快速浏览各领域最新进展。"
+      ],
+      "why_matters": "",
+      "score": 68,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "7×24h「全职AI员工」爆火硅谷！退休码农让Mac mini一夜卖爆",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652667498&idx=1&sn=9e1f977df0183795a5ea7f26c4111521",
+      "source": "新智元",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-25",
+      "summary": "开源项目 Clawdbot 通过本地 Mac mini 运行，实现了具备高权限、长记忆和多应用集成的 7x24h 个人 AI 智能体。",
+      "core_point": "文章介绍了一款名为Clawdbot的开源个人AI助手项目，它能在本地Mac mini上7x24小时运行，拥有完整系统权限和长期记忆，重塑了个人AI助手的定义。",
+      "highlights": [
+        "Clawdbot作为本地AI智能体和网关，可通过聊天应用交互，并拥有系统权限。",
+        "解决了大模型的记忆力痛点，能记住长期对话细节并主动执行任务。"
+      ],
+      "why_matters": "",
+      "score": 66,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "3D领域的NanoBanana也来了，万物皆可用嘴操控。",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647679204&idx=1&sn=3ed3b69b86b52f1cbd16b5b8758a6231",
+      "source": "数字生命卡兹克",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-26",
+      "summary": "3D 编辑工具 Rodin Gen-2 的产品测评，主打通过自然语言实现 3D 模型的局部编辑与二创。",
+      "core_point": "文章介绍了名为hyper3D的AI工具及其Rodin Gen-2功能，该工具允许用户通过自然语言提示直接编辑任意上传的3D模型，实现了“用嘴改模型”。",
+      "highlights": [
+        "核心功能是支持对任意第三方3D模型（如obj, fbx格式）进行基于自然语言的局部编辑（添加、移除、修改）。",
+        "作者强调了此功能对于将3D模型视为可复用“资产”而非单纯图像的价值，因为它能保留模型的拓扑、UV等底层属性。"
+      ],
+      "why_matters": "",
+      "score": 66,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "Claude Code杀进VSCode，我可能要退掉Cursor会员了。",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzkxNjcyNTk2NA==&mid=2247489518&idx=1&sn=1537eb48a42ff70a884f44468880e158",
+      "source": "探索AGI",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-26",
+      "summary": "介绍 Claude Code 的 VS Code 插件版功能，强调了从终端命令行到 IDE 集成的交互转变。",
+      "core_point": "文章宣布Anthropic推出了Claude Code的VS Code插件，作者认为其深度集成和可控性可能使其成为Cursor等现有AI编程工具的替代品。",
+      "highlights": [
+        "Claude Code插件深度集成于VS Code，支持引用文件、代码行、终端输出，并具备模糊匹配功能。",
+        "插件提供了人工校验修改（accept/reject）的能力，并集成了Git、MCP（模型上下文协议）等功能，增强了可控性。"
+      ],
+      "why_matters": "",
+      "score": 64,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "1. 语言只是人类发明的符号系统，现实世界天上没有文字，遵循的是物理法则。/ Fei-Fei Li 2. 大语言模型是极其狭窄的研究领域，真正的智能体必须预测行为后果才能规划。/ Yann LeCun 3. 视觉逼真度和物理理解力毫无关联，最逼真的 Sora 也无法通过物理智商测试。/ Google DeepMind 4. 知识蒸馏的学生模型恢复了教师 78% 的泛化能力，却只继承了 2% 的记忆。/ Lucas Beyer 5. AGI 不应沦为营销术语，它必须像爱因斯坦提出新理论、毕加索开创新流派那样真正创新。/ Demis Hassabis 6. 我们对体内肝脏的智能都无法沟通，谈何理解真正的外星智慧。/ Michael Levin 7. 编程一直是痛苦的必经之路，我很庆幸这个时代结束了，计算机早该这样工作。/ roon 8. 软件开发的目的从来不是写代码，代码只是通向更高抽象的工具，没人怀念 Fortran。/ TDM 9. 自然语言成为软件的根本接口，或意味着 GUI 时代的终结。/ Cristóbal Valenzuela 10. 软件工程不再是工匠手艺，而是系统思考与自动化编排，评估程序员应看他能否提出正确问题。/ signüll 11. 当 AI 能通过面试时，焦点应转向工程师能否提出正确问题并整合答案。/ signüll 12. 系统性低估 AI 编程能力比盲目乐观更有害，那是自负引发的认知偏差。/ Hamel Husain 13. 低自负与高能力的结合是招聘关键，成功不再靠单篇论文，而是坚持完成最后一公里的人。/ Shane Gu",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA4NzgzMjA4MQ==&mid=2453479966&idx=1&sn=0dae2ad92b5b5bfbf23d0566cddc87aa",
+      "source": "AGI Hunt",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-25",
+      "summary": "AI领域多位大牛（李飞飞、LeCun等）的观点金句集锦。",
+      "core_point": "这是一系列来自AI领域专家和从业者的观点摘要，涵盖了对语言模型局限性、AGI定义、AI编程影响以及所需人才特质的思考。",
+      "highlights": [
+        "多位专家指出当前大模型在物理理解、规划能力和真正创新上的局限。",
+        "关于AI编程，观点认为焦点应从写代码转向提出正确问题和系统思考。"
+      ],
+      "why_matters": "",
+      "score": 62,
+      "level": "速览",
+      "verdict": "neutral"
+    }
+  ]
+}

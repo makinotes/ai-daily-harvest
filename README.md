@@ -105,7 +105,7 @@ This feed grows with community input. Ways to contribute:
 - **Sources**: Curated — the kind of content an AI practitioner actually finds valuable
 - **Growing**: New quality sources added continuously, community suggestions welcome
 
-Part of a Personal AI Infrastructure project. See [马奇诺 (Maginot)](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzg5MjcxOTEzMA==&action=getalbum&album_id=3913802068766040068) for context.
+Part of a Personal AI Infrastructure project by 马奇诺公众号.
 
 ## License
 

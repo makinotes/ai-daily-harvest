@@ -1,0 +1,263 @@
+{
+  "date": "2026-01-31",
+  "total": 14,
+  "verdict_counts": {
+    "must_read": 2,
+    "worth_reading": 4,
+    "neutral": 8
+  },
+  "articles": [
+    {
+      "title": "2026开年新风向：上下文即Teacher，三文详解Self-Distillation新范式",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247717371&idx=1&sn=bdb28be69e94c492f2121eda55e794c0",
+      "source": "PaperWeekly",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-30",
+      "summary": "Self-Distillation 范式通过推理时的额外上下文（On-Policy）构建 Teacher 信号，将推理计算转化为模型进化动力。",
+      "core_point": "MIT、ETH Zurich和UCLA等团队近期提出的Self-Distillation新范式，利用推理时的上下文构建更强的‘自我’作为Teacher，指导模型训练，将推理计算转化为训练信号。",
+      "highlights": [
+        "打破了传统知识蒸馏依赖外部更强Teacher的定式，转向On-Policy Self-Distillation。",
+        "在持续学习、强化学习和复杂推理等不同任务中，均展示了利用上下文实现自我进化的潜力。"
+      ],
+      "why_matters": "",
+      "score": 95,
+      "level": "收藏",
+      "verdict": "must_read"
+    },
+    {
+      "title": "装了一大堆Skill，你的AI Coding Agent编程能力就会自动提升？",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI1MTUxNzgxMA==&mid=2247500992&idx=1&sn=794c95b30bfd03bb093355b41556d36b",
+      "source": "刘小排r",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-30",
+      "summary": "实验证明：AI Agent 提升编程能力的关键不在于 Skill 的堆砌，而在于显式声明规则（如 AGENTS.md）。",
+      "core_point": "Vercel的实验表明，仅为AI编程助手安装大量Skills（技能）并不能自动提升其编程能力，关键在于如何显式地引导AI调用这些技能。",
+      "highlights": [
+        "实验数据显示，仅安装Skill但不强调，其测试通过率甚至低于不装Skill的基线。",
+        "通过显式指令或在项目根目录创建AGENTS.md文件来强调需要调用的技能，能显著提升AI的编程任务完成率。"
+      ],
+      "why_matters": "",
+      "score": 89,
+      "level": "收藏",
+      "verdict": "must_read"
+    },
+    {
+      "title": "多次全球性中断后，Cloudflare 推出了“Code Orange: Fail Small”韧性计划",
+      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651273758&idx=4&sn=a02fd111ed19b77797d004b462d48764",
+      "source": "InfoQ",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-30",
+      "summary": "Cloudflare 提出“Fail Small”韧性计划，通过分阶段验证、自动回滚和故障模式审查解决配置全球扩散引发的中断。",
+      "core_point": "Cloudflare在经历两次重大全球性网络中断后，推出了名为‘Code Orange: Fail Small’的韧性计划，旨在通过受控发布和改进故障处理来防止大规模服务中断。",
+      "highlights": [
+        "计划要求配置更改必须像软件发布一样，采用分阶段、受控的方式进行，并包含自动回滚机制。",
+        "将审查和改进网络流量处理系统的所有故障模式，确保故障不会级联传播。"
+      ],
+      "why_matters": "",
+      "score": 84,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "浙大黑科技破解储热难题：一层200纳米的超滑涂层，让热能存储速度飙升10倍",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649789581&idx=1&sn=a3f39e43a398346cc84ba398d8eba87a",
+      "source": "DeepTech深科技",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-30",
+      "summary": "通过 200 纳米超滑涂层与脉冲加热技术，浙大团队破解了相变储热材料“储热密度”与“功率”的长期矛盾。",
+      "core_point": "浙江大学团队通过在储热容器内壁涂覆200纳米厚的超滑涂层，结合脉冲加热，将相变热池的功率密度提升了十倍以上，解决了储热密度与充放热速度难以兼得的矛盾。",
+      "highlights": [
+        "创新性地将表面改性从加热面转移到侧壁，利用超滑涂层促进相变材料滑落，间接强化了与加热面的接触。",
+        "该方案实现了超过1兆瓦每立方米的功率密度，相比传统储热装置有数量级提升。"
+      ],
+      "why_matters": "",
+      "score": 84,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "告别黑盒！清华发布FaithLens，首创强可解释性的大模型幻觉检测利器",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247717371&idx=2&sn=7a8a2d64e6014e72b8132f68f776ed17",
+      "source": "PaperWeekly",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-30",
+      "summary": "FaithLens 通过强化学习“解释质量奖励”机制，实现了高性能且可解释的 RAG 幻觉检测。",
+      "core_point": "清华大学等机构发布的FaithLens是一个高效且可解释的大模型幻觉检测模型，其8B参数版本在多个基准任务上超越了GPT-4o等超大模型，并能生成检测理由。",
+      "highlights": [
+        "通过创新的数据合成与基于强化学习的解释优化机制，实现了高性能与强可解释性的结合。",
+        "不同于以往只能输出二分类标签的黑盒模型，FaithLens能够联合输出检测结果和高质量的自然语言解释。"
+      ],
+      "why_matters": "",
+      "score": 81,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "视频剪辑的「Cursor 时刻」来了？｜对谈 ChatCut 创始人李凯文：从金马导演到 AI 创业",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzAxMDMxOTI2NA==&mid=2649104239&idx=1&sn=82a2981e5bc15a3a531a04b554bcb57c",
+      "source": "十字路口Crossing",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-30",
+      "summary": "从导演视角重新定义 AI 视频工具：核心在于“寻找秩序”和“上帝之手”的逻辑，而非单纯的像素生成。",
+      "core_point": "ChatCut创始人李凯文认为，AI视频剪辑的未来不在于生成像素，而在于服务‘还不是剪辑师’的用户，让AI成为工作在传统编辑器之上的智能助理。",
+      "highlights": [
+        "基于其导演经验，他判断剪辑的核心工作发生在Word文档（构思阶段），而非直接操作时间线。",
+        "选择不做像素生成，而是聚焦于利用AI理解用户意图并辅助完成剪辑决策和操作。"
+      ],
+      "why_matters": "",
+      "score": 81,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "Linus 之后的 Linux？内核社区终于写下“接班预案",
+      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651273758&idx=3&sn=f21e4ea69f2eb849a00b1713cad119c4",
+      "source": "InfoQ",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-30",
+      "summary": "Linux 社区正式确立项目连续性计划，通过流程机制而非指定继承人来降低“Linus 依赖”风险。",
+      "core_point": "Linux内核社区正式起草了一份项目连续性计划，为Linus Torvalds可能的离职或意外情况制定了接班人选拔流程，但未指定具体人选。",
+      "highlights": [
+        "计划旨在降低项目对单一顶层维护者（Linus）的过度依赖风险（即‘公交车系数’风险）。",
+        "接班人可能是一人或多人的团队，选拔将基于社区信任和长期贡献，最自然的备份人选被认为是Greg Kroah-Hartman。"
+      ],
+      "why_matters": "",
+      "score": 74,
+      "level": "精读",
+      "verdict": "neutral"
+    },
+    {
+      "title": "从代工到品牌，被内容电商重塑的跨境生意",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzU3Mjk1OTQ0Ng==&mid=2247532551&idx=1&sn=02803e43f741f554291d25d0fb9407db",
+      "source": "晚点LatePost",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-30",
+      "summary": "内容电商正在重塑跨境生意，将隐性痛点转化为显性决策，缩短认知路径并赋予工厂品牌化机会。",
+      "core_point": "内容电商（如TikTok Shop）正在重塑跨境生意，通过短视频和直播将隐性消费需求转化为显性购买，帮助中国出海品牌突破认知壁垒并建立品牌心智。",
+      "highlights": [
+        "内容缩短了用户对创新或复杂产品的认知路径，例如通过场景化演示直观展示产品解决痛点的过程。",
+        "这种模式让传统外贸工厂和科技品牌都能找到重获话语权的新路径，实现脉冲式增长。"
+      ],
+      "why_matters": "",
+      "score": 72,
+      "level": "精读",
+      "verdict": "neutral"
+    },
+    {
+      "title": "特斯拉停产两款传奇车型，改建产线生产人形机器人",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649789581&idx=2&sn=8ef02a5a67db54cafb9193649dbf8acf",
+      "source": "DeepTech深科技",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-30",
+      "summary": "特斯拉停产 Model S/X 标志着其从高端车企向 AI 与机器人公司的彻底战略重心转移。",
+      "core_point": "特斯拉宣布将于2026年下半年逐步停产Model S和Model X，并将相关产线改建用于生产Optimus人形机器人，标志着公司向自动驾驶和AI机器人核心的战略转型。",
+      "highlights": [
+        "停产原因是两款传奇车型销量占比极小且持续下滑，对公司未来战略意义已不大。",
+        "此次产能重组旨在应对电动汽车营收增长放缓的压力，并押注机器人作为新的增长点。"
+      ],
+      "why_matters": "",
+      "score": 71,
+      "level": "精读",
+      "verdict": "neutral"
+    },
+    {
+      "title": "1. 技术呈锯齿状指数增长，线性思维的30步只能跨越一室，指数增长的30步则能绕地球26圈，颠覆性创新正诞生于这一认知鸿沟之中。/ Elon Musk 2. AI 将大幅降低人脑认知负荷，可能导致大脑停止锻炼自身能力，负责任地使用 AI 不应只是便捷点击，而应在何时思考、何时使用工具之间做出谨慎选择。/ 陶哲轩 3. Anthropic 制造的人工智能是目前最具危险性的，MisAnthropic 将是最具讽刺意味的结局，而命运偏爱讽刺。/ Pedro Domingos 4. 数据效率是 AI 广泛落地的最大瓶颈，现有模型学习新任务所需数据比人类高出数千倍，若能提升一百万倍将彻底改变游戏规则。/ Alex Spector 5. 2026年成为风险投资者因恐惧错失而随机启动新 AI 实验室的年份，其中不乏优秀团队，但大量投资者的资金将遭遇重大损失。/ Edward Grefenstette 6. 智力形成不仅依赖个体出生后的观察与经验，更强烈受制于长达5亿年的进化历史，纯环境数据训练的模型无法完全模拟自然智能。/ Jon Barron 7. AI 说服时代已进入衰退期，证明 AI 正在发生的选项价值处于 theta decay 阶段，产品成败才是唯一重要的事。/ roon 8. 我已不再进行任何不借助 AI 的认知行为，包括阅读、信息整合、文件处理、信息传递以及记忆，AI 成为认知活动的默认参与者。/ signüll 9. 开源 AI 模型的发展已远超业内人士预期，现在开源模型才是 Anthropic 真正的竞争对手，这解释了 Dario 为何推动加强监管。/ Maziyar PANAHI 10. 聘用充满动力且具备创新想法的初级人才，通常比依赖资深人员获得更多项目成果，这是 DeepMind 招聘的核心策略。/ Edward Grefenstette 11. GPT-3到4时代模型偶然展现推理链已属幸运，目前的 on-policy 强化学习方法则确保成功率更高，但模型内部权重过度拟合未来信息是核心瓶颈。/ Eric Jang 12. LLM 本质上是高级自动补全工具，其性能可靠性取决于输入是否位于训练时熟悉的贝叶斯流形区域，超出范围则产生自信且错误的幻觉。/ Vishal Misra 13. 竞争正在扼杀 AI 突破，Transformer 的成功得益于早期开放式探索与自由研究环境，业界需要提升探索强度而非单纯竞争。/ Llion Jones 14. 交易预测是最具经济价值的下一个 token 预测问题，但这是 AI 应用的低水平代表，距离为广大群体创造现实价值仍然遥远。/ Nick Frosst",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA4NzgzMjA4MQ==&mid=2453480050&idx=1&sn=e5202fe235231ed4d7555bf49d019b6f",
+      "source": "AGI Hunt",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-30",
+      "summary": "14 条关于 AI 演进、认知负荷、数据效率及行业竞争的高密度观点合辑。",
+      "core_point": "这是一系列来自不同专家的AI领域观点摘要，涵盖了技术增长模式、AI使用伦理、开源竞争、数据效率、投资风险、认知本质等多个维度。",
+      "highlights": [
+        "Elon Musk强调技术的指数增长与线性思维的认知鸿沟；陶哲轩提醒需谨慎选择何时使用AI以锻炼人脑。",
+        "多位专家指出开源模型已成为强大竞争对手，数据效率是落地瓶颈，以及当前AI投资存在过热风险。"
+      ],
+      "why_matters": "",
+      "score": 71,
+      "level": "精读",
+      "verdict": "neutral"
+    },
+    {
+      "title": "AI 互动游戏的 GPT 时刻到了！谷歌Genie 3首测！太牛了！",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzU0MDk3NTUxMA==&mid=2247495554&idx=1&sn=4d47131c32baed9ba10d7c422b62940c",
+      "source": "歸藏的AI工具箱",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-30",
+      "summary": "谷歌 Genie 3 开放测试，通过模拟恐龙、猫等角色展示了极强的实时交互性与物理规律模拟能力。",
+      "core_point": "作者体验了谷歌最新开放测试的Genie 3世界模型，认为其在生成可交互、高一致性视频方面表现惊人，预示着AI互动游戏和视频的大年到来。",
+      "highlights": [
+        "Genie 3能实时生成可操控角色和镜头的720P视频，角色运动、物理交互和环境一致性保持良好。",
+        "测试中，模型能模拟符合生物特征的动作（如猫的跳跃）并处理基本的碰撞，无明显穿模。"
+      ],
+      "why_matters": "",
+      "score": 68,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "速递｜初创公司Arcee AI低成本六个月训练，发布4000亿参数开源大模型Trinity",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI4NTgxMDk1NA==&mid=2247513734&idx=3&sn=fc2a485484a3f6c61c60fd24f98d87ff",
+      "source": "Z Potentials",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-30",
+      "summary": "初创公司 Arcee AI 证明了通过高效资金利用（2000万美元）也能训练出 400B 规模的开源大模型 Trinity。",
+      "core_point": "初创公司Arcee AI以2000万美元成本和六个月时间，训练并发布了4000亿参数的开源大模型Trinity，宣称其性能可比肩Meta的Llama 4等前沿模型。",
+      "highlights": [
+        "以较低成本（占公司融资额40%）和极快速度完成了大规模模型的训练，展示了高效的研发能力。",
+        "模型目前仅支持文本，但团队表示多模态功能已在开发中，目标是打造最佳的开放权重模型以吸引开发者。"
+      ],
+      "why_matters": "",
+      "score": 65,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "Z Potentials｜时沐朗，00后天才极客，以一辆“可以骑的皮卡”为起点，探索下一代出行的可能性",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI4NTgxMDk1NA==&mid=2247513734&idx=1&sn=d6267b548465c112e7c90f080f2e75b6",
+      "source": "Z Potentials",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-30",
+      "summary": "00后极客时沐朗利用视觉方案和模块化设计，打造介于骑行与装载之间的下一代出行工具 Kago。",
+      "core_point": "00后创业者时沐朗创立的朗极智能推出了一款名为Kago的‘可骑行的皮卡’，这是一种融合了骑行、载物和辅助驾驶功能的新形态出行工具。",
+      "highlights": [
+        "Kago定位介于走路和开车之间，前端可骑行，后部可装载，具备折叠和模块化扩展能力。",
+        "产品采用以视觉为主的多传感器融合方案实现辅助驾驶与自动跟随，旨在成为一个可持续进化的出行平台。"
+      ],
+      "why_matters": "",
+      "score": 64,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "“天下苦CUDA久矣！”KernelCAT率先掀桌，实现国产芯片无痛适配",
+      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651273758&idx=2&sn=f9df00a592bd32e79ce6d42bf4b332a1",
+      "source": "InfoQ",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-30",
+      "summary": "KernelCAT 试图通过 AI Agent 自动化开发高性能算子，以解决国产芯片对 CUDA 的依赖和适配难题。",
+      "core_point": "KernelCAT是一款旨在为国产芯片开发高性能算子的AI Agent，它试图通过AI自动化来破解国产AI生态因缺乏CUDA等效软件而面临的‘地狱级’开发难题。",
+      "highlights": [
+        "算子开发是连接AI算法与计算芯片的关键，但当前高度依赖人工，周期长、门槛高。",
+        "KernelCAT不仅专注于算子优化，也具备通用编程能力，可处理从内核代码到环境配置的端到端任务。"
+      ],
+      "why_matters": "",
+      "score": 62,
+      "level": "速览",
+      "verdict": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,281 @@
+{
+  "date": "2026-01-27",
+  "total": 15,
+  "verdict_counts": {
+    "must_read": 2,
+    "worth_reading": 8,
+    "neutral": 5
+  },
+  "articles": [
+    {
+      "title": "AAAI 2026 | 把时间序列画成图？VLM4TS用视觉语言模型破解时序检测难题",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247717225&idx=2&sn=4e08107d4b6dd16aabf8100f737111f5",
+      "source": "PaperWeekly",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-26",
+      "summary": "VLM4TS框架将时序检测解耦为视觉初筛与语义验证，破解了VLM在时序任务中的效率与精度困境。",
+      "core_point": "论文提出VLM4TS框架，利用视觉语言模型进行零样本时间序列异常检测。该方法将检测任务解耦为视觉初筛和语义验证两个阶段，以解决精度与效率的困境。",
+      "highlights": [
+        "将时间序列绘制成图，利用VLM进行跨模态理解，检测上下文中的语义异常。",
+        "提出两阶段方法：先用轻量级视觉编码器(ViT4TS)高效初筛定位，再用完整VLM进行全局语义验证。"
+      ],
+      "why_matters": "",
+      "score": 89,
+      "level": "收藏",
+      "verdict": "must_read"
+    },
+    {
+      "title": "GitHub热榜Top 3！UltraRAG 3.0开源：拒绝盲盒，让推理逻辑像素级可视",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247717225&idx=1&sn=7bbe511a31586ebb0148687ef07e7168",
+      "source": "PaperWeekly",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-26",
+      "summary": "开源工具UltraRAG 3.0通过可视化Pipeline和白盒化推理解决RAG调试黑盒痛点。",
+      "core_point": "UltraRAG 3.0是一个开源RAG框架，旨在通过可视化Pipeline构建器和白盒化推理过程，降低复杂RAG系统的开发与调试门槛。",
+      "highlights": [
+        "提供可视化与代码实时同步的Pipeline构建器，支持复杂逻辑（如循环、分支）的直观编排。",
+        "通过“Show Thinking”面板对RAG推理全链路进行像素级可视化，使中间状态和决策过程透明化。"
+      ],
+      "why_matters": "",
+      "score": 87,
+      "level": "收藏",
+      "verdict": "must_read"
+    },
+    {
+      "title": "他用100年前的哲学，颠覆了整个神经科学：时间，根本不在大脑里 | 万字追问",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI3MjQ4MDMyOQ==&mid=2247538336&idx=1&sn=55a4cb077e764511ec2a55694349c2d8",
+      "source": "追问nextquestion",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-27",
+      "summary": "通过神经科学与柏格森哲学的交叉，提出时间感知是大脑与环境互动的动态过程而非内在时钟。",
+      "core_point": "神经科学家大卫·罗比基于哲学思想和动物实验提出，时间感知并非源于大脑内部的时钟，而是产生于生物体与外部世界的互动和行为之中。",
+      "highlights": [
+        "挑战了大脑内部存在“计时器”的传统观点，认为时间感知是动态交互的产物。",
+        "将法国哲学家亨利·柏格森关于“绵延”的思想引入神经科学，探讨时间体验的本质。"
+      ],
+      "why_matters": "",
+      "score": 84,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "科学家造出细胞里的“时间机器”，可连续记录脑细胞基因活动21天",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649789358&idx=1&sn=e6d9f316125e81ba4b33d44f77342941",
+      "source": "DeepTech深科技",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-27",
+      "summary": "密歇根大学开发出 CytoTape 技术，通过基因编码的柔性蛋白质“磁带”在细胞内连续记录长达数周的基因活动，解决了活体成像中精度与规模的矛盾。",
+      "core_point": "美国密歇根大学团队开发出名为“细胞磁带（CytoTape）”的新工具，这是一种基因编码的柔性蛋白质“磁带”，能在活细胞内连续、大规模、长时程地记录基因调控动态。",
+      "highlights": [
+        "该工具能在单个活细胞内同时记录5种不同的基因调控活动，并在小鼠活体神经细胞中持续记录长达21天。",
+        "记录的信息可通过传统显微镜读取，允许在固定后的细胞和组织中规模化回溯过去的细胞活动历史。"
+      ],
+      "why_matters": "",
+      "score": 83,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "学会影视飓风和杰伦的AI视频工作流后，我做了条新片子(附：他们没说的六个更新)",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&mid=2247504267&idx=1&sn=1f180e17291a396ba9c771a6a6a25505",
+      "source": "卡尔的AI沃茨",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-26",
+      "summary": "解析专业AI视频工具Tapnow的新功能及其在实际工作流中的应用。理论结合实践。",
+      "core_point": "文章分享了作者学习并应用专业AI视频工具Tapnow更新功能（如多角度控制器、专业摄像机库）制作视频的经验与工作流。",
+      "highlights": [
+        "介绍了Tapnow新增的Multi Angle多角度控制器，允许通过拖拽原图直接调整生成视角。",
+        "介绍了Lens Combo专业摄像机库功能，内置多种相机、镜头和滤镜参数以提升画面质感。"
+      ],
+      "why_matters": "",
+      "score": 82,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "在机器人眼中，玻璃并不存在",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzkzNDQxOTU2MQ==&mid=2247511795&idx=1&sn=e7603f418213005f1cd83e459afcf62e",
+      "source": "赛博禅心",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-27",
+      "summary": "文章通过实测深度相机对透明/反光物体的探测盲点，引出 AI 补全深度图的技术方案 LingBot-Depth 并介绍其开源。",
+      "core_point": "机器人视觉系统长期存在无法准确识别透明或反光物体的问题，而开源项目LingBot-Depth通过AI模型补全缺失的深度信息，为解决此问题提供了新思路。",
+      "highlights": [
+        "项目采用类似BERT的思路，将深度相机“测不准”的区域作为训练材料，让AI学习理解并补全透明、反光物体的形状。",
+        "应用该模型后，机器人能稳定抓取透明玻璃杯、反光不锈钢杯等传统上难以识别的物体。"
+      ],
+      "why_matters": "",
+      "score": 82,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "深度｜印奇与阶跃的全景：一支战队，一条窄路，一个物理世界",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI4NTgxMDk1NA==&mid=2247513661&idx=1&sn=28d9382c6fe6c02d857f2d0511bac7d9",
+      "source": "Z Potentials",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-26",
+      "summary": "通过融资背景和“1+3”战队分析，揭示阶跃星辰在“AI+终端”路径上的战略卡位。",
+      "core_point": "阶跃星辰完成超50亿人民币B+轮融资，刷新行业记录，并宣布由AI 1.0时代实战派印奇出任董事长。",
+      "highlights": [
+        "融资额超过同期智谱AI与MiniMax的IPO募资额，资方包括华勤技术、国寿、启明创投和腾讯，构成多元且具产业协同。",
+        "公司组建了以印奇为战略舵手，姜大昕、张祥雨、朱亦博为核心技术产品的“1+3黄金战队”，旨在打造穿越周期的完整能力矩阵。"
+      ],
+      "why_matters": "",
+      "score": 78,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "美联储杀人，AI埋尸？牛津曝光L型死局：10亿打工人再无归路",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652667926&idx=2&sn=dcbeefa83632b326a71cb2ab3f523e63",
+      "source": "新智元",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-27",
+      "summary": "牛津大学研究指出，2022年科技大裁员主因是美联储加息导致的宏观周期变动，而非 AI 取代劳动力，AI 在此过程中充当了叙事替罪羊。",
+      "core_point": "牛津大学研究指出，2022年全球科技大裁员的主要驱动因素是宏观经济周期（如美联储加息导致风投萎缩），而非当时尚未发布的ChatGPT等AI技术。",
+      "highlights": [
+        "数据显示，计算机、金融等高AI暴露率职业的失业风险在2022年上半年（ChatGPT发布前）已开始显著上升，与纳斯达克指数走势高度重合。",
+        "裁员呈现行业无差别性，与岗位是否容易被AI替代无关，而与行业资金充裕度直接相关。"
+      ],
+      "why_matters": "",
+      "score": 77,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "北大AI研究颠覆认知：我们看到的不是真实，而是被语言润色过的现实",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649789347&idx=1&sn=8e5207660c88d15a1ba8f57ce30f0006",
+      "source": "DeepTech深科技",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-26",
+      "summary": "北大研究通过AI与脑科学结合，证实语言系统实时调制视觉感知，为“白盒化”AI提供新思路。平衡了科学严谨性与前瞻性。",
+      "core_point": "一项结合AI模型与脑损伤患者数据的研究表明，人类的视觉感知并非被动接收，而是受到语言系统的实时调制和“润色”。",
+      "highlights": [
+        "通过脑成像、脑损伤患者研究和AI模型交叉验证，提供了语言影响视觉感知的实证证据。",
+        "指出语言通过“贴标签”和“编织关系网”两种方式参与并塑造视觉加工过程。"
+      ],
+      "why_matters": "",
+      "score": 75,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "Z Product｜解析Fal.ai爆炸式增长，为什么说“GPU穷人”正在赢得AI的未来？",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI4NTgxMDk1NA==&mid=2247513674&idx=1&sn=02342cfb5511539e55bfc0be680fe772",
+      "source": "Z Potentials",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-27",
+      "summary": "解析了Fal.ai通过极致软件优化在GPU推理市场实现差异化竞争的逻辑，提出了“工作流引擎”是算力商升维的关键。",
+      "core_point": "Fal.ai通过提供数量级领先的推理速度和成本效益，为“GPU穷人”开发者开辟市场，并致力于成为连接所有生成式AI能力的工作流引擎。",
+      "highlights": [
+        "其自研推理引擎将扩散模型推理速度最高提升10倍，实现惊人的商业增长（年化收入run rate从200万美元跃升至约9500万美元）。",
+        "通过专注优化开发者体验和快速迭代，在云巨头的竞争下建立了至少12-18个月的技术领先窗口。"
+      ],
+      "why_matters": "",
+      "score": 75,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "速递｜OpenAI广告业务初探，CPM定价60美元，高于通常低于20美的元Meta",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI4NTgxMDk1NA==&mid=2247513674&idx=2&sn=165fd988917213b5bf4ab6ff69baa6c3",
+      "source": "Z Potentials",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-27",
+      "summary": "OpenAI 广告业务定价极高但数据透明度不足，反映了其早期商业化与成熟平台（Meta/Google）的差距。",
+      "core_point": "OpenAI在ChatGPT中测试广告业务，初期定价高达每千次展示60美元，远高于Meta，但其广告技术尚处初级阶段，缺乏效果追踪等关键功能。",
+      "highlights": [
+        "广告定价与NFL等优质电视广告位持平，利用了ChatGPT庞大的用户基数和开放式搜索揭示的用户兴趣。",
+        "目前仅提供类似电视广告的高层级数据（如展示次数），缺乏谷歌、Meta提供的精准用户画像和转化追踪功能。"
+      ],
+      "why_matters": "",
+      "score": 68,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "Clawdbot 爆火的 4 个原因",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzAxMDMxOTI2NA==&mid=2649104145&idx=1&sn=16d085f9d56da1a8f50a72c190cd93be",
+      "source": "十字路口Crossing",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-27",
+      "summary": "拆解开源项目 Clawdbot 受到极客欢迎的四个原因：多端接入、本地化、长记忆和主动式交互。",
+      "core_point": "开源项目Clawdbot因其独特的个人AI助手范式而爆火，它结合了即时通讯集成、本地文件操作、长记忆工程和主动式交互能力。",
+      "highlights": [
+        "可直接集成到WhatsApp、Telegram等主流IM工具中，使用体验如同与朋友聊天。",
+        "通过将对话记录在本地Markdown文件中实现长记忆，并能基于预设规则主动与用户交互。"
+      ],
+      "why_matters": "",
+      "score": 68,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "OpenAI不Open！7年功勋老将投奔宿敌，实验室沦为API代工厂",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652667708&idx=3&sn=f8d9182bfa124f66f1f338e83d4a19f5",
+      "source": "新智元",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-26",
+      "summary": "OpenAI核心人才流失预示着公司从AGI科研理想主义转向季度KPI驱动的商业API工厂，Scaling Laws的失效迫使路径转型。",
+      "core_point": "文章报道OpenAI研究副总裁Jerry Tworek离职，并评论称这反映了OpenAI因商业压力正从硬核AGI研究转向保守的API服务提供商。",
+      "highlights": [
+        "将Tworek定位为OpenAI推理技术（如o1/o3模型）的核心人物，他的离职可能影响公司在该路线的进展。",
+        "指出在Scaling Laws收益递减后，追求高成本、高延迟的深度推理研究与公司短期盈利目标存在冲突。"
+      ],
+      "why_matters": "",
+      "score": 67,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "中年熬夜后为何难恢复？原来是线粒体自噬罢工了",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649789347&idx=2&sn=d6b2ba621f3322899ee57ffa335832dc",
+      "source": "DeepTech深科技",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-26",
+      "summary": "综述线粒体自噬机制及其与衰老、各类慢性病的因果关系。",
+      "core_point": "一篇综述文章指出，线粒体自噬（清除受损线粒体）是维持细胞健康、对抗衰老的关键，其功能失调与多种衰老相关疾病密切相关。",
+      "highlights": [
+        "详细阐述了PINK1/Parkin等经典线粒体自噬通路的工作机制。",
+        "系统分析了线粒体自噬失调在神经退行性疾病、心血管疾病和代谢疾病中的关键作用。"
+      ],
+      "why_matters": "",
+      "score": 63,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "科学界爆发AI认知污染！1年狂投50篇论文，ICLR投稿20%AI生成",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652667708&idx=2&sn=eedd535704107e7e659de400ebd01aca",
+      "source": "新智元",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-26",
+      "summary": "AI生成的“幽灵论文”和虚假引用正在系统性污染科学文献库，论文工厂已实现工业化造假。",
+      "core_point": "文章揭示了AI生成内容（如虚构的“幽灵引用”和论文模板）正大规模污染学术出版界，对科学知识体系的真实性构成威胁。",
+      "highlights": [
+        "列举了AI捏造不存在论文引用（幽灵引用）的案例，显示问题已蔓延至严肃期刊。",
+        "揭露了“论文工厂”利用AI模板进行工业化造假的产业链，尤其在癌症研究等领域危害巨大。"
+      ],
+      "why_matters": "",
+      "score": 61,
+      "level": "速览",
+      "verdict": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "date": "2026-01-30",
+  "total": 13,
+  "verdict_counts": {
+    "must_read": 3,
+    "worth_reading": 3,
+    "neutral": 7
+  },
+  "articles": [
+    {
+      "title": "Chatbot-n8n-Skill：这应该是全网最全的电商竞品AI分析指南。",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MDA3NzI1Nw==&mid=2455087733&idx=1&sn=3823bf334a107a23c66066844817c484",
+      "source": "新西楼",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-29",
+      "summary": "一套将 AI 深度集成到跨境电商竞品分析的实战方法论，涵盖从 Prompt 到自动化工作流的演进。",
+      "core_point": "文章分享了作者使用AI进行电商竞品分析的方法论演进，从Chatbot对话分析到n8n自动化工作流，再到Claude Code定制化Skills，将分析效率提升了数十倍。",
+      "highlights": [
+        "作者将分析思路从AI-First转变为Skill-First，强调定制化工具的重要性。",
+        "提供了详细的亚马逊竞品分析提示词（V4.0），覆盖文案、视觉、评论等多个维度。"
+      ],
+      "why_matters": "",
+      "score": 92,
+      "level": "收藏",
+      "verdict": "must_read"
+    },
+    {
+      "title": "再来谈谈Sparse Attention",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzUxNzQ5MTExNw==&mid=2247497431&idx=1&sn=4e1f581d24616f2d0e7dfb076771447d",
+      "source": "zartbot",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "",
+      "summary": "从数学本质探讨 Attention 机制与最优传输理论的等价性，论证亚二次方注意力精度的不可能边界。",
+      "core_point": "文章解读了一篇关于稀疏注意力（Sparse Attention）的博客，指出标准的缩放点积注意力在数学上等价于一个特定形式的熵优化输运问题的精确解，并探讨了亚二次方复杂度注意力机制存在的理论限制。",
+      "highlights": [
+        "揭示了标准自注意力机制与熵优化输运问题之间的深刻数学联系。",
+        "通过“大海捞针”构造，论证了渐近精确的亚二次方注意力机制在理论上是不可能的。"
+      ],
+      "why_matters": "",
+      "score": 86,
+      "level": "收藏",
+      "verdict": "must_read"
+    },
+    {
+      "title": "字节、阿里、腾讯 AI 大战全记录：一场影响命运的战争",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzU3Mjk1OTQ0Ng==&mid=2247532500&idx=1&sn=cbce0c3f204fd5d9f5548a31ce68c2c5",
+      "source": "晚点LatePost",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-29",
+      "summary": "晚点出品的深度特稿，全景式记录了字节、腾讯、阿里在 AI 领域的组织变革、人才流动及战略博弈。",
+      "core_point": "文章分析了字节、阿里、腾讯在AI领域的竞争态势，指出腾讯相对谨慎落后，阿里押注全栈能力，字节则凭借综合能力和产品优势在国内领先。",
+      "highlights": [
+        "腾讯混元大模型曾因过度追逐榜单导致数据污染，姚顺雨加入后试图扭转局面。",
+        "阿里提出“通云哥”三位一体战略，并计划大幅增加AI基建投入；字节的豆包已成为国内首个日活破亿的AI产品。"
+      ],
+      "why_matters": "",
+      "score": 85,
+      "level": "收藏",
+      "verdict": "must_read"
+    },
+    {
+      "title": "对话拓竹陶冶：我们一群工程师，一起造个朴素的硬核公司",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzU3Mjk1OTQ0Ng==&mid=2247532366&idx=1&sn=035f91c40b1eaa7fa4aca6ba4b15105a",
+      "source": "晚点LatePost",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "",
+      "summary": "深度访谈拓竹创始人，解析其靠“硬核工程能力”在冷门 3D 打印赛道突围的底层商业逻辑。",
+      "core_point": "文章报道了消费级3D打印机公司拓竹的创业故事，强调其通过硬核工程创新（如加入AI和传感器实现自动化）将小众产品做到易用，从而引爆市场。",
+      "highlights": [
+        "拓竹由一群大疆工程师创立，以极客文化和精确执行为特点，产品发售头两年收入与规划误差极小。",
+        "通过重新设计硬件和软件，解决了传统3D打印机难用的问题，实现了打印过程的自动化。"
+      ],
+      "why_matters": "",
+      "score": 83,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "比OpenAI更Manus，实测Kimi新上线多核Agent集群",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&mid=2247504400&idx=1&sn=ce605645bc57bc325af9a029285c6edf",
+      "source": "卡尔的AI沃茨",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-29",
+      "summary": "实测 Kimi K2.5 的多核 Agent 集群功能，探讨其在多任务并行协作上的潜力。",
+      "core_point": "文章实测了Kimi新上线的多核Agent集群功能，认为其不同于OpenAI的深度研究或Manus的广度研究，而是能动态召唤分工明确的分身团队同时处理不同类型任务。",
+      "highlights": [
+        "Kimi K2.5的Agent集群能稳定召唤100+个有不同人设和分工的subagent。",
+        "在信息搜集和创意生成（如海报设计）任务中展示了高效率和高良品率。"
+      ],
+      "why_matters": "",
+      "score": 82,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "我做出了给长视频AI配乐的Claude Code Skills，Mureka V8新模型上大分",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&mid=2247504368&idx=1&sn=031ca1fba12a8b1d912311ebb9c67fe2",
+      "source": "卡尔的AI沃茨",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-28",
+      "summary": "基于 Claude Code Skills 和 Mureka V8 搭建的自动化视频配乐工作流实战。",
+      "core_point": "作者分享了如何利用Claude Code Skills和Mureka V8模型，构建一个为长AI视频自动分析画面并生成匹配配乐的自动化工作流。",
+      "highlights": [
+        "通过NotebookLM Skill整合音乐创作知识库，用Gemini分析视频画面生成音乐描述。",
+        "利用Mureka V8模型的MCP支持，将其打包成Skill，实现了从视频到配乐的端到端自动化。"
+      ],
+      "why_matters": "",
+      "score": 79,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "学会影视飓风和杰伦的AI视频工作流后，我做了条新片子(附：他们没说的六个更新)",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&mid=2247504267&idx=1&sn=1f180e17291a396ba9c771a6a6a25505",
+      "source": "卡尔的AI沃茨",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "",
+      "summary": "解析影视飓风等专业团队使用的 AI 视频工具 Tapnow 的新功能及实战技巧。",
+      "core_point": "作者通过学习影视飓风和杰伦的AI视频工作流，并利用Tapnow的新功能制作了新短片，总结了Tapnow更新的六个提升视频制作效率与质量的核心功能。",
+      "highlights": [
+        "Multi Angle多角度控制器允许通过拖拽原图直接调整生成角度。",
+        "Lens Combo专业摄像机库内置多种相机和镜头参数，可一键提升画面质感。"
+      ],
+      "why_matters": "",
+      "score": 74,
+      "level": "精读",
+      "verdict": "neutral"
+    },
+    {
+      "title": "3D领域的NanoBanana也来了，万物皆可用嘴操控。",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647679204&idx=1&sn=3ed3b69b86b52f1cbd16b5b8758a6231",
+      "source": "数字生命卡兹克",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "",
+      "summary": "Rodin Gen-2 3D 编辑工具的功能评测，强调“用嘴改模型”对 3D 资产创作的门槛降低。",
+      "core_point": "文章介绍了3D AI工具hyper3D的Rodin Gen-2，它允许用户通过自然语言提示对任意上传的3D模型进行局部编辑、添加或移除部件，降低了3D创作门槛。",
+      "highlights": [
+        "支持上传第三方3D模型文件（如obj, fbx）并用语言指令直接编辑，实现了“用嘴改模型”。",
+        "强调了3D模型作为“资产”的价值，其编辑涉及拓扑、UV等深层属性，不同于简单修改2D图片。"
+      ],
+      "why_matters": "",
+      "score": 73,
+      "level": "精读",
+      "verdict": "neutral"
+    },
+    {
+      "title": "微信的“小而美”，装不下腾讯的大模型",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA5OTQ2MTk2MQ==&mid=2247490014&idx=1&sn=ae1b949e213be117a4b70b436380b820",
+      "source": "饭後服用AfterHours",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "",
+      "summary": "对比字节、阿里、腾讯三家 AI 战略，指出腾讯过度依赖微信路径带来的创新枷锁。",
+      "core_point": "文章批评腾讯过度依赖微信来收拾各业务线（如AI）的残局，认为这种“微信依赖症”已成为公司创新的枷锁，导致其在AI时代布局迟缓。",
+      "highlights": [
+        "指出腾讯AI战略犹豫迟缓，行动落后于字节和阿里，更多强调对现有业务（如广告、游戏）的赋能。",
+        "认为腾讯其他BU的探索失败，最终只是为了证明“还得靠微信”，削弱了整体创新能力。"
+      ],
+      "why_matters": "",
+      "score": 72,
+      "level": "精读",
+      "verdict": "neutral"
+    },
+    {
+      "title": "我宣布，这就是现在人声最真实的AI音乐模型。",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647679404&idx=1&sn=d329c8e7680070a8a82ff2021500ed8f",
+      "source": "数字生命卡兹克",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-01-30",
+      "summary": "MiniMax Music 2.5 深度测评：中文咬字与高爆发人声表现惊艳，展现了极强的真实感与情绪张力。",
+      "core_point": "作者测试了Minimax新推出的音乐模型Music 2.5，认为其在人声真实感方面表现突出，尤其在中文咬字和声音细节处理上远超同类AI模型。",
+      "highlights": [
+        "人声真实感极强：能模拟出摇滚嗓的爆发力、嘶吼、磨砂感和颗粒感，以及自然的换气、转音等细节。",
+        "中文能力出色：咬字清晰，尤其在说唱（rap）部分表现稳定，无需像使用其他模型（如Suno）时需用拼音替代生僻字。"
+      ],
+      "why_matters": "",
+      "score": 62,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "CodeBuddy Code 2.0：国产Claude Code，有点东西",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI1MTUxNzgxMA==&mid=2247500832&idx=1&sn=88735f845fd36ae9243f755e6a49c003",
+      "source": "刘小排r",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "",
+      "summary": "国产编程工具 CodeBuddy Code 2.0 的功能介绍与 Agent 开发 SDK 推荐。",
+      "core_point": "文章推荐CodeBuddy Code 2.0作为Claude Code的国产平替，强调其无需持续科学上网即可使用国际顶级模型，并开放了Agent SDK便于快速开发。",
+      "highlights": [
+        "登录国际站后，无需科学上网即可使用包括“Default”（暗示为某最强模型）在内的顶级编程模型。",
+        "团队更新迭代迅速，积极吸收Claude Code等工具的新功能，并提供了完整的LSP支持。"
+      ],
+      "why_matters": "",
+      "score": 61,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "阶跃的一次重要“阶跃”：超 50 亿元 B+ 轮融资，印奇正式出任董事长",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzAxMDMxOTI2NA==&mid=2649104127&idx=1&sn=5bf6c9aa964733aece2c9236ce97c023",
+      "source": "十字路口Crossing",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "",
+      "summary": "分析阶跃星辰融资及印奇加盟后的战略转型：从刷榜转向“AI+终端”落地。",
+      "core_point": "文章报道阶跃星辰完成超50亿元B+轮融资，印奇出任董事长，标志着公司战略转向以模型能力为核心，向“AI+终端/硬件”场景延伸。",
+      "highlights": [
+        "融资规模刷新纪录，投资方包含华勤技术等产业资本，凸显“AI+终端”战略获认可。",
+        "指出行业竞争焦点从单纯刷榜转向AI能力的实际落地与硬件载体。"
+      ],
+      "why_matters": "",
+      "score": 60,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "Claude Code杀进VSCode，我可能要退掉Cursor会员了。",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzkxNjcyNTk2NA==&mid=2247489518&idx=1&sn=1537eb48a42ff70a884f44468880e158",
+      "source": "探索AGI",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "",
+      "summary": "Claude Code 发布 VS Code 插件的功能介绍与初步使用体验。",
+      "core_point": "文章介绍了Claude Code新推出的VS Code插件，作者认为其深度集成、支持文件引用和人工校验等特性，可能使其取代Cursor成为主力编程工具。",
+      "highlights": [
+        "Claude Code插件深度集成到VS Code，支持模糊匹配文件引用（@）和引用终端输出。",
+        "保留了Plan模式，并增加了对修改内容的人工Accept/Reject控制，增强了可控性。"
+      ],
+      "why_matters": "",
+      "score": 60,
+      "level": "速览",
+      "verdict": "neutral"
+    }
+  ]
+}
