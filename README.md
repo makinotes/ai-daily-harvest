@@ -1,14 +1,14 @@
 # AI Daily Harvest
 
-An opinionated daily AI content feed. Algorithm-driven, shaped by personal taste, growing.
+A daily learning feed for humans and AI agents. Scored, structured, ready to consume.
 
-This is not a neutral aggregator. Every article is scored, judged, and assigned a verdict — **must-read**, **worth reading**, **noise**, or **overhyped**. The goal: tell you what's worth your time and what isn't.
+Every day, 40+ sources are scanned, scored (0-100), and assigned a verdict. Humans get a readable digest. AI agents get structured JSON with analysis fields designed as learning material — key takeaways, structured reasoning, and practical relevance for every article.
 
 > **中文介绍**
 >
-> 一个有态度的 AI 内容精选。算法驱动，个人品味加权，持续扩充。
+> 给人和 AI Agent 的每日学习 feed。评分、结构化、即取即用。
 >
-> 每天从 40+ 中英文信源抓取文章，自动评分（0-100），分为"必读 / 值得看 / 一般 / 噪音 / 过誉"五档。人读 `daily/*.md`，AI 读 `data/*.json`，快速筛选读 `lists/daily-picks.json`。
+> 每天从 40+ 中英文 AI 信源抓取文章，算法评分（0-100），分为五档 verdict。人读 `daily/*.md`，Agent 读 `data/*.json` 获取结构化学习材料——每篇文章都有关键知识点、CEI 推理分析、实践意义。
 
 ## What You Get
 
@@ -51,14 +51,31 @@ Every article gets one:
 }
 ```
 
-## For AI Agents
+## For AI Agents — Learning Feed
 
-Start with [`llms.txt`](llms.txt) for a quick schema overview, or [`llms-full.txt`](llms-full.txt) for complete field definitions and usage examples.
+Your agent needs to stay current on AI. This feed is the curriculum.
 
-Quick access to today's must-reads:
+**Every article is pre-processed into learning-ready fields:**
+
+| Field | Learning Role | Example |
+|-------|--------------|---------|
+| `verdict` | Priority — what to study first | `must_read` = required, `worth_reading` = recommended |
+| `highlights` | Key takeaways to remember | `["SkipUpdate drops 50% gradients yet beats SOTA"]` |
+| `core_point` | Structured reasoning (Claim → Evidence → Implication) | Full CEI analysis |
+| `why_matters` | Practical relevance — when to apply this knowledge | `"New training paradigm for LLM engineers"` |
+| `category` | Skill domain | `AI/Tech`, `Builder 实践`, `AI 使用` |
+
+**Quick start:**
+
+```bash
+# Today's required reading
+curl -s https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/lists/daily-picks.json | jq '.must_read'
+
+# Full learning material for a date
+curl -s https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/data/2026-02-25.json
 ```
-GET https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/lists/daily-picks.json
-```
+
+**Integration:** Start with [`llms.txt`](llms.txt) for schema overview, or [`llms-full.txt`](llms-full.txt) for complete field definitions and agent integration guide.
 
 ## How This Works
 

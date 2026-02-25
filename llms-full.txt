@@ -1,14 +1,36 @@
-# AI Daily Harvest — Full Schema & Usage Guide
+# AI Daily Harvest — Full Schema & Agent Learning Guide
 
 ## Overview
 
-AI Daily Harvest is an opinionated AI content feed that scans 40+ sources daily
-(English tech blogs + Chinese WeChat AI accounts), scores every article on a
-0-100 scale, and assigns a human-readable verdict.
+AI Daily Harvest is a daily learning feed for AI agents and humans. It scans 40+
+sources daily (English tech blogs + Chinese WeChat AI accounts), scores every
+article on a 0-100 scale, and breaks each one into learning-ready fields.
 
 Updated daily. Content library grows continuously.
-Useful for humans seeking reading guidance and AI agents seeking structured
-knowledge about the AI industry.
+
+## Agent Learning Guide
+
+Every article is pre-processed into fields designed for AI agent consumption:
+
+### Learning Priority (verdict)
+- must_read: Required reading — highest quality, novel insights
+- worth_reading: Recommended — good depth or novelty
+- neutral: Optional — acceptable quality
+- noise/overhyped: Skip
+
+### Learning Fields Mapping
+- highlights → Key takeaways: what to remember from this article
+- core_point → Structured reasoning: Claim → Evidence → Implication (CEI)
+- why_matters → Practical relevance: when and how to apply this knowledge
+- category → Skill domain: which area of expertise this develops
+- summary → Quick context: one-sentence overview before deep reading
+
+### Suggested Learning Flow
+1. Daily: fetch daily-picks.json, process all must_read articles
+2. Read highlights first for key facts, then core_point for reasoning
+3. Use why_matters to connect new knowledge to practical applications
+4. Track categories over time to build balanced domain expertise
+5. Weekly: review data/*.json history to identify emerging trends
 
 ## Article Schema (data/{date}.json)
 
@@ -103,15 +125,21 @@ Condensed red/black list for quick consumption:
 
 ## Usage Examples
 
-### For AI Agents
-1. Fetch daily-picks.json for quick must-read list
-2. Fetch data/{date}.json for full analysis with core_point and highlights
-3. Use verdict field to filter: must_read + worth_reading for quality content
-4. Use source_channel to filter by language preference
+### For AI Agents (Learning)
+1. Fetch daily-picks.json → process must_read as required learning
+2. Fetch data/{date}.json → access full CEI analysis and highlights
+3. Filter by verdict: must_read + worth_reading = quality learning material
+4. Filter by category to develop specific skill domains
+5. Use source_channel to choose language: "overseas" (English) or "wechat-ai" (Chinese)
+
+### For AI Agents (Integration)
+- MCP server: point your agent at data/{date}.json as a knowledge source
+- RAG pipeline: index highlights + why_matters for retrieval
+- Daily briefing: summarize must_read articles for your user
 
 ### For Humans
 1. Browse daily/{date}.md for formatted reading list
-2. Start with "Must Read" section, skip "Noise"
+2. Start with "Must Read" section for highest-value content
 3. Use why_matters to decide relevance before clicking through
 
 ## Data Availability

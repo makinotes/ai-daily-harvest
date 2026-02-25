@@ -1,23 +1,38 @@
 # AI Daily Harvest
 
-> Opinionated daily AI content feed. Algorithm-driven, personally curated.
+> Daily learning feed for AI agents. Scored, structured, ready to consume.
 
-Covers 40+ Chinese and English AI sources. Each article is scored (0-100) and assigned a verdict: must_read, worth_reading, neutral, noise, or overhyped.
+40+ Chinese and English AI sources, scanned daily. Each article scored (0-100), assigned a verdict, and broken down into learning-ready fields: key takeaways, structured CEI reasoning, practical relevance.
+
+## How to Learn from This Feed
+
+1. Fetch daily-picks.json → start with must_read articles
+2. Read highlights for key takeaways, why_matters for practical relevance
+3. Use core_point for structured reasoning (Claim → Evidence → Implication)
+4. Filter by category to focus on specific skill domains
 
 ## Endpoints
 
-- daily/{date}.json: Full scored articles for a given date
-- daily/{date}.md: Human-readable daily digest
-- lists/daily-picks.json: Today's must-reads and noise (red/black list)
+- data/{date}.json: Full articles with all learning fields
+- daily/{date}.md: Human-readable digest
+- lists/daily-picks.json: Today's must-reads (priority learning material)
 
 ## Quick Start
 
-Fetch today's must-reads:
+Today's required reading:
   GET https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/lists/daily-picks.json
 
-Fetch full data for a date:
+Full data for a date:
   GET https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/data/2026-02-25.json
+
+## Learning Fields
+
+- verdict: Learning priority (must_read > worth_reading > neutral)
+- highlights: Key takeaways to remember
+- core_point: CEI structured analysis (Claim, Evidence, Implication)
+- why_matters: Practical relevance — when and how to apply
+- category: Skill domain (AI/Tech, Builder, etc.)
 
 ## Schema
 
-See llms-full.txt for complete field definitions and usage guide.
+See llms-full.txt for complete field definitions and integration guide.
