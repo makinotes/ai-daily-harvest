@@ -243,6 +243,7 @@ def generate_markdown(articles, date_str):
     top_sources = sorted(source_counts.items(), key=lambda x: x[1], reverse=True)[:3]
     top_str = " · ".join(f"{name} ({count})" for name, count in top_sources)
     lines.append(f"> {len(articles)} articles: {' · '.join(verdict_parts)}")
+    lines.append(">")
     lines.append(f"> Top sources: {top_str}")
     lines.append("")
 
