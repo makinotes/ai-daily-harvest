@@ -134,9 +134,24 @@ def generate_markdown(articles, date_str):
             category = a["category"]
             level = a["level"]
             summary = a["summary"]
+            core_point = a["core_point"]
+            highlights = a["highlights"]
+            why_matters = a["why_matters"]
             lines.append(f"### [{title}]({link}) — {score}/100")
             lines.append(f"**{source}** · {category} · {level}")
             lines.append(f"> {summary}")
+            lines.append("")
+            if core_point:
+                lines.append(f"{core_point}")
+                lines.append("")
+            if highlights:
+                for h in highlights:
+                    lines.append(f"- {h}")
+                lines.append("")
+            if why_matters:
+                lines.append(f"**Why it matters:** {why_matters}")
+                lines.append("")
+            lines.append("---")
             lines.append("")
 
     path = os.path.join(HARVEST_DIR, "daily", f"{date_str}.md")
