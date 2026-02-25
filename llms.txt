@@ -23,7 +23,7 @@ Today's required reading:
   GET https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/lists/daily-picks.json
 
 Full data for a date:
-  GET https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/data/2026-02-25.json
+  GET https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/data/{YYYY-MM-DD}.json
 
 ## Learning Fields
 

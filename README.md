@@ -41,7 +41,7 @@ Your agent needs to stay current on AI. This feed is the curriculum.
 curl -s https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/lists/daily-picks.json | jq '.must_read'
 
 # Full learning material for a specific date
-curl -s https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/data/2026-02-25.json
+curl -s https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/data/{YYYY-MM-DD}.json
 ```
 
 **Integration ideas:**

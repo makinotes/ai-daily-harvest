@@ -36,7 +36,7 @@ Every article is pre-processed into fields designed for AI agent consumption:
 
 ```json
 {
-  "date": "2026-02-25",
+  "date": "YYYY-MM-DD",
   "total": 25,
   "verdict_counts": {
     "must_read": 3,
@@ -101,7 +101,7 @@ Condensed red/black list for quick consumption:
 
 ```json
 {
-  "date": "2026-02-25",
+  "date": "YYYY-MM-DD",
   "must_read": [
     {
       "title": "...",
@@ -144,6 +144,7 @@ Condensed red/black list for quick consumption:
 
 ## Data Availability
 
-- Daily data available from 2026-02-03 onwards
-- Updated daily, typically by 10:00 UTC+8
+- Daily data available from 2026-01-26 onwards
+- Updated on days when the briefing system runs (most weekdays)
+- Some gaps may exist during holidays or system downtime
 - Historical data preserved indefinitely
