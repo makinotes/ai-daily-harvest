@@ -213,14 +213,37 @@ def generate_markdown(articles, date_str):
     lines.append(f"# AI Daily Harvest — {date_str}")
     lines.append("")
 
+    # Overview section
+    lines.append("## Overview")
+    lines.append("")
+
+    # Top picks (must_read articles)
+    must_reads = sorted(
+        [a for a in articles if a["verdict"] == "must_read"],
+        key=lambda x: x["score"],
+        reverse=True,
+    )
+    if must_reads:
+        lines.append("Today's top picks:")
+        for a in must_reads[:5]:
+            lines.append(f"- [{a['title']}]({a['link']}) — {a['score']} · {a['source']}")
+        lines.append("")
+
     # Stats line
-    stats_parts = [f"{len(articles)} articles from {len(all_sources)} sources"]
-    if verdict_counts.get("must_read"):
-        stats_parts.append(f"{verdict_counts['must_read']} must-reads")
-    if verdict_counts.get("noise", 0) + verdict_counts.get("overhyped", 0) > 0:
-        n = verdict_counts.get("noise", 0) + verdict_counts.get("overhyped", 0)
-        stats_parts.append(f"{n} noise")
-    lines.append(f"> {' · '.join(stats_parts)}")
+    verdict_parts = []
+    for v in VERDICT_ORDER:
+        c = verdict_counts.get(v, 0)
+        if c > 0:
+            verdict_parts.append(f"{c} {VERDICT_LABELS[v].lower()}")
+    lines.append(f"{len(articles)} articles: {' · '.join(verdict_parts)}")
+
+    # Top sources
+    source_counts = {}
+    for a in articles:
+        source_counts[a["source"]] = source_counts.get(a["source"], 0) + 1
+    top_sources = sorted(source_counts.items(), key=lambda x: x[1], reverse=True)[:3]
+    top_str = ", ".join(f"{name} ({count})" for name, count in top_sources)
+    lines.append(f"Top sources: {top_str}")
     lines.append("")
 
     # Group by verdict
