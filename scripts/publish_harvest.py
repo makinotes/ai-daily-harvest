@@ -235,7 +235,8 @@ def generate_markdown(articles, date_str):
         c = verdict_counts.get(v, 0)
         if c > 0:
             verdict_parts.append(f"{c} {VERDICT_LABELS[v].lower()}")
-    lines.append(f"{len(articles)} articles: {' · '.join(verdict_parts)}")
+    lines.append(f"**{len(articles)} articles**: {' · '.join(verdict_parts)}")
+    lines.append("")
 
     # Top sources
     source_counts = {}
@@ -243,7 +244,7 @@ def generate_markdown(articles, date_str):
         source_counts[a["source"]] = source_counts.get(a["source"], 0) + 1
     top_sources = sorted(source_counts.items(), key=lambda x: x[1], reverse=True)[:3]
     top_str = ", ".join(f"{name} ({count})" for name, count in top_sources)
-    lines.append(f"Top sources: {top_str}")
+    lines.append(f"**Top sources**: {top_str}")
     lines.append("")
 
     # Group by verdict
