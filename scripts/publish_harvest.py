@@ -199,6 +199,26 @@ def update_source_stats(articles, date_str):
     return stats_path
 
 
+def extract_theme(summary, max_len=40):
+    """Extract short theme from article summary for overview digest."""
+    if not summary:
+        return ""
+    if len(summary) <= max_len:
+        return summary.rstrip("。")
+    # Try cutting at Chinese comma/period, but only if segment is informative (>15 chars)
+    for sep in ["，", "。", "；"]:
+        idx = summary.find(sep)
+        if 15 < idx <= max_len:
+            return summary[:idx]
+    # Fallback: truncate, avoid cutting mid-word
+    truncated = summary[:max_len]
+    if truncated[-1].isascii() and truncated[-1].isalpha():
+        last_space = truncated.rfind(" ")
+        if last_space > max_len // 2:
+            truncated = truncated[:last_space]
+    return truncated.rstrip("，。；、 ") + "…"
+
+
 def generate_markdown(articles, date_str):
     """Write human-readable Markdown, grouped by verdict."""
     all_sources = set(a["source"] for a in articles)
@@ -217,21 +237,15 @@ def generate_markdown(articles, date_str):
     lines.append("## Overview")
     lines.append("")
 
-    # Top picks table (must_read articles)
+    # Compute groups
     must_reads = sorted(
         [a for a in articles if a["verdict"] == "must_read"],
         key=lambda x: x["score"],
         reverse=True,
     )
-    if must_reads:
-        lines.append("| Score | Article | Source |")
-        lines.append("|------:|---------|--------|")
-        for a in must_reads[:5]:
-            title_short = a["title"][:60] + "..." if len(a["title"]) > 60 else a["title"]
-            lines.append(f"| **{a['score']}** | [{title_short}]({a['link']}) | {a['source']} |")
-        lines.append("")
+    noise_articles = [a for a in articles if a["verdict"] in ("noise", "overhyped")]
 
-    # Stats + sources in blockquote
+    # Compute stats
     verdict_parts = []
     for v in VERDICT_ORDER:
         c = verdict_counts.get(v, 0)
@@ -242,10 +256,42 @@ def generate_markdown(articles, date_str):
         source_counts[a["source"]] = source_counts.get(a["source"], 0) + 1
     top_sources = sorted(source_counts.items(), key=lambda x: x[1], reverse=True)[:3]
     top_str = " · ".join(f"{name} ({count})" for name, count in top_sources)
+
+    # Thematic digest + stats blockquote
+    MAX_THEMES = 3
+    if must_reads:
+        themes = [extract_theme(a["summary"]) for a in must_reads[:MAX_THEMES]]
+        extra = len(must_reads) - MAX_THEMES
+        digest = " · ".join(themes)
+        if extra > 0:
+            digest += f" (+{extra} more)"
+        lines.append(f"> **Must Read** — {digest}")
+    if noise_articles:
+        label = "Noise"
+        if any(a["verdict"] == "overhyped" for a in noise_articles):
+            label = "Noise / Overhyped"
+        themes = [extract_theme(a["summary"]) for a in noise_articles[:MAX_THEMES]]
+        extra = len(noise_articles) - MAX_THEMES
+        digest = " · ".join(themes)
+        if extra > 0:
+            digest += f" (+{extra} more)"
+        lines.append(">")
+        lines.append(f"> **{label}** — {digest}")
+    if must_reads or noise_articles:
+        lines.append(">")
     lines.append(f"> {len(articles)} articles: {' · '.join(verdict_parts)}")
     lines.append(">")
     lines.append(f"> Top sources: {top_str}")
     lines.append("")
+
+    # Top picks table (must_read articles)
+    if must_reads:
+        lines.append("| Score | Article | Source |")
+        lines.append("|------:|---------|--------|")
+        for a in must_reads[:5]:
+            title_short = a["title"][:60] + "..." if len(a["title"]) > 60 else a["title"]
+            lines.append(f"| **{a['score']}** | [{title_short}]({a['link']}) | {a['source']} |")
+        lines.append("")
 
     # Group by verdict
     for verdict in VERDICT_ORDER:
