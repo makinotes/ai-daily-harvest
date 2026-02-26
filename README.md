@@ -17,6 +17,11 @@ A daily learning feed for humans and AI agents. Scored, structured, ready to con
 | `daily/{date}.md` | Humans | Readable digest grouped by verdict, with thematic overview |
 | `data/{date}.json` | Agents | Full articles with all learning fields |
 | `lists/daily-picks.json` | Both | Today's must-reads at a glance |
+| `feeds/rss.xml` | Humans | RSS feed of high-quality articles (rolling 50 items) |
+| `feeds/weekly/{year}-W{week}.md` | Humans | Weekly digest with trend analysis |
+| `datasets/scored-articles.jsonl` | Models | Cumulative scored dataset for training/research |
+| `indexes/by-category.json` | Agents | 30-day articles grouped by topic category |
+| `indexes/trending.json` | Agents | 7-day trending keywords |
 | [`llms.txt`](llms.txt) | LLMs | Schema overview + learning guide |
 | [`llms-full.txt`](llms-full.txt) | LLMs | Complete field definitions + integration guide |
 
@@ -42,6 +47,12 @@ curl -s https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/list
 
 # Full learning material for a specific date
 curl -s https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/data/{YYYY-MM-DD}.json
+
+# 30-day articles by category (for focused learning)
+curl -s https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/indexes/by-category.json | jq '.categories["AI/Tech"][:5]'
+
+# Trending keywords this week
+curl -s https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/indexes/trending.json
 ```
 
 **Integration ideas:**
@@ -49,6 +60,8 @@ curl -s https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/data
 - Index `highlights` + `why_matters` into a RAG pipeline
 - Use `verdict` to prioritize what your agent learns first
 - Filter by `category` to develop specific skill domains
+- Use `indexes/by-category.json` for topic-focused research
+- Subscribe to `feeds/rss.xml` for human-readable updates
 
 See [`llms.txt`](llms.txt) for quick start, [`llms-full.txt`](llms-full.txt) for full integration guide.
 
@@ -81,6 +94,20 @@ See [`llms.txt`](llms.txt) for quick start, [`llms-full.txt`](llms-full.txt) for
   "verdict": "worth_reading"
 }
 ```
+
+## For Model Training
+
+The `datasets/` directory provides cumulative training data in JSONL format. Each line is a scored article with all analysis fields.
+
+```bash
+# Download the full dataset
+curl -sO https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/datasets/scored-articles.jsonl
+
+# Count articles
+wc -l scored-articles.jsonl
+```
+
+See [`datasets/README.md`](datasets/README.md) for field definitions, scoring methodology, and use cases.
 
 ## Contributing
 

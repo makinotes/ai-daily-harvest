@@ -16,6 +16,11 @@
 - data/{date}.json: Full articles with all learning fields
 - daily/{date}.md: Human-readable digest
 - lists/daily-picks.json: Today's must-reads (priority learning material)
+- datasets/scored-articles.jsonl: Cumulative scored dataset (JSONL, for training/research)
+- feeds/rss.xml: RSS 2.0 feed of high-quality articles (rolling 50 items)
+- feeds/weekly/{year}-W{week}.md: Weekly digest with trend analysis
+- indexes/by-category.json: 30-day articles grouped by topic category
+- indexes/trending.json: 7-day trending keywords with frequency counts
 
 ## Quick Start
 
