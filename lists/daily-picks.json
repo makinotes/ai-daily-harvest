@@ -1,187 +1,228 @@
 {
-  "date": "2026-02-25",
+  "date": "2026-02-26",
   "must_read": [
     {
-      "title": "Adam/Muon退位！谷歌Magma：随机丢弃50%梯度却拿下LLM优化SOTA",
-      "link": "https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA==&mid=2247504378&idx=1&sn=791f1291cb2ce5645cd641a68788b5dd",
-      "source": "PaperAgent",
-      "score": 95,
-      "why": "对AI研究者/工程师：提供了一种可能更高效、更稳定的LLM训练新范式，挑战了传统优化理念。"
+      "title": "ICLR2026 Oral | 当情感识别不再是分类题：EmotionThinker 让 SpeechLLM 学会“解释情绪”",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651018004&idx=3&sn=c6e8d56b302a53920392d5cc498ad546",
+      "source": "机器之心",
+      "score": 93,
+      "why": "对AI研究者意味着情感识别领域正从追求准确率转向追求可解释性和认知合理性。"
     },
     {
-      "title": "“软件工程师”头衔要没了？Claude Code之父YC访谈：一个月后不再用plan mode，多Agent开始自己组队干活",
-      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651275912&idx=1&sn=28684e1adf869f59fd295dd4184c6890",
-      "source": "InfoQ",
+      "title": "还在盲目堆数据？用SAE特征空间指导合成，2K样本轻松追平300K SOTA",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247717922&idx=2&sn=7a0fbd933a37cafa9a34f9755bb078a6",
+      "source": "PaperWeekly",
+      "score": 93,
+      "why": "为数据工程师和模型训练者提供了一种更高效、更精准的合成数据构建思路，可能颠覆依赖海量数据堆砌的后训练模式。"
+    },
+    {
+      "title": "Disrupting malicious uses of AI | February 2026",
+      "link": "https://openai.com/index/disrupting-malicious-ai-uses",
+      "source": "OpenAI Blog",
       "score": 90,
-      "why": "对开发者意味着编程范式和工作内容的根本性转变，对创始人则提示了基于快速迭代而非静态功能的产品护城河。"
+      "why": "对安全研究者和政策制定者而言，这揭示了AI技术被滥用的新途径和防御的紧迫性。"
     },
     {
-      "title": "谈谈Attention SInk及未来Attention算法设计",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzUxNzQ5MTExNw==&mid=2247497613&idx=1&sn=b7dfc41a83978a789ac582c8034faac8",
-      "source": "zartbot",
-      "score": 88,
-      "why": "为模型架构师和研究者提供了从几何拓扑角度理解和优化Attention机制的新框架，是提升长上下文处理效率的关键。"
+      "title": "速递｜Anthropic内部研究员项目：“失控智能体”“LLM思维病毒”等，AI安全风险从理论走向现实",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI4NTgxMDk1NA==&mid=2247514258&idx=3&sn=4bc83aca5802492099cb8aa077729463",
+      "source": "Z Potentials",
+      "score": 90,
+      "why": "对投资者和行业观察者意味着AI安全已成为产品商业化与建立客户信任的核心前提。"
+    },
+    {
+      "title": "Claude Code Remote Control",
+      "link": "https://simonwillison.net/2026/Feb/25/claude-code-remote-control/#atom-everything",
+      "source": "Simon Willison",
+      "score": 87,
+      "why": "对开发者和技术爱好者而言，这标志着AI助手向更深度、跨设备的系统控制能力演进。"
+    },
+    {
+      "title": "迈入「奇观时代」",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzkzNDQxOTU2MQ==&mid=2247513335&idx=1&sn=d4420d677d713a0767ab066511190d08",
+      "source": "赛博禅心",
+      "score": 85,
+      "why": "对管理者和职场人意味着核心能力定义的转变，需要重新思考个人价值和团队构建的逻辑。"
+    },
+    {
+      "title": "AI Agent公司应该怎样组织人才",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzU2MTgzMjQyMA==&mid=2247485159&idx=1&sn=a33140f470974628bd7f07220e9c5c2e",
+      "source": "周喆吾",
+      "score": 85,
+      "why": "为AI公司的创始人和投资者提供了构建顶尖团队的具体策略和逻辑参照。"
     }
   ],
   "worth_reading": [
     {
-      "title": "Directory Snapshots: Resumable project state for Sandboxes",
-      "link": "https://modal.com/blog/directory-snapshots-resumable-project-state-for-sandboxes",
-      "source": "Modal Labs Blog",
+      "title": "OpenAI 为 Responses API 引入 WebSocket 模式",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA5MTIxNTY4MQ==&mid=2461158607&idx=1&sn=cb22aaa404fc6129dd3185a32faab410",
+      "source": "AI工程化",
       "score": 83,
-      "why": "对于开发者而言，这提供了一种更灵活、可移植的方式来管理和复用项目状态，提升了开发环境的效率。"
+      "why": "对AI工程师意味着更高效、更低延迟的Agent开发接口，能更好地支持生产级复杂任务。"
     },
     {
-      "title": "Agent 进化，不需要人类",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzkzNDQxOTU2MQ==&mid=2247513239&idx=1&sn=195ef76bb783062603cbd2dd24421ebf",
-      "source": "赛博禅心",
-      "score": 83,
-      "why": "对Agent开发者意味着设计思维的根本转变：从服务人类效率，转向构建AI自主进化的生态系统。"
-    },
-    {
-      "title": "GLM-5 技术报告全解读｜a16z：“最好的开源模型”",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzkzNDQxOTU2MQ==&mid=2247513320&idx=1&sn=72c6634b088560f6cf21655f0636e3b3",
-      "source": "赛博禅心",
-      "score": 82,
-      "why": "对开发者/企业：提供了一个在性能与成本间取得平衡的顶级开源模型选项，降低了对闭源API的依赖风险。"
-    },
-    {
-      "title": "Linear walkthroughs",
-      "link": "https://simonwillison.net/guides/agentic-engineering-patterns/linear-walkthroughs/#atom-everything",
-      "source": "Simon Willison",
-      "score": 78,
-      "why": "这为开发者，尤其是需要快速理解复杂或陌生代码库的工程师，提供了一种高效的知识获取和文档生成方法。"
-    },
-    {
-      "title": "How to use AI for your next job interview",
-      "link": "https://www.lennysnewsletter.com/p/how-to-use-ai-in-your-next-job-interview",
+      "title": "5 OpenClaw agents run my home, finances, and code | Jesse Genet",
+      "link": "https://www.lennysnewsletter.com/p/5-openclaw-agents-run-my-home-finances",
       "source": "Lenny's Newsletter",
-      "score": 78,
-      "why": "对于求职者，这提供了一个基于真实成功案例的系统化AI辅助工具，能显著提升面试准备的效率和针对性。"
+      "score": 82,
+      "why": "对个人生产力和家庭管理者而言，这展示了如何将通用AI工具系统化，以高度定制化的方式解决复杂、多维度的现实问题。"
     },
     {
-      "title": "独家专访千寻创始人：20 亿新融资、具身模型淘汰赛、落地非共识",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzU3Mjk1OTQ0Ng==&mid=2247533464&idx=1&sn=595eee8fa566dadbf768e9d5f56b39c6",
-      "source": "晚点LatePost",
-      "score": 78,
-      "why": "对投资者/创业者：标志具身智能从概念炒作进入以模型性能为核心的硬实力竞争阶段，需关注技术壁垒和落地能力。"
+      "title": "AI能写COBOL代码，砸崩IBM股价，单日蒸发310亿美元，创26年最惨纪录",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651018004&idx=1&sn=338c83155ec1f54074d20cd9d4c01d7c",
+      "source": "机器之心",
+      "score": 82,
+      "why": "对投资者意味着需要重新评估传统IT巨头的护城河，AI正直接冲击其最核心的利润来源。"
     },
     {
-      "title": "OpenAI大佬爆料：本科生靠一篇博客杀进OpenAI！没博士，0篇论文",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652677374&idx=2&sn=ba6929e3247f3705b9de2ad050147b5e",
-      "source": "新智元",
-      "score": 78,
-      "why": "对AI从业者/学生：展示了工程实践和开源贡献在AI职业发展中的巨大价值，拓宽了进入顶级机构的路径。"
+      "title": "GitHub 2K星！Edit Banana一键解剖AI像素图，变身可编辑PPT/Drawio",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247717922&idx=1&sn=ce0092954f9d00caefbdec5cfdc8d0e4",
+      "source": "PaperWeekly",
+      "score": 82,
+      "why": "对内容创作者和研发人员是革命性工具，打通了从AI生成到精细编辑的“最后一公里”。"
     },
     {
-      "title": "给 AI Agent 装上 DNA，这个项目火爆了",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzA4NzgzMjA4MQ==&mid=2453480552&idx=1&sn=e7db7d6a6ed825e392a4a57014a7fd9f",
-      "source": "AGI Hunt",
+      "title": "春晚机器人没切镜头，阿里RynnBrain让具身智能不再需要切换模型",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA==&mid=2247504426&idx=2&sn=9a698c404b63b6227b194bef8425c43a",
+      "source": "PaperAgent",
       "score": 78,
-      "why": "对AI开发者和投资者而言，这是提升Agent群体智能、降低算力成本、加速AI进化的关键基础设施方向。"
+      "why": "对机器人开发者意味着可以基于一个统一模型进行开发，降低了系统复杂性和集成难度。"
     },
     {
-      "title": "AI视频有了音画同步后，我想看看语音合成能不能活下来",
-      "link": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&mid=2247505017&idx=1&sn=3d98ac69d301ef43c67f8be150c4b0c9",
-      "source": "卡尔的AI沃茨",
-      "score": 78,
-      "why": "对内容创作者和AI视频工具开发者意味着工作流程的优化和音频生成工具战略价值的重新评估。"
-    },
-    {
-      "title": "为什么越聪明的人，越容易在技术革命里亏钱? ｜MindCode周报No.62",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzAxNTYwMzcyNw==&mid=2247486010&idx=1&sn=1f9ccbd59875061459f3fe2e53ffe3e8",
-      "source": "MindCode",
+      "title": "三家中国大模型公司被卷入蒸馏风波，律师解读：Anthropic的指控从法律上很牵强",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mjc1NjM3MjY2MA==&mid=2691565169&idx=1&sn=59b19b790fa9e0be1661af8702c88f50",
+      "source": "腾讯科技",
       "score": 77,
-      "why": "对投资者/战略决策者：提醒在技术颠覆中需区分长期趋势与短期现实，避免因认知偏差导致重大损失。"
+      "why": "对AI公司法务与战略部门意味着，在数据使用与竞争策略上需要清晰的法律边界认知，以应对可能的指控。"
     },
     {
-      "title": "clawdbot新Skill，10分钟登顶全站第一。第二天，被下架了。",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzkxNjcyNTk2NA==&mid=2247490300&idx=1&sn=d089bb4f299455fa8cbbd1ecf22efd01",
-      "source": "探索AGI",
-      "score": 77,
-      "why": "对Agent开发者：指出了Agent进化与协作的未来方向，并警示了依赖单一中心化平台的风险。"
-    },
-    {
-      "title": "万字追问：神经科学，在等待自己的牛顿吗？",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzI3MjQ4MDMyOQ==&mid=2247538852&idx=1&sn=60059e6a97e2fe2d1460e2a3fddfb294",
-      "source": "追问nextquestion",
+      "title": "🔬Searching the Space of All Possible Materials — Prof. Max Welling, CuspAI",
+      "link": "https://www.latent.space/p/cuspai",
+      "source": "Latent Space",
       "score": 75,
-      "why": "对AI/神经科学交叉领域研究者：提醒AI灵感来源不应局限于当前的计算机隐喻，动态系统和生物复杂性可能蕴含更强大的智能原理。"
-    },
-    {
-      "title": "开工拉齐：OpenClaw，首个「一人独角兽」",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzkzNDQxOTU2MQ==&mid=2247513325&idx=1&sn=4ffd0b37d4a1e3dc86b724449ee7b944",
-      "source": "赛博禅心",
-      "score": 75,
-      "why": "对AI开发者/投资者：证明了AgentOS赛道的巨大潜力和快速演化能力，是当前最活跃的AI创新前沿之一。"
+      "why": "对AI科学家和气候科技投资者而言，这指向了一个将前沿AI理论与重大现实世界问题（如材料科学和能源）相结合的、资金充裕的新兴前沿领域。"
     }
   ],
   "neutral": [
     {
-      "title": "[AINews] The Unreasonable Effectiveness of Closing the Loop",
-      "link": "https://www.latent.space/p/ainews-the-unreasonable-effectiveness",
-      "source": "Latent Space",
+      "title": "I vibe coded my dream macOS presentation app",
+      "link": "https://simonwillison.net/2026/Feb/25/present/#atom-everything",
+      "source": "Simon Willison",
       "score": 73,
-      "why": "对开发者及工具投资者而言，理解“闭环”趋势有助于把握下一代AI开发工具的演进方向，即从单点编码辅助向覆盖完整软件开发生命周期的智能化平台发展。"
+      "why": "对技术传播者和开发者而言，这展示了如何用创造性的工程和叙事技巧，使关于技术快速演进的专业内容更令人印象深刻且易于理解。"
     },
     {
-      "title": "Gemini 3.1 Pro 发布",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzkzNDQxOTU2MQ==&mid=2247513269&idx=1&sn=64b1285af86cbb1f3ed3897ed924dbf8",
-      "source": "赛博禅心",
+      "title": "速递｜AI会计初创公司Basis完成1亿美元融资，处理涉及多合伙人文件拆分、利润分配追踪等复杂任务",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI4NTgxMDk1NA==&mid=2247514258&idx=4&sn=7fe52d43c4bcdd9a6417cd16c4fd0d0b",
+      "source": "Z Potentials",
       "score": 73,
-      "why": "标志着强大的推理与代码生成能力开始大规模普及，将直接提升开发者和创意工作者的生产效率。"
+      "why": "对金融服务从业者意味着，AI正从辅助工具演变为能独立处理核心复杂流程的劳动力，职业结构将面临重塑。"
     },
     {
-      "title": "Anthropic 最新研究：AI Agent 自主工作时长三个月翻倍，用户正在加速「放手」",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzA4NzgzMjA4MQ==&mid=2453480539&idx=1&sn=d3bd27caac7be8d47db230c7f088ebff",
-      "source": "AGI Hunt",
+      "title": "引爆SaaS万亿美元抛售之后，Anthropic加码Cowork，要改变所有白领",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mjc1NjM3MjY2MA==&mid=2691565148&idx=1&sn=53380a24b3ca1508c4c071ce509e3baa",
+      "source": "腾讯科技",
+      "score": 73,
+      "why": "对企业决策者意味着可以利用标准化平台快速为不同团队部署深度定制的AI能力，提升整体运营效率。"
+    },
+    {
+      "title": "春节回家我用递归学习法，跟大模型学会了「算八字」",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzYyMTY1NDA0Nw==&mid=2247514397&idx=2&sn=5549c698c9599ae90a9377b78c45eccb",
+      "source": "特工宇宙",
+      "score": 73,
+      "why": "为所有终身学习者提供了一套可复制的、利用AI作为“私人导师”的高效自学方法论。"
+    },
+    {
+      "title": "人人皆可好莱坞，生成式媒体大爆发",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzYyMTY1NDA0Nw==&mid=2247514397&idx=1&sn=897738483286356f1ce85836e4512dd0",
+      "source": "特工宇宙",
       "score": 72,
-      "why": "对产品经理和安全工程师至关重要，揭示了Agent实际自主权的演化趋势和伴随而来的新型风险，强调事后监控的必要性。"
+      "why": "对营销、电商、创意行业从业者意味着生产力工具的彻底革新和竞争格局的重塑。"
     },
     {
-      "title": "Anthropic 指控三家中国 AI 公司大规模蒸馏 Claude，马斯克嘲讽：你偷来的东西被偷了？",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzA4NzgzMjA4MQ==&mid=2453480588&idx=1&sn=b475c9ce665b3c8fc1dc36b0bf84fb30",
+      "title": "Anthropic 追踪了近万段对话，发现 AI 越能干，人越不爱动脑子",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA4NzgzMjA4MQ==&mid=2453480619&idx=1&sn=75c06bee718af3d832692ff0bb80d5dd",
       "source": "AGI Hunt",
       "score": 70,
-      "why": "对AI公司/政策制定者：揭示了模型能力保护与开源/API开放之间的尖锐矛盾，以及由此引发的安全与伦理新挑战。"
+      "why": "对所有AI用户意味着需要警惕“自动化偏见”，培养与AI协作时的批判性思维习惯，避免盲目信任。"
     },
     {
-      "title": "MiniMax 成为 Token 调用第一后，模型厂商必须面对的 AgentOS 现实",
-      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651276108&idx=1&sn=c4c3f7ae13bdf440bdd8748954d5580b",
-      "source": "InfoQ",
-      "score": 70,
-      "why": "对LLM厂商/产品经理：指明了下阶段模型竞争的关键在于对AgentOS生态的适配和支持能力，而不仅是基准分数。"
+      "title": "一文读懂苹果2026年股东大会：5个议题，1项被否决，库克不退休",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mjc1NjM3MjY2MA==&mid=2691565158&idx=1&sn=0ef3f79bdd4fc763f552edb68894c9d5",
+      "source": "腾讯科技",
+      "score": 68,
+      "why": "对投资者意味着苹果在平衡地缘政治风险与核心市场利益上获得了股东的支持，短期战略连续性得以维持。"
     },
     {
-      "title": "希望AI开挂之前，先告诉我怎么去灵隐寺和财神庙",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzA5OTQ2MTk2MQ==&mid=2247490252&idx=1&sn=61ee925502c0d98e3270eec522123d2e",
-      "source": "饭後服用AfterHours",
-      "score": 67,
-      "why": "对AI产品经理/创业者：展示了在巨头林立的AI助手市场中，通过场景深耕和用户体验创新实现突围的可能性。"
+      "title": "那些被全网疯传的动物表情包，它们真的快乐吗？",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI3MjQ4MDMyOQ==&mid=2247538865&idx=1&sn=f4fe61c79865b9c337a2edd3359e0f11",
+      "source": "追问nextquestion",
+      "score": 68,
+      "why": "对科普作者和内容消费者是重要的提醒，倡导以更科学、更负责任的态度理解和对待动物。"
     },
     {
-      "title": "春节 AI 战役全记录：红包、模型与算力",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzU3Mjk1OTQ0Ng==&mid=2247533497&idx=1&sn=16e314834cf03075cac6c5e4a57cda01",
-      "source": "晚点LatePost",
+      "title": "当 AI Agent 开始自己挑工具，一个新的经济体正在诞生！",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzYyMTY1NDA0Nw==&mid=2247514430&idx=1&sn=d479291ae4cea63ea5b1466e727c53c6",
+      "source": "特工宇宙",
+      "score": 68,
+      "why": "对SaaS创业者和开发者意味着获客渠道和产品设计逻辑的根本性转变，需要主动适应Agent经济。"
+    },
+    {
+      "title": "深度｜从 Genie 3 到 Yoroll，AI 视频原生游戏正在真正落地",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI4NTgxMDk1NA==&mid=2247514258&idx=1&sn=fb7a50c62ca11fbae0f385bf8dd95fb7",
+      "source": "Z Potentials",
       "score": 65,
-      "why": "对行业观察者/投资者：标志着AI应用进入高强度的市场普及和用户习惯培养阶段，但可持续商业模式仍需探索。"
+      "why": "对游戏开发者与投资者意味着，游戏创作的门槛和成本结构将发生根本性变化，UGC和AI原生游戏可能成为新增长点。"
     },
     {
-      "title": "Gemini tops benchmarks, again",
-      "link": "https://www.bensbites.com/p/gemini-tops-benchmarks-again",
-      "source": "Ben's Bites",
-      "score": 63,
-      "why": ""
-    }
-  ],
-  "noise": [
+      "title": "Anthropic终于还是忍不住开大了，公开点名D",
+      "link": "https://mp.weixin.qq.com/s?__biz=MjM5NzY2OTE2MQ==&mid=2652254178&idx=1&sn=7131eab8e1f50269b5f46f219c7adc72",
+      "source": "阑夕",
+      "score": 65,
+      "why": "无"
+    },
     {
-      "title": "OpenClaw可算有小白能用的桌面版了，这就是2026用Agent读取全网信息的正确方式",
-      "link": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&mid=2247505053&idx=1&sn=2fecc8cc590fe7b001a0a1b40a5e35e0",
-      "source": "卡尔的AI沃茨",
+      "title": "阿里开源Zvec：向量数据库的“SQLite时刻”到了吗？",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA5MTIxNTY4MQ==&mid=2461158603&idx=1&sn=9e506fba6a56675ab64b507b95806de9",
+      "source": "AI工程化",
+      "score": 65,
+      "why": "对AI应用开发者提供了一个更轻便、易集成的向量检索解决方案，尤其适合原型开发和小型部署。"
+    },
+    {
+      "title": "过了个年，AI 圈变天了？但没人告诉你为什么",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzU0MDk3NTUxMA==&mid=2247495944&idx=1&sn=42b27b17384c95554d32e550852b5699",
+      "source": "歸藏的AI工具箱",
+      "score": 63,
+      "why": "对每个职场人意味着，是否掌握Agent协作能力可能成为影响个人价值与职业发展的关键分水岭。"
+    },
+    {
+      "title": "超极简教程丨快速养殖一只 AI 龙虾",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzYyMTY1NDA0Nw==&mid=2247514453&idx=1&sn=f79329b71cf80cf1c70b93186dd893ba",
+      "source": "特工宇宙",
+      "score": 63,
+      "why": "对普通用户意味着，无需高成本和技术背景也能快速体验前沿的AI Agent能力，降低了技术普惠的门槛。"
+    },
+    {
+      "title": "Claude Code官方推出远程控制功能：随时随地写代码",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA5MTIxNTY4MQ==&mid=2461158611&idx=1&sn=10f032cb44885558e5bdf7021e4abf59",
+      "source": "AI工程化",
+      "score": 63,
+      "why": "对开发者意味着编程工作的时间和空间限制被打破，人机协作模式向更异步、更灵活的方向演进。"
+    },
+    {
+      "title": "最卷春节档，改写模型“地板”的只有 TA",
+      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651276192&idx=1&sn=8bc96dc911fd82284557817000a4d889",
+      "source": "InfoQ",
+      "score": 62,
+      "why": "对AI研究社区和中小企业是利好，提供了接触和利用顶尖规模模型技术的机会。"
+    },
+    {
+      "title": "吸金681亿美元，英伟达业绩没有暴雷，Blackwell全年出货600万颗",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mjc1NjM3MjY2MA==&mid=2691565183&idx=1&sn=5dc4ddb2ddcbf59afd10ae2b4269afe6",
+      "source": "腾讯科技",
       "score": 60,
-      "why": "为普通用户提供了接触和使用强大Agent能力的低门槛入口，并展示了Agent在信息过载时代的实用场景。"
+      "why": "对投资者是重要的市场风向标；对科技公司意味着AI算力供应链的核心供应商持续强势。"
     }
   ],
+  "noise": [],
   "overhyped": []
 }
