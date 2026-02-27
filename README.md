@@ -2,6 +2,14 @@
 
 > **40+ AI sources, one structured feed, updated every weekday.** Scored, categorized, and ready for both humans and AI agents — so you don't have to build a pipeline just to stay informed.
 
+## Why this exists
+
+Built for my own daily reading. 40+ sources is too many to check manually, so I built a pipeline to fetch, score, and structure them. Publishing openly because the marginal cost is zero.
+
+**"Why not just build your own with [insert scraper]?"** — You can. But curating 40+ sources, maintaining broken feeds, running structured analysis on every article, and doing it every single weekday for months — that's the part most people skip after day three.
+
+## What You Get
+
 Every day, articles from 40+ Chinese and English sources are scored 0-100, assigned a verdict (`must_read` / `worth_reading` / `neutral`), and broken down into key takeaways, structured reasoning, and practical relevance. Humans read the digest; agents consume the JSON. Built for my own use, published openly in case it's useful to others.
 
 Sources are continuously expanding. Suggestions welcome via [issues](../../issues/new).
