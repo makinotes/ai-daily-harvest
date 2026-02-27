@@ -734,6 +734,24 @@
         "why_matters": ""
       },
       {
+        "title": "Claude Code 新功能：手机远程控制",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzkzNDQxOTU2MQ==&mid=2247513353&idx=1&sn=4b2b8237fdf043efa807ee4a27cb5651",
+        "source": "赛博禅心",
+        "score": 83,
+        "verdict": "worth_reading",
+        "pub_date": "2026-02-25",
+        "why_matters": "对开发者意味着一种新的、更便捷的跨设备编程协作与监控工作流。"
+      },
+      {
+        "title": "Anthropic发布Claude Code Security：AI开始接管代码安全",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzA5MTIxNTY4MQ==&mid=2461158599&idx=1&sn=f243e7e49e8defdf31f506444be2d36c",
+        "source": "AI工程化",
+        "score": 83,
+        "verdict": "worth_reading",
+        "pub_date": "",
+        "why_matters": "对开发者意味着可能获得一个强大的AI安全助手，对投资者则需重新评估传统安全软件公司的价值。"
+      },
+      {
         "title": "OpenAI 为 Responses API 引入 WebSocket 模式",
         "link": "https://mp.weixin.qq.com/s?__biz=MzA5MTIxNTY4MQ==&mid=2461158607&idx=1&sn=cb22aaa404fc6129dd3185a32faab410",
         "source": "AI工程化",
@@ -822,6 +840,15 @@
         "verdict": "worth_reading",
         "pub_date": "2026-02-26",
         "why_matters": "对机器人学和具身AI研究者意味着一种实现自然、主动人机交互的新架构范式。"
+      },
+      {
+        "title": "陶哲轩来给AI数学泼冷水了",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247870617&idx=2&sn=822c44d2ffa8c1a5d092859394fde186",
+        "source": "量子位",
+        "score": 82,
+        "verdict": "worth_reading",
+        "pub_date": "2026-02-25",
+        "why_matters": "对AI研究者和数学家意味着需要共同设计新的交互与验证范式，以真正让AI推动数学发展。"
       },
       {
         "title": "AI能写COBOL代码，砸崩IBM股价，单日蒸发310亿美元，创26年最惨纪录",
@@ -1256,6 +1283,24 @@
         "why_matters": "对个人开发者和AI爱好者意味着可以更灵活地利用分散的算力资源，突破单机性能瓶颈。"
       },
       {
+        "title": "善战者无赫赫之功",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzU2MTgzMjQyMA==&mid=2247485150&idx=1&sn=17cfe024267ea0b059a18880e70ea2e7",
+        "source": "周喆吾",
+        "score": 78,
+        "verdict": "worth_reading",
+        "pub_date": "",
+        "why_matters": "对企业家和投资者是一种重要的思维校准：警惕幸存者偏差，关注那些沉默但强大的复利机器。"
+      },
+      {
+        "title": "为什么你公司的内部创业大概率会死？Conviction!",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzU2MTgzMjQyMA==&mid=2247485145&idx=1&sn=8d29ce979b84d90e1ec1746212cd3962",
+        "source": "周喆吾",
+        "score": 78,
+        "verdict": "worth_reading",
+        "pub_date": "",
+        "why_matters": "对企业管理者是重要的战略警醒：创新成功的关键在于穿透组织的决心和资源定力，而非完美的初始计划。"
+      },
+      {
         "title": "春晚机器人没切镜头，阿里RynnBrain让具身智能不再需要切换模型",
         "link": "https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA==&mid=2247504426&idx=2&sn=9a698c404b63b6227b194bef8425c43a",
         "source": "PaperAgent",
@@ -1596,6 +1641,15 @@
         "verdict": "worth_reading",
         "pub_date": "2026-02-26",
         "why_matters": "对开发者和企业技术负责人而言，这提供了降低大模型部署成本、实现本地化或边缘部署的新可能，是推动AI普惠化的重要技术进展。"
+      },
+      {
+        "title": "要么做一个Agent产品，要么让你的产品能被Agent使用",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzU1MTAwNzY4Mg==&mid=2247490691&idx=1&sn=374c233b18184cd08d742539fc67237b",
+        "source": "喜新",
+        "score": 75,
+        "verdict": "worth_reading",
+        "pub_date": "",
+        "why_matters": "对产品经理和开发者意味着一个明确的未来路线图：你的产品必须准备好被AI Agent作为主要用户来使用。"
       },
       {
         "title": "万字追问：神经科学，在等待自己的牛顿吗？",

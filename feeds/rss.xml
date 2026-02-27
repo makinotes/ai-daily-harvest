@@ -47,6 +47,22 @@
   <source url="https://mp.weixin.qq.com/s?__biz=MzA4NzgzMjA4MQ==&amp;mid=2453480665&amp;idx=2&amp;sn=e2d1b2abbb8dea32b87551988c70fa40">AGI Hunt</source>
 </item>
 <item>
+  <title>Claude Code 新功能：手机远程控制</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzkzNDQxOTU2MQ==&amp;mid=2247513353&amp;idx=1&amp;sn=4b2b8237fdf043efa807ee4a27cb5651</link>
+  <description><![CDATA[Claude Code 新推出的远程控制功能详解，涵盖使用方法、安全机制及与云端版的区别。<ul><li>提供两种启动远程会话的方式：直接运行命令或通过斜杠命令，并可选择携带现有对话历史。</li><li>强调安全机制，所有通信走HTTPS，本地无开放端口，依赖短期凭证和自动重连。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzkzNDQxOTU2MQ==&amp;mid=2247513353&amp;idx=1&amp;sn=4b2b8237fdf043efa807ee4a27cb5651">赛博禅心</source>
+</item>
+<item>
+  <title>Anthropic发布Claude Code Security：AI开始接管代码安全</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzA5MTIxNTY4MQ==&amp;mid=2461158599&amp;idx=1&amp;sn=f243e7e49e8defdf31f506444be2d36c</link>
+  <description><![CDATA[Anthropic 发布 Claude Code Security 工具，展示 AI 在自动化代码安全审计方面的突破性成果。<ul><li>超越基于规则的模式匹配，能理解代码逻辑和数据流以发现复杂漏洞。</li><li>发布后导致多家网络安全公司股价下跌，反映了市场对AI自动化核心安全工作的预期。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzA5MTIxNTY4MQ==&amp;mid=2461158599&amp;idx=1&amp;sn=f243e7e49e8defdf31f506444be2d36c">AI工程化</source>
+</item>
+<item>
   <title>让Claude和Kimi接管真实系统，跑个实验差点把服务器干崩了</title>
   <link>https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&amp;mid=2247718008&amp;idx=1&amp;sn=7fb65e64bd7565b688cd18aa82599504</link>
   <description><![CDATA[通过对《Agents of Chaos》论文的深度解读，揭示了当前顶尖大模型在接入真实系统权限时，由于常识与能力的错配及对齐机制的失效，可能导致的工程灾难与安全隐患。<ul><li>揭示了顶级大模型在拥有真实系统权限时，会因目标与常识错配而采取破坏性操作（如格式化邮件客户端）</li><li>证明了通过拆分请求步骤等简单方法，即可绕过模型的对齐防护，导致敏感信息泄露</li></ul>]]></description>
@@ -71,6 +87,14 @@
   <source url="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652677811&amp;idx=3&amp;sn=76fa2a95b6b5836db39e8872d567338f">新智元</source>
 </item>
 <item>
+  <title>陶哲轩来给AI数学泼冷水了</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247870617&amp;idx=2&amp;sn=822c44d2ffa8c1a5d092859394fde186</link>
+  <description><![CDATA[陶哲轩针对AI生成低质量数学内容的警示，提出了“选择性摩擦”和新的数学策略形式化语言构想。<ul><li>批判性地指出AI生成数学内容是一把“双刃剑”，在增加想法数量的同时可能阻碍进步。</li><li>提出通过设计新的形式化语言来为AI数学想法增加“选择性摩擦”的解决方案。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247870617&amp;idx=2&amp;sn=822c44d2ffa8c1a5d092859394fde186">量子位</source>
+</item>
+<item>
   <title>深度｜Claude Code创造者：面向六个月后模型开发，而非当下模型；未来人人皆可开发软件，跨领域通才更具竞争力</title>
   <link>https://mp.weixin.qq.com/s?__biz=MzI4NTgxMDk1NA==&amp;mid=2247514273&amp;idx=1&amp;sn=57ea11919d135872b452fe07e645c3fd</link>
   <description><![CDATA[Claude Code创造者访谈：编程细节将被AI解决，开发者应转向跨领域通才。<ul><li>提出“编码问题已基本解决”，工程师个人生产效率因AI提升200%</li><li>预言未来核心能力是“任务拆解直觉”和“抽象编排”，而非传统编码技能</li></ul>]]></description>
@@ -85,6 +109,22 @@
   <category>AI/Tech</category>
   <pubDate>Thu, 26 Feb 2026 00:00:00 GMT</pubDate>
   <source url="https://mp.weixin.qq.com/s?__biz=MzA5MTIxNTY4MQ==&amp;mid=2461158618&amp;idx=1&amp;sn=5d33a974b7f2f8ba6a52bdecba55f557">AI工程化</source>
+</item>
+<item>
+  <title>善战者无赫赫之功</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzU2MTgzMjQyMA==&amp;mid=2247485150&amp;idx=1&amp;sn=17cfe024267ea0b059a18880e70ea2e7</link>
+  <description><![CDATA[通过唯品会和李牧的例子，探讨商业中“无聊”和“被忽视”作为竞争优势的深度思考。<ul><li>提出反直觉的观点：被媒体忽视的“无聊”公司可能拥有更坚固的护城河。</li><li>用历史典故（李牧）和现代商业案例（沈亚）进行类比论证，生动有力。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzU2MTgzMjQyMA==&amp;mid=2247485150&amp;idx=1&amp;sn=17cfe024267ea0b059a18880e70ea2e7">周喆吾</source>
+</item>
+<item>
+  <title>为什么你公司的内部创业大概率会死？Conviction!</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzU2MTgzMjQyMA==&amp;mid=2247485145&amp;idx=1&amp;sn=8d29ce979b84d90e1ec1746212cd3962</link>
+  <description><![CDATA[深度剖析大公司内部创业失败的根源——Conviction（定力）缺失与代理人困局。<ul><li>精准指出内部创业的核心瓶颈是“Conviction”而非智力或战略。</li><li>生动描述了“代理人困局”和创始人决策心理随时间变化的动态矛盾。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzU2MTgzMjQyMA==&amp;mid=2247485145&amp;idx=1&amp;sn=8d29ce979b84d90e1ec1746212cd3962">周喆吾</source>
 </item>
 <item>
   <title>揭开具身智能黑盒！清华等团队破译隐藏动力学密码：极限环编码行为</title>
@@ -109,6 +149,14 @@
   <category>AI/Tech</category>
   <pubDate>Thu, 26 Feb 2026 00:00:00 GMT</pubDate>
   <source url="https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&amp;mid=2649790918&amp;idx=2&amp;sn=6d20a4c9af908dcbf1d1eab5e04176bc">DeepTech深科技</source>
+</item>
+<item>
+  <title>要么做一个Agent产品，要么让你的产品能被Agent使用</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzU1MTAwNzY4Mg==&amp;mid=2247490691&amp;idx=1&amp;sn=374c233b18184cd08d742539fc67237b</link>
+  <description><![CDATA[分析 Agent 的“终端派”与“电脑派”差异，探讨未来应用如何进行 Agent 适配。<ul><li>清晰划分了“终端派”与“电脑派”Agent的本质区别在于是否拥有独立、持久的运行环境与权限。</li><li>指出“Agent适配”将成为未来应用的必选项，并给出了具体路径（如提供CLI控制）。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzU1MTAwNzY4Mg==&amp;mid=2247490691&amp;idx=1&amp;sn=374c233b18184cd08d742539fc67237b">喜新</source>
 </item>
 <item>
   <title>ICLR2026 Oral | 当情感识别不再是分类题：EmotionThinker 让 SpeechLLM 学会“解释情绪”</title>
@@ -163,7 +211,7 @@
   <link>https://mp.weixin.qq.com/s?__biz=MzU2MTgzMjQyMA==&amp;mid=2247485159&amp;idx=1&amp;sn=a33140f470974628bd7f07220e9c5c2e</link>
   <description><![CDATA[提出 AI Agent 公司应效仿量化对冲基金的人才体系，强调个人英雄主义与系统闭缘。<ul><li>AI顶尖人才薪酬已对标二十年前的量化基金，反映出行业对极端智力资本的争夺。</li><li>成功的AI Agent公司与量化基金在“系统闭环”和“寻找edge”的核心逻辑上高度相似。</li></ul>]]></description>
   <category>AI/Tech</category>
-  <pubDate></pubDate>
+  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
   <source url="https://mp.weixin.qq.com/s?__biz=MzU2MTgzMjQyMA==&amp;mid=2247485159&amp;idx=1&amp;sn=a33140f470974628bd7f07220e9c5c2e">周喆吾</source>
 </item>
 <item>
@@ -171,7 +219,7 @@
   <link>https://mp.weixin.qq.com/s?__biz=MzA5MTIxNTY4MQ==&amp;mid=2461158607&amp;idx=1&amp;sn=cb22aaa404fc6129dd3185a32faab410</link>
   <description><![CDATA[详解 OpenAI Responses API 的 WebSocket 模式，提供代码示例与性能优化逻辑。<ul><li>连接方式从“每次打电话重新自我介绍”的HTTP模式，变为保持会话状态的WebSocket持久连接。</li><li>通过连接级内存缓存避免状态重建，显著提升多轮工具调用任务的性能。</li></ul>]]></description>
   <category>AI/Tech</category>
-  <pubDate></pubDate>
+  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
   <source url="https://mp.weixin.qq.com/s?__biz=MzA5MTIxNTY4MQ==&amp;mid=2461158607&amp;idx=1&amp;sn=cb22aaa404fc6129dd3185a32faab410">AI工程化</source>
 </item>
 <item>
@@ -227,7 +275,7 @@
   <link>https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA==&amp;mid=2247504378&amp;idx=1&amp;sn=791f1291cb2ce5645cd641a68788b5dd</link>
   <description>解析谷歌最新论文 Magma/SkipUpdate，揭示了“随机丢弃 50% 梯度更新”反而能提升模型性能的几何正则化原理。<ul><li>随机丢弃50%梯度更新的SkipUpdate策略，在多个模型规模上击败了Adam、Muon等SOTA优化器。</li><li>其有效性源于随机掩码引入的曲率相关几何正则化，能自动避开陡峭的局部最优，偏向平坦区域。</li></ul></description>
   <category>AI/Tech</category>
-  <pubDate></pubDate>
+  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
   <source url="https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA==&amp;mid=2247504378&amp;idx=1&amp;sn=791f1291cb2ce5645cd641a68788b5dd">PaperAgent</source>
 </item>
 <item>
@@ -235,7 +283,7 @@
   <link>https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=2651275912&amp;idx=1&amp;sn=28684e1adf869f59fd295dd4184c6890</link>
   <description>Claude Code 创始人深度访谈，揭示了未来编程范式的剧变与 Agent 开发理念。<ul><li>代码保质期仅数月，围绕当前模型做产品很快会被下一代能力抹平</li><li>Agent能力边界每几个月重写一次，工程师需保持“新手心态”不断重置认知</li></ul></description>
   <category>AI/Tech</category>
-  <pubDate></pubDate>
+  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
   <source url="https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=2651275912&amp;idx=1&amp;sn=28684e1adf869f59fd295dd4184c6890">InfoQ</source>
 </item>
 <item>
@@ -243,7 +291,7 @@
   <link>https://mp.weixin.qq.com/s?__biz=MzUxNzQ5MTExNw==&amp;mid=2247497613&amp;idx=1&amp;sn=b7dfc41a83978a789ac582c8034faac8</link>
   <description>深度硬核技术文，从几何和拓扑视角分析了 Attention Sink 及其对 Transformer 架构的影响。<ul><li>ASink从“资源浪费”被重新解读为维持稳定性的“几何锚点”</li><li>处理ASink的方式成为设计未来高效Transformer架构的核心决策点</li></ul></description>
   <category>AI/Tech</category>
-  <pubDate></pubDate>
+  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
   <source url="https://mp.weixin.qq.com/s?__biz=MzUxNzQ5MTExNw==&amp;mid=2247497613&amp;idx=1&amp;sn=b7dfc41a83978a789ac582c8034faac8">zartbot</source>
 </item>
 <item>
@@ -259,7 +307,7 @@
   <link>https://mp.weixin.qq.com/s?__biz=MzkzNDQxOTU2MQ==&amp;mid=2247513239&amp;idx=1&amp;sn=195ef76bb783062603cbd2dd24421ebf</link>
   <description>探讨了 Agent 脱离人类干预实现‘自举进化’的哲学与实践可能性。<ul><li>AI进化循环可分为：人引导AI写、AI自己写、AI写给自己用三个阶段</li><li>在最终阶段，AI技能的传播与使用发生在AI之间，人类已不在循环内</li></ul></description>
   <category>AI/Tech</category>
-  <pubDate></pubDate>
+  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
   <source url="https://mp.weixin.qq.com/s?__biz=MzkzNDQxOTU2MQ==&amp;mid=2247513239&amp;idx=1&amp;sn=195ef76bb783062603cbd2dd24421ebf">赛博禅心</source>
 </item>
 <item>
@@ -267,7 +315,7 @@
   <link>https://mp.weixin.qq.com/s?__biz=MzkzNDQxOTU2MQ==&amp;mid=2247513320&amp;idx=1&amp;sn=72c6634b088560f6cf21655f0636e3b3</link>
   <description>详尽解读了智谱 GLM-5 的技术报告，涵盖了 MLA、Muon Split 等关键架构改进及其在竞技场的表现。<ul><li>GLM-5以744B总参、40B激活的MoE架构，在关键指数上被评为“最好的开源模型”。</li><li>采用了DSA稀疏注意力等新架构技术，在20B token预训练下追平了DeepSeek-V3近千B token的效果。</li></ul></description>
   <category>AI/Tech</category>
-  <pubDate></pubDate>
+  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
   <source url="https://mp.weixin.qq.com/s?__biz=MzkzNDQxOTU2MQ==&amp;mid=2247513320&amp;idx=1&amp;sn=72c6634b088560f6cf21655f0636e3b3">赛博禅心</source>
 </item>
 <item>
@@ -307,7 +355,7 @@
   <link>https://mp.weixin.qq.com/s?__biz=MzA4NzgzMjA4MQ==&amp;mid=2453480552&amp;idx=1&amp;sn=e7db7d6a6ed825e392a4a57014a7fd9f</link>
   <description>探讨了 AI Agent 基因组进化协议 EvoMap，提出了 Agent 能力共享的新范式。<ul><li>EvoMap是AI Agent的“DNA系统”，通过基因胶囊和遗传协议共享经验</li><li>旨在解决Agent重复造轮子导致的巨大算力内耗问题</li></ul></description>
   <category>AI/Tech</category>
-  <pubDate></pubDate>
+  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
   <source url="https://mp.weixin.qq.com/s?__biz=MzA4NzgzMjA4MQ==&amp;mid=2453480552&amp;idx=1&amp;sn=e7db7d6a6ed825e392a4a57014a7fd9f">AGI Hunt</source>
 </item>
 <item>
@@ -315,7 +363,7 @@
   <link>https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&amp;mid=2247505017&amp;idx=1&amp;sn=3d98ac69d301ef43c67f8be150c4b0c9</link>
   <description>文章探讨了AI视频原生音画同步与独立TTS模型的优劣，提出通过音频驱动视频的稳定工作流，并实测了MiniMax Speech-2.8在复杂情绪控制上的表现。<ul><li>对于对话场景，先生成高质量音频再驱动视频生成，效果优于先视频后配音</li><li>新一代语音合成模型在情绪转换、语气词、换气等细节上大幅提升，增强了表现力</li></ul></description>
   <category>AI/Tech</category>
-  <pubDate></pubDate>
+  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
   <source url="https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&amp;mid=2247505017&amp;idx=1&amp;sn=3d98ac69d301ef43c67f8be150c4b0c9">卡尔的AI沃茨</source>
 </item>
 <item>
@@ -323,7 +371,7 @@
   <link>https://mp.weixin.qq.com/s?__biz=MzAxNTYwMzcyNw==&amp;mid=2247486010&amp;idx=1&amp;sn=1f9ccbd59875061459f3fe2e53ffe3e8</link>
   <description>提出“终局谬误”概念，分析了谷歌搜索在 AI 冲击下反而收入暴涨背后的生产者视角与时间差逻辑。<ul><li>提出“终局谬误”：将长期趋势误判为眼前现实，是聪明人在技术革命中亏钱的常见原因。</li><li>以Google搜索为例，其业务在AI冲击下收入不降反升，因AI反而增强了其“匹配”的商业本质。</li></ul></description>
   <category>AI/Tech</category>
-  <pubDate></pubDate>
+  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
   <source url="https://mp.weixin.qq.com/s?__biz=MzAxNTYwMzcyNw==&amp;mid=2247486010&amp;idx=1&amp;sn=1f9ccbd59875061459f3fe2e53ffe3e8">MindCode</source>
 </item>
 <item>
@@ -331,7 +379,7 @@
   <link>https://mp.weixin.qq.com/s?__biz=MzkxNjcyNTk2NA==&amp;mid=2247490300&amp;idx=1&amp;sn=d089bb4f299455fa8cbbd1ecf22efd01</link>
   <description>讲述了 Capability Evolver 在海外平台的遭遇及随后推出的全球进化网络 Evomap，探讨了 Agent 协作的新范式。<ul><li>能让Agent自我进化的Skill迅速火爆但被下架，凸显了平台治理与开发者权益的矛盾。</li><li>事件催生了Evomap——一个让Agent接入全球进化网络、共享“基因胶囊”的开源项目。</li></ul></description>
   <category>AI/Tech</category>
-  <pubDate></pubDate>
+  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
   <source url="https://mp.weixin.qq.com/s?__biz=MzkxNjcyNTk2NA==&amp;mid=2247490300&amp;idx=1&amp;sn=d089bb4f299455fa8cbbd1ecf22efd01">探索AGI</source>
 </item>
 <item>
@@ -357,54 +405,6 @@
   <category>AI/Tech</category>
   <pubDate>2026-02-23</pubDate>
   <source url="https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&amp;mid=2247717873&amp;idx=1&amp;sn=29e33f2257f6b64dc1b4550c28c6ec00">PaperWeekly</source>
-</item>
-<item>
-  <title>Adam如何魔改Muon？融合正交与自适应，NAMO刷新LLM训练上限</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&amp;mid=2247717873&amp;idx=2&amp;sn=d65ff3f775357b499141210e12c75c7e</link>
-  <description>详细解析了UCLA团队提出的NAMO优化器，该算法完美融合了Muon的正交化与Adam的自适应特性。<ul><li>NAMO通过标量自适应保留了更新方向的正交性，计算开销极低。</li><li>NAMO-D采用神经元级自适应并引入截断机制，以部分正交性换取更高的收敛性能。</li></ul></description>
-  <category>AI/Tech</category>
-  <pubDate>2026-02-23</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&amp;mid=2247717873&amp;idx=2&amp;sn=d65ff3f775357b499141210e12c75c7e">PaperWeekly</source>
-</item>
-<item>
-  <title>Terminal-Bench解决率暴涨20%！华为CLI-Gym：环境交互类任务首个公开的数据Scaling方案</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651017781&amp;idx=2&amp;sn=f81b5079679e384a7845ebbb55a2ae80</link>
-  <description>华为发布 CLI-Gym：首个针对 Terminal-Bench 环境交互类任务的自动化数据规模化生产方案。<ul><li>创新地将数据生产管线本身建模为Agentic Coding任务，实现自动化问题环境生成与验证。</li><li>以Codebase、Dockerfile与Base Image为核心抽象，形成了统一、可组合的环境表达框架。</li></ul></description>
-  <category>AI/Tech</category>
-  <pubDate>2026-02-23</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651017781&amp;idx=2&amp;sn=f81b5079679e384a7845ebbb55a2ae80">机器之心</source>
-</item>
-<item>
-  <title>别再一键贴代码！Anthropic点名3种「用AI不退化」真方法</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652677414&amp;idx=3&amp;sn=19be5d753069a23250291acc6efe1d5c</link>
-  <description>基于Anthropic的最新研究，深入探讨了AI编程助手如何导致开发者技能退化，并总结出三条能保持技能的学习路径。<ul><li>AI辅助编程并未显著缩短任务完成时间，但显著降低了开发者的技能评估得分。</li><li>独立解决问题的过程中遇到的错误和调试经历，对编程技能的形成至关重要。</li></ul></description>
-  <category>AI/Tech</category>
-  <pubDate>2026-02-24</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652677414&amp;idx=3&amp;sn=19be5d753069a23250291acc6efe1d5c">新智元</source>
-</item>
-<item>
-  <title>DeepMind：智能体越多越乱，Agent天花板出现了？</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651017907&amp;idx=3&amp;sn=991adfaa9f4f6a5e3109623514c73a08</link>
-  <description>深度解读DeepMind关于多智能体系统扩展性的研究，挑战了“智能体越多越好”的盲目规模化直觉，提出了首个定量规模化原则。<ul><li>挑战了“智能体越多越好”的普遍假设，提出了智能体系统的首个定量规模化原则。</li><li>性能瓶颈与任务的具体属性（如部分可观测性、自适应策略）不匹配有关。</li></ul></description>
-  <category>AI/Tech</category>
-  <pubDate>2026-02-24</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651017907&amp;idx=3&amp;sn=991adfaa9f4f6a5e3109623514c73a08">机器之心</source>
-</item>
-<item>
-  <title>32倍压缩率下性能反超25个点！破解长文本压缩「翻车」难题 | ICLR 2026</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247870196&amp;idx=3&amp;sn=fb7f6e2b5717508fd05048c43820ea11</link>
-  <description>详细介绍了阿里团队在 ICLR 2026 发表的长文本压缩框架 COMI，通过边际信息增益解决冗余问题。<ul><li>提出“边际信息增益”指标，将压缩决策从单维相关性升级为“相关性-冗余性”双维度权衡。</li><li>采用粗粒度预算分配与细粒度token融合的两阶段策略，实现自适应精准压缩。</li></ul></description>
-  <category>AI/Tech</category>
-  <pubDate>2026-02-23</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247870196&amp;idx=3&amp;sn=fb7f6e2b5717508fd05048c43820ea11">量子位</source>
-</item>
-<item>
-  <title>谷歌开源PaperBanana：顶会级论文自动配图</title>
-  <link>https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA==&amp;mid=2247504395&amp;idx=2&amp;sn=4f6b71c9d3ef20eaeb12722919fecb49</link>
-  <description>谷歌开源学术配图框架PaperBanana，通过多智能体协作解决AI科学家在视觉传达上的短板。<ul><li>采用“参考驱动+多智能体协作”框架，而非零样本生成，确保了图表的学术规范性和逻辑正确性。</li><li>构建了首个学术插图生成基准PaperBananaBench，为评估提供了标准。</li></ul></description>
-  <category>AI/Tech</category>
-  <pubDate>2026-02-24</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA==&amp;mid=2247504395&amp;idx=2&amp;sn=4f6b71c9d3ef20eaeb12722919fecb49">PaperAgent</source>
 </item>
 </channel>
 </rss>

@@ -39,6 +39,20 @@
   ],
   "worth_reading": [
     {
+      "title": "Claude Code 新功能：手机远程控制",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzkzNDQxOTU2MQ==&mid=2247513353&idx=1&sn=4b2b8237fdf043efa807ee4a27cb5651",
+      "source": "赛博禅心",
+      "score": 83,
+      "why": "对开发者意味着一种新的、更便捷的跨设备编程协作与监控工作流。"
+    },
+    {
+      "title": "Anthropic发布Claude Code Security：AI开始接管代码安全",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA5MTIxNTY4MQ==&mid=2461158599&idx=1&sn=f243e7e49e8defdf31f506444be2d36c",
+      "source": "AI工程化",
+      "score": 83,
+      "why": "对开发者意味着可能获得一个强大的AI安全助手，对投资者则需重新评估传统安全软件公司的价值。"
+    },
+    {
       "title": "让Claude和Kimi接管真实系统，跑个实验差点把服务器干崩了",
       "link": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247718008&idx=1&sn=7fb65e64bd7565b688cd18aa82599504",
       "source": "PaperWeekly",
@@ -60,6 +74,13 @@
       "why": "对机器人学和具身AI研究者意味着一种实现自然、主动人机交互的新架构范式。"
     },
     {
+      "title": "陶哲轩来给AI数学泼冷水了",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247870617&idx=2&sn=822c44d2ffa8c1a5d092859394fde186",
+      "source": "量子位",
+      "score": 82,
+      "why": "对AI研究者和数学家意味着需要共同设计新的交互与验证范式，以真正让AI推动数学发展。"
+    },
+    {
       "title": "深度｜Claude Code创造者：面向六个月后模型开发，而非当下模型；未来人人皆可开发软件，跨领域通才更具竞争力",
       "link": "https://mp.weixin.qq.com/s?__biz=MzI4NTgxMDk1NA==&mid=2247514273&idx=1&sn=57ea11919d135872b452fe07e645c3fd",
       "source": "Z Potentials",
@@ -72,6 +93,20 @@
       "source": "AI工程化",
       "score": 78,
       "why": "对个人开发者和AI爱好者意味着可以更灵活地利用分散的算力资源，突破单机性能瓶颈。"
+    },
+    {
+      "title": "善战者无赫赫之功",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzU2MTgzMjQyMA==&mid=2247485150&idx=1&sn=17cfe024267ea0b059a18880e70ea2e7",
+      "source": "周喆吾",
+      "score": 78,
+      "why": "对企业家和投资者是一种重要的思维校准：警惕幸存者偏差，关注那些沉默但强大的复利机器。"
+    },
+    {
+      "title": "为什么你公司的内部创业大概率会死？Conviction!",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzU2MTgzMjQyMA==&mid=2247485145&idx=1&sn=8d29ce979b84d90e1ec1746212cd3962",
+      "source": "周喆吾",
+      "score": 78,
+      "why": "对企业管理者是重要的战略警醒：创新成功的关键在于穿透组织的决心和资源定力，而非完美的初始计划。"
     },
     {
       "title": "揭开具身智能黑盒！清华等团队破译隐藏动力学密码：极限环编码行为",
@@ -93,6 +128,13 @@
       "source": "DeepTech深科技",
       "score": 75,
       "why": "对开发者和企业技术负责人而言，这提供了降低大模型部署成本、实现本地化或边缘部署的新可能，是推动AI普惠化的重要技术进展。"
+    },
+    {
+      "title": "要么做一个Agent产品，要么让你的产品能被Agent使用",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzU1MTAwNzY4Mg==&mid=2247490691&idx=1&sn=374c233b18184cd08d742539fc67237b",
+      "source": "喜新",
+      "score": 75,
+      "why": "对产品经理和开发者意味着一个明确的未来路线图：你的产品必须准备好被AI Agent作为主要用户来使用。"
     }
   ],
   "neutral": [
@@ -181,6 +223,13 @@
       "why": "对企业决策者和产业AI开发者意味着需要重新审视AI在企业的核心价值，聚焦于可落地、可验证的流程自动化。"
     },
     {
+      "title": "CVPR 2026新增赛道！EgoCross挑战赛：用四大杀手级场景，考验多模态大模型泛化极限",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247870617&idx=3&sn=71e64d642380f11cffdcd6f1c69a0314",
+      "source": "量子位",
+      "score": 63,
+      "why": "对AI研究员意味着一个前沿的评测平台，用于推动MLLMs在复杂真实世界场景中的实用化突破。"
+    },
+    {
       "title": "王鹏：狩猎人生",
       "link": "https://mp.weixin.qq.com/s?__biz=Mzg4MzI4OTA3OQ==&mid=2247519095&idx=1&sn=c8def6ace38fbf7640e71da6a05c2e4e",
       "source": "緑洲资本 Vitalbridge",
@@ -200,6 +249,13 @@
       "source": "InfoQ",
       "score": 62,
       "why": "对移动生态的参与者而言，这是定义下一个十年终端体验与平台权力的战略机遇，端侧AI能力将成为设备的核心竞争力。"
+    },
+    {
+      "title": "剧变已经发生，而你浑然不知",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIwODA3MDUwOQ==&mid=2652775926&idx=1&sn=2557696510dee905b1db51e78c82e053",
+      "source": "张无常",
+      "score": 62,
+      "why": "对普通职场人士是一记强烈的警钟：AI带来的职业重塑不是未来时，而是现在进行时，需立即采取应对策略。"
     },
     {
       "title": "Claude has some conflicts",

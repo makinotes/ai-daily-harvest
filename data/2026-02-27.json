@@ -1,10 +1,10 @@
 {
   "date": "2026-02-27",
-  "total": 31,
+  "total": 39,
   "verdict_counts": {
     "must_read": 5,
-    "worth_reading": 8,
-    "neutral": 18
+    "worth_reading": 14,
+    "neutral": 20
   },
   "articles": [
     {
@@ -99,6 +99,42 @@
       "verdict": "must_read"
     },
     {
+      "title": "Claude Code 新功能：手机远程控制",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzkzNDQxOTU2MQ==&mid=2247513353&idx=1&sn=4b2b8237fdf043efa807ee4a27cb5651",
+      "source": "赛博禅心",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-25",
+      "summary": "Claude Code 新推出的远程控制功能详解，涵盖使用方法、安全机制及与云端版的区别。",
+      "core_point": "① Anthropic为Claude Code新增了Remote Control功能，允许用户通过浏览器或手机远程连接和控制本地正在运行的Claude Code项目。② 用户可以通过扫描二维码、访问URL或在会话列表中找到在线会话进行连接，通信通过Anthropic API的HTTPS通道进行，本地无需开放入站端口。③ 该功能使开发者能够更灵活地通过移动设备监控和管理本地开发任务，但需注意它与完全运行在云端的‘Claude Code on the Web’服务在架构和适用场景上存在区别。",
+      "highlights": [
+        "提供两种启动远程会话的方式：直接运行命令或通过斜杠命令，并可选择携带现有对话历史。",
+        "强调安全机制，所有通信走HTTPS，本地无开放端口，依赖短期凭证和自动重连。"
+      ],
+      "why_matters": "对开发者意味着一种新的、更便捷的跨设备编程协作与监控工作流。",
+      "score": 83,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "Anthropic发布Claude Code Security：AI开始接管代码安全",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA5MTIxNTY4MQ==&mid=2461158599&idx=1&sn=f243e7e49e8defdf31f506444be2d36c",
+      "source": "AI工程化",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "",
+      "summary": "Anthropic 发布 Claude Code Security 工具，展示 AI 在自动化代码安全审计方面的突破性成果。",
+      "core_point": "① Anthropic发布了Claude Code Security，这是一个能理解代码逻辑、扫描漏洞并生成修复补丁的AI安全工具。② 该工具通过像人类一样阅读代码来发现复杂漏洞，并对每个发现进行多轮验证以降低误报，已在开源库中发现500多个长期存在的漏洞。③ 它的出现可能加速安全行业的攻防竞赛，并对传统依赖规则库的安全公司构成挑战，同时所有AI生成的修复建议仍需人工审核。",
+      "highlights": [
+        "超越基于规则的模式匹配，能理解代码逻辑和数据流以发现复杂漏洞。",
+        "发布后导致多家网络安全公司股价下跌，反映了市场对AI自动化核心安全工作的预期。"
+      ],
+      "why_matters": "对开发者意味着可能获得一个强大的AI安全助手，对投资者则需重新评估传统安全软件公司的价值。",
+      "score": 83,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
       "title": "让Claude和Kimi接管真实系统，跑个实验差点把服务器干崩了",
       "link": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247718008&idx=1&sn=7fb65e64bd7565b688cd18aa82599504",
       "source": "PaperWeekly",
@@ -153,6 +189,24 @@
       "verdict": "worth_reading"
     },
     {
+      "title": "陶哲轩来给AI数学泼冷水了",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247870617&idx=2&sn=822c44d2ffa8c1a5d092859394fde186",
+      "source": "量子位",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-25",
+      "summary": "陶哲轩针对AI生成低质量数学内容的警示，提出了“选择性摩擦”和新的数学策略形式化语言构想。",
+      "core_point": "① 陶哲轩指出，AI在生成大量数学新想法的同时，也显著降低了想法的平均质量，许多AI生成的方案被证明是错误的。② 他提出数学进步公式应修正为“优秀新想法数量”乘以“想法库信噪比”，AI可能通过增加低质量想法而降低整体信噪比。③ 为抑制负面影响，他建议开发一种用于描述数学策略（而非完整证明）的新形式化语言，为AI生成的想法引入“选择性摩擦”，引导其产出更优质的结果。",
+      "highlights": [
+        "批判性地指出AI生成数学内容是一把“双刃剑”，在增加想法数量的同时可能阻碍进步。",
+        "提出通过设计新的形式化语言来为AI数学想法增加“选择性摩擦”的解决方案。"
+      ],
+      "why_matters": "对AI研究者和数学家意味着需要共同设计新的交互与验证范式，以真正让AI推动数学发展。",
+      "score": 82,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
       "title": "深度｜Claude Code创造者：面向六个月后模型开发，而非当下模型；未来人人皆可开发软件，跨领域通才更具竞争力",
       "link": "https://mp.weixin.qq.com/s?__biz=MzI4NTgxMDk1NA==&mid=2247514273&idx=1&sn=57ea11919d135872b452fe07e645c3fd",
       "source": "Z Potentials",
@@ -184,6 +238,42 @@
         "完全兼容现有本地API工具链，用户感知如同在本地使用，降低了使用门槛。"
       ],
       "why_matters": "对个人开发者和AI爱好者意味着可以更灵活地利用分散的算力资源，突破单机性能瓶颈。",
+      "score": 78,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "善战者无赫赫之功",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzU2MTgzMjQyMA==&mid=2247485150&idx=1&sn=17cfe024267ea0b059a18880e70ea2e7",
+      "source": "周喆吾",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "",
+      "summary": "通过唯品会和李牧的例子，探讨商业中“无聊”和“被忽视”作为竞争优势的深度思考。",
+      "core_point": "① 作者通过对比关羽、诸葛亮与李牧，以及知名高调企业家与低调的唯品会创始人沈亚，主张“无聊”和“被忽视”本身可能是一种强大的商业竞争优势。② 文章以李牧长期练兵、一战定乾坤的典故，以及沈亚默默经营、持续盈利的案例作为论据，说明避免频繁的戏剧性冲突和媒体关注，专注于内部复利式增长的企业往往更持久。③ 这意味着在评价企业时，不应只关注高光时刻和英雄叙事，而应更重视其是否构建了稳定、可持续的运营系统。",
+      "highlights": [
+        "提出反直觉的观点：被媒体忽视的“无聊”公司可能拥有更坚固的护城河。",
+        "用历史典故（李牧）和现代商业案例（沈亚）进行类比论证，生动有力。"
+      ],
+      "why_matters": "对企业家和投资者是一种重要的思维校准：警惕幸存者偏差，关注那些沉默但强大的复利机器。",
+      "score": 78,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "为什么你公司的内部创业大概率会死？Conviction!",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzU2MTgzMjQyMA==&mid=2247485145&idx=1&sn=8d29ce979b84d90e1ec1746212cd3962",
+      "source": "周喆吾",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "",
+      "summary": "深度剖析大公司内部创业失败的根源——Conviction（定力）缺失与代理人困局。",
+      "core_point": "① 作者认为大企业内部创业失败率高，核心原因不是缺聪明人，而是缺乏“Conviction”，即在信息不全时做出高质量判断并投入足够资源穿透组织阻力的决心。② 文章用Uber、谷歌、Meta等公司的内部项目失败案例，以及创始人自身预算动摇的经历，论证了“代理人问题”和创始人“今天的我不信任昨天的我”的心理是结构性困境。③ 这意味着企业不应盲目学习字节跳动的广泛孵化模式，而应学习拼多多和亚马逊“少开枪，但每一枪都要大、要准”的集中资源打法。",
+      "highlights": [
+        "精准指出内部创业的核心瓶颈是“Conviction”而非智力或战略。",
+        "生动描述了“代理人困局”和创始人决策心理随时间变化的动态矛盾。"
+      ],
+      "why_matters": "对企业管理者是重要的战略警醒：创新成功的关键在于穿透组织的决心和资源定力，而非完美的初始计划。",
       "score": 78,
       "level": "精读",
       "verdict": "worth_reading"
@@ -238,6 +328,24 @@
         "开源了压缩模型，最高压缩率达95%且精度损失极小，显著优于传统方法"
       ],
       "why_matters": "对开发者和企业技术负责人而言，这提供了降低大模型部署成本、实现本地化或边缘部署的新可能，是推动AI普惠化的重要技术进展。",
+      "score": 75,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "要么做一个Agent产品，要么让你的产品能被Agent使用",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzU1MTAwNzY4Mg==&mid=2247490691&idx=1&sn=374c233b18184cd08d742539fc67237b",
+      "source": "喜新",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "",
+      "summary": "分析 Agent 的“终端派”与“电脑派”差异，探讨未来应用如何进行 Agent 适配。",
+      "core_point": "① 作者提出，未来做AI产品需在“终端派”（如Claude Code，AI作为副驾）和“电脑派”（如OpenClaw，AI拥有独立设备权限）之间做出选择，后者能实现7x24小时异步任务。② 对于不做Agent的普通应用，未来的关键适配方向是让自己能被Agent低成本调用，例如提供CLI接口或封装友好的API（如飞书MCP）。③ 这意味着所有产品都需要思考如何接入以Agent为主流用户的未来生态，其交互界面将主要为Agent而非人类设计。",
+      "highlights": [
+        "清晰划分了“终端派”与“电脑派”Agent的本质区别在于是否拥有独立、持久的运行环境与权限。",
+        "指出“Agent适配”将成为未来应用的必选项，并给出了具体路径（如提供CLI控制）。"
+      ],
+      "why_matters": "对产品经理和开发者意味着一个明确的未来路线图：你的产品必须准备好被AI Agent作为主要用户来使用。",
       "score": 75,
       "level": "精读",
       "verdict": "worth_reading"
@@ -460,6 +568,24 @@
       "verdict": "neutral"
     },
     {
+      "title": "CVPR 2026新增赛道！EgoCross挑战赛：用四大杀手级场景，考验多模态大模型泛化极限",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247870617&idx=3&sn=71e64d642380f11cffdcd6f1c69a0314",
+      "source": "量子位",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-25",
+      "summary": "CVPR 2026 EgoCross 挑战赛发布，聚焦多模态大模型在外科、工业等跨域场景的泛化能力。",
+      "core_point": "① CVPR 2026 EgoVis Workshop将举办EgoCross挑战赛，旨在测试多模态大模型在跨域第一视角视频问答中的泛化能力。② 比赛数据集聚焦外科手术、工业装配、极限运动和动物视角四大高难度专业领域，包含798个视频和957个QA对，旨在突破模型在日常场景外的性能瓶颈。③ 该挑战赛为研究者提供了评估和提升MLLMs在真实、复杂场景下理解能力的标杆，推动第一人称视觉与具身智能的发展。",
+      "highlights": [
+        "赛事专注于四大高难度、专业化领域，旨在检验模型在“未知领域”的零样本/少样本泛化能力。",
+        "设置“受限资源”和“开源”双赛道，以满足不同研究目标和资源条件团队的需求。"
+      ],
+      "why_matters": "对AI研究员意味着一个前沿的评测平台，用于推动MLLMs在复杂真实世界场景中的实用化突破。",
+      "score": 63,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
       "title": "王鹏：狩猎人生",
       "link": "https://mp.weixin.qq.com/s?__biz=Mzg4MzI4OTA3OQ==&mid=2247519095&idx=1&sn=c8def6ace38fbf7640e71da6a05c2e4e",
       "source": "緑洲资本 Vitalbridge",
@@ -509,6 +635,24 @@
         "指出端侧大模型的核心价值在于隐私、离线与实时性，目标是实现“人脑级”终端AGI"
       ],
       "why_matters": "对移动生态的参与者而言，这是定义下一个十年终端体验与平台权力的战略机遇，端侧AI能力将成为设备的核心竞争力。",
+      "score": 62,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "剧变已经发生，而你浑然不知",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIwODA3MDUwOQ==&mid=2652775926&idx=1&sn=2557696510dee905b1db51e78c82e053",
+      "source": "张无常",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "",
+      "summary": "翻译 Matt Shumer 的深度长文，预测 2026 年 AI 对生产力的彻底改造及应对策略。",
+      "core_point": "① 作者通过与其制造业工程师哥哥的对话，以及翻译HyperWrite CEO的文章，主张AI带来的变革堪比工业革命或电力普及，其影响深远且正在加速发生。② 文章引用从业者观点，指出AI能力进展被低估，免费版与付费版体验差距巨大，且变革将由极少数公司和研究者主导。③ 这意味着所有行业从业者，尤其是知识工作者，必须正视AI对工作的冲击，并主动学习如何与AI协作，而非认为其与己无关。",
+      "highlights": [
+        "以个人家庭对话作为引子，增强了论述的紧迫感和普适性。",
+        "强调AI变革的“系统性”和“不可避免性”，并将其与新冠疫情初期的社会认知变化相类比。"
+      ],
+      "why_matters": "对普通职场人士是一记强烈的警钟：AI带来的职业重塑不是未来时，而是现在进行时，需立即采取应对策略。",
       "score": 62,
       "level": "速览",
       "verdict": "neutral"
