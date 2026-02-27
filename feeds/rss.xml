@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
 <channel>
-  <title>AI Daily Harvest</title>
-  <link>https://github.com/makinotes/ai-daily-harvest</link>
+  <title>AI Daily Feed</title>
+  <link>https://github.com/makinotes/ai-daily-feed</link>
   <description>Daily AI learning feed. 40+ sources scored and structured.</description>
   <language>zh-cn</language>
   <lastBuildDate>Fri, 27 Feb 2026 00:00:00 GMT</lastBuildDate>

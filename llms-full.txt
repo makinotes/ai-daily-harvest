@@ -1,4 +1,4 @@
-# AI Daily Harvest — Full Guide
+# AI Daily Feed — Full Guide
 
 ## Overview
 
@@ -12,7 +12,7 @@ Updated most weekdays. 427+ articles in the cumulative dataset. Data since 2026-
 
 Fetch today's picks grouped by verdict:
 
-  GET https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/lists/daily-picks.json
+  GET https://raw.githubusercontent.com/makinotes/ai-daily-feed/master/lists/daily-picks.json
 
 ```json
 {
@@ -37,7 +37,7 @@ Fetch today's picks grouped by verdict:
 
 30-day category index:
 
-  GET https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/indexes/by-category.json
+  GET https://raw.githubusercontent.com/makinotes/ai-daily-feed/master/indexes/by-category.json
 
 ```json
 {
@@ -61,7 +61,7 @@ Fetch today's picks grouped by verdict:
 
 ### "What's trending this week?"
 
-  GET https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/indexes/trending.json
+  GET https://raw.githubusercontent.com/makinotes/ai-daily-feed/master/indexes/trending.json
 
 ```json
 {
@@ -77,7 +77,7 @@ Fetch today's picks grouped by verdict:
 
 ### "Full article data for deep analysis"
 
-  GET https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/api/{YYYY-MM-DD}.json
+  GET https://raw.githubusercontent.com/makinotes/ai-daily-feed/master/api/{YYYY-MM-DD}.json
 
 ```json
 {
@@ -109,7 +109,7 @@ Fetch today's picks grouped by verdict:
 
 ### "Training data for a content scoring model"
 
-  GET https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/datasets/scored-articles.jsonl
+  GET https://raw.githubusercontent.com/makinotes/ai-daily-feed/master/datasets/scored-articles.jsonl
 
 Each line is one article with all fields. 427+ articles, growing daily. Deduplicated by (pub_date, title). See datasets/README.md for methodology.
 

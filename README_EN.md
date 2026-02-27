@@ -1,4 +1,4 @@
-# AI Daily Harvest
+# AI Daily Feed
 
 > **40+ AI sources, one structured feed, updated every weekday.** Scored, categorized, and ready for both humans and AI agents — so you don't have to build a pipeline just to stay informed.
 
@@ -24,16 +24,16 @@ Sources are continuously expanding. Suggestions welcome via [issues](../../issue
 
 ```bash
 # Today's picks grouped by verdict
-curl -s https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/lists/daily-picks.json | jq '.must_read'
+curl -s https://raw.githubusercontent.com/makinotes/ai-daily-feed/master/lists/daily-picks.json | jq '.must_read'
 
 # Full data for a specific date (replace with any available date)
-curl -s https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/api/$(date +%Y-%m-%d).json
+curl -s https://raw.githubusercontent.com/makinotes/ai-daily-feed/master/api/$(date +%Y-%m-%d).json
 
 # 30-day articles by category
-curl -s https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/indexes/by-category.json | jq '.categories["AI/Tech"][:3]'
+curl -s https://raw.githubusercontent.com/makinotes/ai-daily-feed/master/indexes/by-category.json | jq '.categories["AI/Tech"][:3]'
 
 # Trending keywords this week
-curl -s https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/indexes/trending.json
+curl -s https://raw.githubusercontent.com/makinotes/ai-daily-feed/master/indexes/trending.json
 ```
 
 For LLMs: [`llms.txt`](llms.txt) for quick start, [`llms-full.txt`](llms-full.txt) for the full guide.

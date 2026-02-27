@@ -1,4 +1,4 @@
-# AI Daily Harvest
+# AI Daily Feed
 
 > Daily AI content feed. 40+ sources, scored and structured. JSON for agents, Markdown for humans, JSONL for training.
 
@@ -11,7 +11,7 @@
 ## First step
 
 Today's picks:
-  GET https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/lists/daily-picks.json
+  GET https://raw.githubusercontent.com/makinotes/ai-daily-feed/master/lists/daily-picks.json
 
 ## Files
 

@@ -1,4 +1,4 @@
-# AI Daily Harvest — Scored Articles Dataset
+# AI Daily Feed — Scored Articles Dataset
 
 ## Overview
 

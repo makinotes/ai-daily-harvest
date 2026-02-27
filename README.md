@@ -1,4 +1,4 @@
-# AI Daily Harvest
+# AI Daily Feed
 
 > **40+ AI 信源，一份结构化日报，工作日持续更新。** 评分、分类、开箱即用——人看摘要，Agent 吃 JSON，不用自己建爬虫。
 
@@ -24,16 +24,16 @@
 
 ```bash
 # 今天的精选，按 verdict 分组
-curl -s https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/lists/daily-picks.json | jq '.must_read'
+curl -s https://raw.githubusercontent.com/makinotes/ai-daily-feed/master/lists/daily-picks.json | jq '.must_read'
 
 # 某天的完整数据（替换为任意可用日期）
-curl -s https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/api/$(date +%Y-%m-%d).json
+curl -s https://raw.githubusercontent.com/makinotes/ai-daily-feed/master/api/$(date +%Y-%m-%d).json
 
 # 按分类看最近 30 天
-curl -s https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/indexes/by-category.json | jq '.categories["AI/Tech"][:3]'
+curl -s https://raw.githubusercontent.com/makinotes/ai-daily-feed/master/indexes/by-category.json | jq '.categories["AI/Tech"][:3]'
 
 # 这周在聊什么
-curl -s https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/indexes/trending.json
+curl -s https://raw.githubusercontent.com/makinotes/ai-daily-feed/master/indexes/trending.json
 ```
 
 给 LLM 看：[`llms.txt`](llms.txt) 快速了解，[`llms-full.txt`](llms-full.txt) 完整指南。
