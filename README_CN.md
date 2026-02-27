@@ -8,11 +8,11 @@
 
 ## 你能得到什么
 
-**读者** — 不用刷 40+ 信源，看一份日报就够。每篇文章都有一句话摘要和"为什么重要"，几秒钟就能判断值不值得点进去。打开 [`daily/`](daily/) 直接看，RSS 订阅 [`feeds/rss.xml`](feeds/rss.xml)，每周趋势看 [`feeds/weekly/`](feeds/weekly/)。
+**读者** — 不用刷 40+ 信源，看一份日报就够。每篇文章都有一句话摘要和"为什么重要"，几秒钟就能判断值不值得点进去。打开 [`digest/`](digest/) 直接看，RSS 订阅 [`feeds/rss.xml`](feeds/rss.xml)，每周趋势看 [`feeds/weekly/`](feeds/weekly/)。
 
-**Agent 开发者** — 不用自己建抓取管道，直接给 Agent 喂每日知识更新。每篇文章预提取了关键要点（`highlights`）、结构化推理（`core_point`：论点 → 论据 → 启示）、实践意义（`why_matters`）。用 verdict 决定 Agent 先处理什么，用 category 按领域积累知识。拿 [`lists/daily-picks.json`](lists/daily-picks.json) 看今天的精选，或者 [`data/{date}.json`](data/) 取完整数据。
+**Agent 开发者** — 不用自己建抓取管道，直接给 Agent 喂每日知识更新。每篇文章预提取了关键要点（`highlights`）、结构化推理（`core_point`：论点 → 论据 → 启示）、实践意义（`why_matters`）。用 verdict 决定 Agent 先处理什么，用 category 按领域积累知识。拿 [`lists/daily-picks.json`](lists/daily-picks.json) 看今天的精选，或者 [`api/{date}.json`](api/) 取完整数据。
 
-**模型训练** — 一个带标注的内容质量数据集。每篇文章有多维度评分、verdict 标签、结构化分析字段，可以用来训练评分模型、摘要生成、内容分类。下载 [`datasets/scored-articles.jsonl`](datasets/scored-articles.jsonl)。
+**模型训练** — 一个带标注的内容质量数据集。每篇文章有多维度评分、verdict 标签、结构化分析字段，可以用来训练评分模型、摘要生成、内容分类。下载 [`datasets/scored-articles.jsonl`](datasets/scored-articles.jsonl)，也有 [`CSV 版本`](datasets/scored-articles.csv) 可直接用 Excel 打开。
 
 ## 快速开始
 
@@ -21,7 +21,7 @@
 curl -s https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/lists/daily-picks.json | jq '.must_read'
 
 # 某天的完整数据
-curl -s https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/data/2026-02-27.json
+curl -s https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/api/2026-02-27.json
 
 # 按分类看最近 30 天
 curl -s https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/indexes/by-category.json | jq '.categories["AI/Tech"][:3]'
@@ -45,10 +45,10 @@ curl -s https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/inde
 
 | 路径 | 受众 | 内容 |
 |------|------|------|
-| `data/{date}.json` | Agent | 完整文章数据，含所有分析字段 |
-| `daily/{date}.md` | 人 | 可读日报，按 verdict 分组 |
+| `api/{date}.json` | Agent | 完整文章数据，含所有分析字段 |
+| `digest/{date}.md` | 人 | 可读日报，按 verdict 分组 |
 | `lists/daily-picks.json` | 通用 | 今日精选 |
-| `datasets/scored-articles.jsonl` | 模型 | 累积数据集 |
+| `datasets/scored-articles.jsonl` | 模型 | 累积数据集（JSONL + CSV）|
 | `feeds/rss.xml` | 人 | RSS 订阅，滚动 50 条 |
 | `feeds/weekly/{year}-W{week}.md` | 人 | 周报 + 趋势分析 |
 | `indexes/by-category.json` | Agent | 30 天分类索引 |

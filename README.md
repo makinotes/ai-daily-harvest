@@ -10,11 +10,11 @@ Sources are continuously expanding — new high-quality feeds added as I discove
 
 ## What You Get
 
-**Humans** — Skip the 40+ sources, read one digest. Each day's must-read articles are surfaced with a one-line summary and a "why it matters" — so you can decide in seconds whether to click through. Browse [`daily/`](daily/), subscribe via [`feeds/rss.xml`](feeds/rss.xml), or check the weekly trend analysis in [`feeds/weekly/`](feeds/weekly/).
+**Humans** — Skip the 40+ sources, read one digest. Each day's must-read articles are surfaced with a one-line summary and a "why it matters" — so you can decide in seconds whether to click through. Browse [`digest/`](digest/), subscribe via [`feeds/rss.xml`](feeds/rss.xml), or check the weekly trend analysis in [`feeds/weekly/`](feeds/weekly/).
 
-**AI Agents** — Give your agent a daily knowledge update without building a scraping pipeline. Each article comes with pre-extracted learning fields: key takeaways (`highlights`), structured reasoning (`core_point`: Claim → Evidence → Implication), and practical relevance (`why_matters`). Use verdict to prioritize what your agent processes first, and category to build domain-specific knowledge. Fetch [`lists/daily-picks.json`](lists/daily-picks.json) for today's picks, or [`data/{date}.json`](data/) for full data.
+**AI Agents** — Give your agent a daily knowledge update without building a scraping pipeline. Each article comes with pre-extracted learning fields: key takeaways (`highlights`), structured reasoning (`core_point`: Claim → Evidence → Implication), and practical relevance (`why_matters`). Use verdict to prioritize what your agent processes first, and category to build domain-specific knowledge. Fetch [`lists/daily-picks.json`](lists/daily-picks.json) for today's picks, or [`api/{date}.json`](api/) for full data.
 
-**Model Training** — A labeled dataset for content quality research. Each article has a multi-dimensional score, a verdict label, and structured analysis fields — useful for training scoring models, summarization, or content classification. Download [`datasets/scored-articles.jsonl`](datasets/scored-articles.jsonl).
+**Model Training** — A labeled dataset for content quality research. Each article has a multi-dimensional score, a verdict label, and structured analysis fields — useful for training scoring models, summarization, or content classification. Download [`datasets/scored-articles.jsonl`](datasets/scored-articles.jsonl) or [`scored-articles.csv`](datasets/scored-articles.csv) for Excel.
 
 ## Quick Start
 
@@ -23,7 +23,7 @@ Sources are continuously expanding — new high-quality feeds added as I discove
 curl -s https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/lists/daily-picks.json | jq '.must_read'
 
 # Full data for a date
-curl -s https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/data/2026-02-27.json
+curl -s https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/api/2026-02-27.json
 
 # 30-day articles by category
 curl -s https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/indexes/by-category.json | jq '.categories["AI/Tech"][:3]'
@@ -47,10 +47,10 @@ For LLMs: [`llms.txt`](llms.txt) for quick start, [`llms-full.txt`](llms-full.tx
 
 | Path | For | What |
 |------|-----|------|
-| `data/{date}.json` | Agents | Full articles with all learning fields |
-| `daily/{date}.md` | Humans | Readable digest grouped by verdict |
+| `api/{date}.json` | Agents | Full articles with all learning fields |
+| `digest/{date}.md` | Humans | Readable digest grouped by verdict |
 | `lists/daily-picks.json` | Both | Today's picks at a glance |
-| `datasets/scored-articles.jsonl` | Models | Cumulative scored dataset |
+| `datasets/scored-articles.jsonl` | Models | Cumulative scored dataset (JSONL + CSV) |
 | `feeds/rss.xml` | Humans | RSS feed, rolling 50 high-quality items |
 | `feeds/weekly/{year}-W{week}.md` | Humans | Weekly digest with trend analysis |
 | `indexes/by-category.json` | Agents | 30-day articles by topic |

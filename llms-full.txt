@@ -77,7 +77,7 @@ Fetch today's picks grouped by verdict:
 
 ### "Full article data for deep analysis"
 
-  GET https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/data/2026-02-27.json
+  GET https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/api/2026-02-27.json
 
 ```json
 {
@@ -148,7 +148,7 @@ Each line is one article with all fields. 427+ articles, growing daily. Deduplic
 
 **Daily Briefing** — Fetch lists/daily-picks.json. Summarize must_read using summary + highlights.
 
-**Knowledge Base** — Ingest data/{date}.json. Use core_point for reasoning chains. Track categories for emerging themes.
+**Knowledge Base** — Ingest api/{date}.json. Use core_point for reasoning chains. Track categories for emerging themes.
 
 **MCP / Tool Use** — Point your agent at the raw GitHub URLs. Static files, no auth needed.
 

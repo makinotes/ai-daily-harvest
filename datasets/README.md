@@ -54,6 +54,15 @@ The final score (0-100) is a weighted composite. Articles below 60 are excluded.
 - **Content classification**: Use (title + summary, category + verdict) for multi-label classification
 - **Trend analysis**: Aggregate by date and category to track topic evolution
 
+## CSV Version
+
+`scored-articles.csv` contains the same data as the JSONL, formatted for Excel / Google Sheets.
+
+- Encoding: UTF-8 with BOM (opens correctly in Excel without garbled Chinese text)
+- `highlights` array is joined with ` | ` separator into a single cell
+- Sorted by date (newest first), then by score (highest first)
+- Regenerated from JSONL on each pipeline run
+
 ## Limitations
 
 - Summaries and analyses are LLM-generated, not human-written
