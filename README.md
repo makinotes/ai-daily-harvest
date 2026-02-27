@@ -1,10 +1,10 @@
 # AI Daily Harvest
 
-A personal project: a daily AI content feed with structured data. 40+ Chinese and English sources, scored and categorized. Built for my own use — to keep up with AI without drowning in noise, and to feed structured knowledge into my AI agents.
+> **40+ AI sources, one structured feed.** Scored, categorized, and ready for both humans and AI agents — so you don't have to build a pipeline just to stay informed.
 
-Every article is scored 0-100, assigned a verdict, and broken down into key takeaways, structured reasoning, and practical relevance. Shaped by personal taste, algorithm-driven. Published openly in case it's useful to others.
+Every day, articles from 40+ Chinese and English sources are scored 0-100, assigned a verdict (`must_read` / `worth_reading` / `neutral`), and broken down into key takeaways, structured reasoning, and practical relevance. Humans read the digest; agents consume the JSON. Built for my own use, published openly in case it's useful to others.
 
-Sources are continuously expanding — new high-quality feeds added as I discover them. Suggestions welcome via [issues](../../issues/new).
+Sources are continuously expanding. Suggestions welcome via [issues](../../issues/new).
 
 [中文版 →](README_CN.md)
 
