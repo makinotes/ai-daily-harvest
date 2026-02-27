@@ -5,10 +5,27 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>AI Daily Feed — 每日 AI 精选</title>
 <meta name="description" content="40+ AI 信源，一份结构化日报，工作日持续更新。评分、分类、开箱即用。">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="AI Daily Feed — 每日 AI 精选">
+<meta property="og:description" content="40+ AI 信源，一份结构化日报，工作日持续更新。评分、分类、开箱即用。">
+<meta property="og:url" content="https://me.makinote.com/ai-daily-feed/">
+<meta property="og:locale" content="zh_CN">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="AI Daily Feed — 每日 AI 精选">
+<meta name="twitter:description" content="40+ AI 信源，一份结构化日报，工作日持续更新。评分、分类、开箱即用。">
+
+<link rel="canonical" href="https://me.makinote.com/ai-daily-feed/">
 <link rel="alternate" type="application/rss+xml" title="AI Daily Feed RSS" href="feeds/rss.xml">
+
+<!-- Fonts: preconnect + optimized loading -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&family=Space+Mono:wght@400;700&family=Noto+Sans+SC:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@700&family=Space+Mono:wght@400;700&family=Noto+Sans+SC:wght@300;400;500&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@700&family=Space+Mono:wght@400;700&family=Noto+Sans+SC:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 :root{
@@ -39,11 +56,15 @@ body{
 a{color:var(--accent);text-decoration:none;transition:color .2s}
 a:hover{color:var(--text-bright)}
 
-/* Grain overlay */
+/* Grain overlay — GPU-composited layer */
 body::before{
   content:'';position:fixed;inset:0;z-index:9999;pointer-events:none;
   opacity:.03;
+  will-change:transform;
   background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+@media(prefers-reduced-motion:reduce){
+  body::before{display:none}
 }
 
 .container{max-width:860px;margin:0 auto;padding:0 24px}
@@ -269,83 +290,126 @@ footer a:hover{color:var(--accent)}
   footer{flex-direction:column}
 }
 
-/* Fade in */
+/* Skip link (accessibility) */
+.skip-link{
+  position:absolute;top:-100%;left:16px;
+  background:var(--accent);color:var(--bg);
+  padding:8px 16px;z-index:10000;
+  font-size:.85rem;border-radius:0 0 4px 4px;
+  transition:top .2s;
+}
+.skip-link:focus{top:0}
+
+/* Score top tier */
+.score.top{color:#e8c85a;text-shadow:0 0 8px rgba(232,200,90,.25)}
+
+/* Back to top */
+.back-to-top{
+  position:fixed;bottom:32px;right:32px;
+  width:40px;height:40px;
+  display:flex;align-items:center;justify-content:center;
+  background:var(--bg-card);border:1px solid var(--border);
+  color:var(--text-dim);font-size:1.1rem;
+  border-radius:4px;opacity:0;pointer-events:none;
+  transition:opacity .3s,border-color .2s,color .2s;
+  z-index:100;
+}
+.back-to-top.visible{opacity:1;pointer-events:auto}
+.back-to-top:hover{border-color:var(--accent-dim);color:var(--text-bright)}
+
+/* Fade in — respects reduced motion */
 .fade-in{opacity:0;transform:translateY(12px);animation:fadeUp .5s ease forwards}
 @keyframes fadeUp{to{opacity:1;transform:translateY(0)}}
 .delay-1{animation-delay:.1s}
 .delay-2{animation-delay:.2s}
 .delay-3{animation-delay:.3s}
 .delay-4{animation-delay:.4s}
+
+@media(prefers-reduced-motion:reduce){
+  .fade-in{opacity:1;transform:none;animation:none}
+  .loading::after{animation:none}
+}
+
+/* Responsive: tablet */
+@media(max-width:768px){
+  header{padding:60px 0 32px}
+  .masthead{font-size:2rem}
+}
 </style>
 </head>
 <body>
 
+<!-- Skip navigation for accessibility -->
+<a href="#must-read" class="skip-link">跳到主要内容</a>
+
 <div class="container">
-  <header class="fade-in">
-    <div class="masthead">AI Daily <span>Feed</span></div>
-    <div class="tagline">40+ AI 信源，一份结构化日报，工作日持续更新</div>
-    <div class="meta-bar" id="meta-bar">
+  <header class="fade-in" role="banner">
+    <h1 class="masthead">AI Daily <span>Feed</span></h1>
+    <p class="tagline">40+ AI 信源，一份结构化日报，工作日持续更新</p>
+    <div class="meta-bar" id="meta-bar" aria-live="polite">
       <span>加载中...</span>
     </div>
   </header>
 
-  <section style="padding-top:40px" class="fade-in delay-1">
-    <div class="section-title">本周热词</div>
-    <div class="trending-bar" id="trending">
-      <div class="loading">loading</div>
-    </div>
-  </section>
+  <main>
+    <section style="padding-top:40px" class="fade-in delay-1" aria-label="本周热词">
+      <h2 class="section-title">本周热词</h2>
+      <div class="trending-bar" id="trending" role="list" aria-label="热门关键词">
+        <div class="loading" aria-label="加载中">loading</div>
+      </div>
+    </section>
 
-  <section class="fade-in delay-2">
-    <div class="section-title">今日必读 <span class="badge">Must Read</span></div>
-    <div class="articles" id="must-read">
-      <div class="loading">loading</div>
-    </div>
-  </section>
+    <section class="fade-in delay-2" aria-label="今日必读">
+      <h2 class="section-title">今日必读 <span class="badge">Must Read</span></h2>
+      <div class="articles" id="must-read" role="list">
+        <div class="loading" aria-label="加载中">loading</div>
+      </div>
+    </section>
 
-  <section id="worth-section" class="fade-in delay-3" style="display:none">
-    <div class="section-title">值得一看 <span class="badge">Worth Reading</span></div>
-    <div class="articles" id="worth-reading"></div>
-  </section>
+    <section id="worth-section" class="fade-in delay-3" style="display:none" aria-label="值得一看">
+      <h2 class="section-title">值得一看 <span class="badge">Worth Reading</span></h2>
+      <div class="articles" id="worth-reading" role="list"></div>
+    </section>
 
-  <section class="fade-in delay-3">
-    <div class="section-title">快速入口</div>
-    <div class="links-grid">
-      <a class="link-card" href="lists/daily-picks.json">
-        <div class="label">Today's Picks</div>
-        <div class="desc">每日精选 JSON，Agent 直接调用</div>
-      </a>
-      <a class="link-card" href="feeds/rss.xml">
-        <div class="label">RSS Feed</div>
-        <div class="desc">订阅高质量文章，滚动 50 条</div>
-      </a>
-      <a class="link-card" href="digest/">
-        <div class="label">Digest</div>
-        <div class="desc">每日可读日报，按月归档</div>
-      </a>
-      <a class="link-card" href="datasets/scored-articles.jsonl">
-        <div class="label">Dataset</div>
-        <div class="desc">累积数据集，427+ 篇带标注</div>
-      </a>
-      <a class="link-card" href="indexes/by-category.json">
-        <div class="label">By Category</div>
-        <div class="desc">按领域查看近 30 天文章</div>
-      </a>
-      <a class="link-card" href="llms-full.txt">
-        <div class="label">For LLMs</div>
-        <div class="desc">完整 Schema + 接入指南</div>
-      </a>
-    </div>
-  </section>
+    <section class="fade-in delay-3" aria-label="快速入口">
+      <h2 class="section-title">快速入口</h2>
+      <nav class="links-grid" aria-label="资源导航">
+        <a class="link-card" href="lists/daily-picks.json">
+          <div class="label">Today's Picks</div>
+          <div class="desc">每日精选 JSON，Agent 直接调用</div>
+        </a>
+        <a class="link-card" href="feeds/rss.xml">
+          <div class="label">RSS Feed</div>
+          <div class="desc">订阅高质量文章，滚动 50 条</div>
+        </a>
+        <a class="link-card" href="digest/">
+          <div class="label">Digest</div>
+          <div class="desc">每日可读日报，按月归档</div>
+        </a>
+        <a class="link-card" href="datasets/scored-articles.jsonl">
+          <div class="label">Dataset</div>
+          <div class="desc">累积数据集，427+ 篇带标注</div>
+        </a>
+        <a class="link-card" href="indexes/by-category.json">
+          <div class="label">By Category</div>
+          <div class="desc">按领域查看近 30 天文章</div>
+        </a>
+        <a class="link-card" href="llms-full.txt">
+          <div class="label">For LLMs</div>
+          <div class="desc">完整 Schema + 接入指南</div>
+        </a>
+      </nav>
+    </section>
 
-  <section class="fade-in delay-4">
-    <div class="section-title">最近日报</div>
-    <div class="digest-list" id="digest-list">
-      <div class="loading">loading</div>
-    </div>
-  </section>
+    <section class="fade-in delay-4" aria-label="最近日报">
+      <h2 class="section-title">最近日报</h2>
+      <div class="digest-list" id="digest-list">
+        <div class="loading" aria-label="加载中">loading</div>
+      </div>
+    </section>
+  </main>
 
-  <footer class="fade-in delay-4">
+  <footer class="fade-in delay-4" role="contentinfo">
     <span>CC BY-NC 4.0 · 非商业用途，仅限个人使用</span>
     <span>
       <a href="https://github.com/makinotes/ai-daily-feed">GitHub</a>
@@ -357,34 +421,54 @@ footer a:hover{color:var(--accent)}
   </footer>
 </div>
 
+<!-- Back to top -->
+<a href="#" class="back-to-top" id="back-to-top" aria-label="回到顶部" title="回到顶部">&uarr;</a>
+
 <script>
 const BASE = 'https://raw.githubusercontent.com/makinotes/ai-daily-feed/master';
 
 function renderArticle(a, showWhy) {
   const isHigh = a.score >= 80;
-  return `<div class="article">
+  const scoreClass = a.score >= 90 ? 'top' : (isHigh ? '' : 'mid');
+  return `<article class="article" role="listitem">
     <div class="score-col">
-      <div class="score ${isHigh ? '' : 'mid'}">${a.score}</div>
+      <div class="score ${scoreClass}" title="评分 ${a.score}/100">${a.score}</div>
     </div>
     <div class="article-body">
-      <h3><a href="${a.link}" target="_blank" rel="noopener">${a.title}</a></h3>
+      <h3><a href="${esc(a.link)}" target="_blank" rel="noopener">${esc(a.title)}</a></h3>
       <div class="article-meta">
-        <span>${a.source}</span>
+        <span>${esc(a.source)}</span>
+        ${a.category ? `<span class="dot">·</span><span>${esc(a.category)}</span>` : ''}
       </div>
-      ${showWhy && a.why_matters ? `<div class="article-why">${a.why_matters}</div>` : ''}
+      ${showWhy && a.why_matters ? `<div class="article-why">${esc(a.why_matters)}</div>` : ''}
     </div>
-  </div>`;
+  </article>`;
+}
+
+// Sanitize text to prevent XSS
+function esc(s) {
+  const d = document.createElement('div');
+  d.textContent = s;
+  return d.innerHTML;
+}
+
+// Shared data cache to avoid duplicate fetches
+let picksCache = null;
+async function fetchPicks() {
+  if (picksCache) return picksCache;
+  const r = await fetch(`${BASE}/lists/daily-picks.json`);
+  picksCache = await r.json();
+  return picksCache;
 }
 
 async function loadPicks() {
   try {
-    const r = await fetch(`${BASE}/lists/daily-picks.json`);
-    const d = await r.json();
+    const d = await fetchPicks();
 
     // Meta bar
     const total = (d.must_read||[]).length + (d.worth_reading||[]).length + (d.neutral||[]).length;
     document.getElementById('meta-bar').innerHTML = `
-      <span>${d.date}</span>
+      <span>${esc(d.date)}</span>
       <span class="dot">·</span>
       <span>${total} articles</span>
       <span class="dot">·</span>
@@ -417,7 +501,7 @@ async function loadTrending() {
     const el = document.getElementById('trending');
     if (d.trending && d.trending.length) {
       el.innerHTML = d.trending.slice(0, 12).map(t =>
-        `<span class="trend-tag">${t.keyword}<span class="trend-count">×${t.count}</span></span>`
+        `<span class="trend-tag">${esc(t.keyword)}<span class="trend-count">&times;${t.count}</span></span>`
       ).join('');
     } else {
       el.innerHTML = '';
@@ -429,8 +513,7 @@ async function loadTrending() {
 
 async function loadDigests() {
   try {
-    const r = await fetch(`${BASE}/lists/daily-picks.json`);
-    const d = await r.json();
+    const d = await fetchPicks();
     const today = d.date;
     // Generate last 10 weekdays from today
     const dates = [];
@@ -447,8 +530,8 @@ async function loadDigests() {
     el.innerHTML = dates.map(ds => {
       const month = ds.slice(0, 7);
       return `<div class="digest-row">
-        <span class="digest-date">${ds}</span>
-        <a href="digest/${month}/${ds}.md">${ds}.md</a>
+        <span class="digest-date">${esc(ds)}</span>
+        <a href="digest/${encodeURIComponent(month)}/${encodeURIComponent(ds)}.md">${esc(ds)}.md</a>
       </div>`;
     }).join('');
   } catch (e) {
@@ -456,9 +539,21 @@ async function loadDigests() {
   }
 }
 
-loadPicks();
-loadTrending();
-loadDigests();
+// Load all sections concurrently
+Promise.all([loadPicks(), loadTrending(), loadDigests()]);
+
+// Back to top button
+const btt = document.getElementById('back-to-top');
+let ticking = false;
+window.addEventListener('scroll', function() {
+  if (!ticking) {
+    requestAnimationFrame(function() {
+      btt.classList.toggle('visible', window.scrollY > 400);
+      ticking = false;
+    });
+    ticking = true;
+  }
+}, {passive: true});
 </script>
 
 </body>
