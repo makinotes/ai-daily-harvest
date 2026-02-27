@@ -23,7 +23,7 @@ Fetch today's picks grouped by verdict:
       "link": "https://simonwillison.net/...",
       "source": "Simon Willison",
       "score": 100,
-      "why": "API keys silently gained Gemini access — thousands of leaked keys now exploitable"
+      "why_matters": "API keys silently gained Gemini access — thousands of leaked keys now exploitable"
     }
   ],
   "worth_reading": [...],
@@ -77,7 +77,7 @@ Fetch today's picks grouped by verdict:
 
 ### "Full article data for deep analysis"
 
-  GET https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/api/2026-02-27.json
+  GET https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/api/{YYYY-MM-DD}.json
 
 ```json
 {
@@ -160,3 +160,8 @@ Each line is one article with all fields. 427+ articles, growing daily. Deduplic
 - Sources: 40+ curated (English + Chinese)
 - Dataset: 427+ cumulative articles
 - Note: articles before mid-February 2026 may have empty why_matters and core_point fields (added to pipeline later, not backfilled)
+- Gaps: Some dates may be missing (holidays, maintenance)
+
+## License
+
+CC BY-NC 4.0. Non-commercial, personal use only. Article metadata and AI-generated analysis only — original content belongs to respective authors.

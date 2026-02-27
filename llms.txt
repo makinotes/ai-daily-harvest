@@ -24,6 +24,10 @@ Today's picks:
 - indexes/by-category.json — 30-day articles by topic
 - indexes/trending.json — 7-day trending keywords
 
+## License
+
+CC BY-NC 4.0. Non-commercial, personal use only. Original content belongs to respective authors.
+
 ## Full guide
 
 See llms-full.txt for complete schema, use cases, and integration patterns.
