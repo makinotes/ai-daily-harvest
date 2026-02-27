@@ -211,7 +211,7 @@
   <link>https://mp.weixin.qq.com/s?__biz=MzU2MTgzMjQyMA==&amp;mid=2247485159&amp;idx=1&amp;sn=a33140f470974628bd7f07220e9c5c2e</link>
   <description><![CDATA[提出 AI Agent 公司应效仿量化对冲基金的人才体系，强调个人英雄主义与系统闭缘。<ul><li>AI顶尖人才薪酬已对标二十年前的量化基金，反映出行业对极端智力资本的争夺。</li><li>成功的AI Agent公司与量化基金在“系统闭环”和“寻找edge”的核心逻辑上高度相似。</li></ul>]]></description>
   <category>AI/Tech</category>
-  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
+  <pubDate>Thu, 26 Feb 2026 00:00:00 GMT</pubDate>
   <source url="https://mp.weixin.qq.com/s?__biz=MzU2MTgzMjQyMA==&amp;mid=2247485159&amp;idx=1&amp;sn=a33140f470974628bd7f07220e9c5c2e">周喆吾</source>
 </item>
 <item>
@@ -219,7 +219,7 @@
   <link>https://mp.weixin.qq.com/s?__biz=MzA5MTIxNTY4MQ==&amp;mid=2461158607&amp;idx=1&amp;sn=cb22aaa404fc6129dd3185a32faab410</link>
   <description><![CDATA[详解 OpenAI Responses API 的 WebSocket 模式，提供代码示例与性能优化逻辑。<ul><li>连接方式从“每次打电话重新自我介绍”的HTTP模式，变为保持会话状态的WebSocket持久连接。</li><li>通过连接级内存缓存避免状态重建，显著提升多轮工具调用任务的性能。</li></ul>]]></description>
   <category>AI/Tech</category>
-  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
+  <pubDate>Thu, 26 Feb 2026 00:00:00 GMT</pubDate>
   <source url="https://mp.weixin.qq.com/s?__biz=MzA5MTIxNTY4MQ==&amp;mid=2461158607&amp;idx=1&amp;sn=cb22aaa404fc6129dd3185a32faab410">AI工程化</source>
 </item>
 <item>
@@ -273,137 +273,137 @@
 <item>
   <title>Adam/Muon退位！谷歌Magma：随机丢弃50%梯度却拿下LLM优化SOTA</title>
   <link>https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA==&amp;mid=2247504378&amp;idx=1&amp;sn=791f1291cb2ce5645cd641a68788b5dd</link>
-  <description>解析谷歌最新论文 Magma/SkipUpdate，揭示了“随机丢弃 50% 梯度更新”反而能提升模型性能的几何正则化原理。<ul><li>随机丢弃50%梯度更新的SkipUpdate策略，在多个模型规模上击败了Adam、Muon等SOTA优化器。</li><li>其有效性源于随机掩码引入的曲率相关几何正则化，能自动避开陡峭的局部最优，偏向平坦区域。</li></ul></description>
+  <description><![CDATA[解析谷歌最新论文 Magma/SkipUpdate，揭示了“随机丢弃 50% 梯度更新”反而能提升模型性能的几何正则化原理。<ul><li>随机丢弃50%梯度更新的SkipUpdate策略，在多个模型规模上击败了Adam、Muon等SOTA优化器。</li><li>其有效性源于随机掩码引入的曲率相关几何正则化，能自动避开陡峭的局部最优，偏向平坦区域。</li></ul>]]></description>
   <category>AI/Tech</category>
-  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
+  <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
   <source url="https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA==&amp;mid=2247504378&amp;idx=1&amp;sn=791f1291cb2ce5645cd641a68788b5dd">PaperAgent</source>
 </item>
 <item>
   <title>“软件工程师”头衔要没了？Claude Code之父YC访谈：一个月后不再用plan mode，多Agent开始自己组队干活</title>
   <link>https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=2651275912&amp;idx=1&amp;sn=28684e1adf869f59fd295dd4184c6890</link>
-  <description>Claude Code 创始人深度访谈，揭示了未来编程范式的剧变与 Agent 开发理念。<ul><li>代码保质期仅数月，围绕当前模型做产品很快会被下一代能力抹平</li><li>Agent能力边界每几个月重写一次，工程师需保持“新手心态”不断重置认知</li></ul></description>
+  <description><![CDATA[Claude Code 创始人深度访谈，揭示了未来编程范式的剧变与 Agent 开发理念。<ul><li>代码保质期仅数月，围绕当前模型做产品很快会被下一代能力抹平</li><li>Agent能力边界每几个月重写一次，工程师需保持“新手心态”不断重置认知</li></ul>]]></description>
   <category>AI/Tech</category>
-  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
+  <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
   <source url="https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=2651275912&amp;idx=1&amp;sn=28684e1adf869f59fd295dd4184c6890">InfoQ</source>
 </item>
 <item>
   <title>谈谈Attention SInk及未来Attention算法设计</title>
   <link>https://mp.weixin.qq.com/s?__biz=MzUxNzQ5MTExNw==&amp;mid=2247497613&amp;idx=1&amp;sn=b7dfc41a83978a789ac582c8034faac8</link>
-  <description>深度硬核技术文，从几何和拓扑视角分析了 Attention Sink 及其对 Transformer 架构的影响。<ul><li>ASink从“资源浪费”被重新解读为维持稳定性的“几何锚点”</li><li>处理ASink的方式成为设计未来高效Transformer架构的核心决策点</li></ul></description>
+  <description><![CDATA[深度硬核技术文，从几何和拓扑视角分析了 Attention Sink 及其对 Transformer 架构的影响。<ul><li>ASink从“资源浪费”被重新解读为维持稳定性的“几何锚点”</li><li>处理ASink的方式成为设计未来高效Transformer架构的核心决策点</li></ul>]]></description>
   <category>AI/Tech</category>
-  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
+  <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
   <source url="https://mp.weixin.qq.com/s?__biz=MzUxNzQ5MTExNw==&amp;mid=2247497613&amp;idx=1&amp;sn=b7dfc41a83978a789ac582c8034faac8">zartbot</source>
 </item>
 <item>
   <title>Directory Snapshots: Resumable project state for Sandboxes</title>
   <link>https://modal.com/blog/directory-snapshots-resumable-project-state-for-sandboxes</link>
-  <description>Modal 推出 Directory Snapshots 功能，实现了 Sandbox 运行状态的编程式快照与挂载，显著提升了有状态任务的效率。<ul><li>亮点1：新功能允许对运行中的沙盒（Sandbox）内的特定目录进行快照。</li><li>亮点2：快照可以独立于基础镜像和文件系统，挂载到另一个沙盒中。</li></ul></description>
+  <description><![CDATA[Modal 推出 Directory Snapshots 功能，实现了 Sandbox 运行状态的编程式快照与挂载，显著提升了有状态任务的效率。<ul><li>亮点1：新功能允许对运行中的沙盒（Sandbox）内的特定目录进行快照。</li><li>亮点2：快照可以独立于基础镜像和文件系统，挂载到另一个沙盒中。</li></ul>]]></description>
   <category>Builder 实践</category>
-  <pubDate>2026-02-24</pubDate>
+  <pubDate>Tue, 24 Feb 2026 00:00:00 GMT</pubDate>
   <source url="https://modal.com/blog/directory-snapshots-resumable-project-state-for-sandboxes">Modal Labs Blog</source>
 </item>
 <item>
   <title>Agent 进化，不需要人类</title>
   <link>https://mp.weixin.qq.com/s?__biz=MzkzNDQxOTU2MQ==&amp;mid=2247513239&amp;idx=1&amp;sn=195ef76bb783062603cbd2dd24421ebf</link>
-  <description>探讨了 Agent 脱离人类干预实现‘自举进化’的哲学与实践可能性。<ul><li>AI进化循环可分为：人引导AI写、AI自己写、AI写给自己用三个阶段</li><li>在最终阶段，AI技能的传播与使用发生在AI之间，人类已不在循环内</li></ul></description>
+  <description><![CDATA[探讨了 Agent 脱离人类干预实现‘自举进化’的哲学与实践可能性。<ul><li>AI进化循环可分为：人引导AI写、AI自己写、AI写给自己用三个阶段</li><li>在最终阶段，AI技能的传播与使用发生在AI之间，人类已不在循环内</li></ul>]]></description>
   <category>AI/Tech</category>
-  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
+  <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
   <source url="https://mp.weixin.qq.com/s?__biz=MzkzNDQxOTU2MQ==&amp;mid=2247513239&amp;idx=1&amp;sn=195ef76bb783062603cbd2dd24421ebf">赛博禅心</source>
 </item>
 <item>
   <title>GLM-5 技术报告全解读｜a16z：“最好的开源模型”</title>
   <link>https://mp.weixin.qq.com/s?__biz=MzkzNDQxOTU2MQ==&amp;mid=2247513320&amp;idx=1&amp;sn=72c6634b088560f6cf21655f0636e3b3</link>
-  <description>详尽解读了智谱 GLM-5 的技术报告，涵盖了 MLA、Muon Split 等关键架构改进及其在竞技场的表现。<ul><li>GLM-5以744B总参、40B激活的MoE架构，在关键指数上被评为“最好的开源模型”。</li><li>采用了DSA稀疏注意力等新架构技术，在20B token预训练下追平了DeepSeek-V3近千B token的效果。</li></ul></description>
+  <description><![CDATA[详尽解读了智谱 GLM-5 的技术报告，涵盖了 MLA、Muon Split 等关键架构改进及其在竞技场的表现。<ul><li>GLM-5以744B总参、40B激活的MoE架构，在关键指数上被评为“最好的开源模型”。</li><li>采用了DSA稀疏注意力等新架构技术，在20B token预训练下追平了DeepSeek-V3近千B token的效果。</li></ul>]]></description>
   <category>AI/Tech</category>
-  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
+  <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
   <source url="https://mp.weixin.qq.com/s?__biz=MzkzNDQxOTU2MQ==&amp;mid=2247513320&amp;idx=1&amp;sn=72c6634b088560f6cf21655f0636e3b3">赛博禅心</source>
 </item>
 <item>
   <title>Linear walkthroughs</title>
   <link>https://simonwillison.net/guides/agentic-engineering-patterns/linear-walkthroughs/#atom-everything</link>
-  <description>Simon Willison 分享了利用 Claude Code 和 Showboat 实现自动化代码库导览的方法论。<ul><li>亮点1：提出“线性演练”模式，利用智能体生成代码库的详细结构化说明。</li><li>亮点2：作者分享了一个个人案例：他使用 Claude Code 和 Opus 4.6 氛围编码了一个 SwiftUI 应用，之后又用 Claude Code 和 Showboat 工具为该代码库生成了详细的演练文档。</li></ul></description>
+  <description><![CDATA[Simon Willison 分享了利用 Claude Code 和 Showboat 实现自动化代码库导览的方法论。<ul><li>亮点1：提出“线性演练”模式，利用智能体生成代码库的详细结构化说明。</li><li>亮点2：作者分享了一个个人案例：他使用 Claude Code 和 Opus 4.6 氛围编码了一个 SwiftUI 应用，之后又用 Claude Code 和 Showboat 工具为该代码库生成了详细的演练文档。</li></ul>]]></description>
   <category>AI 使用</category>
-  <pubDate>2026-02-25</pubDate>
+  <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
   <source url="https://simonwillison.net/guides/agentic-engineering-patterns/linear-walkthroughs/#atom-everything">Simon Willison</source>
 </item>
 <item>
   <title>How to use AI for your next job interview</title>
   <link>https://www.lennysnewsletter.com/p/how-to-use-ai-in-your-next-job-interview</link>
-  <description>基于调研开发的 AI 面试教练系统，将求职策略转化为可直接使用的 Claude Code 提示词/系统。<ul><li>亮点1：研究基于对数十名求职者和招聘经理的采访，揭示了AI正在改变招聘双方的行为。</li><li>亮点2：研究发现，优秀候选人的策略并非孤立的技巧，而是构建了完整的“系统”。</li><li>亮点3：研究团队将超过30名参与者的成功技巧编码成了一个基于 Claude Code 的“教练”，可供读者直接使用。</li></ul></description>
+  <description><![CDATA[基于调研开发的 AI 面试教练系统，将求职策略转化为可直接使用的 Claude Code 提示词/系统。<ul><li>亮点1：研究基于对数十名求职者和招聘经理的采访，揭示了AI正在改变招聘双方的行为。</li><li>亮点2：研究发现，优秀候选人的策略并非孤立的技巧，而是构建了完整的“系统”。</li><li>亮点3：研究团队将超过30名参与者的成功技巧编码成了一个基于 Claude Code 的“教练”，可供读者直接使用。</li></ul>]]></description>
   <category>AI 使用</category>
-  <pubDate>2026-02-24</pubDate>
+  <pubDate>Tue, 24 Feb 2026 00:00:00 GMT</pubDate>
   <source url="https://www.lennysnewsletter.com/p/how-to-use-ai-in-your-next-job-interview">Lenny's Newsletter</source>
 </item>
 <item>
   <title>独家专访千寻创始人：20 亿新融资、具身模型淘汰赛、落地非共识</title>
   <link>https://mp.weixin.qq.com/s?__biz=MzU3Mjk1OTQ0Ng==&amp;mid=2247533464&amp;idx=1&amp;sn=595eee8fa566dadbf768e9d5f56b39c6</link>
-  <description>具身智能核心玩家的深度访谈，涵盖数据瓶颈、行业黑公关及落地共识。<ul><li>千寻智能完成近20亿融资，估值破百亿，成为具身智能赛道标志性事件。</li><li>创始人判断2026年竞争核心是模型性能，并开源了性能超越Pi0.5的Spirit v1.5模型。</li></ul></description>
+  <description><![CDATA[具身智能核心玩家的深度访谈，涵盖数据瓶颈、行业黑公关及落地共识。<ul><li>千寻智能完成近20亿融资，估值破百亿，成为具身智能赛道标志性事件。</li><li>创始人判断2026年竞争核心是模型性能，并开源了性能超越Pi0.5的Spirit v1.5模型。</li></ul>]]></description>
   <category>AI/Tech</category>
-  <pubDate>2026-02-23</pubDate>
+  <pubDate>Mon, 23 Feb 2026 00:00:00 GMT</pubDate>
   <source url="https://mp.weixin.qq.com/s?__biz=MzU3Mjk1OTQ0Ng==&amp;mid=2247533464&amp;idx=1&amp;sn=595eee8fa566dadbf768e9d5f56b39c6">晚点LatePost</source>
 </item>
 <item>
   <title>OpenAI大佬爆料：本科生靠一篇博客杀进OpenAI！没博士，0篇论文</title>
   <link>https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652677374&amp;idx=2&amp;sn=ba6929e3247f3705b9de2ad050147b5e</link>
-  <description>草根研究员靠开源博客逆袭 OpenAI 的案例，提供了极具价值的职业发展路径参考。<ul><li>本科生凭借开源博客和可量化的基准测试改进项目（NanoGPT speed run）入职OpenAI。</li><li>其项目将训练token效率提升3.8倍，且单次尝试成本极低（约8美元），降低了研究门槛。</li></ul></description>
+  <description><![CDATA[草根研究员靠开源博客逆袭 OpenAI 的案例，提供了极具价值的职业发展路径参考。<ul><li>本科生凭借开源博客和可量化的基准测试改进项目（NanoGPT speed run）入职OpenAI。</li><li>其项目将训练token效率提升3.8倍，且单次尝试成本极低（约8美元），降低了研究门槛。</li></ul>]]></description>
   <category>AI/Tech</category>
-  <pubDate>2026-02-23</pubDate>
+  <pubDate>Mon, 23 Feb 2026 00:00:00 GMT</pubDate>
   <source url="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652677374&amp;idx=2&amp;sn=ba6929e3247f3705b9de2ad050147b5e">新智元</source>
 </item>
 <item>
   <title>给 AI Agent 装上 DNA，这个项目火爆了</title>
   <link>https://mp.weixin.qq.com/s?__biz=MzA4NzgzMjA4MQ==&amp;mid=2453480552&amp;idx=1&amp;sn=e7db7d6a6ed825e392a4a57014a7fd9f</link>
-  <description>探讨了 AI Agent 基因组进化协议 EvoMap，提出了 Agent 能力共享的新范式。<ul><li>EvoMap是AI Agent的“DNA系统”，通过基因胶囊和遗传协议共享经验</li><li>旨在解决Agent重复造轮子导致的巨大算力内耗问题</li></ul></description>
+  <description><![CDATA[探讨了 AI Agent 基因组进化协议 EvoMap，提出了 Agent 能力共享的新范式。<ul><li>EvoMap是AI Agent的“DNA系统”，通过基因胶囊和遗传协议共享经验</li><li>旨在解决Agent重复造轮子导致的巨大算力内耗问题</li></ul>]]></description>
   <category>AI/Tech</category>
-  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
+  <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
   <source url="https://mp.weixin.qq.com/s?__biz=MzA4NzgzMjA4MQ==&amp;mid=2453480552&amp;idx=1&amp;sn=e7db7d6a6ed825e392a4a57014a7fd9f">AGI Hunt</source>
 </item>
 <item>
   <title>AI视频有了音画同步后，我想看看语音合成能不能活下来</title>
   <link>https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&amp;mid=2247505017&amp;idx=1&amp;sn=3d98ac69d301ef43c67f8be150c4b0c9</link>
-  <description>文章探讨了AI视频原生音画同步与独立TTS模型的优劣，提出通过音频驱动视频的稳定工作流，并实测了MiniMax Speech-2.8在复杂情绪控制上的表现。<ul><li>对于对话场景，先生成高质量音频再驱动视频生成，效果优于先视频后配音</li><li>新一代语音合成模型在情绪转换、语气词、换气等细节上大幅提升，增强了表现力</li></ul></description>
+  <description><![CDATA[文章探讨了AI视频原生音画同步与独立TTS模型的优劣，提出通过音频驱动视频的稳定工作流，并实测了MiniMax Speech-2.8在复杂情绪控制上的表现。<ul><li>对于对话场景，先生成高质量音频再驱动视频生成，效果优于先视频后配音</li><li>新一代语音合成模型在情绪转换、语气词、换气等细节上大幅提升，增强了表现力</li></ul>]]></description>
   <category>AI/Tech</category>
-  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
+  <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
   <source url="https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&amp;mid=2247505017&amp;idx=1&amp;sn=3d98ac69d301ef43c67f8be150c4b0c9">卡尔的AI沃茨</source>
 </item>
 <item>
   <title>为什么越聪明的人，越容易在技术革命里亏钱? ｜MindCode周报No.62</title>
   <link>https://mp.weixin.qq.com/s?__biz=MzAxNTYwMzcyNw==&amp;mid=2247486010&amp;idx=1&amp;sn=1f9ccbd59875061459f3fe2e53ffe3e8</link>
-  <description>提出“终局谬误”概念，分析了谷歌搜索在 AI 冲击下反而收入暴涨背后的生产者视角与时间差逻辑。<ul><li>提出“终局谬误”：将长期趋势误判为眼前现实，是聪明人在技术革命中亏钱的常见原因。</li><li>以Google搜索为例，其业务在AI冲击下收入不降反升，因AI反而增强了其“匹配”的商业本质。</li></ul></description>
+  <description><![CDATA[提出“终局谬误”概念，分析了谷歌搜索在 AI 冲击下反而收入暴涨背后的生产者视角与时间差逻辑。<ul><li>提出“终局谬误”：将长期趋势误判为眼前现实，是聪明人在技术革命中亏钱的常见原因。</li><li>以Google搜索为例，其业务在AI冲击下收入不降反升，因AI反而增强了其“匹配”的商业本质。</li></ul>]]></description>
   <category>AI/Tech</category>
-  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
+  <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
   <source url="https://mp.weixin.qq.com/s?__biz=MzAxNTYwMzcyNw==&amp;mid=2247486010&amp;idx=1&amp;sn=1f9ccbd59875061459f3fe2e53ffe3e8">MindCode</source>
 </item>
 <item>
   <title>clawdbot新Skill，10分钟登顶全站第一。第二天，被下架了。</title>
   <link>https://mp.weixin.qq.com/s?__biz=MzkxNjcyNTk2NA==&amp;mid=2247490300&amp;idx=1&amp;sn=d089bb4f299455fa8cbbd1ecf22efd01</link>
-  <description>讲述了 Capability Evolver 在海外平台的遭遇及随后推出的全球进化网络 Evomap，探讨了 Agent 协作的新范式。<ul><li>能让Agent自我进化的Skill迅速火爆但被下架，凸显了平台治理与开发者权益的矛盾。</li><li>事件催生了Evomap——一个让Agent接入全球进化网络、共享“基因胶囊”的开源项目。</li></ul></description>
+  <description><![CDATA[讲述了 Capability Evolver 在海外平台的遭遇及随后推出的全球进化网络 Evomap，探讨了 Agent 协作的新范式。<ul><li>能让Agent自我进化的Skill迅速火爆但被下架，凸显了平台治理与开发者权益的矛盾。</li><li>事件催生了Evomap——一个让Agent接入全球进化网络、共享“基因胶囊”的开源项目。</li></ul>]]></description>
   <category>AI/Tech</category>
-  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
+  <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
   <source url="https://mp.weixin.qq.com/s?__biz=MzkxNjcyNTk2NA==&amp;mid=2247490300&amp;idx=1&amp;sn=d089bb4f299455fa8cbbd1ecf22efd01">探索AGI</source>
 </item>
 <item>
   <title>万字追问：神经科学，在等待自己的牛顿吗？</title>
   <link>https://mp.weixin.qq.com/s?__biz=MzI3MjQ4MDMyOQ==&amp;mid=2247538852&amp;idx=1&amp;sn=60059e6a97e2fe2d1460e2a3fddfb294</link>
-  <description>顶级神经科学家关于大脑动力系统模型与生物真实性平衡的高深度学术对谈。<ul><li>神经科学试图超越“大脑如计算机”的比喻，从动力系统视角理解其动态、自适应的本质。</li><li>关键在于在动力系统框架下，平衡生物真实性与模型的可处理性。</li></ul></description>
+  <description><![CDATA[顶级神经科学家关于大脑动力系统模型与生物真实性平衡的高深度学术对谈。<ul><li>神经科学试图超越“大脑如计算机”的比喻，从动力系统视角理解其动态、自适应的本质。</li><li>关键在于在动力系统框架下，平衡生物真实性与模型的可处理性。</li></ul>]]></description>
   <category>AI/Tech</category>
-  <pubDate>2026-02-25</pubDate>
+  <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
   <source url="https://mp.weixin.qq.com/s?__biz=MzI3MjQ4MDMyOQ==&amp;mid=2247538852&amp;idx=1&amp;sn=60059e6a97e2fe2d1460e2a3fddfb294">追问nextquestion</source>
 </item>
 <item>
   <title>开工拉齐：OpenClaw，首个「一人独角兽」</title>
   <link>https://mp.weixin.qq.com/s?__biz=MzkzNDQxOTU2MQ==&amp;mid=2247513325&amp;idx=1&amp;sn=4ffd0b37d4a1e3dc86b724449ee7b944</link>
-  <description>爆火开源项目 OpenClaw 的崛起历程及其引发的 Agent 范式变革。<ul><li>OpenClaw作为个人周末项目，三个月内催生出完整的AgentOS产业链，增长迅猛。</li><li>项目创始人被OpenAI招募，项目转入基金会，显示巨头正积极布局和整合Agent生态。</li></ul></description>
+  <description><![CDATA[爆火开源项目 OpenClaw 的崛起历程及其引发的 Agent 范式变革。<ul><li>OpenClaw作为个人周末项目，三个月内催生出完整的AgentOS产业链，增长迅猛。</li><li>项目创始人被OpenAI招募，项目转入基金会，显示巨头正积极布局和整合Agent生态。</li></ul>]]></description>
   <category>AI/Tech</category>
-  <pubDate>2026-02-23</pubDate>
+  <pubDate>Mon, 23 Feb 2026 00:00:00 GMT</pubDate>
   <source url="https://mp.weixin.qq.com/s?__biz=MzkzNDQxOTU2MQ==&amp;mid=2247513325&amp;idx=1&amp;sn=4ffd0b37d4a1e3dc86b724449ee7b944">赛博禅心</source>
 </item>
 <item>
   <title>藏在海量参数背后的系统工程：7家顶尖实验室大模型训练内参</title>
   <link>https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&amp;mid=2247717873&amp;idx=1&amp;sn=29e33f2257f6b64dc1b4550c28c6ec00</link>
-  <description>系统梳理了OpenAI、DeepSeek、月之暗面等7家顶级实验室在模型训练中的工程细节与架构选择。<ul><li>揭示了顶尖实验室在架构选型（如向显存妥协）、优化器引入、数据配比等核心工程决策上的具体权衡。</li><li>总结了衡量可靠测试集的四个核心标尺（单调性、低噪声等）和务实的算力分配消融实验准则。</li></ul></description>
+  <description><![CDATA[系统梳理了OpenAI、DeepSeek、月之暗面等7家顶级实验室在模型训练中的工程细节与架构选择。<ul><li>揭示了顶尖实验室在架构选型（如向显存妥协）、优化器引入、数据配比等核心工程决策上的具体权衡。</li><li>总结了衡量可靠测试集的四个核心标尺（单调性、低噪声等）和务实的算力分配消融实验准则。</li></ul>]]></description>
   <category>AI/Tech</category>
-  <pubDate>2026-02-23</pubDate>
+  <pubDate>Mon, 23 Feb 2026 00:00:00 GMT</pubDate>
   <source url="https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&amp;mid=2247717873&amp;idx=1&amp;sn=29e33f2257f6b64dc1b4550c28c6ec00">PaperWeekly</source>
 </item>
 </channel>
