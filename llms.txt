@@ -16,7 +16,7 @@ Today's picks:
 ## Files
 
 - api/{date}.json — Full articles with all fields
-- digest/{date}.md — Human-readable digest
+- digest/{YYYY-MM}/{date}.md — Human-readable digest
 - lists/daily-picks.json — Today's picks by verdict
 - datasets/scored-articles.jsonl — Cumulative scored dataset (427+ articles, also as .csv)
 - feeds/rss.xml — RSS 2.0 feed (rolling 50 items)

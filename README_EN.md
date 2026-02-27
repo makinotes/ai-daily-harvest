@@ -53,7 +53,7 @@ For LLMs: [`llms.txt`](llms.txt) for quick start, [`llms-full.txt`](llms-full.tx
 | Path | For | What |
 |------|-----|------|
 | `api/{date}.json` | Agents | Full articles with all learning fields |
-| `digest/{date}.md` | Humans | Readable digest grouped by verdict |
+| `digest/{YYYY-MM}/{date}.md` | Humans | Readable digest grouped by verdict |
 | `lists/daily-picks.json` | Both | Today's picks at a glance |
 | `datasets/scored-articles.jsonl` | Models | Cumulative scored dataset (JSONL + CSV) |
 | `feeds/rss.xml` | Humans | RSS feed, rolling 50 high-quality items |

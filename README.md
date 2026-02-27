@@ -53,7 +53,7 @@ curl -s https://raw.githubusercontent.com/makinotes/ai-daily-feed/master/indexes
 | 路径 | 受众 | 内容 |
 |------|------|------|
 | `api/{date}.json` | Agent | 完整文章数据，含所有分析字段 |
-| `digest/{date}.md` | 人 | 可读日报，按 verdict 分组 |
+| `digest/{YYYY-MM}/{date}.md` | 人 | 可读日报，按 verdict 分组 |
 | `lists/daily-picks.json` | 通用 | 今日精选 |
 | `datasets/scored-articles.jsonl` | 模型 | 累积数据集（JSONL + CSV）|
 | `feeds/rss.xml` | 人 | RSS 订阅，滚动 50 条 |
