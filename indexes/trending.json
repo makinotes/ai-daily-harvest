@@ -4,10 +4,6 @@
   "article_count": 113,
   "trending": [
     {
-      "keyword": "模型",
-      "count": 18
-    },
-    {
       "keyword": "Claude",
       "count": 10
     },
@@ -20,7 +16,7 @@
       "count": 9
     },
     {
-      "keyword": "大模",
+      "keyword": "大模型",
       "count": 8
     },
     {
@@ -28,48 +24,12 @@
       "count": 7
     },
     {
-      "keyword": "智能",
-      "count": 6
-    },
-    {
-      "keyword": "公司",
-      "count": 6
-    },
-    {
       "keyword": "OpenAI",
       "count": 6
     },
     {
-      "keyword": "美元",
-      "count": 6
-    },
-    {
-      "keyword": "代码",
-      "count": 5
-    },
-    {
-      "keyword": "系统",
-      "count": 5
-    },
-    {
-      "keyword": "团队",
-      "count": 5
-    },
-    {
-      "keyword": "技术",
-      "count": 5
-    },
-    {
-      "keyword": "学会",
-      "count": 5
-    },
-    {
       "keyword": "OpenClaw",
       "count": 5
-    },
-    {
-      "keyword": "发布",
-      "count": 4
     },
     {
       "keyword": "安全",
@@ -80,8 +40,48 @@
       "count": 4
     },
     {
-      "keyword": "首个",
+      "keyword": "智能体",
       "count": 4
+    },
+    {
+      "keyword": "API",
+      "count": 3
+    },
+    {
+      "keyword": "Engineering",
+      "count": 3
+    },
+    {
+      "keyword": "Agentic",
+      "count": 3
+    },
+    {
+      "keyword": "Codex",
+      "count": 3
+    },
+    {
+      "keyword": "融资",
+      "count": 3
+    },
+    {
+      "keyword": "LLM",
+      "count": 3
+    },
+    {
+      "keyword": "训练",
+      "count": 3
+    },
+    {
+      "keyword": "Google",
+      "count": 2
+    },
+    {
+      "keyword": "Gemini",
+      "count": 2
+    },
+    {
+      "keyword": "Vibe",
+      "count": 2
     }
   ]
 }

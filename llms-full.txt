@@ -159,3 +159,4 @@ Each line is one article with all fields. 427+ articles, growing daily. Deduplic
 - Volume: 25-40 articles/day after filtering
 - Sources: 40+ curated (English + Chinese)
 - Dataset: 427+ cumulative articles
+- Note: articles before mid-February 2026 may have empty why_matters and core_point fields (added to pipeline later, not backfilled)

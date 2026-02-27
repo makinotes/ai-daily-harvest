@@ -17,7 +17,7 @@ A cumulative dataset of Chinese and English AI articles, each scored (0-100) and
 | `link` | string | Original URL |
 | `source` | string | Publisher name |
 | `source_channel` | string | Feed channel (`overseas` or `wechat-ai`) |
-| `category` | string | Topic category (e.g., `AI/Tech`, `Builder`, `AI 使用`) |
+| `category` | string | Topic category (e.g., `AI/Tech`, `Builder 实践`, `AI 使用`, `YouTube`) |
 | `pub_date` | string | Publication date (YYYY-MM-DD) |
 | `summary` | string | One-line summary |
 | `core_point` | string | Structured analysis: Claim → Evidence → Implication |
@@ -60,7 +60,8 @@ The final score (0-100) is a weighted composite. Articles below 60 are excluded.
 - Full article text is not included; use the `link` field to fetch original content
 - Scoring reflects one opinionated rubric, not universal quality consensus
 - Dataset starts from January 2026; historical coverage is limited
+- Early articles (before mid-February 2026) may have empty `why_matters` and `core_point` fields — these analysis fields were added to the pipeline later and not backfilled
 
 ## License
 
-Same as repository: MIT
+Same as repository: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
