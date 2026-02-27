@@ -26,7 +26,7 @@ Today's picks:
 
 ## License
 
-CC BY-NC 4.0. Non-commercial, personal use only. Original content belongs to respective authors.
+CC BY-NC 4.0. Non-commercial, personal use only. Original content belongs to respective authors. Content owners can request removal via GitHub issues.
 
 ## Full guide
 

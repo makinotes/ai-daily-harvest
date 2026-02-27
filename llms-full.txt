@@ -164,4 +164,4 @@ Each line is one article with all fields. 427+ articles, growing daily. Deduplic
 
 ## License
 
-CC BY-NC 4.0. Non-commercial, personal use only. Article metadata and AI-generated analysis only — original content belongs to respective authors.
+CC BY-NC 4.0. Non-commercial, personal use only. Article metadata and AI-generated analysis only — original content belongs to respective authors. Content owners can request removal via GitHub issues.
