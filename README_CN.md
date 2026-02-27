@@ -113,4 +113,6 @@ curl -s https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/inde
 
 ---
 
-[马奇诺](https://mp.weixin.qq.com/s?__biz=MzkyMDE5ODYwMw==)的个人 AI 基础设施项目。
+马奇诺的个人 AI 基础设施项目。
+
+<img src="assets/wechat-qr.png" alt="公众号二维码" width="200">

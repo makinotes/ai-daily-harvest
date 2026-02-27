@@ -113,4 +113,6 @@ Article metadata and AI-generated analysis under [CC BY-NC 4.0](https://creative
 
 ---
 
-Part of a Personal AI Infrastructure project by [马奇诺](https://mp.weixin.qq.com/s?__biz=MzkyMDE5ODYwMw==).
+Part of a Personal AI Infrastructure project by 马奇诺.
+
+<img src="assets/wechat-qr.png" alt="WeChat QR" width="200">
