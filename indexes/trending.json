@@ -48,11 +48,11 @@
       "count": 3
     },
     {
-      "keyword": "Engineering",
+      "keyword": "Agentic",
       "count": 3
     },
     {
-      "keyword": "Agentic",
+      "keyword": "Engineering",
       "count": 3
     },
     {
@@ -72,15 +72,15 @@
       "count": 3
     },
     {
-      "keyword": "Google",
-      "count": 2
-    },
-    {
       "keyword": "Gemini",
       "count": 2
     },
     {
-      "keyword": "Vibe",
+      "keyword": "Google",
+      "count": 2
+    },
+    {
+      "keyword": "Coding",
       "count": 2
     }
   ]
