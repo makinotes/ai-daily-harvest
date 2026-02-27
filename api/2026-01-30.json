@@ -31,7 +31,7 @@
       "source": "zartbot",
       "source_channel": "wechat-ai",
       "category": "AI/Tech",
-      "pub_date": "",
+      "pub_date": "2026-01-30",
       "summary": "从数学本质探讨 Attention 机制与最优传输理论的等价性，论证亚二次方注意力精度的不可能边界。",
       "core_point": "文章解读了一篇关于稀疏注意力（Sparse Attention）的博客，指出标准的缩放点积注意力在数学上等价于一个特定形式的熵优化输运问题的精确解，并探讨了亚二次方复杂度注意力机制存在的理论限制。",
       "highlights": [
@@ -67,7 +67,7 @@
       "source": "晚点LatePost",
       "source_channel": "wechat-ai",
       "category": "AI/Tech",
-      "pub_date": "",
+      "pub_date": "2026-01-30",
       "summary": "深度访谈拓竹创始人，解析其靠“硬核工程能力”在冷门 3D 打印赛道突围的底层商业逻辑。",
       "core_point": "文章报道了消费级3D打印机公司拓竹的创业故事，强调其通过硬核工程创新（如加入AI和传感器实现自动化）将小众产品做到易用，从而引爆市场。",
       "highlights": [
@@ -121,7 +121,7 @@
       "source": "卡尔的AI沃茨",
       "source_channel": "wechat-ai",
       "category": "AI/Tech",
-      "pub_date": "",
+      "pub_date": "2026-01-30",
       "summary": "解析影视飓风等专业团队使用的 AI 视频工具 Tapnow 的新功能及实战技巧。",
       "core_point": "作者通过学习影视飓风和杰伦的AI视频工作流，并利用Tapnow的新功能制作了新短片，总结了Tapnow更新的六个提升视频制作效率与质量的核心功能。",
       "highlights": [
@@ -139,7 +139,7 @@
       "source": "数字生命卡兹克",
       "source_channel": "wechat-ai",
       "category": "AI/Tech",
-      "pub_date": "",
+      "pub_date": "2026-01-30",
       "summary": "Rodin Gen-2 3D 编辑工具的功能评测，强调“用嘴改模型”对 3D 资产创作的门槛降低。",
       "core_point": "文章介绍了3D AI工具hyper3D的Rodin Gen-2，它允许用户通过自然语言提示对任意上传的3D模型进行局部编辑、添加或移除部件，降低了3D创作门槛。",
       "highlights": [
@@ -157,7 +157,7 @@
       "source": "饭後服用AfterHours",
       "source_channel": "wechat-ai",
       "category": "AI/Tech",
-      "pub_date": "",
+      "pub_date": "2026-01-30",
       "summary": "对比字节、阿里、腾讯三家 AI 战略，指出腾讯过度依赖微信路径带来的创新枷锁。",
       "core_point": "文章批评腾讯过度依赖微信来收拾各业务线（如AI）的残局，认为这种“微信依赖症”已成为公司创新的枷锁，导致其在AI时代布局迟缓。",
       "highlights": [
@@ -193,7 +193,7 @@
       "source": "刘小排r",
       "source_channel": "wechat-ai",
       "category": "AI/Tech",
-      "pub_date": "",
+      "pub_date": "2026-01-30",
       "summary": "国产编程工具 CodeBuddy Code 2.0 的功能介绍与 Agent 开发 SDK 推荐。",
       "core_point": "文章推荐CodeBuddy Code 2.0作为Claude Code的国产平替，强调其无需持续科学上网即可使用国际顶级模型，并开放了Agent SDK便于快速开发。",
       "highlights": [
@@ -211,7 +211,7 @@
       "source": "十字路口Crossing",
       "source_channel": "wechat-ai",
       "category": "AI/Tech",
-      "pub_date": "",
+      "pub_date": "2026-01-30",
       "summary": "分析阶跃星辰融资及印奇加盟后的战略转型：从刷榜转向“AI+终端”落地。",
       "core_point": "文章报道阶跃星辰完成超50亿元B+轮融资，印奇出任董事长，标志着公司战略转向以模型能力为核心，向“AI+终端/硬件”场景延伸。",
       "highlights": [
@@ -229,7 +229,7 @@
       "source": "探索AGI",
       "source_channel": "wechat-ai",
       "category": "AI/Tech",
-      "pub_date": "",
+      "pub_date": "2026-01-30",
       "summary": "Claude Code 发布 VS Code 插件的功能介绍与初步使用体验。",
       "core_point": "文章介绍了Claude Code新推出的VS Code插件，作者认为其深度集成、支持文件引用和人工校验等特性，可能使其取代Cursor成为主力编程工具。",
       "highlights": [

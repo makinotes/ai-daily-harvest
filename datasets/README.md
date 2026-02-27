@@ -59,9 +59,11 @@ The final score (0-100) is a weighted composite. Articles below 60 are excluded.
 `scored-articles.csv` contains the same data as the JSONL, formatted for Excel / Google Sheets.
 
 - Encoding: UTF-8 with BOM (opens correctly in Excel without garbled Chinese text)
+- Field names match the JSONL schema exactly (`pub_date`, `source_channel`, etc.)
 - `highlights` array is joined with ` | ` separator into a single cell
+- Multi-line text fields are flattened to single lines
 - Sorted by date (newest first), then by score (highest first)
-- Regenerated from JSONL on each pipeline run
+- Deduplicated by (pub_date, title), regenerated from JSONL on each pipeline run
 
 ## Limitations
 
