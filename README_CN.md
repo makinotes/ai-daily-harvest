@@ -22,8 +22,8 @@
 # 今天的精选，按 verdict 分组
 curl -s https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/lists/daily-picks.json | jq '.must_read'
 
-# 某天的完整数据
-curl -s https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/api/2026-02-27.json
+# 某天的完整数据（替换为任意可用日期）
+curl -s https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/api/$(date +%Y-%m-%d).json
 
 # 按分类看最近 30 天
 curl -s https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/indexes/by-category.json | jq '.categories["AI/Tech"][:3]'
@@ -42,6 +42,7 @@ curl -s https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/inde
 | 每日文章 | 过滤后约 25-40 篇 |
 | 累计数据集 | 427+ 篇带标注文章 |
 | 历史 | 2026-01-26 起，工作日更新 |
+| 缺失 | 部分日期可能缺失（节假日、维护）|
 
 ## 文件说明
 

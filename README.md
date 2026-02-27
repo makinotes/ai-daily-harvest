@@ -22,8 +22,8 @@ Sources are continuously expanding. Suggestions welcome via [issues](../../issue
 # Today's picks grouped by verdict
 curl -s https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/lists/daily-picks.json | jq '.must_read'
 
-# Full data for a date
-curl -s https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/api/2026-02-27.json
+# Full data for a specific date (replace with any available date)
+curl -s https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/api/$(date +%Y-%m-%d).json
 
 # 30-day articles by category
 curl -s https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/indexes/by-category.json | jq '.categories["AI/Tech"][:3]'
@@ -42,6 +42,7 @@ For LLMs: [`llms.txt`](llms.txt) for quick start, [`llms-full.txt`](llms-full.tx
 | Daily articles | ~25-40 after filtering |
 | Cumulative dataset | 427+ scored articles |
 | History | Since 2026-01-26, updated most weekdays |
+| Gaps | Some dates may be missing (holidays, maintenance) |
 
 ## What's Inside
 

@@ -6,35 +6,35 @@
       "link": "https://simonwillison.net/2026/Feb/26/google-api-keys/#atom-everything",
       "source": "Simon Willison",
       "score": 100,
-      "why": "对开发者而言，这揭示了云服务API密钥权限管理的潜在盲区，可能导致意外的安全漏洞和财务损失；对安全从业者，这是一个典型的权限升级和配置漂移案例。"
+      "why_matters": "对开发者而言，这揭示了云服务API密钥权限管理的潜在盲区，可能导致意外的安全漏洞和财务损失；对安全从业者，这是一个典型的权限升级和配置漂移案例。"
     },
     {
       "title": "近期，Google发了2篇不错的Multi-Agent新Paper",
       "link": "https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA==&mid=2247504482&idx=2&sn=02869647fbb5aea215549487592eac76",
       "source": "PaperAgent",
       "score": 90,
-      "why": "对AI研究者意味着新的多智能体协作范式和算法自动化设计工具。"
+      "why_matters": "对AI研究者意味着新的多智能体协作范式和算法自动化设计工具。"
     },
     {
       "title": "谈谈光互连的一些问题",
       "link": "https://mp.weixin.qq.com/s?__biz=MzUxNzQ5MTExNw==&mid=2247497667&idx=1&sn=06ec4d01c307eebc6cc47826a750fd47",
       "source": "zartbot",
       "score": 88,
-      "why": "对芯片和硬件工程师意味着需要根据具体应用场景（如数据中心内部或跨园区）评估和选择不同的光互连技术方案。"
+      "why_matters": "对芯片和硬件工程师意味着需要根据具体应用场景（如数据中心内部或跨园区）评估和选择不同的光互连技术方案。"
     },
     {
       "title": "艾滋病为何难以痊愈？这项研究给出了迄今最清晰的答案",
       "link": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649790918&idx=1&sn=ffea9c1844ca98aa8fe1fd3748a4cdd9",
       "source": "DeepTech深科技",
       "score": 85,
-      "why": "为艾滋病治愈研究提供了可直接操作的实验模型，是理解并最终根除“病毒库”这一核心障碍的重大突破。"
+      "why_matters": "为艾滋病治愈研究提供了可直接操作的实验模型，是理解并最终根除“病毒库”这一核心障碍的重大突破。"
     },
     {
       "title": "一个专测 AI「说废话」的基准",
       "link": "https://mp.weixin.qq.com/s?__biz=MzA4NzgzMjA4MQ==&mid=2453480665&idx=2&sn=e2d1b2abbb8dea32b87551988c70fa40",
       "source": "AGI Hunt",
       "score": 85,
-      "why": "对开发者和用户意味着需要关注模型输出的事实性与合理性，而不仅仅是流畅度。"
+      "why_matters": "对开发者和用户意味着需要关注模型输出的事实性与合理性，而不仅仅是流畅度。"
     }
   ],
   "worth_reading": [
@@ -43,98 +43,98 @@
       "link": "https://mp.weixin.qq.com/s?__biz=MzkzNDQxOTU2MQ==&mid=2247513353&idx=1&sn=4b2b8237fdf043efa807ee4a27cb5651",
       "source": "赛博禅心",
       "score": 83,
-      "why": "对开发者意味着一种新的、更便捷的跨设备编程协作与监控工作流。"
+      "why_matters": "对开发者意味着一种新的、更便捷的跨设备编程协作与监控工作流。"
     },
     {
       "title": "Anthropic发布Claude Code Security：AI开始接管代码安全",
       "link": "https://mp.weixin.qq.com/s?__biz=MzA5MTIxNTY4MQ==&mid=2461158599&idx=1&sn=f243e7e49e8defdf31f506444be2d36c",
       "source": "AI工程化",
       "score": 83,
-      "why": "对开发者意味着可能获得一个强大的AI安全助手，对投资者则需重新评估传统安全软件公司的价值。"
+      "why_matters": "对开发者意味着可能获得一个强大的AI安全助手，对投资者则需重新评估传统安全软件公司的价值。"
     },
     {
       "title": "让Claude和Kimi接管真实系统，跑个实验差点把服务器干崩了",
       "link": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247718008&idx=1&sn=7fb65e64bd7565b688cd18aa82599504",
       "source": "PaperWeekly",
       "score": 82,
-      "why": "对AI产品经理和投资者而言，这意味着当前智能体技术的成熟度远低于宣传，安全与可靠性是商业化前必须跨越的鸿沟。"
+      "why_matters": "对AI产品经理和投资者而言，这意味着当前智能体技术的成熟度远低于宣传，安全与可靠性是商业化前必须跨越的鸿沟。"
     },
     {
       "title": "超越IMO金牌？谷歌创超难FirstProof数学挑战新纪录",
       "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651018183&idx=2&sn=b38c7596598bff360ff11b40aee23088",
       "source": "机器之心",
       "score": 82,
-      "why": "对科研人员和投资者而言，这标志着AI正从“解题工具”演变为“研究协作者”，可能重塑基础科学的研究范式。"
+      "why_matters": "对科研人员和投资者而言，这标志着AI正从“解题工具”演变为“研究协作者”，可能重塑基础科学的研究范式。"
     },
     {
       "title": "北大ProAct：首个双系统「主动社交」智能体，不做提线木偶",
       "link": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652677811&idx=3&sn=76fa2a95b6b5836db39e8872d567338f",
       "source": "新智元",
       "score": 82,
-      "why": "对机器人学和具身AI研究者意味着一种实现自然、主动人机交互的新架构范式。"
+      "why_matters": "对机器人学和具身AI研究者意味着一种实现自然、主动人机交互的新架构范式。"
     },
     {
       "title": "陶哲轩来给AI数学泼冷水了",
       "link": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247870617&idx=2&sn=822c44d2ffa8c1a5d092859394fde186",
       "source": "量子位",
       "score": 82,
-      "why": "对AI研究者和数学家意味着需要共同设计新的交互与验证范式，以真正让AI推动数学发展。"
+      "why_matters": "对AI研究者和数学家意味着需要共同设计新的交互与验证范式，以真正让AI推动数学发展。"
     },
     {
       "title": "深度｜Claude Code创造者：面向六个月后模型开发，而非当下模型；未来人人皆可开发软件，跨领域通才更具竞争力",
       "link": "https://mp.weixin.qq.com/s?__biz=MzI4NTgxMDk1NA==&mid=2247514273&idx=1&sn=57ea11919d135872b452fe07e645c3fd",
       "source": "Z Potentials",
       "score": 78,
-      "why": "对开发者和技术管理者而言，这意味着技能栈和团队结构的根本性变革即将到来，适应新范式者将获得极高杠杆。"
+      "why_matters": "对开发者和技术管理者而言，这意味着技能栈和团队结构的根本性变革即将到来，适应新范式者将获得极高杠杆。"
     },
     {
       "title": "LM Studio推出LM Link：让本地大模型远程调用成为现实",
       "link": "https://mp.weixin.qq.com/s?__biz=MzA5MTIxNTY4MQ==&mid=2461158618&idx=1&sn=5d33a974b7f2f8ba6a52bdecba55f557",
       "source": "AI工程化",
       "score": 78,
-      "why": "对个人开发者和AI爱好者意味着可以更灵活地利用分散的算力资源，突破单机性能瓶颈。"
+      "why_matters": "对个人开发者和AI爱好者意味着可以更灵活地利用分散的算力资源，突破单机性能瓶颈。"
     },
     {
       "title": "善战者无赫赫之功",
       "link": "https://mp.weixin.qq.com/s?__biz=MzU2MTgzMjQyMA==&mid=2247485150&idx=1&sn=17cfe024267ea0b059a18880e70ea2e7",
       "source": "周喆吾",
       "score": 78,
-      "why": "对企业家和投资者是一种重要的思维校准：警惕幸存者偏差，关注那些沉默但强大的复利机器。"
+      "why_matters": "对企业家和投资者是一种重要的思维校准：警惕幸存者偏差，关注那些沉默但强大的复利机器。"
     },
     {
       "title": "为什么你公司的内部创业大概率会死？Conviction!",
       "link": "https://mp.weixin.qq.com/s?__biz=MzU2MTgzMjQyMA==&mid=2247485145&idx=1&sn=8d29ce979b84d90e1ec1746212cd3962",
       "source": "周喆吾",
       "score": 78,
-      "why": "对企业管理者是重要的战略警醒：创新成功的关键在于穿透组织的决心和资源定力，而非完美的初始计划。"
+      "why_matters": "对企业管理者是重要的战略警醒：创新成功的关键在于穿透组织的决心和资源定力，而非完美的初始计划。"
     },
     {
       "title": "揭开具身智能黑盒！清华等团队破译隐藏动力学密码：极限环编码行为",
       "link": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247718008&idx=2&sn=b72e53a2c4a860dc886abf29eb1ce053",
       "source": "PaperWeekly",
       "score": 77,
-      "why": "对AI研究员和机器人开发者而言，这为理解和设计更可靠、可解释的具身智能系统提供了关键的理论工具和设计原则。"
+      "why_matters": "对AI研究员和机器人开发者而言，这为理解和设计更可靠、可解释的具身智能系统提供了关键的理论工具和设计原则。"
     },
     {
       "title": "“最怕”AI失控的人，放弃了？",
       "link": "https://mp.weixin.qq.com/s?__biz=Mjc1NjM3MjY2MA==&mid=2691565190&idx=1&sn=9c29fd8a8d97b9afb11df498fa68baf9",
       "source": "腾讯科技",
       "score": 77,
-      "why": "对投资者和行业观察者而言，这反映了在激烈的商业竞争下，即使是“最安全”的AI公司也可能在安全承诺上做出妥协，需重新评估行业自我监管的可靠性。"
+      "why_matters": "对投资者和行业观察者而言，这反映了在激烈的商业竞争下，即使是“最安全”的AI公司也可能在安全承诺上做出妥协，需重新评估行业自我监管的可靠性。"
     },
     {
       "title": "用量子技术给大模型瘦身！西班牙AI初创开脑洞，让模型规模缩小一半仍保持强大性能",
       "link": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649790918&idx=2&sn=6d20a4c9af908dcbf1d1eab5e04176bc",
       "source": "DeepTech深科技",
       "score": 75,
-      "why": "对开发者和企业技术负责人而言，这提供了降低大模型部署成本、实现本地化或边缘部署的新可能，是推动AI普惠化的重要技术进展。"
+      "why_matters": "对开发者和企业技术负责人而言，这提供了降低大模型部署成本、实现本地化或边缘部署的新可能，是推动AI普惠化的重要技术进展。"
     },
     {
       "title": "要么做一个Agent产品，要么让你的产品能被Agent使用",
       "link": "https://mp.weixin.qq.com/s?__biz=MzU1MTAwNzY4Mg==&mid=2247490691&idx=1&sn=374c233b18184cd08d742539fc67237b",
       "source": "喜新",
       "score": 75,
-      "why": "对产品经理和开发者意味着一个明确的未来路线图：你的产品必须准备好被AI Agent作为主要用户来使用。"
+      "why_matters": "对产品经理和开发者意味着一个明确的未来路线图：你的产品必须准备好被AI Agent作为主要用户来使用。"
     }
   ],
   "neutral": [
@@ -143,140 +143,140 @@
       "link": "https://simonwillison.net/guides/agentic-engineering-patterns/hoard-things-you-know-how-to-do/#atom-everything",
       "source": "Simon Willison",
       "score": 73,
-      "why": "对软件工程师和AI应用开发者而言，这构建了一个可随时调用的“解决方案模式库”，能显著提升在AI辅助编程时代识别和实现创新想法的效率。"
+      "why_matters": "对软件工程师和AI应用开发者而言，这构建了一个可随时调用的“解决方案模式库”，能显著提升在AI辅助编程时代识别和实现创新想法的效率。"
     },
     {
       "title": "Andrej Karpathy 最新评论 Vibe Coding： 培养直觉，抽象编排，Agentic Engineering 的杠杆效应极高 Vibe Coding 之父、赛博菩萨 Andrej Karpathy 又来锐评 Vibe Coding 了，这次是一条很短的推特（链接见文末），内容却很关键，分享一下： 第一，培养精确拆分任务的直觉。 Karpathy说，关键在于培养一种直觉，把任务恰到好处地拆解——能交给 Agent 的部分交出去，自己在边界处补位。 \"The key is to build intuition to decompose the task just right to hand off the parts that work and help out around the edges.\" AI Coding 最核心的能力不是 prompt engineering，而是你能不能把任务拆到恰到好处。 太细，Agent 施展不开；太粗，跑偏了你都不知道。 这个甜点位没有公式，靠直觉，靠手感，靠不断地练。 第二，不断爬升抽象层次。 Karpathy的原话是，最大的奖赏在于不断爬升抽象阶梯，搭建配备了合适工具、记忆和指令、并能长时间运行的编排层，让它替你并行管理多个 Agent 实例。 \"The biggest prize is in figuring out how you can keep ascending the layers of abstraction to set up long-running orchestrator Claws with all of the right tools, memory and instructions.\" AI Coding 不再需要过去手敲代码的程序员，需要的是 Agent 团队的架构师——这是完全不一样的能力模型，后者在传统软件开发里是高级技术 leader 才具备的能力。 第三，Coding 范式重构。 从计算机发明以来，人类就在编辑器里手敲代码。 Karpathy 说，那个时代结束了（that era is over）。 现在的工作方式是用英语拆解任务、编排 Agent、并行管理产出。 Coding 正在变成 Agentic Engineering，这和传统的软件开发完全不一样，而且杠杆效应极高。 这不是渐进式的进步，是断裂式的跃迁。 推特原文：https://x.com/karpathy/status/2026731645169185220 相关阅读： Karpathy 最新 AI 编程笔记，马斯克评「对时代精神的最佳总结」",
       "link": "https://mp.weixin.qq.com/s?__biz=MzIwODA3MDUwOQ==&mid=2652775944&idx=1&sn=8419f96019d18f51d89ff649e3c23522",
       "source": "张无常",
       "score": 73,
-      "why": "对所有软件从业者而言，这是职业能力模型的一次彻底重塑，适应新范式者将获得指数级的生产力提升。"
+      "why_matters": "对所有软件从业者而言，这是职业能力模型的一次彻底重塑，适应新范式者将获得指数级的生产力提升。"
     },
     {
       "title": "OpenAI 发布了 Codex 应用服务器架构，用于统一 AI 智能体表面",
       "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651276357&idx=3&sn=cfeb3f8bfd1cec42c3e3c6511e51eea1",
       "source": "InfoQ",
       "score": 73,
-      "why": "对开发者工具构建者和集成者而言，这提供了将高级AI编码智能体深度、稳定集成到开发环境中的官方蓝图和标准。"
+      "why_matters": "对开发者工具构建者和集成者而言，这提供了将高级AI编码智能体深度、稳定集成到开发环境中的官方蓝图和标准。"
     },
     {
       "title": "WhatsApp 在 30 亿台设备上部署基于 Rust 的媒体解析器以阻止恶意软件",
       "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651276357&idx=4&sn=28f985ea9b7fc46067c89cf5ff1bf453",
       "source": "InfoQ",
       "score": 73,
-      "why": "对软件架构师和安全工程师而言，这是内存安全语言在主流商业软件中成功落地的里程碑案例，证明了其工程可行性和安全收益。"
+      "why_matters": "对软件架构师和安全工程师而言，这是内存安全语言在主流商业软件中成功落地的里程碑案例，证明了其工程可行性和安全收益。"
     },
     {
       "title": "Claude Code更新，你终于可以随时随地在手机上Vibe Coding了。",
       "link": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647680144&idx=1&sn=f42a52a245825f106c9e40225db0a9a5",
       "source": "数字生命卡兹克",
       "score": 73,
-      "why": "对开发者意味着可以更灵活地进行碎片化时间编程，提升了AI辅助开发工具的可用性和便利性。"
+      "why_matters": "对开发者意味着可以更灵活地进行碎片化时间编程，提升了AI辅助开发工具的可用性和便利性。"
     },
     {
       "title": "刚刚，Anthropic 再出手，收购 AI 电脑操控公司 Vercept",
       "link": "https://mp.weixin.qq.com/s?__biz=MzA4NzgzMjA4MQ==&mid=2453480665&idx=1&sn=b6f5684995d4095ecc9b6be07cb4555c",
       "source": "AGI Hunt",
       "score": 73,
-      "why": "对关注AI Agent和具身智能的从业者意味着行业领先公司正通过收购快速整合关键能力，竞争焦点向多模态交互与真实世界任务执行延伸。"
+      "why_matters": "对关注AI Agent和具身智能的从业者意味着行业领先公司正通过收购快速整合关键能力，竞争焦点向多模态交互与真实世界任务执行延伸。"
     },
     {
       "title": "击败谷歌、英伟达！清华陈建宇×斯坦福Chelsea团队世界模型Ctrl-World具身能力登顶全球",
       "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651018183&idx=1&sn=d562c55c627429307182d208fde291af",
       "source": "机器之心",
       "score": 70,
-      "why": "对机器人学和AI视觉领域的研究者与投资者而言，这标志着构建通用具身智能基础模型的技术路线取得了重大突破，是行业发展的关键风向标。"
+      "why_matters": "对机器人学和AI视觉领域的研究者与投资者而言，这标志着构建通用具身智能基础模型的技术路线取得了重大突破，是行业发展的关键风向标。"
     },
     {
       "title": "速递｜企业需要“被AI找到”：SIG和光速创投领投，AI搜索营销平台Gushwork完成900万美元种子轮融资",
       "link": "https://mp.weixin.qq.com/s?__biz=MzI4NTgxMDk1NA==&mid=2247514273&idx=3&sn=3673ec4098ced497e1ef14d7fe49f57e",
       "source": "Z Potentials",
       "score": 70,
-      "why": "对营销人员和创业者意味着AI搜索正在重塑流量获取和客户发现方式，需要调整SEO和内容策略。"
+      "why_matters": "对营销人员和创业者意味着AI搜索正在重塑流量获取和客户发现方式，需要调整SEO和内容策略。"
     },
     {
       "title": "2025年度神经科学十大发现",
       "link": "https://mp.weixin.qq.com/s?__biz=MzI3MjQ4MDMyOQ==&mid=2247538914&idx=1&sn=5e8592450ecb3be3642dc91daaf67862",
       "source": "追问nextquestion",
       "score": 68,
-      "why": "对教育科技和脑机接口领域的研究者意味着新的技术工具和干预思路。"
+      "why_matters": "对教育科技和脑机接口领域的研究者意味着新的技术工具和干预思路。"
     },
     {
       "title": "年前发布的几个国产新模型的竞技场排名出来",
       "link": "https://mp.weixin.qq.com/s?__biz=MzkwMzY5NzU2Nw==&mid=2247489081&idx=1&sn=04dd4ced77221d4f7840592e65ca2bb8",
       "source": "有机大橘子",
       "score": 67,
-      "why": "对开发者和用户意味着国产大模型提供了更多高性价比且能力突出的选择。"
+      "why_matters": "对开发者和用户意味着国产大模型提供了更多高性价比且能力突出的选择。"
     },
     {
       "title": "追问daily | 大脑每秒开小差十次；打一针就能做深部脑刺激；AI太会拍马屁怎么办？",
       "link": "https://mp.weixin.qq.com/s?__biz=MzI3MjQ4MDMyOQ==&mid=2247538914&idx=2&sn=cabc0ea6344de505581767868d2e1754",
       "source": "追问nextquestion",
       "score": 65,
-      "why": "对神经科学和AI交叉领域的研究者意味着可以用更轻量的模型来探索和模拟大脑机制。"
+      "why_matters": "对神经科学和AI交叉领域的研究者意味着可以用更轻量的模型来探索和模拟大脑机制。"
     },
     {
       "title": "AI除幻第一股诞生，高瓴君联赚疯！这家公司，押中OpenClaw万亿美元赛道",
       "link": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652677811&idx=1&sn=a3b8aae97538abf28cbe505d4a28920e",
       "source": "新智元",
       "score": 65,
-      "why": "对企业决策者和产业AI开发者意味着需要重新审视AI在企业的核心价值，聚焦于可落地、可验证的流程自动化。"
+      "why_matters": "对企业决策者和产业AI开发者意味着需要重新审视AI在企业的核心价值，聚焦于可落地、可验证的流程自动化。"
     },
     {
       "title": "CVPR 2026新增赛道！EgoCross挑战赛：用四大杀手级场景，考验多模态大模型泛化极限",
       "link": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247870617&idx=3&sn=71e64d642380f11cffdcd6f1c69a0314",
       "source": "量子位",
       "score": 63,
-      "why": "对AI研究员意味着一个前沿的评测平台，用于推动MLLMs在复杂真实世界场景中的实用化突破。"
+      "why_matters": "对AI研究员意味着一个前沿的评测平台，用于推动MLLMs在复杂真实世界场景中的实用化突破。"
     },
     {
       "title": "王鹏：狩猎人生",
       "link": "https://mp.weixin.qq.com/s?__biz=Mzg4MzI4OTA3OQ==&mid=2247519095&idx=1&sn=c8def6ace38fbf7640e71da6a05c2e4e",
       "source": "緑洲资本 Vitalbridge",
       "score": 62,
-      "why": "对投资者和高端人才而言，这是一种在高度不确定性和AI化时代构建个人深层竞争优势的独特心法与实践。"
+      "why_matters": "对投资者和高端人才而言，这是一种在高度不确定性和AI化时代构建个人深层竞争优势的独特心法与实践。"
     },
     {
       "title": "黄仁勋反驳“AI 吞噬软件”：传统软件模式要退场了，实时生成接管，算力需求翻几百倍",
       "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651276357&idx=1&sn=f4bb0ddaff9cff163b677d05a707001b",
       "source": "InfoQ",
       "score": 62,
-      "why": "对投资者和科技公司战略官而言，这是对未来十年计算范式与市场规模的顶级预测，指明了软硬件生态的演进方向。"
+      "why_matters": "对投资者和科技公司战略官而言，这是对未来十年计算范式与市场规模的顶级预测，指明了软硬件生态的演进方向。"
     },
     {
       "title": "终端大模型操作系统的架构、优化与展望",
       "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651276357&idx=2&sn=a74eb8bce0c3e2c2d571cd9af9748f79",
       "source": "InfoQ",
       "score": 62,
-      "why": "对移动生态的参与者而言，这是定义下一个十年终端体验与平台权力的战略机遇，端侧AI能力将成为设备的核心竞争力。"
+      "why_matters": "对移动生态的参与者而言，这是定义下一个十年终端体验与平台权力的战略机遇，端侧AI能力将成为设备的核心竞争力。"
     },
     {
       "title": "剧变已经发生，而你浑然不知",
       "link": "https://mp.weixin.qq.com/s?__biz=MzIwODA3MDUwOQ==&mid=2652775926&idx=1&sn=2557696510dee905b1db51e78c82e053",
       "source": "张无常",
       "score": 62,
-      "why": "对普通职场人士是一记强烈的警钟：AI带来的职业重塑不是未来时，而是现在进行时，需立即采取应对策略。"
+      "why_matters": "对普通职场人士是一记强烈的警钟：AI带来的职业重塑不是未来时，而是现在进行时，需立即采取应对策略。"
     },
     {
       "title": "Claude has some conflicts",
       "link": "https://www.bensbites.com/p/claude-has-some-conflicts",
       "source": "Ben's Bites",
       "score": 60,
-      "why": ""
+      "why_matters": ""
     },
     {
       "title": "暴增73%，英伟达上个财季再创记录，营收681亿美元远超行业预测",
       "link": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649790918&idx=3&sn=b01b25f5752dbe08008ab2ce8811f891",
       "source": "DeepTech深科技",
       "score": 60,
-      "why": "对投资者和行业分析师而言，这是观察全球AI资本开支周期强度的最关键指标，显示需求依然火爆，行业增长动力充足。"
+      "why_matters": "对投资者和行业分析师而言，这是观察全球AI资本开支周期强度的最关键指标，显示需求依然火爆，行业增长动力充足。"
     },
     {
       "title": "Seedance2.0又新出了9种神级商用玩法，变身骑士已经落后N个版本了",
       "link": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&mid=2247505146&idx=1&sn=a2113861ffe274ef749036403258fc80",
       "source": "卡尔的AI沃茨",
       "score": 60,
-      "why": "对内容创作者和电商从业者意味着可以用极低的成本和技术门槛快速生产高质量的商业化视频内容。"
+      "why_matters": "对内容创作者和电商从业者意味着可以用极低的成本和技术门槛快速生产高质量的商业化视频内容。"
     }
   ],
   "noise": [],
