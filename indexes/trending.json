@@ -1,34 +1,62 @@
 {
-  "updated": "2026-02-26",
+  "updated": "2026-02-27",
   "window": "7d",
-  "article_count": 86,
+  "article_count": 107,
   "trending": [
     {
       "keyword": "模型",
-      "count": 13
+      "count": 18
     },
     {
       "keyword": "Anthropic",
-      "count": 8
+      "count": 9
     },
     {
       "keyword": "Agent",
-      "count": 6
-    },
-    {
-      "keyword": "大模",
-      "count": 6
-    },
-    {
-      "keyword": "学会",
-      "count": 5
+      "count": 8
     },
     {
       "keyword": "Claude",
-      "count": 5
+      "count": 8
+    },
+    {
+      "keyword": "大模",
+      "count": 8
+    },
+    {
+      "keyword": "智能",
+      "count": 6
     },
     {
       "keyword": "OpenAI",
+      "count": 6
+    },
+    {
+      "keyword": "美元",
+      "count": 6
+    },
+    {
+      "keyword": "系统",
+      "count": 5
+    },
+    {
+      "keyword": "Code",
+      "count": 5
+    },
+    {
+      "keyword": "团队",
+      "count": 5
+    },
+    {
+      "keyword": "技术",
+      "count": 5
+    },
+    {
+      "keyword": "公司",
+      "count": 5
+    },
+    {
+      "keyword": "学会",
       "count": 5
     },
     {
@@ -36,52 +64,24 @@
       "count": 5
     },
     {
-      "keyword": "美元",
-      "count": 5
-    },
-    {
-      "keyword": "公司",
+      "keyword": "谷歌",
       "count": 4
     },
     {
-      "keyword": "亿美",
+      "keyword": "能体",
       "count": 4
     },
     {
-      "keyword": "工程",
+      "keyword": "首个",
       "count": 4
     },
     {
-      "keyword": "不再",
-      "count": 3
+      "keyword": "软件",
+      "count": 4
     },
     {
-      "keyword": "数据",
-      "count": 3
-    },
-    {
-      "keyword": "LLM",
-      "count": 3
-    },
-    {
-      "keyword": "安全",
-      "count": 3
-    },
-    {
-      "keyword": "智能",
-      "count": 3
-    },
-    {
-      "keyword": "Code",
-      "count": 3
-    },
-    {
-      "keyword": "代码",
-      "count": 3
-    },
-    {
-      "keyword": "春节",
-      "count": 3
+      "keyword": "具身",
+      "count": 4
     }
   ]
 }

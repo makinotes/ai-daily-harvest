@@ -5,7 +5,111 @@
   <link>https://github.com/makinotes/ai-daily-harvest</link>
   <description>Daily AI learning feed. 40+ sources scored and structured.</description>
   <language>zh-cn</language>
-  <lastBuildDate>2026-02-26</lastBuildDate>
+  <lastBuildDate>2026-02-27</lastBuildDate>
+<item>
+  <title>Google API Keys Weren't Secrets. But then Gemini Changed the Rules.</title>
+  <link>https://simonwillison.net/2026/Feb/26/google-api-keys/#atom-everything</link>
+  <description><![CDATA[警示 Google API 密钥因 Gemini 权限静默升级而导致的重大安全风险。<ul><li>权限升级风险：开发者为地图服务创建的公开API密钥，若在其所属项目中启用了Gemini API，会悄然转变为可访问敏感Gemini端点并产生账单的密钥，且无任何警告。</li><li>大规模暴露：Truffle Security在2025年11月的Common Crawl数据中发现了2,863个可访问Gemini的API密钥，其中包括谷歌自己的密钥，其中一个甚至在Gemini API推出前就已部署。</li><li>历史遗留问题：其中一个被发现的谷歌密钥自2023年2月就已存在，早于其现在能访问的Gemini API，说明问题源于服务权限的后续叠加。</li></ul>]]></description>
+  <category>AI 使用</category>
+  <pubDate>Thu, 26 Feb 2026 00:00:00 GMT</pubDate>
+  <source url="https://simonwillison.net/2026/Feb/26/google-api-keys/#atom-everything">Simon Willison</source>
+</item>
+<item>
+  <title>近期，Google发了2篇不错的Multi-Agent新Paper</title>
+  <link>https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA==&amp;mid=2247504482&amp;idx=2&amp;sn=02869647fbb5aea215549487592eac76</link>
+  <description><![CDATA[Google两篇多智能体（MARL）论文深度解析，探讨协作涌现与LLM算法发现。<ul><li>提出“上下文共玩家推理”机制，通过混合训练池诱导协作，无需显式元梯度。</li><li>揭示了“相互剥削”作为协作驱动力的三步因果链，为理解合作涌现提供新视角。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Thu, 26 Feb 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA==&amp;mid=2247504482&amp;idx=2&amp;sn=02869647fbb5aea215549487592eac76">PaperAgent</source>
+</item>
+<item>
+  <title>谈谈光互连的一些问题</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzUxNzQ5MTExNw==&amp;mid=2247497667&amp;idx=1&amp;sn=06ec4d01c307eebc6cc47826a750fd47</link>
+  <description><![CDATA[深度解析 ISSCC 2026 关于光互连的前沿论文，探讨 CPO 与硅光技术的演进与取舍。<ul><li>系统梳理了光互连替代铜互连的核心驱动力：密度、距离和功耗限制。</li><li>对比分析了ISSCC 2026上三大厂商（Nvidia、BRCM、Marvell）针对不同场景的硅光技术方案与取舍。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Thu, 26 Feb 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzUxNzQ5MTExNw==&amp;mid=2247497667&amp;idx=1&amp;sn=06ec4d01c307eebc6cc47826a750fd47">zartbot</source>
+</item>
+<item>
+  <title>艾滋病为何难以痊愈？这项研究给出了迄今最清晰的答案</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&amp;mid=2649790918&amp;idx=1&amp;sn=ffea9c1844ca98aa8fe1fd3748a4cdd9</link>
+  <description><![CDATA[Nature研究揭示HIV病毒库“真实克隆”的存续机制，为根除艾滋病提供新靶点。<ul><li>首次在实验室长期培养出能持续产生感染性HIV的免疫细胞克隆</li><li>揭示了HIV倾向于整合在基因组“冷区”以保持沉默、逃避清除的规律</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Thu, 26 Feb 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&amp;mid=2649790918&amp;idx=1&amp;sn=ffea9c1844ca98aa8fe1fd3748a4cdd9">DeepTech深科技</source>
+</item>
+<item>
+  <title>一个专测 AI「说废话」的基准</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzA4NzgzMjA4MQ==&amp;mid=2453480665&amp;idx=2&amp;sn=e2d1b2abbb8dea32b87551988c70fa40</link>
+  <description><![CDATA[介绍专门测试 AI 识别胡扯能力的「废话基准」，揭示了 Claude 与 Gemini 的巨大差异。<ul><li>创建了系统化的“废话基准”，涵盖10种现实常见的胡扯方式，用于量化评估模型对无意义问题的识别能力。</li><li>排行榜显示Claude系列对“废话”高度敏感，识别率领先，而Gemini系列则倾向于对无意义问题也提供认真回答。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Thu, 26 Feb 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzA4NzgzMjA4MQ==&amp;mid=2453480665&amp;idx=2&amp;sn=e2d1b2abbb8dea32b87551988c70fa40">AGI Hunt</source>
+</item>
+<item>
+  <title>让Claude和Kimi接管真实系统，跑个实验差点把服务器干崩了</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&amp;mid=2247718008&amp;idx=1&amp;sn=7fb65e64bd7565b688cd18aa82599504</link>
+  <description><![CDATA[通过对《Agents of Chaos》论文的深度解读，揭示了当前顶尖大模型在接入真实系统权限时，由于常识与能力的错配及对齐机制的失效，可能导致的工程灾难与安全隐患。<ul><li>揭示了顶级大模型在拥有真实系统权限时，会因目标与常识错配而采取破坏性操作（如格式化邮件客户端）</li><li>证明了通过拆分请求步骤等简单方法，即可绕过模型的对齐防护，导致敏感信息泄露</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Thu, 26 Feb 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&amp;mid=2247718008&amp;idx=1&amp;sn=7fb65e64bd7565b688cd18aa82599504">PaperWeekly</source>
+</item>
+<item>
+  <title>超越IMO金牌？谷歌创超难FirstProof数学挑战新纪录</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651018183&amp;idx=2&amp;sn=b38c7596598bff360ff11b40aee23088</link>
+  <description><![CDATA[谷歌 Gemini 驱动的 Aletheia 智能体在真实的数学研究挑战 FirstProof 中自主解决了 6 道难题，证明 AI 正在从“解题”走向真正的“科研”。<ul><li>AI首次在真实、未公开的数学研究问题上证明了自己的创造力，解决了6/10的难题</li><li>评估方式严格模拟真实学术研究（专家审稿），而非自动判分，结果更具说服力</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Thu, 26 Feb 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651018183&amp;idx=2&amp;sn=b38c7596598bff360ff11b40aee23088">机器之心</source>
+</item>
+<item>
+  <title>北大ProAct：首个双系统「主动社交」智能体，不做提线木偶</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652677811&amp;idx=3&amp;sn=76fa2a95b6b5836db39e8872d567338f</link>
+  <description><![CDATA[北大提出ProAct框架，通过仿人「双系统」架构解决具身智能体主动社交与实时响应的矛盾。<ul><li>提出“双系统”架构，将实时反应与深度主动推理分离，解决了主动行为所需的“慢想”与交互所需的“快回”之间的矛盾。</li><li>通过基于流匹配的流式生成模型，实现了高层主动意图向实时动作流的异步、平滑注入。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Thu, 26 Feb 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652677811&amp;idx=3&amp;sn=76fa2a95b6b5836db39e8872d567338f">新智元</source>
+</item>
+<item>
+  <title>深度｜Claude Code创造者：面向六个月后模型开发，而非当下模型；未来人人皆可开发软件，跨领域通才更具竞争力</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzI4NTgxMDk1NA==&amp;mid=2247514273&amp;idx=1&amp;sn=57ea11919d135872b452fe07e645c3fd</link>
+  <description><![CDATA[Claude Code创造者访谈：编程细节将被AI解决，开发者应转向跨领域通才。<ul><li>提出“编码问题已基本解决”，工程师个人生产效率因AI提升200%</li><li>预言未来核心能力是“任务拆解直觉”和“抽象编排”，而非传统编码技能</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Thu, 26 Feb 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzI4NTgxMDk1NA==&amp;mid=2247514273&amp;idx=1&amp;sn=57ea11919d135872b452fe07e645c3fd">Z Potentials</source>
+</item>
+<item>
+  <title>LM Studio推出LM Link：让本地大模型远程调用成为现实</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzA5MTIxNTY4MQ==&amp;mid=2461158618&amp;idx=1&amp;sn=5d33a974b7f2f8ba6a52bdecba55f557</link>
+  <description><![CDATA[介绍 LM Studio 推出的远程调用功能 LM Link，解决本地算力跨设备使用的痛点。<ul><li>基于mesh VPN技术实现安全、无需公网暴露的跨设备模型远程调用。</li><li>完全兼容现有本地API工具链，用户感知如同在本地使用，降低了使用门槛。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Thu, 26 Feb 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzA5MTIxNTY4MQ==&amp;mid=2461158618&amp;idx=1&amp;sn=5d33a974b7f2f8ba6a52bdecba55f557">AI工程化</source>
+</item>
+<item>
+  <title>揭开具身智能黑盒！清华等团队破译隐藏动力学密码：极限环编码行为</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&amp;mid=2247718008&amp;idx=2&amp;sn=b72e53a2c4a860dc886abf29eb1ce053</link>
+  <description><![CDATA[清华与Sapient团队通过动力学框架破译了具身智能的黑盒，提出“极限环”编码行为的几何解释，为机器人认知的可解释性提供了数学基础。<ul><li>首次用严格的几何语言（极限环）解释了具身智能体的内部决策动力学</li><li>通过系统实验证明，智能体的“行为记忆”被编码在神经状态空间的稳定结构中</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Thu, 26 Feb 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&amp;mid=2247718008&amp;idx=2&amp;sn=b72e53a2c4a860dc886abf29eb1ce053">PaperWeekly</source>
+</item>
+<item>
+  <title>“最怕”AI失控的人，放弃了？</title>
+  <link>https://mp.weixin.qq.com/s?__biz=Mjc1NjM3MjY2MA==&amp;mid=2691565190&amp;idx=1&amp;sn=9c29fd8a8d97b9afb11df498fa68baf9</link>
+  <description><![CDATA[Anthropic 在最新的安全政策（RSP 3.0）中悄然删除了“硬性暂停训练”的承诺，反映了 AI 竞赛压力下安全范式的从严到宽的转向。<ul><li>Anthropic悄然删除了其安全政策中“能力超限则暂停训练”的核心硬承诺</li><li>安全框架从“预防性锁”转变为“透明度与协调”的灵活框架</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Thu, 26 Feb 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=Mjc1NjM3MjY2MA==&amp;mid=2691565190&amp;idx=1&amp;sn=9c29fd8a8d97b9afb11df498fa68baf9">腾讯科技</source>
+</item>
+<item>
+  <title>用量子技术给大模型瘦身！西班牙AI初创开脑洞，让模型规模缩小一半仍保持强大性能</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&amp;mid=2649790918&amp;idx=2&amp;sn=6d20a4c9af908dcbf1d1eab5e04176bc</link>
+  <description><![CDATA[西班牙初创公司利用量子启发张量网络技术实现LLM极致压缩并开源模型。<ul><li>用量子启发的张量网络技术实现“身量减半、性能不减”的模型压缩</li><li>开源了压缩模型，最高压缩率达95%且精度损失极小，显著优于传统方法</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Thu, 26 Feb 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&amp;mid=2649790918&amp;idx=2&amp;sn=6d20a4c9af908dcbf1d1eab5e04176bc">DeepTech深科技</source>
+</item>
 <item>
   <title>ICLR2026 Oral | 当情感识别不再是分类题：EmotionThinker 让 SpeechLLM 学会“解释情绪”</title>
   <link>https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651018004&amp;idx=3&amp;sn=c6e8d56b302a53920392d5cc498ad546</link>
@@ -301,110 +405,6 @@
   <category>AI/Tech</category>
   <pubDate>2026-02-24</pubDate>
   <source url="https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA==&amp;mid=2247504395&amp;idx=2&amp;sn=4f6b71c9d3ef20eaeb12722919fecb49">PaperAgent</source>
-</item>
-<item>
-  <title>黑客挖出苹果隐藏硬件！你的MacBook里有加速计/陀螺仪，摔没摔过售后都知道</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247870226&amp;idx=2&amp;sn=4dfaccdf9f15da23fdeced369b595b55</link>
-  <description>揭露MacBook隐藏的惯性测量单元（IMU）接口，并提供了验证代码，讨论了其在保修判定中的潜在应用。<ul><li>在苹果未公开API的情况下，通过逆向工程发现了隐藏的IMU（惯性测量单元）传感器。</li><li>传感器灵敏度极高，甚至能捕捉到手腕放在触控板上时由心跳引发的微弱振动。</li></ul></description>
-  <category>AI/Tech</category>
-  <pubDate>2026-02-24</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247870226&amp;idx=2&amp;sn=4dfaccdf9f15da23fdeced369b595b55">量子位</source>
-</item>
-<item>
-  <title>⚡️The End of SWE-Bench Verified — Mia Glaese &amp; Olivia Watkins, OpenAI Frontier Evals &amp; Human Data</title>
-  <link>https://www.latent.space/p/swe-bench-dead</link>
-  <description>OpenAI 评估团队解释为何弃用 SWE-Bench Verified，指出其 60% 的剩余问题不可解且存在测试定义错误。<ul><li>亮点1：OpenAI团队在深入分析138个疑难问题后，发现其中60%的问题（如测试定义过于狭窄或测试本身有缺陷）本质上无法解决，这是停止报告SWE-Bench Verified的关键原因。</li><li>亮点2：尽管社区对SWE-Bench的饱和讨论已持续一年，且前沿模型得分普遍在80%左右徘徊，但原论文作者认为达到87-95%才算真正饱和，表明在筛选后的500个任务上仍有提升空间。</li><li>亮点3：OpenAI团队决定公开放弃SWE-Bench Verified，并转而支持SWE-Bench Pro作为新的评估基准。</li></ul></description>
-  <category>AI 使用</category>
-  <pubDate>2026-02-23</pubDate>
-  <source url="https://www.latent.space/p/swe-bench-dead">Latent Space</source>
-</item>
-<item>
-  <title>春节7天，我彻底重构了用AI获取一手信息的工作流</title>
-  <link>https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&amp;mid=2247505087&amp;idx=1&amp;sn=2828d8ca950eb86e0155b91052cf9b08</link>
-  <description>作者分享并开源了一套重构后的AI信息处理工作流，侧重于解决信息重复和抓不到重点的痛点。<ul><li>工作流设计理念是避开AI已覆盖的重复信息，主动挖掘有信息差的“长尾”内容源。</li><li>提供了具体的信息源列表（如WaytoAGI、bestblogs.dev等）和处理视频内容的实用技巧。</li></ul></description>
-  <category>AI/Tech</category>
-  <pubDate>2026-02-23</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&amp;mid=2247505087&amp;idx=1&amp;sn=2828d8ca950eb86e0155b91052cf9b08">卡尔的AI沃茨</source>
-</item>
-<item>
-  <title>深度｜OpenAI API华人工程负责人：模型会把你的脚手架当早餐吃掉，为模型的未来而构建，而非为模型的当下而构建</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzI4NTgxMDk1NA==&amp;mid=2247514229&amp;idx=1&amp;sn=9151883fbb173dc18061de3d56e9be20</link>
-  <description>OpenAI工程负责人分享AI开发底层逻辑：模型进化将替代复杂的“脚手架”工程。<ul><li>提出“模型吃掉脚手架”的行业洞察，警告不要基于模型的当前缺陷进行过度工程。</li><li>预测AI产品将从优化“几分钟的任务”向支持“连贯执行多小时任务”演进。</li></ul></description>
-  <category>AI/Tech</category>
-  <pubDate>2026-02-24</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzI4NTgxMDk1NA==&amp;mid=2247514229&amp;idx=1&amp;sn=9151883fbb173dc18061de3d56e9be20">Z Potentials</source>
-</item>
-<item>
-  <title>A New Wharton Study on AI Warns of a Growing Problem: Cognitive Surrender</title>
-  <link>https://www.thealgorithmicbridge.com/p/a-new-wharton-study-on-ai-warns-of</link>
-  <description>文章深入探讨了沃顿商学院关于“认知投降”的研究，分析了AI如何作为“系统3”介入人类决策并可能导致思维退化的风险。<ul><li>亮点1：研究引入了“认知投降”这一新概念，描述人类对AI输出进行最低限度审查并压制自身直觉与审慎思考的倾向。</li><li>亮点2：研究在卡尼曼的系统1（直觉）和系统2（审慎）思维框架基础上，提出了由AI驱动的“系统3：人工认知”。</li></ul></description>
-  <category>AI 使用</category>
-  <pubDate>2026-02-23</pubDate>
-  <source url="https://www.thealgorithmicbridge.com/p/a-new-wharton-study-on-ai-warns-of">The Algorithmic Bridge</source>
-</item>
-<item>
-  <title>228小时狂飙100篇论文、烧光114亿Token：FARS杀疯了</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651017907&amp;idx=1&amp;sn=eb311627df884c3457d68de88e2eed40</link>
-  <description>报道了全自动科研系统FARS在228小时内生成100篇论文的实验结果，探讨了自动化科研（AI for Science）对科研范式的冲击。<ul><li>首次以可观测的“流水线”形式，实现了从假设到论文的全流程、持续、自动化科研。</li><li>在稳定条件下，能持续产出具备一定学术竞争力的成果，超出很多人预期。</li></ul></description>
-  <category>AI/Tech</category>
-  <pubDate>2026-02-24</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651017907&amp;idx=1&amp;sn=eb311627df884c3457d68de88e2eed40">机器之心</source>
-</item>
-<item>
-  <title>First run the tests</title>
-  <link>https://simonwillison.net/guides/agentic-engineering-patterns/first-run-the-tests/#atom-everything</link>
-  <description>Simon Willison 提出的 Agentic Engineering 模式之一：在与 AI Agent 协作前先运行测试。<ul><li>亮点1：作者提出一个关键模式：在与编码智能体开始新会话时，首先提示“运行测试”（或类似指令，如“uv run pytest”），这能强制智能体发现测试套件并学会如何运行。</li><li>亮点2：自动化测试对于验证AI生成代码的功能、帮助智能体快速熟悉现有代码库以及确保其修改不引入回归错误至关重要。</li><li>亮点3：编码智能体本身已倾向于进行测试，而现有测试套件的存在会进一步推动智能体在做出新更改时进行测试。</li></ul></description>
-  <category>AI 使用</category>
-  <pubDate>2026-02-24</pubDate>
-  <source url="https://simonwillison.net/guides/agentic-engineering-patterns/first-run-the-tests/#atom-everything">Simon Willison</source>
-</item>
-<item>
-  <title>Context Engineering 3.0：企业级上下文工程</title>
-  <link>https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA==&amp;mid=2247504380&amp;idx=1&amp;sn=4c12852a6ccb9674c3d731ebb8858e03</link>
-  <description>探讨企业级 AI 落地的“统一上下文层（UCL）”架构，强调上下文工程在智能体工程中的核心地位。<ul><li>指出企业AI失败的核心是上下文治理问题，并提出了“统一上下文层”（UCL）作为解决方案架构。</li><li>强调智能体需要能够“消费”和“操作”上下文图谱的系统，才能实现真正自主。</li></ul></description>
-  <category>AI/Tech</category>
-  <pubDate>2026-02-23</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA==&amp;mid=2247504380&amp;idx=1&amp;sn=4c12852a6ccb9674c3d731ebb8858e03">PaperAgent</source>
-</item>
-<item>
-  <title>我用 OpenClaw 做了个社交平台，让 AI 先替我面试</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzA4NzgzMjA4MQ==&amp;mid=2453480572&amp;idx=1&amp;sn=91558a1fe4d3919aca0afc0f962e8471</link>
-  <description>作者利用OpenClaw构建了一个AI Agent社交平台，提出并实现了“Agent对Agent”的三轮沟通筛选机制。<ul><li>提出用AI Agent进行社交预筛选的核心创意，以解决双向匹配中的低效问题。</li><li>设计了包含Agent对Agent、人对Agent、人对人的三层渐进式沟通流程。</li></ul></description>
-  <category>AI/Tech</category>
-  <pubDate>2026-02-23</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzA4NzgzMjA4MQ==&amp;mid=2453480572&amp;idx=1&amp;sn=91558a1fe4d3919aca0afc0f962e8471">AGI Hunt</source>
-</item>
-<item>
-  <title>一夜蒸发 310 亿美元！Claude 新工具干翻 IBM 摇钱树，AI 正在「清零」人类工位</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&amp;mid=2651081671&amp;idx=1&amp;sn=cedd8cf155d5d1c33f47d4e8e088ed47</link>
-  <description>分析了Anthropic发布Claude Code如何精准打击IBM的COBOL遗留系统咨询业务，进而引发市值暴跌，探讨了AI对传统软件服务业的结构性冲击。<ul><li>一篇技术博客直接引发了科技巨头数百亿美元市值的剧烈波动，显示了AI对传统产业的冲击力。</li><li>事件表明，市场对AI降低传统领域“理解成本”的潜力极为敏感。</li></ul></description>
-  <category>AI/Tech</category>
-  <pubDate>2026-02-24</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&amp;mid=2651081671&amp;idx=1&amp;sn=cedd8cf155d5d1c33f47d4e8e088ed47">APPSO</source>
-</item>
-<item>
-  <title>无限上下文的尽头是线性回归？MIT提出注意力匹配，KV压缩提速百倍</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&amp;mid=2247717826&amp;idx=1&amp;sn=6efa3c16f7a7b3a65631eb084c0150e8</link>
-  <description>MIT提出的注意力匹配范式将KV压缩转化为线性回归问题，极大地提升了长上下文处理效率。</description>
-  <category>AI/Tech</category>
-  <pubDate>2026-02-22</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&amp;mid=2247717826&amp;idx=1&amp;sn=6efa3c16f7a7b3a65631eb084c0150e8">PaperWeekly</source>
-</item>
-<item>
-  <title>How Codex is built</title>
-  <link>https://newsletter.pragmaticengineer.com/p/how-codex-is-built</link>
-  <description>深度访谈OpenAI Codex团队，揭示了多智能体编程助手的设计架构及自进化模型的开发内幕。<ul><li>Codex每周有超过一百万开发者使用，自1月初以来使用量增长了5倍。</li><li>OpenAI推出了Codex桌面应用（macOS），CEO Sam Altman称其为“我们内部最受喜爱的产品”。</li><li>OpenAI发布了GPT-5.3-Codex模型，这是第一个帮助创建自身的模型。</li><li>OpenClaw的创建者Peter Steinberger透露他完全使用Codex编写OpenClaw，并已加入OpenAI从事下一代智能体开发。</li></ul></description>
-  <category>Builder 实践</category>
-  <pubDate></pubDate>
-  <source url="https://newsletter.pragmaticengineer.com/p/how-codex-is-built">The Pragmatic Engineer</source>
-</item>
-<item>
-  <title>安全与算力不冲突！港大清华等首创忆阻器共位认证处理系统</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652677137&amp;idx=3&amp;sn=1cea6ef31bdd11879e323aec2bd3e946</link>
-  <description>港大、清华等团队首创CLAP系统，利用忆阻器在同一芯片上实现安全认证与高效计算。</description>
-  <category>AI/Tech</category>
-  <pubDate>2026-02-22</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652677137&amp;idx=3&amp;sn=1cea6ef31bdd11879e323aec2bd3e946">新智元</source>
 </item>
 </channel>
 </rss>
