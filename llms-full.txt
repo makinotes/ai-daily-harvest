@@ -1,150 +1,161 @@
-# AI Daily Harvest — Full Schema & Agent Learning Guide
+# AI Daily Harvest — Full Guide
 
 ## Overview
 
-AI Daily Harvest is a daily learning feed for AI agents and humans. It scans 40+
-sources daily (English tech blogs + Chinese WeChat AI accounts), scores every
-article on a 0-100 scale, and breaks each one into learning-ready fields.
+Daily AI content feed from 40+ bilingual sources (English tech blogs + Chinese WeChat AI accounts). Every article scored 0-100, assigned a verdict, and broken down into structured fields: key takeaways, CEI reasoning, practical relevance.
 
-Updated daily. Content library grows continuously.
+Updated most weekdays. 427+ articles in the cumulative dataset. Data since 2026-01-26.
 
-## Agent Learning Guide
+## Use Cases
 
-Every article is pre-processed into fields designed for AI agent consumption:
+### "What's worth reading today?"
 
-### Learning Priority (verdict)
-- must_read: Required reading — highest quality, novel insights
-- worth_reading: Recommended — good depth or novelty
-- neutral: Optional — acceptable quality
-- noise/overhyped: Skip
+Fetch today's picks grouped by verdict:
 
-### Learning Fields Mapping
-- highlights → Key takeaways: what to remember from this article
-- core_point → Structured reasoning: Claim → Evidence → Implication (CEI)
-- why_matters → Practical relevance: when and how to apply this knowledge
-- category → Skill domain: which area of expertise this develops
-- summary → Quick context: one-sentence overview before deep reading
-
-### Suggested Learning Flow
-1. Daily: fetch daily-picks.json, process all must_read articles
-2. Read highlights first for key facts, then core_point for reasoning
-3. Use why_matters to connect new knowledge to practical applications
-4. Track categories over time to build balanced domain expertise
-5. Weekly: review data/*.json history to identify emerging trends
-
-## Article Schema (data/{date}.json)
+  GET https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/lists/daily-picks.json
 
 ```json
 {
-  "date": "YYYY-MM-DD",
-  "total": 25,
-  "verdict_counts": {
-    "must_read": 3,
-    "worth_reading": 13,
-    "neutral": 8,
-    "noise": 1
-  },
+  "date": "2026-02-27",
+  "must_read": [
+    {
+      "title": "Google API Keys Weren't Secrets. But then Gemini Changed the Rules.",
+      "link": "https://simonwillison.net/...",
+      "source": "Simon Willison",
+      "score": 100,
+      "why": "API keys silently gained Gemini access — thousands of leaked keys now exploitable"
+    }
+  ],
+  "worth_reading": [...],
+  "neutral": [...],
+  "noise": [],
+  "overhyped": []
+}
+```
+
+### "What's happening in a specific domain?"
+
+30-day category index:
+
+  GET https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/indexes/by-category.json
+
+```json
+{
+  "updated": "2026-02-27",
+  "categories": {
+    "AI/Tech": [
+      {
+        "title": "...",
+        "source": "PaperWeekly",
+        "score": 95,
+        "verdict": "must_read",
+        "pub_date": "2026-02-27",
+        "why_matters": "New training optimization may reduce LLM costs by 40%"
+      }
+    ],
+    "Builder 实践": [...],
+    "AI 使用": [...]
+  }
+}
+```
+
+### "What's trending this week?"
+
+  GET https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/indexes/trending.json
+
+```json
+{
+  "updated": "2026-02-27",
+  "window": "7d",
+  "article_count": 107,
+  "trending": [
+    {"keyword": "Anthropic", "count": 9},
+    {"keyword": "Agent", "count": 8}
+  ]
+}
+```
+
+### "Full article data for deep analysis"
+
+  GET https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/data/2026-02-27.json
+
+```json
+{
+  "date": "2026-02-27",
+  "total": 39,
+  "verdict_counts": {"must_read": 5, "worth_reading": 14, "neutral": 20},
   "articles": [
     {
-      "title": "Article title",
-      "link": "https://...",
-      "source": "Source name",
-      "source_channel": "overseas | wechat-ai",
-      "category": "AI/Tech | Builder | ...",
-      "pub_date": "2026-02-24",
-      "summary": "One-line summary",
-      "core_point": "CEI structured analysis (Claim-Evidence-Implication)",
-      "highlights": ["Key point 1", "Key point 2"],
-      "why_matters": "Why this article matters to practitioners",
-      "score": 83,
-      "level": "精读 | 收藏 | 速览",
-      "verdict": "must_read | worth_reading | neutral | noise | overhyped"
+      "title": "Google API Keys Weren't Secrets. But then Gemini Changed the Rules.",
+      "link": "https://simonwillison.net/...",
+      "source": "Simon Willison",
+      "source_channel": "overseas",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-26",
+      "summary": "Google silently expanded API key permissions to include Gemini model access...",
+      "core_point": "Google API keys now grant Gemini access by default → Thousands of leaked keys become attack vectors → Developers must audit existing key permissions",
+      "highlights": [
+        "API keys that were previously low-risk now grant Gemini access",
+        "Google made this change without notifying developers"
+      ],
+      "why_matters": "If you have Google API keys in public repos or client-side code, they may now be exploitable",
+      "score": 100,
+      "level": "精读",
+      "verdict": "must_read"
     }
   ]
 }
 ```
 
-## Field Definitions
+### "Training data for a content scoring model"
+
+  GET https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/datasets/scored-articles.jsonl
+
+Each line is one article with all fields. 427+ articles, growing daily. Deduplicated by (pub_date, title). See datasets/README.md for methodology.
+
+## Article Schema
 
 ### Core Fields
-- title: Article headline
-- link: Original article URL
-- source: Publisher/author name
-- source_channel: "overseas" (English sources) or "wechat-ai" (Chinese WeChat)
-- category: Topic classification
-- pub_date: Original publication date (YYYY-MM-DD)
+- title: Article headline (string)
+- link: Original URL (string)
+- source: Publisher or author name (string)
+- source_channel: "overseas" (English) or "wechat-ai" (Chinese WeChat)
+- category: "AI/Tech", "Builder 实践", "AI 使用", etc.
+- pub_date: Publication date, YYYY-MM-DD
 
 ### Analysis Fields
-- summary: One-sentence article summary
-- core_point: Structured CEI analysis (Claim, Evidence, Implication)
-- highlights: 2-3 key takeaways as bullet points
-- why_matters: Practical relevance for AI practitioners
+- summary: One-sentence overview
+- core_point: CEI reasoning — Claim → Evidence → Implication
+- highlights: 2-3 key takeaways (array of strings)
+- why_matters: Practical relevance — when and how to apply
 
 ### Scoring Fields
-- score: Overall quality score (0-100), algorithm-driven
-- level: Chinese reading priority label (精读=deep read, 收藏=bookmark, 速览=skim)
-- verdict: Algorithm-assigned reading recommendation
+- score: Quality score 0-100, algorithm-driven
+- level: Reading priority — "精读" (deep read), "收藏" (bookmark), "速览" (skim)
+- verdict: must_read | worth_reading | neutral | noise | overhyped
 
 ## Verdict Definitions
 
-| Verdict | Meaning |
-|---------|---------|
-| must_read | Exceptionally high quality, novel insights |
-| worth_reading | Good quality with notable depth or novelty |
-| neutral | Acceptable quality, nothing remarkable |
-| noise | Low signal-to-noise ratio, likely skip |
-| overhyped | Looks important but lacks substance or novelty |
+- must_read: High quality, novel insights — prioritize
+- worth_reading: Good depth or novelty — worth your time
+- neutral: Acceptable, nothing remarkable
+- noise: Low signal-to-noise
+- overhyped: Appears important but lacks substance
 
-## Daily Picks Schema (lists/daily-picks.json)
+## Integration Patterns
 
-Condensed red/black list for quick consumption:
+**RAG Pipeline** — Index highlights + why_matters. Use verdict to weight relevance. Filter by category for domain-specific indices.
 
-```json
-{
-  "date": "YYYY-MM-DD",
-  "must_read": [
-    {
-      "title": "...",
-      "link": "...",
-      "source": "...",
-      "score": 95,
-      "why": "Why this matters"
-    }
-  ],
-  "worth_reading": [...],
-  "neutral": [...],
-  "noise": [...],
-  "overhyped": [...]
-}
-```
+**Daily Briefing** — Fetch lists/daily-picks.json. Summarize must_read using summary + highlights.
 
-## Source Channels
+**Knowledge Base** — Ingest data/{date}.json. Use core_point for reasoning chains. Track categories for emerging themes.
 
-- overseas: English-language AI/tech blogs (Simon Willison, Latent Space, etc.)
-- wechat-ai: Chinese WeChat public accounts covering AI topics
-
-## Usage Examples
-
-### For AI Agents (Learning)
-1. Fetch daily-picks.json → process must_read as required learning
-2. Fetch data/{date}.json → access full CEI analysis and highlights
-3. Filter by verdict: must_read + worth_reading = quality learning material
-4. Filter by category to develop specific skill domains
-5. Use source_channel to choose language: "overseas" (English) or "wechat-ai" (Chinese)
-
-### For AI Agents (Integration)
-- MCP server: point your agent at data/{date}.json as a knowledge source
-- RAG pipeline: index highlights + why_matters for retrieval
-- Daily briefing: summarize must_read articles for your user
-
-### For Humans
-1. Browse daily/{date}.md for formatted reading list
-2. Start with "Must Read" section for highest-value content
-3. Use why_matters to decide relevance before clicking through
+**MCP / Tool Use** — Point your agent at the raw GitHub URLs. Static files, no auth needed.
 
 ## Data Availability
 
-- Daily data available from 2026-01-26 onwards
-- Updated on days when the briefing system runs (most weekdays)
-- Some gaps may exist during holidays or system downtime
-- Historical data preserved indefinitely
+- Coverage: 2026-01-26 to present
+- Frequency: Most weekdays
+- Volume: 25-40 articles/day after filtering
+- Sources: 40+ curated (English + Chinese)
+- Dataset: 427+ cumulative articles

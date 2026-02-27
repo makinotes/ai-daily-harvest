@@ -1,43 +1,29 @@
 # AI Daily Harvest
 
-> Daily learning feed for AI agents. Scored, structured, ready to consume.
+> Daily AI content feed. 40+ sources, scored and structured. JSON for agents, Markdown for humans, JSONL for training.
 
-40+ Chinese and English AI sources, scanned daily. Each article scored (0-100), assigned a verdict, and broken down into learning-ready fields: key takeaways, structured CEI reasoning, practical relevance.
+## What you get
 
-## How to Learn from This Feed
+- Every article scored 0-100 with a verdict (must_read / worth_reading / neutral / noise / overhyped)
+- Learning-ready fields: highlights, core_point (Claim → Evidence → Implication), why_matters
+- Bilingual coverage: English tech blogs + Chinese WeChat AI accounts
 
-1. Fetch daily-picks.json → start with must_read articles
-2. Read highlights for key takeaways, why_matters for practical relevance
-3. Use core_point for structured reasoning (Claim → Evidence → Implication)
-4. Filter by category to focus on specific skill domains
+## First step
 
-## Endpoints
-
-- data/{date}.json: Full articles with all learning fields
-- daily/{date}.md: Human-readable digest
-- lists/daily-picks.json: Today's must-reads (priority learning material)
-- datasets/scored-articles.jsonl: Cumulative scored dataset (JSONL, for training/research)
-- feeds/rss.xml: RSS 2.0 feed of high-quality articles (rolling 50 items)
-- feeds/weekly/{year}-W{week}.md: Weekly digest with trend analysis
-- indexes/by-category.json: 30-day articles grouped by topic category
-- indexes/trending.json: 7-day trending keywords with frequency counts
-
-## Quick Start
-
-Today's required reading:
+Today's picks:
   GET https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/lists/daily-picks.json
 
-Full data for a date:
-  GET https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/data/{YYYY-MM-DD}.json
+## Files
 
-## Learning Fields
+- data/{date}.json — Full articles with all fields
+- daily/{date}.md — Human-readable digest
+- lists/daily-picks.json — Today's picks by verdict
+- datasets/scored-articles.jsonl — Cumulative scored dataset (427+ articles)
+- feeds/rss.xml — RSS 2.0 feed (rolling 50 items)
+- feeds/weekly/{year}-W{week}.md — Weekly trend analysis
+- indexes/by-category.json — 30-day articles by topic
+- indexes/trending.json — 7-day trending keywords
 
-- verdict: Learning priority (must_read > worth_reading > neutral)
-- highlights: Key takeaways to remember
-- core_point: CEI structured analysis (Claim, Evidence, Implication)
-- why_matters: Practical relevance — when and how to apply
-- category: Skill domain (AI/Tech, Builder, etc.)
+## Full guide
 
-## Schema
-
-See llms-full.txt for complete field definitions and integration guide.
+See llms-full.txt for complete schema, use cases, and integration patterns.

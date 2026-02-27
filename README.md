@@ -1,78 +1,67 @@
 # AI Daily Harvest
 
-A daily learning feed for humans and AI agents. Scored, structured, ready to consume.
+A daily AI content feed with structured data. 40+ Chinese and English sources, scored and categorized — ready for agents, humans, and model training.
 
-40+ AI sources scanned daily. Every article scored (0-100), assigned a verdict, and broken down into structured learning fields — key takeaways, CEI reasoning, practical relevance. Humans read the digest. Agents consume the JSON.
+Every article comes with a quality score (0-100), a verdict, key takeaways, structured reasoning, and practical relevance. Shaped by personal taste, algorithm-driven.
 
-> **中文介绍**
->
-> 给人和 AI Agent 的每日 AI 学习 feed。
->
-> 每天从 40+ 中英文信源抓取文章，算法评分，分为五档 verdict。人读 `daily/*.md`，Agent 读 `data/*.json`——每篇文章都有关键知识点（highlights）、结构化推理（CEI）、实践意义（why_matters）。开放共建，欢迎提交信息源。
+[中文版 →](README_CN.md)
 
-## What's Inside
+## What You Get
 
-| Path | For | What |
-|------|-----|------|
-| `daily/{date}.md` | Humans | Readable digest grouped by verdict, with thematic overview |
-| `data/{date}.json` | Agents | Full articles with all learning fields |
-| `lists/daily-picks.json` | Both | Today's must-reads at a glance |
-| `feeds/rss.xml` | Humans | RSS feed of high-quality articles (rolling 50 items) |
-| `feeds/weekly/{year}-W{week}.md` | Humans | Weekly digest with trend analysis |
-| `datasets/scored-articles.jsonl` | Models | Cumulative scored dataset for training/research |
-| `indexes/by-category.json` | Agents | 30-day articles grouped by topic category |
-| `indexes/trending.json` | Agents | 7-day trending keywords |
-| [`llms.txt`](llms.txt) | LLMs | Schema overview + learning guide |
-| [`llms-full.txt`](llms-full.txt) | LLMs | Complete field definitions + integration guide |
+**Humans** — A daily digest with the signal sorted from the noise. Browse [`daily/`](daily/), subscribe via [`feeds/rss.xml`](feeds/rss.xml), or check the weekly trend analysis in [`feeds/weekly/`](feeds/weekly/).
 
-## For AI Agents
+**AI Agents** — Pre-analyzed articles with learning-ready fields: highlights, CEI reasoning (Claim → Evidence → Implication), practical relevance. Fetch [`lists/daily-picks.json`](lists/daily-picks.json) for today's picks, or [`data/{date}.json`](data/) for full data.
 
-Your agent needs to stay current on AI. This feed is the curriculum.
+**Model Training** — A growing scored dataset in JSONL. Each article annotated with verdict, highlights, and structured analysis. Download [`datasets/scored-articles.jsonl`](datasets/scored-articles.jsonl).
 
-**Each article is pre-analyzed into learning-ready fields:**
-
-| Field | Learning Role |
-|-------|--------------|
-| `verdict` | **Priority** — `must_read` = required, `worth_reading` = recommended |
-| `highlights` | **Key takeaways** — what to remember |
-| `core_point` | **Structured reasoning** — Claim → Evidence → Implication |
-| `why_matters` | **Practical relevance** — when and how to apply |
-| `category` | **Skill domain** — AI/Tech, Builder, AI 使用, etc. |
-
-**Endpoints:**
+## Quick Start
 
 ```bash
-# Today's required reading (must_read articles)
+# Today's picks grouped by verdict
 curl -s https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/lists/daily-picks.json | jq '.must_read'
 
-# Full learning material for a specific date
-curl -s https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/data/{YYYY-MM-DD}.json
+# Full data for a date
+curl -s https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/data/2026-02-27.json
 
-# 30-day articles by category (for focused learning)
-curl -s https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/indexes/by-category.json | jq '.categories["AI/Tech"][:5]'
+# 30-day articles by category
+curl -s https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/indexes/by-category.json | jq '.categories["AI/Tech"][:3]'
 
 # Trending keywords this week
 curl -s https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/indexes/trending.json
 ```
 
-**Integration ideas:**
-- Point your agent at `data/{date}.json` as a daily knowledge source
-- Index `highlights` + `why_matters` into a RAG pipeline
-- Use `verdict` to prioritize what your agent learns first
-- Filter by `category` to develop specific skill domains
-- Use `indexes/by-category.json` for topic-focused research
-- Subscribe to `feeds/rss.xml` for human-readable updates
+For LLMs: [`llms.txt`](llms.txt) for quick start, [`llms-full.txt`](llms-full.txt) for the full guide.
 
-See [`llms.txt`](llms.txt) for quick start, [`llms-full.txt`](llms-full.txt) for full integration guide.
+## Data Overview
+
+| Metric | Value |
+|--------|-------|
+| Sources | 40+ (English tech blogs + Chinese WeChat AI accounts) |
+| Daily articles | ~25-40 after filtering |
+| Cumulative dataset | 427+ scored articles |
+| History | Since 2026-01-26, updated most weekdays |
+
+## What's Inside
+
+| Path | For | What |
+|------|-----|------|
+| `data/{date}.json` | Agents | Full articles with all learning fields |
+| `daily/{date}.md` | Humans | Readable digest grouped by verdict |
+| `lists/daily-picks.json` | Both | Today's picks at a glance |
+| `datasets/scored-articles.jsonl` | Models | Cumulative scored dataset |
+| `feeds/rss.xml` | Humans | RSS feed, rolling 50 high-quality items |
+| `feeds/weekly/{year}-W{week}.md` | Humans | Weekly digest with trend analysis |
+| `indexes/by-category.json` | Agents | 30-day articles by topic |
+| `indexes/trending.json` | Agents | 7-day trending keywords |
 
 ## Verdicts
 
 | Verdict | Meaning |
 |---------|---------|
-| **must_read** | High quality, novel insights — required reading |
-| **worth_reading** | Good depth or novelty — recommended |
+| **must_read** | High quality, novel insights |
+| **worth_reading** | Good depth or novelty |
 | **neutral** | Acceptable, nothing remarkable |
-| **noise** | Low signal, skip |
+| **noise** | Low signal-to-noise |
 | **overhyped** | Looks important but lacks substance |
 
 ## Article Schema
@@ -83,57 +72,38 @@ See [`llms.txt`](llms.txt) for quick start, [`llms-full.txt`](llms-full.txt) for
   "link": "https://...",
   "source": "Publisher name",
   "source_channel": "overseas | wechat-ai",
-  "category": "AI/Tech",
-  "pub_date": "2026-02-25",
+  "category": "AI/Tech | Builder 实践 | AI 使用",
+  "pub_date": "2026-02-27",
   "summary": "One-line summary",
   "core_point": "Claim → Evidence → Implication",
   "highlights": ["Key takeaway 1", "Key takeaway 2"],
-  "why_matters": "Practical relevance for practitioners",
-  "score": 83,
-  "level": "精读",
-  "verdict": "worth_reading"
+  "why_matters": "When and how this applies to you",
+  "score": 85,
+  "level": "精读 | 收藏 | 速览",
+  "verdict": "must_read"
 }
 ```
 
-## For Model Training
+## How It Works
 
-The `datasets/` directory provides cumulative training data in JSONL format. Each line is a scored article with all analysis fields.
-
-```bash
-# Download the full dataset
-curl -sO https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/datasets/scored-articles.jsonl
-
-# Count articles
-wc -l scored-articles.jsonl
+```
+40+ Sources → Daily Fetch → Dedup → Multi-dimensional Scoring → Verdict → Publish
 ```
 
-See [`datasets/README.md`](datasets/README.md) for field definitions, scoring methodology, and use cases.
+Scoring is algorithmic and multi-dimensional (novelty, depth, credibility, signal-to-noise). Sources are curated for quality — English tech blogs (Simon Willison, Latent Space, etc.) and Chinese WeChat AI accounts. Same pipeline outputs JSON, Markdown, and JSONL.
 
 ## Contributing
 
-This feed grows with community input. Ways to contribute:
+**Suggest a source** — [Open an issue](../../issues/new) with the source name, URL, language, and what makes it good.
 
-**Suggest a source** — [Open an issue](../../issues/new) with:
-- Source name and URL
-- Language (English / Chinese)
-- Why it's valuable (signal-to-noise ratio, unique perspective, etc.)
+**Report quality issues** — Article mis-scored or mis-categorized? Open an issue with the date and title.
 
-**Report quality issues** — If an article is mis-scored or mis-categorized, open an issue with the date and article title.
-
-**Build on the data** — The JSON data is designed for programmatic consumption. If you build something with it (agent integration, dashboard, analysis), let us know.
-
-## How This Works
-
-```
-40+ Sources → Daily Fetch → Dedup → Algorithm Scoring → Verdict → Publish (JSON + Markdown)
-```
-
-- **Scoring**: Algorithmic, multi-dimensional (novelty, depth, credibility, etc.)
-- **Sources**: Curated — the kind of content an AI practitioner actually finds valuable
-- **Growing**: New quality sources added continuously, community suggestions welcome
-
-Part of a Personal AI Infrastructure project by 马奇诺公众号.
+**Build on the data** — The JSON is designed for programmatic use. If you build something with it, let us know.
 
 ## License
 
-Article metadata and AI-generated analysis provided under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Original content belongs to respective authors — only links, summaries, and scoring are included here.
+Article metadata and AI-generated analysis under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Original content belongs to respective authors.
+
+---
+
+Part of a Personal AI Infrastructure project by [马奇诺](https://mp.weixin.qq.com/s?__biz=MzkyMDE5ODYwMw==).
