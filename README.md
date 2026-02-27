@@ -1,18 +1,20 @@
 # AI Daily Harvest
 
-A daily AI content feed with structured data. 40+ Chinese and English sources, scored and categorized — ready for agents, humans, and model training.
+A personal project: a daily AI content feed with structured data. 40+ Chinese and English sources, scored and categorized. Built for my own use — to keep up with AI without drowning in noise, and to feed structured knowledge into my AI agents.
 
-Every article comes with a quality score (0-100), a verdict, key takeaways, structured reasoning, and practical relevance. Shaped by personal taste, algorithm-driven.
+Every article is scored 0-100, assigned a verdict, and broken down into key takeaways, structured reasoning, and practical relevance. Shaped by personal taste, algorithm-driven. Published openly in case it's useful to others.
+
+Sources are continuously expanding — new high-quality feeds added as I discover them. Suggestions welcome via [issues](../../issues/new).
 
 [中文版 →](README_CN.md)
 
 ## What You Get
 
-**Humans** — A daily digest with the signal sorted from the noise. Browse [`daily/`](daily/), subscribe via [`feeds/rss.xml`](feeds/rss.xml), or check the weekly trend analysis in [`feeds/weekly/`](feeds/weekly/).
+**Humans** — Skip the 40+ sources, read one digest. Each day's must-read articles are surfaced with a one-line summary and a "why it matters" — so you can decide in seconds whether to click through. Browse [`daily/`](daily/), subscribe via [`feeds/rss.xml`](feeds/rss.xml), or check the weekly trend analysis in [`feeds/weekly/`](feeds/weekly/).
 
-**AI Agents** — Pre-analyzed articles with learning-ready fields: highlights, CEI reasoning (Claim → Evidence → Implication), practical relevance. Fetch [`lists/daily-picks.json`](lists/daily-picks.json) for today's picks, or [`data/{date}.json`](data/) for full data.
+**AI Agents** — Give your agent a daily knowledge update without building a scraping pipeline. Each article comes with pre-extracted learning fields: key takeaways (`highlights`), structured reasoning (`core_point`: Claim → Evidence → Implication), and practical relevance (`why_matters`). Use verdict to prioritize what your agent processes first, and category to build domain-specific knowledge. Fetch [`lists/daily-picks.json`](lists/daily-picks.json) for today's picks, or [`data/{date}.json`](data/) for full data.
 
-**Model Training** — A growing scored dataset in JSONL. Each article annotated with verdict, highlights, and structured analysis. Download [`datasets/scored-articles.jsonl`](datasets/scored-articles.jsonl).
+**Model Training** — A labeled dataset for content quality research. Each article has a multi-dimensional score, a verdict label, and structured analysis fields — useful for training scoring models, summarization, or content classification. Download [`datasets/scored-articles.jsonl`](datasets/scored-articles.jsonl).
 
 ## Quick Start
 

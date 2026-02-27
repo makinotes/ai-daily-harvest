@@ -1,18 +1,18 @@
 # AI Daily Harvest
 
-每天从 40+ 中英文信源抓取 AI 内容，评分、分类、结构化输出。给人看有日报，给 Agent 用有 JSON，给训模型有 JSONL 数据集。
+个人项目：每天从 40+ 中英文信源抓取 AI 内容，评分、分类、结构化输出。最初是给自己用的——不想每天刷几十个信源，也想给自己的 AI Agent 喂结构化知识。公开出来，也许对别人也有用。
 
-筛选基于个人品味，算法驱动。
+筛选基于个人品味，算法驱动。信源持续新增中，发现好的就加——也欢迎通过 [issue](../../issues/new) 推荐。
 
 [English →](README.md)
 
 ## 你能得到什么
 
-**读者** — 每天一份日报，按质量分好了档。打开 [`daily/`](daily/) 直接看，或者 RSS 订阅 [`feeds/rss.xml`](feeds/rss.xml)。每周还有趋势分析 [`feeds/weekly/`](feeds/weekly/)。
+**读者** — 不用刷 40+ 信源，看一份日报就够。每篇文章都有一句话摘要和"为什么重要"，几秒钟就能判断值不值得点进去。打开 [`daily/`](daily/) 直接看，RSS 订阅 [`feeds/rss.xml`](feeds/rss.xml)，每周趋势看 [`feeds/weekly/`](feeds/weekly/)。
 
-**Agent 开发者** — 每篇文章预处理好了：关键要点（highlights）、结构化推理（Claim → Evidence → Implication）、实践意义（why_matters）。拿 [`lists/daily-picks.json`](lists/daily-picks.json) 看今天的精选，或者 [`data/{date}.json`](data/) 取完整数据。
+**Agent 开发者** — 不用自己建抓取管道，直接给 Agent 喂每日知识更新。每篇文章预提取了关键要点（`highlights`）、结构化推理（`core_point`：论点 → 论据 → 启示）、实践意义（`why_matters`）。用 verdict 决定 Agent 先处理什么，用 category 按领域积累知识。拿 [`lists/daily-picks.json`](lists/daily-picks.json) 看今天的精选，或者 [`data/{date}.json`](data/) 取完整数据。
 
-**模型训练** — 持续增长的带标注 JSONL 数据集，每篇有评分、verdict、结构化分析。下载 [`datasets/scored-articles.jsonl`](datasets/scored-articles.jsonl)。
+**模型训练** — 一个带标注的内容质量数据集。每篇文章有多维度评分、verdict 标签、结构化分析字段，可以用来训练评分模型、摘要生成、内容分类。下载 [`datasets/scored-articles.jsonl`](datasets/scored-articles.jsonl)。
 
 ## 快速开始
 
