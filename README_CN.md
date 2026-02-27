@@ -105,7 +105,7 @@ curl -s https://raw.githubusercontent.com/makinotes/ai-daily-harvest/master/inde
 
 ## License
 
-文章元数据和 AI 分析内容遵循 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)。原始内容版权归原作者。
+文章元数据和 AI 分析内容遵循 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)。**非商业用途，仅限个人使用。** 原始内容版权归原作者。
 
 ---
 

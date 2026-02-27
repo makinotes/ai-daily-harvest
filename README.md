@@ -105,7 +105,7 @@ Scoring is algorithmic and multi-dimensional (novelty, depth, credibility, signa
 
 ## License
 
-Article metadata and AI-generated analysis under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Original content belongs to respective authors.
+Article metadata and AI-generated analysis under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). **Non-commercial, personal use only.** Original content belongs to respective authors.
 
 ---
 

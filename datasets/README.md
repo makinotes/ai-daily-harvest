@@ -75,4 +75,4 @@ The final score (0-100) is a weighted composite. Articles below 60 are excluded.
 
 ## License
 
-Same as repository: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
+Same as repository: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). **Non-commercial, personal use only.**
