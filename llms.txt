@@ -4,7 +4,7 @@
 
 ## What you get
 
-- Every article scored 0-100 with a verdict (must_read / worth_reading / neutral / noise / overhyped)
+- Every article scored 0-100 with a verdict (must_read / worth_reading / neutral / overhyped)
 - Learning-ready fields: highlights, core_point (Claim → Evidence → Implication), why_matters
 - Bilingual coverage: English tech blogs + Chinese WeChat AI accounts
 

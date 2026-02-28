@@ -40,11 +40,10 @@ VERDICT_LABELS = {
     "must_read": "Must Read",
     "worth_reading": "Worth Reading",
     "neutral": "Neutral",
-    "noise": "Noise",
     "overhyped": "Overhyped",
 }
 
-VERDICT_ORDER = ["must_read", "worth_reading", "neutral", "noise", "overhyped"]
+VERDICT_ORDER = ["must_read", "worth_reading", "neutral", "overhyped"]
 
 
 def load_cache(channel, date_str):
@@ -66,15 +65,13 @@ def assign_verdict(article):
     score = article.get("score", 0)
     novelty = article.get("novelty", 0)
     depth = article.get("depth", 0)
-    noise = article.get("noise", 0)
+    actionability = article.get("actionability", 0)
     credibility = article.get("credibility", 0)
 
     if score >= 85:
         return "must_read"
-    if 75 <= score <= 84 and (novelty >= 2 or depth >= 2):
+    if score >= 70 and (novelty >= 2 or depth >= 2 or actionability >= 2):
         return "worth_reading"
-    if 60 <= score <= 69 and noise <= 1:
-        return "noise"
     if score >= 70 and novelty == 0 and credibility <= 1:
         return "overhyped"
     return "neutral"
@@ -185,9 +182,7 @@ def update_source_stats(articles, date_str):
         s["articles_count"] += len(data["scores"])
         s["total_score"] += sum(data["scores"])
         s["must_read_count"] += data["verdicts"].count("must_read")
-        s["noise_count"] += (
-            data["verdicts"].count("noise") + data["verdicts"].count("overhyped")
-        )
+        s["noise_count"] += data["verdicts"].count("overhyped")
         s["last_seen"] = date_str
         # Computed fields
         s["avg_score"] = round(s["total_score"] / s["articles_count"], 1)
@@ -282,9 +277,9 @@ def generate_markdown(articles, date_str):
             lines.append(f"- **{a['score']}** [{title_short}]({a['link']}) — {a['source']}")
         lines.append("")
 
-    # Group by verdict (skip noise/overhyped from readable output)
+    # Group by verdict (skip overhyped from readable output)
     for verdict in VERDICT_ORDER:
-        if verdict in ("noise", "overhyped"):
+        if verdict == "overhyped":
             continue
         group = [a for a in articles if a["verdict"] == verdict]
         if not group:

@@ -66,9 +66,8 @@ curl -s https://raw.githubusercontent.com/makinotes/ai-daily-feed/master/indexes
 | Verdict | 意思 |
 |---------|------|
 | **must_read** | 质量高，有新东西 |
-| **worth_reading** | 有深度或新意 |
+| **worth_reading** | 有深度、新意或可操作性 |
 | **neutral** | 还行，没啥特别 |
-| **noise** | 信噪比低 |
 | **overhyped** | 看着重要其实没料 |
 
 ## 文章 Schema
@@ -97,7 +96,7 @@ curl -s https://raw.githubusercontent.com/makinotes/ai-daily-feed/master/indexes
 40+ 信源 → 每日抓取 → 去重 → 多维度评分 → Verdict 判定 → 发布
 ```
 
-评分算法多维度（新颖度、深度、可信度、信噪比），信源精选高信噪比的。同一管道出三种格式：JSON、Markdown、JSONL。
+评分算法七维度（新颖度、深度、可行动性、可信度、逻辑、时效性、信噪比），信源精选高信噪比的。同一管道出三种格式：JSON、Markdown、JSONL。
 
 ## 参与贡献
 

@@ -25,15 +25,18 @@ A cumulative dataset of Chinese and English AI articles, each scored (0-100) and
 | `why_matters` | string | Practical relevance for practitioners |
 | `score` | int | Quality score (0-100), only articles >= 60 included |
 | `level` | string | Chinese quality tier (`收藏`, `精读`, `速览`) |
-| `verdict` | string | Priority label: `must_read`, `worth_reading`, `neutral`, `noise`, `overhyped` |
+| `verdict` | string | Priority label: `must_read`, `worth_reading`, `neutral`, `overhyped` |
 
 ## Scoring
 
-Scores are **LLM-generated** (not human-annotated), based on four dimensions:
-- Novelty (0-3): How new is this information?
-- Depth (0-3): How deep is the analysis?
-- Credibility (0-3): How reliable is the source/evidence?
-- Noise (0-3): How much filler vs signal?
+Scores are **LLM-generated** (not human-annotated), based on seven dimensions:
+- Novelty (0-3, weight 20): How new is this information?
+- Depth (0-3, weight 20): How deep is the analysis?
+- Actionability (0-3, weight 20): Can you turn this into action?
+- Credibility (0-3, weight 10): How reliable is the source/evidence?
+- Logic (0-3, weight 10): Is the argument coherent?
+- Timeliness (0-3, weight 10): How fresh is the content?
+- Noise (0-3, weight 10): How much filler vs signal?
 
 The final score (0-100) is a weighted composite. Articles below 60 are excluded.
 
@@ -42,9 +45,8 @@ The final score (0-100) is a weighted composite. Articles below 60 are excluded.
 | Verdict | Criteria | Typical % |
 |---------|----------|-----------|
 | `must_read` | score >= 85 | ~20% |
-| `worth_reading` | 75-84 with high novelty or depth | ~20% |
+| `worth_reading` | score >= 70 with high novelty, depth, or actionability | ~25% |
 | `neutral` | default | ~50% |
-| `noise` | 60-69, low noise dimension | ~5% |
 | `overhyped` | high score but zero novelty | ~5% |
 
 ## Use Cases

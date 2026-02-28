@@ -132,14 +132,13 @@ Each line is one article with all fields. 427+ articles, growing daily. Deduplic
 ### Scoring Fields
 - score: Quality score 0-100, algorithm-driven
 - level: Reading priority — "精读" (deep read), "收藏" (bookmark), "速览" (skim)
-- verdict: must_read | worth_reading | neutral | noise | overhyped
+- verdict: must_read | worth_reading | neutral | overhyped
 
 ## Verdict Definitions
 
 - must_read: High quality, novel insights — prioritize
-- worth_reading: Good depth or novelty — worth your time
+- worth_reading: Good depth, novelty, or actionability — worth your time
 - neutral: Acceptable, nothing remarkable
-- noise: Low signal-to-noise
 - overhyped: Appears important but lacks substance
 
 ## Integration Patterns
