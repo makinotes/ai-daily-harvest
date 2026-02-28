@@ -4,6 +4,7 @@ Full article data with all analysis fields. One JSON file per day.
 
 | Date | Articles | Must Read |
 |------|----------|-----------|
+| [2026-02-28](2026-02-28.json) | 12 | 2 |
 | [2026-02-27](2026-02-27.json) | 39 | 5 |
 | [2026-02-26](2026-02-26.json) | 31 | 7 |
 | [2026-02-25](2026-02-25.json) | 25 | 3 |

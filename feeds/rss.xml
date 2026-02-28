@@ -1,11 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
 <channel>
-  <title>AI Daily Feed</title>
-  <link>https://github.com/makinotes/ai-daily-feed</link>
+  <title>AI Daily Harvest</title>
+  <link>https://github.com/makinotes/ai-daily-harvest</link>
   <description>Daily AI learning feed. 40+ sources scored and structured.</description>
   <language>zh-cn</language>
-  <lastBuildDate>Fri, 27 Feb 2026 00:00:00 GMT</lastBuildDate>
+  <lastBuildDate>2026-02-28</lastBuildDate>
+<item>
+  <title>V4底座浮现？DeepSeek唤醒闲置网卡，「双路径」破解长上下文I/O瓶颈</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&amp;mid=2247718066&amp;idx=1&amp;sn=27ecab7f00ba5039b04f0a22030e55c0</link>
+  <description><![CDATA[深度解析 DeepSeek 新论文 DualPath 架构，如何通过重构 I/O 链路释放长文本推理性能。]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&amp;mid=2247718066&amp;idx=1&amp;sn=27ecab7f00ba5039b04f0a22030e55c0">PaperWeekly</source>
+</item>
+<item>
+  <title>WWW 2026 | 大模型推荐真懂你吗？首次揭示微调中的上下文偏差</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&amp;mid=2247718066&amp;idx=2&amp;sn=51d708263e802a02fbb90c8f0daf5d37</link>
+  <description><![CDATA[WWW 2026 论文揭示了 LLM 推荐系统在微调中存在的上下文偏置问题并提出 GDRT 优化方法。]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&amp;mid=2247718066&amp;idx=2&amp;sn=51d708263e802a02fbb90c8f0daf5d37">PaperWeekly</source>
+</item>
+<item>
+  <title>Introducing the Stateful Runtime Environment for Agents in Amazon Bedrock</title>
+  <link>https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock</link>
+  <description><![CDATA[Amazon Bedrock 推出 Agent 有状态运行环境，支持持久化编排与内存。<ul><li>亮点1：为AI智能体引入了持久化编排、记忆和安全执行功能。</li><li>亮点2：该功能旨在支持由OpenAI等模型驱动的多步骤AI工作流。</li></ul>]]></description>
+  <category>AI 使用</category>
+  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
+  <source url="https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock">OpenAI Blog</source>
+</item>
+<item>
+  <title>Free Claude Max for (large project) open source maintainers</title>
+  <link>https://simonwillison.net/2026/Feb/27/claude-max-oss-six-months/#atom-everything</link>
+  <description><![CDATA[Anthropic 向符合条件的开源维护者提供免费的 Claude Max 计划。<ul><li>亮点1：免费提供价值200美元/月的Claude Max 20x计划，为期六个月。</li><li>亮点2：申请者需是拥有5000+ GitHub星标或100万+月NPM下载量的公共代码库的主要维护者或核心团队成员，且近三个月内有贡献记录。</li><li>亮点3：即使不完全符合标准，如果项目对生态系统至关重要，仍可申请说明情况。</li><li>亮点4：该计划总共接受最多10,000名贡献者申请。</li></ul>]]></description>
+  <category>AI 使用</category>
+  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
+  <source url="https://simonwillison.net/2026/Feb/27/claude-max-oss-six-months/#atom-everything">Simon Willison</source>
+</item>
+<item>
+  <title>Minimax出了个OpenClaw变体，把6个超好用Agent都传云上用了</title>
+  <link>https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&amp;mid=2247505192&amp;idx=1&amp;sn=4faf526db4b6ea6c936f3f28dc3c2242</link>
+  <description><![CDATA[详细实测了 MiniMax 版 OpenClaw（MaxClaw）的多智能体协作能力与具体应用场景。]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&amp;mid=2247505192&amp;idx=1&amp;sn=4faf526db4b6ea6c936f3f28dc3c2242">卡尔的AI沃茨</source>
+</item>
 <item>
   <title>Google API Keys Weren't Secrets. But then Gemini Changed the Rules.</title>
   <link>https://simonwillison.net/2026/Feb/26/google-api-keys/#atom-everything</link>
@@ -365,46 +405,6 @@
   <category>AI/Tech</category>
   <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
   <source url="https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&amp;mid=2247505017&amp;idx=1&amp;sn=3d98ac69d301ef43c67f8be150c4b0c9">卡尔的AI沃茨</source>
-</item>
-<item>
-  <title>为什么越聪明的人，越容易在技术革命里亏钱? ｜MindCode周报No.62</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzAxNTYwMzcyNw==&amp;mid=2247486010&amp;idx=1&amp;sn=1f9ccbd59875061459f3fe2e53ffe3e8</link>
-  <description><![CDATA[提出“终局谬误”概念，分析了谷歌搜索在 AI 冲击下反而收入暴涨背后的生产者视角与时间差逻辑。<ul><li>提出“终局谬误”：将长期趋势误判为眼前现实，是聪明人在技术革命中亏钱的常见原因。</li><li>以Google搜索为例，其业务在AI冲击下收入不降反升，因AI反而增强了其“匹配”的商业本质。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzAxNTYwMzcyNw==&amp;mid=2247486010&amp;idx=1&amp;sn=1f9ccbd59875061459f3fe2e53ffe3e8">MindCode</source>
-</item>
-<item>
-  <title>clawdbot新Skill，10分钟登顶全站第一。第二天，被下架了。</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzkxNjcyNTk2NA==&amp;mid=2247490300&amp;idx=1&amp;sn=d089bb4f299455fa8cbbd1ecf22efd01</link>
-  <description><![CDATA[讲述了 Capability Evolver 在海外平台的遭遇及随后推出的全球进化网络 Evomap，探讨了 Agent 协作的新范式。<ul><li>能让Agent自我进化的Skill迅速火爆但被下架，凸显了平台治理与开发者权益的矛盾。</li><li>事件催生了Evomap——一个让Agent接入全球进化网络、共享“基因胶囊”的开源项目。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzkxNjcyNTk2NA==&amp;mid=2247490300&amp;idx=1&amp;sn=d089bb4f299455fa8cbbd1ecf22efd01">探索AGI</source>
-</item>
-<item>
-  <title>万字追问：神经科学，在等待自己的牛顿吗？</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzI3MjQ4MDMyOQ==&amp;mid=2247538852&amp;idx=1&amp;sn=60059e6a97e2fe2d1460e2a3fddfb294</link>
-  <description><![CDATA[顶级神经科学家关于大脑动力系统模型与生物真实性平衡的高深度学术对谈。<ul><li>神经科学试图超越“大脑如计算机”的比喻，从动力系统视角理解其动态、自适应的本质。</li><li>关键在于在动力系统框架下，平衡生物真实性与模型的可处理性。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzI3MjQ4MDMyOQ==&amp;mid=2247538852&amp;idx=1&amp;sn=60059e6a97e2fe2d1460e2a3fddfb294">追问nextquestion</source>
-</item>
-<item>
-  <title>开工拉齐：OpenClaw，首个「一人独角兽」</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzkzNDQxOTU2MQ==&amp;mid=2247513325&amp;idx=1&amp;sn=4ffd0b37d4a1e3dc86b724449ee7b944</link>
-  <description><![CDATA[爆火开源项目 OpenClaw 的崛起历程及其引发的 Agent 范式变革。<ul><li>OpenClaw作为个人周末项目，三个月内催生出完整的AgentOS产业链，增长迅猛。</li><li>项目创始人被OpenAI招募，项目转入基金会，显示巨头正积极布局和整合Agent生态。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Mon, 23 Feb 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzkzNDQxOTU2MQ==&amp;mid=2247513325&amp;idx=1&amp;sn=4ffd0b37d4a1e3dc86b724449ee7b944">赛博禅心</source>
-</item>
-<item>
-  <title>藏在海量参数背后的系统工程：7家顶尖实验室大模型训练内参</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&amp;mid=2247717873&amp;idx=1&amp;sn=29e33f2257f6b64dc1b4550c28c6ec00</link>
-  <description><![CDATA[系统梳理了OpenAI、DeepSeek、月之暗面等7家顶级实验室在模型训练中的工程细节与架构选择。<ul><li>揭示了顶尖实验室在架构选型（如向显存妥协）、优化器引入、数据配比等核心工程决策上的具体权衡。</li><li>总结了衡量可靠测试集的四个核心标尺（单调性、低噪声等）和务实的算力分配消融实验准则。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Mon, 23 Feb 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&amp;mid=2247717873&amp;idx=1&amp;sn=29e33f2257f6b64dc1b4550c28c6ec00">PaperWeekly</source>
 </item>
 </channel>
 </rss>

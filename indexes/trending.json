@@ -1,10 +1,14 @@
 {
-  "updated": "2026-02-27",
+  "updated": "2026-02-28",
   "window": "7d",
-  "article_count": 113,
+  "article_count": 123,
   "trending": [
     {
       "keyword": "Claude",
+      "count": 11
+    },
+    {
+      "keyword": "Agent",
       "count": 10
     },
     {
@@ -12,24 +16,20 @@
       "count": 10
     },
     {
-      "keyword": "Agent",
-      "count": 9
-    },
-    {
       "keyword": "大模型",
-      "count": 8
+      "count": 9
     },
     {
       "keyword": "Code",
       "count": 7
     },
     {
-      "keyword": "OpenAI",
+      "keyword": "OpenClaw",
       "count": 6
     },
     {
-      "keyword": "OpenClaw",
-      "count": 5
+      "keyword": "OpenAI",
+      "count": 6
     },
     {
       "keyword": "安全",
@@ -42,6 +42,10 @@
     {
       "keyword": "智能体",
       "count": 4
+    },
+    {
+      "keyword": "华为",
+      "count": 3
     },
     {
       "keyword": "API",
@@ -72,15 +76,11 @@
       "count": 3
     },
     {
-      "keyword": "Google",
+      "keyword": "project",
       "count": 2
     },
     {
-      "keyword": "Gemini",
-      "count": 2
-    },
-    {
-      "keyword": "help",
+      "keyword": "Max",
       "count": 2
     }
   ]

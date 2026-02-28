@@ -1,0 +1,212 @@
+{
+  "date": "2026-02-28",
+  "total": 12,
+  "verdict_counts": {
+    "must_read": 2,
+    "worth_reading": 3,
+    "neutral": 7
+  },
+  "articles": [
+    {
+      "title": "V4底座浮现？DeepSeek唤醒闲置网卡，「双路径」破解长上下文I/O瓶颈",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247718066&idx=1&sn=27ecab7f00ba5039b04f0a22030e55c0",
+      "source": "PaperWeekly",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-27",
+      "summary": "深度解析 DeepSeek 新论文 DualPath 架构，如何通过重构 I/O 链路释放长文本推理性能。",
+      "core_point": "",
+      "highlights": [],
+      "why_matters": "",
+      "score": 90,
+      "level": "收藏",
+      "verdict": "must_read"
+    },
+    {
+      "title": "WWW 2026 | 大模型推荐真懂你吗？首次揭示微调中的上下文偏差",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247718066&idx=2&sn=51d708263e802a02fbb90c8f0daf5d37",
+      "source": "PaperWeekly",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-27",
+      "summary": "WWW 2026 论文揭示了 LLM 推荐系统在微调中存在的上下文偏置问题并提出 GDRT 优化方法。",
+      "core_point": "",
+      "highlights": [],
+      "why_matters": "",
+      "score": 85,
+      "level": "收藏",
+      "verdict": "must_read"
+    },
+    {
+      "title": "Introducing the Stateful Runtime Environment for Agents in Amazon Bedrock",
+      "link": "https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock",
+      "source": "OpenAI Blog",
+      "source_channel": "overseas",
+      "category": "AI 使用",
+      "pub_date": "2026-02-27",
+      "summary": "Amazon Bedrock 推出 Agent 有状态运行环境，支持持久化编排与内存。",
+      "core_point": "亚马逊Bedrock平台推出了面向AI智能体的Stateful Runtime环境。该环境为基于OpenAI等模型的多步骤AI工作流提供了持久化的编排、记忆和安全执行能力。这意味着开发者可以构建更复杂、能记住上下文并安全运行的AI应用，从而提升自动化工作流的可靠性和功能性。",
+      "highlights": [
+        "亮点1：为AI智能体引入了持久化编排、记忆和安全执行功能。",
+        "亮点2：该功能旨在支持由OpenAI等模型驱动的多步骤AI工作流。"
+      ],
+      "why_matters": "对开发者而言，这意味着可以构建状态更持久、更复杂的AI自动化应用。",
+      "score": 78,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "Free Claude Max for (large project) open source maintainers",
+      "link": "https://simonwillison.net/2026/Feb/27/claude-max-oss-six-months/#atom-everything",
+      "source": "Simon Willison",
+      "source_channel": "overseas",
+      "category": "AI 使用",
+      "pub_date": "2026-02-27",
+      "summary": "Anthropic 向符合条件的开源维护者提供免费的 Claude Max 计划。",
+      "core_point": "Anthropic公司为大型开源项目的维护者提供免费的Claude Max高级服务。符合特定条件的开源项目核心维护者可以申请获得价值200美元/月的Claude Max 20x计划，免费使用六个月。这表明AI公司正通过支持关键开源贡献者来培育生态系统，并可能吸引更多开发者使用其高级模型。",
+      "highlights": [
+        "亮点1：免费提供价值200美元/月的Claude Max 20x计划，为期六个月。",
+        "亮点2：申请者需是拥有5000+ GitHub星标或100万+月NPM下载量的公共代码库的主要维护者或核心团队成员，且近三个月内有贡献记录。",
+        "亮点3：即使不完全符合标准，如果项目对生态系统至关重要，仍可申请说明情况。",
+        "亮点4：该计划总共接受最多10,000名贡献者申请。"
+      ],
+      "why_matters": "对开源维护者意味着可以免费获得强大的AI编码辅助工具，提升项目开发效率。",
+      "score": 75,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "Minimax出了个OpenClaw变体，把6个超好用Agent都传云上用了",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&mid=2247505192&idx=1&sn=4faf526db4b6ea6c936f3f28dc3c2242",
+      "source": "卡尔的AI沃茨",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-27",
+      "summary": "详细实测了 MiniMax 版 OpenClaw（MaxClaw）的多智能体协作能力与具体应用场景。",
+      "core_point": "",
+      "highlights": [],
+      "why_matters": "",
+      "score": 75,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "An AI agent coding skeptic tries AI agent coding, in excessive detail",
+      "link": "https://simonwillison.net/2026/Feb/27/ai-agent-coding-in-excessive-detail/#atom-everything",
+      "source": "Simon Willison",
+      "source_channel": "overseas",
+      "category": "AI 使用",
+      "pub_date": "2026-02-27",
+      "summary": "一位怀疑论者对 AI Agent 编程能力的实测记录，展示了从简单脚本到重写 Rust 库的演进。",
+      "core_point": "一位原本对AI编码智能体持怀疑态度的作者，通过一系列逐步复杂的项目亲自尝试后，改变了看法。作者从简单的项目开始，最终尝试用AI智能体将Python的scikit-learn库移植到Rust。这一经历表明，最新的编码模型（如Opus 4.6/Codex 5.3）相比几个月前的模型有了质的飞跃，其能力提升之大甚至难以公开描述而不显得夸张。",
+      "highlights": [
+        "亮点1：作者通过从简单到复杂的项目序列测试AI编码智能体，最终尝试用AI辅助将Python的scikit-learn库功能移植到Rust。",
+        "亮点2：作者认为最新的编码LLM（如Opus 4.6/Codex 5.3）比仅仅几个月前发布的模型有了“数量级”的提升。",
+        "亮点3：作者感到难以公开表达这种巨大的进步，因为担心听起来像夸大其词的AI炒作。"
+      ],
+      "why_matters": "对开发者而言，这意味着需要重新评估最新AI编码工具的实际能力，它们可能已能处理非常复杂的工程任务。",
+      "score": 73,
+      "level": "精读",
+      "verdict": "neutral"
+    },
+    {
+      "title": "METR’s Joel Becker on exponential Time Horizon Evals, Threat Models, and the Limits of AI Productivity",
+      "link": "https://www.latent.space/p/metr",
+      "source": "Latent Space",
+      "source_channel": "overseas",
+      "category": "AI 使用",
+      "pub_date": "2026-02-27",
+      "summary": "METR 专家探讨 AI 指数级时间跨度评估、威胁模型及生产力极限。",
+      "core_point": "METR的研究员Joel Becker在访谈中讨论了AI评估中的复杂性，特别是关于其著名的“时间范围”评估图表。他指出，在社交媒体上广泛传播的图表往往忽略了其中的细微差别、免责声明和误差范围，而纠正这些误解的内容却鲜有人关注。这揭示了在AI基准测试和结果外推中存在大量复杂性，尤其是在涉及指数增长和S型曲线时。",
+      "highlights": [
+        "亮点1：METR发布的关于AI能力的“时间范围”评估图表在社交媒体上被广泛传播，但传播者往往忽略了其中的细微差别和误差范围。",
+        "亮点2：对图表的纠正内容（观看量6.9万）远低于原图引发的数百万次传播。",
+        "亮点3：制定基准测试和从结果中进行外推（尤其是涉及指数和S型曲线时）存在很多复杂性。",
+        "亮点4：METR的“长视野”工作本身存在已知的偏差，但作者已负责任地进行了披露。"
+      ],
+      "why_matters": "对投资者和行业观察者而言，意味着需要批判性地看待AI能力预测，避免被简化的“末日图表”所误导。",
+      "score": 73,
+      "level": "精读",
+      "verdict": "neutral"
+    },
+    {
+      "title": "Nano Banana 2 来了，又快又好，价格砍半",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA4NzgzMjA4MQ==&mid=2453480740&idx=1&sn=b250038441b1d050388bd708911e6c24",
+      "source": "AGI Hunt",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-27",
+      "summary": "介绍了 Google Nano Banana 2 的发布及其在搜索加持、可控性方面的提升。",
+      "core_point": "",
+      "highlights": [],
+      "why_matters": "",
+      "score": 73,
+      "level": "精读",
+      "verdict": "neutral"
+    },
+    {
+      "title": "Please, please, please stop using passkeys for encrypting user data",
+      "link": "https://simonwillison.net/2026/Feb/27/passkeys/#atom-everything",
+      "source": "Simon Willison",
+      "source_channel": "overseas",
+      "category": "AI 使用",
+      "pub_date": "2026-02-27",
+      "summary": "安全专家呼吁停止使用 Passkeys 加密用户数据，仅将其作为身份验证手段。",
+      "core_point": "安全专家Tim Cappalli强烈呼吁行业停止使用Passkey（通行密钥）来加密用户数据。他认为，因为用户经常会丢失他们的Passkey，并且可能没有意识到他们的数据已被其不可逆转地加密，从而导致数据永久无法恢复。他主张Passkey应专注于其作为防钓鱼身份验证凭证的优势。",
+      "highlights": [
+        "亮点1：核心主张是呼吁停止使用Passkey来加密用户数据。",
+        "亮点2：主要论据是用户经常丢失Passkey，且可能不理解数据因此被不可逆加密，导致永久性数据丢失。",
+        "亮点3：建议让Passkey专注于做好其本职工作：作为优秀的、防钓鱼的身份验证凭证。"
+      ],
+      "why_matters": "对产品经理和开发者意味着需要重新评估安全架构，避免因误用Passkey而导致灾难性的用户体验和数据丢失风险。",
+      "score": 72,
+      "level": "精读",
+      "verdict": "neutral"
+    },
+    {
+      "title": "从学华为到学 AI，复盘理想的三年管理实验",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzU3Mjk1OTQ0Ng==&mid=2247533595&idx=1&sn=88c770a5dbbc95a84d21d6c6bc113b10",
+      "source": "晚点LatePost",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-26",
+      "summary": "复盘理想汽车从学习华为管理到拥抱 AI 转型背后的组织变迁与阵痛。",
+      "core_point": "",
+      "highlights": [],
+      "why_matters": "",
+      "score": 70,
+      "level": "精读",
+      "verdict": "neutral"
+    },
+    {
+      "title": "Nano Banana 2发布，生图又快又好又便宜。",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MDA3NzI1Nw==&mid=2455087819&idx=1&sn=a04bedec6b0087f586c5b9ec28857d1f",
+      "source": "新西楼",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-27",
+      "summary": "解析 Google 新发布的 Nano Banana 2 模型，强调其在商业化场景下的极致性价比。",
+      "core_point": "",
+      "highlights": [],
+      "why_matters": "",
+      "score": 67,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "晚点独家丨合肥国投、IDG 等入股蔚来芯片子公司，首轮投资额超 20 亿元",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzU3Mjk1OTQ0Ng==&mid=2247533595&idx=2&sn=da580279726a7551eabc755a2c470732",
+      "source": "晚点LatePost",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-26",
+      "summary": "蔚来芯片子公司获 20 亿元首轮融资，分析其自研芯片的降本逻辑与市场挑战。",
+      "core_point": "",
+      "highlights": [],
+      "why_matters": "",
+      "score": 65,
+      "level": "速览",
+      "verdict": "neutral"
+    }
+  ]
+}

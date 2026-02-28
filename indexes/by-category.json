@@ -1,126 +1,6 @@
 {
-  "updated": "2026-02-27",
-  "window": "30d",
+  "updated": "2026-02-28",
   "categories": {
-    "AI 使用": [
-      {
-        "title": "Google API Keys Weren't Secrets. But then Gemini Changed the Rules.",
-        "link": "https://simonwillison.net/2026/Feb/26/google-api-keys/#atom-everything",
-        "source": "Simon Willison",
-        "score": 100,
-        "verdict": "must_read",
-        "pub_date": "2026-02-26",
-        "why_matters": "对开发者而言，这揭示了云服务API密钥权限管理的潜在盲区，可能导致意外的安全漏洞和财务损失；对安全从业者，这是一个典型的权限升级和配置漂移案例。"
-      },
-      {
-        "title": "Disrupting malicious uses of AI | February 2026",
-        "link": "https://openai.com/index/disrupting-malicious-ai-uses",
-        "source": "OpenAI Blog",
-        "score": 90,
-        "verdict": "must_read",
-        "pub_date": "2026-02-25",
-        "why_matters": "对安全研究者和政策制定者而言，这揭示了AI技术被滥用的新途径和防御的紧迫性。"
-      },
-      {
-        "title": "Claude Code Remote Control",
-        "link": "https://simonwillison.net/2026/Feb/25/claude-code-remote-control/#atom-everything",
-        "source": "Simon Willison",
-        "score": 87,
-        "verdict": "must_read",
-        "pub_date": "2026-02-25",
-        "why_matters": "对开发者和技术爱好者而言，这标志着AI助手向更深度、跨设备的系统控制能力演进。"
-      },
-      {
-        "title": "5 OpenClaw agents run my home, finances, and code | Jesse Genet",
-        "link": "https://www.lennysnewsletter.com/p/5-openclaw-agents-run-my-home-finances",
-        "source": "Lenny's Newsletter",
-        "score": 82,
-        "verdict": "worth_reading",
-        "pub_date": "2026-02-25",
-        "why_matters": "对个人生产力和家庭管理者而言，这展示了如何将通用AI工具系统化，以高度定制化的方式解决复杂、多维度的现实问题。"
-      },
-      {
-        "title": "⚡️The End of SWE-Bench Verified — Mia Glaese & Olivia Watkins, OpenAI Frontier Evals & Human Data",
-        "link": "https://www.latent.space/p/swe-bench-dead",
-        "source": "Latent Space",
-        "score": 82,
-        "verdict": "worth_reading",
-        "pub_date": "2026-02-23",
-        "why_matters": "对AI研究者和开发者而言，这意味着需要重新审视和选择更可靠、无缺陷的基准来评估大模型的代码生成能力，避免被过时或有问题的指标误导。"
-      },
-      {
-        "title": "Bitter Lessons in Venture vs Growth: Anthropic vs OpenAI, Noam Shazeer, World Labs, Thinking Machines, Cursor, ASIC Economics — Martin Casado & Sarah Wang of a16z",
-        "link": "https://www.latent.space/p/a16z",
-        "source": "Latent Space",
-        "score": 80,
-        "verdict": "worth_reading",
-        "pub_date": "2026-02-23",
-        "why_matters": ""
-      },
-      {
-        "title": "Linear walkthroughs",
-        "link": "https://simonwillison.net/guides/agentic-engineering-patterns/linear-walkthroughs/#atom-everything",
-        "source": "Simon Willison",
-        "score": 78,
-        "verdict": "worth_reading",
-        "pub_date": "2026-02-25",
-        "why_matters": "这为开发者，尤其是需要快速理解复杂或陌生代码库的工程师，提供了一种高效的知识获取和文档生成方法。"
-      },
-      {
-        "title": "How to use AI for your next job interview",
-        "link": "https://www.lennysnewsletter.com/p/how-to-use-ai-in-your-next-job-interview",
-        "source": "Lenny's Newsletter",
-        "score": 78,
-        "verdict": "worth_reading",
-        "pub_date": "2026-02-24",
-        "why_matters": "对于求职者，这提供了一个基于真实成功案例的系统化AI辅助工具，能显著提升面试准备的效率和针对性。"
-      },
-      {
-        "title": "A New Wharton Study on AI Warns of a Growing Problem: Cognitive Surrender",
-        "link": "https://www.thealgorithmicbridge.com/p/a-new-wharton-study-on-ai-warns-of",
-        "source": "The Algorithmic Bridge",
-        "score": 78,
-        "verdict": "worth_reading",
-        "pub_date": "2026-02-23",
-        "why_matters": ""
-      },
-      {
-        "title": "First run the tests",
-        "link": "https://simonwillison.net/guides/agentic-engineering-patterns/first-run-the-tests/#atom-everything",
-        "source": "Simon Willison",
-        "score": 77,
-        "verdict": "worth_reading",
-        "pub_date": "2026-02-24",
-        "why_matters": "对使用AI辅助编程的开发者而言，这提供了一个简单有效的实践模式，能显著提升与编码智能体协作的可靠性和效率，确保代码质量。"
-      },
-      {
-        "title": "Head of Claude Code: What happens after coding is solved | Boris Cherny",
-        "link": "https://www.lennysnewsletter.com/p/head-of-claude-code-what-happens",
-        "source": "Lenny's Newsletter",
-        "score": 77,
-        "verdict": "worth_reading",
-        "pub_date": "2026-02-23",
-        "why_matters": ""
-      },
-      {
-        "title": "🔬Searching the Space of All Possible Materials — Prof. Max Welling, CuspAI",
-        "link": "https://www.latent.space/p/cuspai",
-        "source": "Latent Space",
-        "score": 75,
-        "verdict": "worth_reading",
-        "pub_date": "2026-02-25",
-        "why_matters": "对AI科学家和气候科技投资者而言，这指向了一个将前沿AI理论与重大现实世界问题（如材料科学和能源）相结合的、资金充裕的新兴前沿领域。"
-      },
-      {
-        "title": "A Guide to Which AI to Use in the Agentic Era",
-        "link": "https://www.oneusefulthing.org/p/a-guide-to-which-ai-to-use-in-the",
-        "source": "One Useful Thing",
-        "score": 75,
-        "verdict": "worth_reading",
-        "pub_date": "2026-02-23",
-        "why_matters": ""
-      }
-    ],
     "AI/Tech": [
       {
         "title": "Adam/Muon退位！谷歌Magma：随机丢弃50%梯度却拿下LLM优化SOTA",
@@ -258,12 +138,12 @@
         "why_matters": ""
       },
       {
-        "title": "拒绝调包！纯NumPy手搓Ilya推荐的30篇论文，连反向传播都是手写的",
-        "link": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247717338&idx=1&sn=0e0978348694bee2d2b51af070dde292",
+        "title": "V4底座浮现？DeepSeek唤醒闲置网卡，「双路径」破解长上下文I/O瓶颈",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247718066&idx=1&sn=27ecab7f00ba5039b04f0a22030e55c0",
         "source": "PaperWeekly",
-        "score": 91,
+        "score": 90,
         "verdict": "must_read",
-        "pub_date": "2026-01-29",
+        "pub_date": "2026-02-27",
         "why_matters": ""
       },
       {
@@ -483,33 +363,6 @@
         "why_matters": ""
       },
       {
-        "title": "谷歌新模型登顶Nature，人类基因密码被解码",
-        "link": "https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA==&mid=2247503191&idx=2&sn=80ee6523420f88c4a3cfc7ff9a6d1d4b",
-        "source": "PaperAgent",
-        "score": 87,
-        "verdict": "must_read",
-        "pub_date": "2026-01-29",
-        "why_matters": ""
-      },
-      {
-        "title": "今天，分享Clawdbot记忆系统最佳工程实践",
-        "link": "https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA==&mid=2247503157&idx=1&sn=2c59cf19be5d0b407830786d42490427",
-        "source": "PaperAgent",
-        "score": 87,
-        "verdict": "must_read",
-        "pub_date": "2026-01-28",
-        "why_matters": ""
-      },
-      {
-        "title": "在机器人眼中，玻璃并不存在",
-        "link": "https://mp.weixin.qq.com/s?__biz=MzkzNDQxOTU2MQ==&mid=2247511795&idx=1&sn=e7603f418213005f1cd83e459afcf62e",
-        "source": "赛博禅心",
-        "score": 87,
-        "verdict": "must_read",
-        "pub_date": "2026-01-27",
-        "why_matters": ""
-      },
-      {
         "title": "华为升级行业Agent算法架构！MindScale自己写prompt和工作流，KV Cache减少5.7倍token",
         "link": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247868538&idx=2&sn=dbf9170c9fcb5e3656a44e1c498a2442",
         "source": "量子位",
@@ -537,30 +390,12 @@
         "why_matters": ""
       },
       {
-        "title": "年度最勇投稿！手持300篇假引用名单踢馆，ACL审稿人敢拒这篇吗？",
-        "link": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247717298&idx=1&sn=c96a107e85b244c0820fe2cb1003a37e",
+        "title": "WWW 2026 | 大模型推荐真懂你吗？首次揭示微调中的上下文偏差",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247718066&idx=2&sn=51d708263e802a02fbb90c8f0daf5d37",
         "source": "PaperWeekly",
-        "score": 86,
+        "score": 85,
         "verdict": "must_read",
-        "pub_date": "2026-01-28",
-        "why_matters": ""
-      },
-      {
-        "title": "破案实锤！Qwen用假信号也能拿高分？虚假的RLVR如何激活隐藏记忆回路？",
-        "link": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247717298&idx=2&sn=347f6895b983640f1b1947de98204660",
-        "source": "PaperWeekly",
-        "score": 86,
-        "verdict": "must_read",
-        "pub_date": "2026-01-28",
-        "why_matters": ""
-      },
-      {
-        "title": "Agent 真正的护城河，正在从工具转向记忆资产",
-        "link": "https://mp.weixin.qq.com/s?__biz=Mzg5NTc0MjgwMw==&mid=2247522477&idx=1&sn=84191842ab39ae2e0ceff7599f5ecfbc",
-        "source": "Founder Park",
-        "score": 86,
-        "verdict": "must_read",
-        "pub_date": "2026-01-27",
+        "pub_date": "2026-02-27",
         "why_matters": ""
       },
       {
@@ -651,15 +486,6 @@
         "score": 85,
         "verdict": "must_read",
         "pub_date": "2026-01-29",
-        "why_matters": ""
-      },
-      {
-        "title": "告别CLIP！DeepSeek-OCR-2开源：首创视觉因果流，用LLM重构视觉编码",
-        "link": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247717257&idx=1&sn=a3aec70f61b99d4c3192d4e33f63db8e",
-        "source": "PaperWeekly",
-        "score": 85,
-        "verdict": "must_read",
-        "pub_date": "2026-01-27",
         "why_matters": ""
       },
       {
@@ -969,24 +795,6 @@
         "why_matters": ""
       },
       {
-        "title": "告别 AI 土味审美！Kimi K2.5 实测：扔个视频复刻 iOS 级丝滑动效",
-        "link": "https://mp.weixin.qq.com/s?__biz=MzU0MDk3NTUxMA==&mid=2247495499&idx=1&sn=37e70156ebed4f8e50010b82bf6cf1ea",
-        "source": "歸藏的AI工具箱",
-        "score": 82,
-        "verdict": "worth_reading",
-        "pub_date": "2026-01-27",
-        "why_matters": ""
-      },
-      {
-        "title": "他用100年前的哲学，颠覆了整个神经科学：时间，根本不在大脑里 | 万字追问",
-        "link": "https://mp.weixin.qq.com/s?__biz=MzI3MjQ4MDMyOQ==&mid=2247538336&idx=1&sn=55a4cb077e764511ec2a55694349c2d8",
-        "source": "追问nextquestion",
-        "score": 82,
-        "verdict": "worth_reading",
-        "pub_date": "2026-01-27",
-        "why_matters": ""
-      },
-      {
         "title": "AI、AI、AI，一天到晚都是AI，这背后是不是有什么阴谋？",
         "link": "https://mp.weixin.qq.com/s?__biz=MzI3MjQ4MDMyOQ==&mid=2247538775&idx=1&sn=9165cd4e0cd3c4fb13a44152511e2458",
         "source": "追问nextquestion",
@@ -1095,33 +903,6 @@
         "why_matters": ""
       },
       {
-        "title": "万字追问：当红的意识整合信息论，为何在他眼中只是一个漂亮的营销工具？",
-        "link": "https://mp.weixin.qq.com/s?__biz=MzI3MjQ4MDMyOQ==&mid=2247538428&idx=1&sn=1eeb265dc427e5a7b9ae4d6cb1a2258b",
-        "source": "追问nextquestion",
-        "score": 81,
-        "verdict": "worth_reading",
-        "pub_date": "2026-01-29",
-        "why_matters": ""
-      },
-      {
-        "title": "实测 Prism：OpenAI 的论文写作工具，完全免费",
-        "link": "https://mp.weixin.qq.com/s?__biz=MzkzNDQxOTU2MQ==&mid=2247511862&idx=1&sn=eac53129f541cedc07ac1e54fee170af",
-        "source": "赛博禅心",
-        "score": 81,
-        "verdict": "worth_reading",
-        "pub_date": "2026-01-29",
-        "why_matters": ""
-      },
-      {
-        "title": "AI记忆革命爆发！Clawdbot如何像大脑般记住一切",
-        "link": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652668689&idx=2&sn=2adbbe870cd79a9b16a3139cb1011429",
-        "source": "新智元",
-        "score": 81,
-        "verdict": "worth_reading",
-        "pub_date": "2026-01-28",
-        "why_matters": ""
-      },
-      {
         "title": "深度｜OpenAI API华人工程负责人：模型会把你的脚手架当早餐吃掉，为模型的未来而构建，而非为模型的当下而构建",
         "link": "https://mp.weixin.qq.com/s?__biz=MzI4NTgxMDk1NA==&mid=2247514229&idx=1&sn=9151883fbb173dc18061de3d56e9be20",
         "source": "Z Potentials",
@@ -1173,15 +954,6 @@
         "score": 80,
         "verdict": "worth_reading",
         "pub_date": "2026-02-03",
-        "why_matters": ""
-      },
-      {
-        "title": "DeepMind & Anthropic：当 AGI 来临后｜Vital Views",
-        "link": "https://mp.weixin.qq.com/s?__biz=Mzg4MzI4OTA3OQ==&mid=2247518902&idx=1&sn=08cb4304a259c1432b6db14b521c5430",
-        "source": "緑洲资本 Vitalbridge",
-        "score": 80,
-        "verdict": "worth_reading",
-        "pub_date": "2026-01-28",
         "why_matters": ""
       },
       {
@@ -1437,24 +1209,6 @@
         "why_matters": ""
       },
       {
-        "title": "燃尽三年重启十天，访谈 Clawdbot 创始人用 AI 搓出了 GitHub 最陡增长曲线",
-        "link": "https://mp.weixin.qq.com/s?__biz=MzA5OTQ2MTk2MQ==&mid=2247490081&idx=1&sn=749af6cc8c685791426adc6f551e101e",
-        "source": "饭後服用AfterHours",
-        "score": 78,
-        "verdict": "worth_reading",
-        "pub_date": "2026-01-29",
-        "why_matters": ""
-      },
-      {
-        "title": "DeepMind团队独家揭秘AlphaGenome内幕：两年攻坚，让AI读懂基因组98%的非编码区",
-        "link": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649789546&idx=1&sn=510c345b0f1617863ba6611827e2143a",
-        "source": "DeepTech深科技",
-        "score": 78,
-        "verdict": "worth_reading",
-        "pub_date": "2026-01-29",
-        "why_matters": ""
-      },
-      {
         "title": "揭开具身智能黑盒！清华等团队破译隐藏动力学密码：极限环编码行为",
         "link": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247718008&idx=2&sn=b72e53a2c4a860dc886abf29eb1ce053",
         "source": "PaperWeekly",
@@ -1563,15 +1317,6 @@
         "why_matters": ""
       },
       {
-        "title": "Clawdbot火了，Anthropic急了，Claude Code连夜更新了Agent任务系统。",
-        "link": "https://mp.weixin.qq.com/s?__biz=MzkxNjcyNTk2NA==&mid=2247489682&idx=1&sn=95dc92a7e9d000be502857c5b8ca527e",
-        "source": "探索AGI",
-        "score": 77,
-        "verdict": "worth_reading",
-        "pub_date": "2026-01-29",
-        "why_matters": ""
-      },
-      {
         "title": "机器人成精了？Figure 03下厨房，不经意关抽屉那一下，太像人了",
         "link": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652673084&idx=3&sn=98cf2158bea20402903319d46f21e150",
         "source": "新智元",
@@ -1626,12 +1371,12 @@
         "why_matters": ""
       },
       {
-        "title": "实测 Kimi 新品：前端设计，追平 Gemini 3 Pro",
-        "link": "https://mp.weixin.qq.com/s?__biz=MzIzNDU0NzY1MA==&mid=2247489473&idx=1&sn=109796c96afbff45c0e67315b7a71f35",
-        "source": "一泽Eze",
-        "score": 76,
+        "title": "Minimax出了个OpenClaw变体，把6个超好用Agent都传云上用了",
+        "link": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&mid=2247505192&idx=1&sn=4faf526db4b6ea6c936f3f28dc3c2242",
+        "source": "卡尔的AI沃茨",
+        "score": 75,
         "verdict": "worth_reading",
-        "pub_date": "2026-01-27",
+        "pub_date": "2026-02-27",
         "why_matters": ""
       },
       {
@@ -1777,14 +1522,142 @@
         "verdict": "worth_reading",
         "pub_date": "2026-02-01",
         "why_matters": ""
+      }
+    ],
+    "AI 使用": [
+      {
+        "title": "Google API Keys Weren't Secrets. But then Gemini Changed the Rules.",
+        "link": "https://simonwillison.net/2026/Feb/26/google-api-keys/#atom-everything",
+        "source": "Simon Willison",
+        "score": 100,
+        "verdict": "must_read",
+        "pub_date": "2026-02-26",
+        "why_matters": "对开发者而言，这揭示了云服务API密钥权限管理的潜在盲区，可能导致意外的安全漏洞和财务损失；对安全从业者，这是一个典型的权限升级和配置漂移案例。"
       },
       {
-        "title": "美联储杀人，AI埋尸？牛津曝光L型死局：10亿打工人再无归路",
-        "link": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652667926&idx=2&sn=dcbeefa83632b326a71cb2ab3f523e63",
-        "source": "新智元",
+        "title": "Disrupting malicious uses of AI | February 2026",
+        "link": "https://openai.com/index/disrupting-malicious-ai-uses",
+        "source": "OpenAI Blog",
+        "score": 90,
+        "verdict": "must_read",
+        "pub_date": "2026-02-25",
+        "why_matters": "对安全研究者和政策制定者而言，这揭示了AI技术被滥用的新途径和防御的紧迫性。"
+      },
+      {
+        "title": "Claude Code Remote Control",
+        "link": "https://simonwillison.net/2026/Feb/25/claude-code-remote-control/#atom-everything",
+        "source": "Simon Willison",
+        "score": 87,
+        "verdict": "must_read",
+        "pub_date": "2026-02-25",
+        "why_matters": "对开发者和技术爱好者而言，这标志着AI助手向更深度、跨设备的系统控制能力演进。"
+      },
+      {
+        "title": "5 OpenClaw agents run my home, finances, and code | Jesse Genet",
+        "link": "https://www.lennysnewsletter.com/p/5-openclaw-agents-run-my-home-finances",
+        "source": "Lenny's Newsletter",
+        "score": 82,
+        "verdict": "worth_reading",
+        "pub_date": "2026-02-25",
+        "why_matters": "对个人生产力和家庭管理者而言，这展示了如何将通用AI工具系统化，以高度定制化的方式解决复杂、多维度的现实问题。"
+      },
+      {
+        "title": "⚡️The End of SWE-Bench Verified — Mia Glaese & Olivia Watkins, OpenAI Frontier Evals & Human Data",
+        "link": "https://www.latent.space/p/swe-bench-dead",
+        "source": "Latent Space",
+        "score": 82,
+        "verdict": "worth_reading",
+        "pub_date": "2026-02-23",
+        "why_matters": "对AI研究者和开发者而言，这意味着需要重新审视和选择更可靠、无缺陷的基准来评估大模型的代码生成能力，避免被过时或有问题的指标误导。"
+      },
+      {
+        "title": "Bitter Lessons in Venture vs Growth: Anthropic vs OpenAI, Noam Shazeer, World Labs, Thinking Machines, Cursor, ASIC Economics — Martin Casado & Sarah Wang of a16z",
+        "link": "https://www.latent.space/p/a16z",
+        "source": "Latent Space",
+        "score": 80,
+        "verdict": "worth_reading",
+        "pub_date": "2026-02-23",
+        "why_matters": ""
+      },
+      {
+        "title": "Introducing the Stateful Runtime Environment for Agents in Amazon Bedrock",
+        "link": "https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock",
+        "source": "OpenAI Blog",
+        "score": 78,
+        "verdict": "worth_reading",
+        "pub_date": "2026-02-27",
+        "why_matters": "对开发者而言，这意味着可以构建状态更持久、更复杂的AI自动化应用。"
+      },
+      {
+        "title": "Linear walkthroughs",
+        "link": "https://simonwillison.net/guides/agentic-engineering-patterns/linear-walkthroughs/#atom-everything",
+        "source": "Simon Willison",
+        "score": 78,
+        "verdict": "worth_reading",
+        "pub_date": "2026-02-25",
+        "why_matters": "这为开发者，尤其是需要快速理解复杂或陌生代码库的工程师，提供了一种高效的知识获取和文档生成方法。"
+      },
+      {
+        "title": "How to use AI for your next job interview",
+        "link": "https://www.lennysnewsletter.com/p/how-to-use-ai-in-your-next-job-interview",
+        "source": "Lenny's Newsletter",
+        "score": 78,
+        "verdict": "worth_reading",
+        "pub_date": "2026-02-24",
+        "why_matters": "对于求职者，这提供了一个基于真实成功案例的系统化AI辅助工具，能显著提升面试准备的效率和针对性。"
+      },
+      {
+        "title": "A New Wharton Study on AI Warns of a Growing Problem: Cognitive Surrender",
+        "link": "https://www.thealgorithmicbridge.com/p/a-new-wharton-study-on-ai-warns-of",
+        "source": "The Algorithmic Bridge",
+        "score": 78,
+        "verdict": "worth_reading",
+        "pub_date": "2026-02-23",
+        "why_matters": ""
+      },
+      {
+        "title": "First run the tests",
+        "link": "https://simonwillison.net/guides/agentic-engineering-patterns/first-run-the-tests/#atom-everything",
+        "source": "Simon Willison",
+        "score": 77,
+        "verdict": "worth_reading",
+        "pub_date": "2026-02-24",
+        "why_matters": "对使用AI辅助编程的开发者而言，这提供了一个简单有效的实践模式，能显著提升与编码智能体协作的可靠性和效率，确保代码质量。"
+      },
+      {
+        "title": "Head of Claude Code: What happens after coding is solved | Boris Cherny",
+        "link": "https://www.lennysnewsletter.com/p/head-of-claude-code-what-happens",
+        "source": "Lenny's Newsletter",
+        "score": 77,
+        "verdict": "worth_reading",
+        "pub_date": "2026-02-23",
+        "why_matters": ""
+      },
+      {
+        "title": "Free Claude Max for (large project) open source maintainers",
+        "link": "https://simonwillison.net/2026/Feb/27/claude-max-oss-six-months/#atom-everything",
+        "source": "Simon Willison",
         "score": 75,
         "verdict": "worth_reading",
-        "pub_date": "2026-01-27",
+        "pub_date": "2026-02-27",
+        "why_matters": "对开源维护者意味着可以免费获得强大的AI编码辅助工具，提升项目开发效率。"
+      },
+      {
+        "title": "🔬Searching the Space of All Possible Materials — Prof. Max Welling, CuspAI",
+        "link": "https://www.latent.space/p/cuspai",
+        "source": "Latent Space",
+        "score": 75,
+        "verdict": "worth_reading",
+        "pub_date": "2026-02-25",
+        "why_matters": "对AI科学家和气候科技投资者而言，这指向了一个将前沿AI理论与重大现实世界问题（如材料科学和能源）相结合的、资金充裕的新兴前沿领域。"
+      },
+      {
+        "title": "A Guide to Which AI to Use in the Agentic Era",
+        "link": "https://www.oneusefulthing.org/p/a-guide-to-which-ai-to-use-in-the",
+        "source": "One Useful Thing",
+        "score": 75,
+        "verdict": "worth_reading",
+        "pub_date": "2026-02-23",
         "why_matters": ""
       }
     ],
