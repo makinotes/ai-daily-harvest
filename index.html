@@ -151,6 +151,13 @@ section{padding-top:32px;margin-bottom:40px}
 .trend-tag.active{border-color:var(--accent);color:var(--accent);background:var(--accent-soft)}
 .trend-count{color:var(--accent);margin-left:4px;opacity:.6}
 
+/* ── Neutral toggle ── */
+.neutral-toggle{cursor:pointer;user-select:none;display:flex;align-items:center;gap:8px}
+.neutral-toggle:hover{color:var(--text)}
+.neutral-count{font-size:.6rem;color:var(--text-dim);opacity:.7}
+.neutral-arrow{font-size:.5rem;color:var(--text-dim);transition:transform .2s;display:inline-block}
+.neutral-arrow.open{transform:rotate(90deg)}
+
 /* ── Links grid ── */
 .links-grid{
   display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;
@@ -278,6 +285,14 @@ footer a:hover{color:var(--accent);text-decoration:none}
     <div class="articles" id="worth-reading"></div>
   </section>
 
+  <section id="neutral-section" class="fade-in delay-3" style="display:none">
+    <div class="section-title neutral-toggle" onclick="toggleNeutral()">
+      Also Noted <span class="neutral-count" id="neutral-count"></span>
+      <span class="neutral-arrow" id="neutral-arrow">&#9654;</span>
+    </div>
+    <div class="articles" id="neutral-list" style="display:none"></div>
+  </section>
+
   <section class="fade-in delay-3">
     <div class="section-title">Quick Access</div>
     <div class="links-grid">
@@ -367,6 +382,12 @@ async function loadPicks() {
       document.getElementById('worth-reading').innerHTML =
         d.worth_reading.map(a => renderArticle(a, false)).join('');
     }
+    if (d.neutral && d.neutral.length) {
+      document.getElementById('neutral-section').style.display = '';
+      document.getElementById('neutral-count').textContent = d.neutral.length;
+      document.getElementById('neutral-list').innerHTML =
+        d.neutral.map(a => renderArticle(a, false)).join('');
+    }
   } catch (e) {
     document.getElementById('must-read').innerHTML = '<div class="empty">数据加载失败，请稍后刷新</div>';
   }
@@ -411,6 +432,14 @@ async function loadDigests() {
   }
 }
 
+function toggleNeutral() {
+  const list = document.getElementById('neutral-list');
+  const arrow = document.getElementById('neutral-arrow');
+  const visible = list.style.display !== 'none';
+  list.style.display = visible ? 'none' : '';
+  arrow.classList.toggle('open', !visible);
+}
+
 let activeTag = null;
 let categoryCache = null;
 
@@ -426,6 +455,7 @@ async function filterByTag(el, keyword) {
   const resultsSection = document.getElementById('tag-results-section');
   const mustReadSection = document.getElementById('must-read-section');
   const worthSection = document.getElementById('worth-section');
+  const neutralSection = document.getElementById('neutral-section');
 
   if (activeTag === keyword) {
     activeTag = null;
@@ -433,6 +463,7 @@ async function filterByTag(el, keyword) {
     resultsSection.style.display = 'none';
     mustReadSection.style.display = '';
     if (document.getElementById('worth-reading').children.length) worthSection.style.display = '';
+    if (document.getElementById('neutral-list').children.length) neutralSection.style.display = '';
     return;
   }
 
@@ -445,6 +476,7 @@ async function filterByTag(el, keyword) {
   resultsSection.style.display = '';
   mustReadSection.style.display = 'none';
   worthSection.style.display = 'none';
+  neutralSection.style.display = 'none';
 
   try {
     const data = await loadCategories();
