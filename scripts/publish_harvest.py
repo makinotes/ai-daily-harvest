@@ -12,10 +12,10 @@ Reads from:
     briefing/cache/wechat-ai/briefing_data_{date}.json
 
 Outputs to:
-    ai-daily-harvest/api/{date}.json            # full article data (public)
-    ai-daily-harvest/digest/{YYYY-MM}/{date}.md  # readable version (public)
-    ai-daily-harvest/lists/daily-picks.json     # red/black list (public)
-    ai-daily-harvest/sources/source_stats.json  # source stats (private, .gitignore)
+    api/{date}.json            # full article data (public)
+    digest/{YYYY-MM}/{date}.md  # readable version (public)
+    lists/daily-picks.json     # red/black list (public)
+    sources/source_stats.json  # source stats (private, .gitignore)
 """
 
 import csv
@@ -26,10 +26,11 @@ import sys
 from datetime import datetime, timedelta
 from xml.sax.saxutils import escape as xml_escape
 
-# Paths
-WORKSPACE = "/Users/makino/Desktop/claude code"
+# Paths — resolve relative to script location
+_SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+HARVEST_DIR = os.path.dirname(_SCRIPT_DIR)  # parent of scripts/
+WORKSPACE = os.path.dirname(HARVEST_DIR)     # parent of ai-daily-harvest/
 CACHE_DIR = os.path.join(WORKSPACE, "briefing", "cache")
-HARVEST_DIR = os.path.join(WORKSPACE, "ai-daily-harvest")
 
 # Channels to include (AI-related only)
 CHANNELS = ["overseas", "wechat-ai"]
@@ -458,7 +459,7 @@ def generate_rss(articles, date_str):
         '<rss version="2.0">\n'
         "<channel>\n"
         "  <title>AI Daily Harvest</title>\n"
-        "  <link>https://github.com/makinotes/ai-daily-harvest</link>\n"
+        "  <link>https://github.com/makinotes/ai-daily-feed</link>\n"
         "  <description>Daily AI learning feed. 40+ sources scored and structured.</description>\n"
         "  <language>zh-cn</language>\n"
         "  <lastBuildDate>{date}</lastBuildDate>\n"
