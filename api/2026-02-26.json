@@ -122,7 +122,7 @@
       "source": "周喆吾",
       "source_channel": "wechat-ai",
       "category": "AI/Tech",
-      "pub_date": "2026-02-26",
+      "pub_date": "",
       "summary": "提出 AI Agent 公司应效仿量化对冲基金的人才体系，强调个人英雄主义与系统闭缘。",
       "core_point": "① Claim 主张：作者认为下一代AI Agent公司的人才体系应对标量化对冲基金。② Evidence 论据：量化基金和顶级AI公司都以天价薪酬争夺最聪明的人（如Meta研究员package达两亿美金），且都强调用系统（机器）找到优势并全力投入。③ Implication 启示：这意味着AI Agent公司需要极简的组织（人要少）、重现金激励、以实际产出（赛马）而非PPT论英雄，并优先招募顶尖的聪明人而非仅仅是“懂行”的人。",
       "highlights": [
@@ -140,7 +140,7 @@
       "source": "AI工程化",
       "source_channel": "wechat-ai",
       "category": "AI/Tech",
-      "pub_date": "2026-02-26",
+      "pub_date": "",
       "summary": "详解 OpenAI Responses API 的 WebSocket 模式，提供代码示例与性能优化逻辑。",
       "core_point": "① Claim 主张：OpenAI为Responses API引入了WebSocket模式，以优化长时间运行、多工具调用的Agent工作流。② Evidence 论据：新模式通过持久连接和增量数据传输，避免了每次交互重复发送完整上下文，对于涉及20次以上工具调用的任务，端到端速度可提升20%-40%。③ Implication 启示：这降低了复杂Agent应用的开发和运行成本，特别有利于代码自动化、智能体编排等需要频繁模型-工具交互的场景。",
       "highlights": [
@@ -325,7 +325,7 @@
       "source": "特工宇宙",
       "source_channel": "wechat-ai",
       "category": "AI/Tech",
-      "pub_date": "2026-02-26",
+      "pub_date": "",
       "summary": "通过“递归学习法”结合 AI 快速掌握八字命理的学习经验分享。",
       "core_point": "① Claim 主张：作者使用“递归学习法”（结合苏格拉底追问、费曼检验和AI即时反馈）成功自学了复杂的八字命理。② Evidence 论据：通过让大模型分析具体八字案例，针对不理解的概念（如“正印代表母亲”）持续追问，并模仿、解释，最终建立了有效的学习闭环。③ Implication 启示：该方法理论上可应用于任何学科，为成人自学者提供了一种利用AI构建高强度、个性化学习路径的有效范式。",
       "highlights": [
@@ -343,7 +343,7 @@
       "source": "特工宇宙",
       "source_channel": "wechat-ai",
       "category": "AI/Tech",
-      "pub_date": "2026-02-26",
+      "pub_date": "",
       "summary": "2025 年生成式媒体发展报告综述，涵盖图像、视频各模态的核心模型表现与行业趋势。",
       "core_point": "① Claim 主张：生成式媒体（图像、视频、音频）的技术进步正引发内容生产民主化，吞噬传统制作流程。② Evidence 论据：2025年视频生成已能通过视觉图灵测试；图像编辑模型实现角色一致性和实时局部编辑；非技术用户也能通过自然语言生成生产级内容。③ Implication 启示：电商、广告、娱乐等内容密集型行业的成本结构和创作门槛被彻底改变，个人和小团队也能产出曾经需要专业团队完成的内容。",
       "highlights": [
@@ -466,7 +466,7 @@
       "source": "AI工程化",
       "source_channel": "wechat-ai",
       "category": "AI/Tech",
-      "pub_date": "2026-02-26",
+      "pub_date": "",
       "summary": "阿里开源进程内向量数据库 Zvec，支持毫秒级检索，具备“SQLite”式便携性。",
       "core_point": "① Claim 主张：阿里开源了进程内向量数据库Zvec，旨在简化向量搜索的部署和使用。② Evidence 论据：Zvec无需独立服务器，可直接嵌入应用进程，支持数十亿向量的毫秒级搜索，安装简单（pip install）。③ Implication 启示：这降低了向量数据库的使用门槛，特别适合需要本地化、轻量级向量搜索的RAG应用、边缘计算等场景，可能推动向量数据库的“SQLite时刻”。",
       "highlights": [

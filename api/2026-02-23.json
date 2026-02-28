@@ -28,7 +28,7 @@
       "source": "The Pragmatic Engineer",
       "source_channel": "overseas",
       "category": "Builder 实践",
-      "pub_date": "2026-02-23",
+      "pub_date": "",
       "summary": "深度访谈OpenAI Codex团队，揭示了多智能体编程助手的设计架构及自进化模型的开发内幕。",
       "core_point": "OpenAI的智能编码助手Codex用户增长迅速，每周有超过一百万开发者使用，自1月初以来使用量增长了5倍。OpenAI在2月初推出了Codex桌面应用，并发布了GPT-5.3-Codex模型，该模型被描述为第一个帮助创建自身的模型。文章通过采访OpenAI内部人员，深入探讨了Codex的构建过程、团队使用情况以及对ChatGPT制造商软件工程实践的影响。",
       "highlights": [
@@ -123,7 +123,7 @@
       "source": "OpenAI YouTube",
       "source_channel": "overseas",
       "category": "YouTube",
-      "pub_date": "2026-02-23",
+      "pub_date": "",
       "summary": "OpenAI 官方关于 Prompt Caching（提示词缓存）的技术原理与实操优化指南。",
       "core_point": "OpenAI的Build Hour视频介绍了提示词缓存技术，该技术旨在帮助开发者构建更快、更便宜、延迟更低的应用程序。视频解释了提示词缓存的工作原理，并指导如何设计提示词以最大化缓存命中率。内容涵盖了缓存的实际内容、适用场景，以及提示词的微小变化如何对成本和性能产生重大影响。",
       "highlights": [
@@ -159,7 +159,7 @@
       "source": "Latent Space",
       "source_channel": "overseas",
       "category": "AI 使用",
-      "pub_date": "2026-02-23",
+      "pub_date": "",
       "summary": "a16z合伙人深度拆解AI投融资新逻辑及行业未来格局的演变。",
       "core_point": "a16z的合伙人Martin Casado和Sarah Wang讨论了AI领域新的融资模式，指出当前的融资轮次实质上是伪装的计算合同。他们解释了“融资→训练→发布→更大规模融资”的飞轮如何运作，并探讨了基础模型公司是否能够超过建立在它们之上的整个应用生态系统的支出。他们还分享了被低估的领域（无聊的企业软件）和过热的领域（人才战争和薪酬螺旋）。",
       "highlights": [
@@ -209,7 +209,7 @@
       "source": "Lenny's Newsletter",
       "source_channel": "overseas",
       "category": "AI 使用",
-      "pub_date": "2026-02-23",
+      "pub_date": "",
       "summary": "Claude Code负责人分享的产品原则、开发内幕及AI驱动下的编程未来。",
       "core_point": "Anthropic的Claude Code负责人Boris Cherny讨论了Claude Code如何从一个简单的终端原型成长为占公共GitHub提交4%的产品，并且其上月日活跃用户翻了一番。他分享了推动Claude Code成功的反直觉产品原则，并解释了他为何认为编码问题“已解决”。他还谈到了塑造Claude Code和Cowork的潜在需求，以及为团队提供无限令牌如何导致更好的AI产品。",
       "highlights": [
@@ -229,7 +229,7 @@
       "source": "One Useful Thing",
       "source_channel": "overseas",
       "category": "AI 使用",
-      "pub_date": "2026-02-23",
+      "pub_date": "",
       "summary": "文章提出了“模型、应用、外挂/环境（Harnesses）”的三维评估框架，定义了智能体时代选择AI的新标准。",
       "core_point": "文章指出，“使用AI”的含义在过去几个月发生了巨大变化，从与聊天机器人对话转变为将AI作为智能体来分配任务。因此，在选择使用何种AI时，需要考虑三个要素：模型、应用程序和约束框架。同一个模型在不同应用程序和约束框架下，对相同问题的回答质量和形式会有显著差异。",
       "highlights": [
@@ -340,7 +340,7 @@
       "source": "Ben's Bites",
       "source_channel": "overseas",
       "category": "AI 使用",
-      "pub_date": "2026-02-23",
+      "pub_date": "",
       "summary": "Claude Sonnet 4.6发布动态及关于开发者订阅政策的行业争议分析。",
       "core_point": "",
       "highlights": [],
@@ -415,7 +415,7 @@
       "source": "The Algorithmic Bridge",
       "source_channel": "overseas",
       "category": "AI 使用",
-      "pub_date": "2026-02-23",
+      "pub_date": "",
       "summary": "通过“Slop Cannons（垃圾炮弹）”与“Turbo Brains（涡轮大脑）”的2x2矩阵，探讨AI使用的质量分水岭。",
       "core_point": "",
       "highlights": [],

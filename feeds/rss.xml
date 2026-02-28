@@ -55,6 +55,14 @@
   <source url="https://simonwillison.net/2026/Feb/26/google-api-keys/#atom-everything">Simon Willison</source>
 </item>
 <item>
+  <title>New Paper: Towards a science of AI agent reliability</title>
+  <link>https://www.normaltech.ai/p/new-paper-towards-a-science-of-ai</link>
+  <description><![CDATA[AI Agent可靠性科学测量框架发布，填补行业评估空白。<ul><li>亮点1：作者团队发布了一份名为《迈向AI代理可靠性科学》的草案论文，旨在对AI代理的可靠性进行全面的测量。</li><li>亮点2：研究将可靠性分解为12个不同维度，并评估了14个模型在两个互补基准上的表现。</li><li>亮点3：评估发现，近两年的快速能力进步只带来了适度的可靠性提升。</li></ul>]]></description>
+  <category>AI 使用</category>
+  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
+  <source url="https://www.normaltech.ai/p/new-paper-towards-a-science-of-ai">AI Snake Oil</source>
+</item>
+<item>
   <title>近期，Google发了2篇不错的Multi-Agent新Paper</title>
   <link>https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA==&amp;mid=2247504482&amp;idx=2&amp;sn=02869647fbb5aea215549487592eac76</link>
   <description><![CDATA[Google两篇多智能体（MARL）论文深度解析，探讨协作涌现与LLM算法发现。<ul><li>提出“上下文共玩家推理”机制，通过混合训练池诱导协作，无需显式元梯度。</li><li>揭示了“相互剥削”作为协作驱动力的三步因果链，为理解合作涌现提供新视角。</li></ul>]]></description>
@@ -63,12 +71,52 @@
   <source url="https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA==&amp;mid=2247504482&amp;idx=2&amp;sn=02869647fbb5aea215549487592eac76">PaperAgent</source>
 </item>
 <item>
+  <title>DeepSeek联手清北发新论文，5000行代码改写规则！V4 架构专治推理I/O瓶颈，性能暴增187%</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=2651276519&amp;idx=1&amp;sn=4b4fb425f744235e11d59c7d55087969</link>
+  <description><![CDATA[DeepSeek 与清北合作发布 DualPath 架构，解决 Agent 长上下文推理中的 I/O 带宽瓶颈。]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=2651276519&amp;idx=1&amp;sn=4b4fb425f744235e11d59c7d55087969">InfoQ</source>
+</item>
+<item>
+  <title>DeepSeek新论文剧透V4新框架！用闲置网卡加速智能体推理性能，打破PD分离瓶颈</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247870799&amp;idx=1&amp;sn=db1a82726be958a63025b8a8ec7d3eef</link>
+  <description><![CDATA[DeepSeek与清北联合发布DualPath框架，通过利用闲置网卡带宽优化KV-Cache加载，解决Agent长文本推理瓶颈。]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247870799&amp;idx=1&amp;sn=db1a82726be958a63025b8a8ec7d3eef">量子位</source>
+</item>
+<item>
+  <title>首次证实RL能让3D模型学会推理，复杂文本描述下生成质量跃升！</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247870799&amp;idx=2&amp;sn=2b0533c6fbe7a5e606992a3ad72e0a09</link>
+  <description><![CDATA[AR3D-R1研究首次将RL（GRPO）引入3D生成，并总结了奖励模型选择、Token级优化等关键方法论。]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247870799&amp;idx=2&amp;sn=2b0533c6fbe7a5e606992a3ad72e0a09">量子位</source>
+</item>
+<item>
   <title>谈谈光互连的一些问题</title>
   <link>https://mp.weixin.qq.com/s?__biz=MzUxNzQ5MTExNw==&amp;mid=2247497667&amp;idx=1&amp;sn=06ec4d01c307eebc6cc47826a750fd47</link>
   <description><![CDATA[深度解析 ISSCC 2026 关于光互连的前沿论文，探讨 CPO 与硅光技术的演进与取舍。<ul><li>系统梳理了光互连替代铜互连的核心驱动力：密度、距离和功耗限制。</li><li>对比分析了ISSCC 2026上三大厂商（Nvidia、BRCM、Marvell）针对不同场景的硅光技术方案与取舍。</li></ul>]]></description>
   <category>AI/Tech</category>
   <pubDate>Thu, 26 Feb 2026 00:00:00 GMT</pubDate>
   <source url="https://mp.weixin.qq.com/s?__biz=MzUxNzQ5MTExNw==&amp;mid=2247497667&amp;idx=1&amp;sn=06ec4d01c307eebc6cc47826a750fd47">zartbot</source>
+</item>
+<item>
+  <title>何恺明团队新作GeoPT，全新预训练范式用合成动力学让模型自学真实物理规律</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247870766&amp;idx=2&amp;sn=2fb31bcb2cd1fc0ce1ba89ea7fb4afb5</link>
+  <description><![CDATA[何恺明团队 GeoPT 论文解读：用合成动力学解决物理仿真 Scaling 难题。<ul><li>提出“动力学提升的几何预训练”新范式，用合成动力学将静态几何表征提升至动态空间。</li><li>在无真实物理标签的情况下，通过海量无标签几何数据预训练模型，学习物理演化的通用规律。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Thu, 26 Feb 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247870766&amp;idx=2&amp;sn=2fb31bcb2cd1fc0ce1ba89ea7fb4afb5">量子位</source>
+</item>
+<item>
+  <title>OpenClaw深度分析：为什么突然就火了，以及对我们意味着什么</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzAxMDMxOTI2NA==&amp;mid=2649105070&amp;idx=1&amp;sn=ffa36d016fc21a5735133df8f4ed86b0</link>
+  <description><![CDATA[深度解析 OpenClaw 爆火背后的“降维打击”逻辑及 Agent 行业的断层现状。]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzAxMDMxOTI2NA==&amp;mid=2649105070&amp;idx=1&amp;sn=ffa36d016fc21a5735133df8f4ed86b0">十字路口Crossing</source>
 </item>
 <item>
   <title>艾滋病为何难以痊愈？这项研究给出了迄今最清晰的答案</title>
@@ -87,6 +135,14 @@
   <source url="https://mp.weixin.qq.com/s?__biz=MzA4NzgzMjA4MQ==&amp;mid=2453480665&amp;idx=2&amp;sn=e2d1b2abbb8dea32b87551988c70fa40">AGI Hunt</source>
 </item>
 <item>
+  <title>[AINews] Nano Banana 2 aka Gemini 3.1 Flash Image Preview: the new SOTA Imagegen model</title>
+  <link>https://www.latent.space/p/ainews-nano-banana-2-aka-gemini-31</link>
+  <description><![CDATA[Google发布SOTA级图像模型Nano Banana 2，主打极致性价比与一致性。<ul><li>亮点1：Nano Banana 2（Gemini 3.1 Flash Image Preview）在Arena和ArtificialAnalysis的评测中被评为世界第一的图像模型。</li><li>亮点2：该模型生成图像的价格为每千张67美元，是Nano Banana Pro（134美元/千张）和GPT Image 1.5（133美元/千张）价格的一半。</li><li>亮点3：该模型具备6个角色一致性和搜索基础功能，以及出色的文本渲染能力，所有生成内容都带有SynthID印记。</li></ul>]]></description>
+  <category>AI 使用</category>
+  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
+  <source url="https://www.latent.space/p/ainews-nano-banana-2-aka-gemini-31">Latent Space</source>
+</item>
+<item>
   <title>Claude Code 新功能：手机远程控制</title>
   <link>https://mp.weixin.qq.com/s?__biz=MzkzNDQxOTU2MQ==&amp;mid=2247513353&amp;idx=1&amp;sn=4b2b8237fdf043efa807ee4a27cb5651</link>
   <description><![CDATA[Claude Code 新推出的远程控制功能详解，涵盖使用方法、安全机制及与云端版的区别。<ul><li>提供两种启动远程会话的方式：直接运行命令或通过斜杠命令，并可选择携带现有对话历史。</li><li>强调安全机制，所有通信走HTTPS，本地无开放端口，依赖短期凭证和自动重连。</li></ul>]]></description>
@@ -101,6 +157,14 @@
   <category>AI/Tech</category>
   <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
   <source url="https://mp.weixin.qq.com/s?__biz=MzA5MTIxNTY4MQ==&amp;mid=2461158599&amp;idx=1&amp;sn=f243e7e49e8defdf31f506444be2d36c">AI工程化</source>
+</item>
+<item>
+  <title>GitHub 发布 Agentic Workflows，解锁 AI 驱动的代码库自动化潜力</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=2651276519&amp;idx=4&amp;sn=3514389acb5f8f349586c61ff19de47c</link>
+  <description><![CDATA[GitHub 发布基于 Markdown 定义的 Agentic Workflows，推动 AI 驱动的自动化仓库管理。]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=2651276519&amp;idx=4&amp;sn=3514389acb5f8f349586c61ff19de47c">InfoQ</source>
 </item>
 <item>
   <title>让Claude和Kimi接管真实系统，跑个实验差点把服务器干崩了</title>
@@ -135,6 +199,30 @@
   <source url="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247870617&amp;idx=2&amp;sn=822c44d2ffa8c1a5d092859394fde186">量子位</source>
 </item>
 <item>
+  <title>Dropbox 如何构建可扩展的企业知识搜索上下文引擎</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=2651276519&amp;idx=3&amp;sn=05cd0c10cbc1cda9194834cc2fe2dbac</link>
+  <description><![CDATA[Dropbox Dash 架构详解：如何通过知识图谱和索引机制解决企业 AI 搜索的规模化挑战。]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=2651276519&amp;idx=3&amp;sn=05cd0c10cbc1cda9194834cc2fe2dbac">InfoQ</source>
+</item>
+<item>
+  <title>谈谈DeepSeek DualPath以及ScaleOut直接接入存储</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzUxNzQ5MTExNw==&amp;mid=2247497708&amp;idx=1&amp;sn=bd123a32fc5c13197281ed490abbd86c</link>
+  <description><![CDATA[深入探讨 Agent 推理场景下的 KV Cache 存储瓶颈及 DualPath 架构优化方案。<ul><li>针对Agentic LLM推理中KVCache加载效率成为性能瓶颈的问题，提出DualPath系统优化存储带宽。</li><li>揭示了当前ScaleOut网络因硬件限制难以直接接入存储的技术现状。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzUxNzQ5MTExNw==&amp;mid=2247497708&amp;idx=1&amp;sn=bd123a32fc5c13197281ed490abbd86c">zartbot</source>
+</item>
+<item>
+  <title>「2028，全球智能危机」</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzkzNDQxOTU2MQ==&amp;mid=2247513377&amp;idx=1&amp;sn=d8f0f3976b095a6d78b125ba5c5c7a41</link>
+  <description><![CDATA[以 2028 年视角撰写的 AI 经济危机推演，提出了「幽灵 GDP」和「智能替代螺旋」等深刻概念。<ul><li>以思想实验形式，推演了AI技术成功普及后可能引发的极端经济下行风险。</li><li>提出了“智能替代螺旋”和“幽灵GDP”等概念，描述AI替代人力可能导致的宏观经济负反馈循环。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Thu, 26 Feb 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzkzNDQxOTU2MQ==&amp;mid=2247513377&amp;idx=1&amp;sn=d8f0f3976b095a6d78b125ba5c5c7a41">赛博禅心</source>
+</item>
+<item>
   <title>深度｜Claude Code创造者：面向六个月后模型开发，而非当下模型；未来人人皆可开发软件，跨领域通才更具竞争力</title>
   <link>https://mp.weixin.qq.com/s?__biz=MzI4NTgxMDk1NA==&amp;mid=2247514273&amp;idx=1&amp;sn=57ea11919d135872b452fe07e645c3fd</link>
   <description><![CDATA[Claude Code创造者访谈：编程细节将被AI解决，开发者应转向跨领域通才。<ul><li>提出“编码问题已基本解决”，工程师个人生产效率因AI提升200%</li><li>预言未来核心能力是“任务拆解直觉”和“抽象编排”，而非传统编码技能</li></ul>]]></description>
@@ -167,6 +255,22 @@
   <source url="https://mp.weixin.qq.com/s?__biz=MzU2MTgzMjQyMA==&amp;mid=2247485145&amp;idx=1&amp;sn=8d29ce979b84d90e1ec1746212cd3962">周喆吾</source>
 </item>
 <item>
+  <title>HyperRAG：用超图实现精准多跳推理（已开源）</title>
+  <link>https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA==&amp;mid=2247504506&amp;idx=2&amp;sn=831ca895a3e430a323506fcc3eeda03f</link>
+  <description><![CDATA[HyperRAG通过超图结构解决传统GraphRAG的二元关系碎片化问题，提供了高阶推理的新框架并已开源。]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA==&amp;mid=2247504506&amp;idx=2&amp;sn=831ca895a3e430a323506fcc3eeda03f">PaperAgent</source>
+</item>
+<item>
+  <title>How much does distillation really matter for Chinese LLMs?</title>
+  <link>https://www.interconnects.ai/p/how-much-does-distillation-really</link>
+  <description><![CDATA[深度辨析蒸馏（Distillation）在中美AI竞赛中的真实作用与定义误区。<ul><li>亮点1：如今“蒸馏”的通俗定义是使用更强AI模型的输出来教导较弱模型，这本质上是一种合成数据方法。</li><li>亮点2：从API模型进行技术形式的知识蒸馏（匹配教师模型的概率分布）是不可能的，因为它们不暴露所需信息。</li><li>亮点3：合成数据是当今AI研究人员日常改进模型最有用的单一方法。</li></ul>]]></description>
+  <category>Builder 实践</category>
+  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
+  <source url="https://www.interconnects.ai/p/how-much-does-distillation-really">Interconnects</source>
+</item>
+<item>
   <title>揭开具身智能黑盒！清华等团队破译隐藏动力学密码：极限环编码行为</title>
   <link>https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&amp;mid=2247718008&amp;idx=2&amp;sn=b72e53a2c4a860dc886abf29eb1ce053</link>
   <description><![CDATA[清华与Sapient团队通过动力学框架破译了具身智能的黑盒，提出“极限环”编码行为的几何解释，为机器人认知的可解释性提供了数学基础。<ul><li>首次用严格的几何语言（极限环）解释了具身智能体的内部决策动力学</li><li>通过系统实验证明，智能体的“行为记忆”被编码在神经状态空间的稳定结构中</li></ul>]]></description>
@@ -197,6 +301,14 @@
   <category>AI/Tech</category>
   <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
   <source url="https://mp.weixin.qq.com/s?__biz=MzU1MTAwNzY4Mg==&amp;mid=2247490691&amp;idx=1&amp;sn=374c233b18184cd08d742539fc67237b">喜新</source>
+</item>
+<item>
+  <title>300万人围观，Karpathy怒喷OpenClaw。然后推荐了一个500行的替代品。</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzkxNjcyNTk2NA==&amp;mid=2247490420&amp;idx=1&amp;sn=e8b916bac5117aa5debc128dd69251ee</link>
+  <description><![CDATA[Karpathy 评价 OpenClaw 的新观点集锦，推荐了极简替代品 NanoClaw 并总结了 AI 时代的编程新原则。]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzkxNjcyNTk2NA==&amp;mid=2247490420&amp;idx=1&amp;sn=e8b916bac5117aa5debc128dd69251ee">探索AGI</source>
 </item>
 <item>
   <title>ICLR2026 Oral | 当情感识别不再是分类题：EmotionThinker 让 SpeechLLM 学会“解释情绪”</title>
@@ -293,118 +405,6 @@
   <category>AI/Tech</category>
   <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
   <source url="https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA==&amp;mid=2247504426&amp;idx=2&amp;sn=9a698c404b63b6227b194bef8425c43a">PaperAgent</source>
-</item>
-<item>
-  <title>三家中国大模型公司被卷入蒸馏风波，律师解读：Anthropic的指控从法律上很牵强</title>
-  <link>https://mp.weixin.qq.com/s?__biz=Mjc1NjM3MjY2MA==&amp;mid=2691565169&amp;idx=1&amp;sn=59b19b790fa9e0be1661af8702c88f50</link>
-  <description><![CDATA[专业律师从著作权与商业秘密视角，深度解析了Anthropic对中国大模型公司‘数据蒸馏’指控的法理困境。<ul><li>法律分析指出，AI生成内容因缺乏人类作者身份，其可版权性存疑，蒸馏行为直接构成侵权的法律基础薄弱。</li><li>指出蒸馏是行业公开的常规操作，将公开API数据获取认定为“不正当手段”在法律上牵强。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=Mjc1NjM3MjY2MA==&amp;mid=2691565169&amp;idx=1&amp;sn=59b19b790fa9e0be1661af8702c88f50">腾讯科技</source>
-</item>
-<item>
-  <title>🔬Searching the Space of All Possible Materials — Prof. Max Welling, CuspAI</title>
-  <link>https://www.latent.space/p/cuspai</link>
-  <description><![CDATA[Max Welling 教授探讨 AI 在材料科学中的应用，提出“物理处理单元”概念。<ul><li>提出‘物理处理单元’概念：数字模型与物理实验协同，自然作为处理器</li><li>探讨了对称性、等变性在深度学习中的重要性，以及扩散模型与随机热力学的深层数学联系</li><li>指出材料（而非软件）可能是AI和能源转型的真正瓶颈</li><li>CuspAI在9月完成了1亿美元的A轮融资，据传估值已达独角兽级别</li></ul>]]></description>
-  <category>AI 使用</category>
-  <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
-  <source url="https://www.latent.space/p/cuspai">Latent Space</source>
-</item>
-<item>
-  <title>Adam/Muon退位！谷歌Magma：随机丢弃50%梯度却拿下LLM优化SOTA</title>
-  <link>https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA==&amp;mid=2247504378&amp;idx=1&amp;sn=791f1291cb2ce5645cd641a68788b5dd</link>
-  <description><![CDATA[解析谷歌最新论文 Magma/SkipUpdate，揭示了“随机丢弃 50% 梯度更新”反而能提升模型性能的几何正则化原理。<ul><li>随机丢弃50%梯度更新的SkipUpdate策略，在多个模型规模上击败了Adam、Muon等SOTA优化器。</li><li>其有效性源于随机掩码引入的曲率相关几何正则化，能自动避开陡峭的局部最优，偏向平坦区域。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA==&amp;mid=2247504378&amp;idx=1&amp;sn=791f1291cb2ce5645cd641a68788b5dd">PaperAgent</source>
-</item>
-<item>
-  <title>“软件工程师”头衔要没了？Claude Code之父YC访谈：一个月后不再用plan mode，多Agent开始自己组队干活</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=2651275912&amp;idx=1&amp;sn=28684e1adf869f59fd295dd4184c6890</link>
-  <description><![CDATA[Claude Code 创始人深度访谈，揭示了未来编程范式的剧变与 Agent 开发理念。<ul><li>代码保质期仅数月，围绕当前模型做产品很快会被下一代能力抹平</li><li>Agent能力边界每几个月重写一次，工程师需保持“新手心态”不断重置认知</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=2651275912&amp;idx=1&amp;sn=28684e1adf869f59fd295dd4184c6890">InfoQ</source>
-</item>
-<item>
-  <title>谈谈Attention SInk及未来Attention算法设计</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzUxNzQ5MTExNw==&amp;mid=2247497613&amp;idx=1&amp;sn=b7dfc41a83978a789ac582c8034faac8</link>
-  <description><![CDATA[深度硬核技术文，从几何和拓扑视角分析了 Attention Sink 及其对 Transformer 架构的影响。<ul><li>ASink从“资源浪费”被重新解读为维持稳定性的“几何锚点”</li><li>处理ASink的方式成为设计未来高效Transformer架构的核心决策点</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzUxNzQ5MTExNw==&amp;mid=2247497613&amp;idx=1&amp;sn=b7dfc41a83978a789ac582c8034faac8">zartbot</source>
-</item>
-<item>
-  <title>Directory Snapshots: Resumable project state for Sandboxes</title>
-  <link>https://modal.com/blog/directory-snapshots-resumable-project-state-for-sandboxes</link>
-  <description><![CDATA[Modal 推出 Directory Snapshots 功能，实现了 Sandbox 运行状态的编程式快照与挂载，显著提升了有状态任务的效率。<ul><li>亮点1：新功能允许对运行中的沙盒（Sandbox）内的特定目录进行快照。</li><li>亮点2：快照可以独立于基础镜像和文件系统，挂载到另一个沙盒中。</li></ul>]]></description>
-  <category>Builder 实践</category>
-  <pubDate>Tue, 24 Feb 2026 00:00:00 GMT</pubDate>
-  <source url="https://modal.com/blog/directory-snapshots-resumable-project-state-for-sandboxes">Modal Labs Blog</source>
-</item>
-<item>
-  <title>Agent 进化，不需要人类</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzkzNDQxOTU2MQ==&amp;mid=2247513239&amp;idx=1&amp;sn=195ef76bb783062603cbd2dd24421ebf</link>
-  <description><![CDATA[探讨了 Agent 脱离人类干预实现‘自举进化’的哲学与实践可能性。<ul><li>AI进化循环可分为：人引导AI写、AI自己写、AI写给自己用三个阶段</li><li>在最终阶段，AI技能的传播与使用发生在AI之间，人类已不在循环内</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzkzNDQxOTU2MQ==&amp;mid=2247513239&amp;idx=1&amp;sn=195ef76bb783062603cbd2dd24421ebf">赛博禅心</source>
-</item>
-<item>
-  <title>GLM-5 技术报告全解读｜a16z：“最好的开源模型”</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzkzNDQxOTU2MQ==&amp;mid=2247513320&amp;idx=1&amp;sn=72c6634b088560f6cf21655f0636e3b3</link>
-  <description><![CDATA[详尽解读了智谱 GLM-5 的技术报告，涵盖了 MLA、Muon Split 等关键架构改进及其在竞技场的表现。<ul><li>GLM-5以744B总参、40B激活的MoE架构，在关键指数上被评为“最好的开源模型”。</li><li>采用了DSA稀疏注意力等新架构技术，在20B token预训练下追平了DeepSeek-V3近千B token的效果。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzkzNDQxOTU2MQ==&amp;mid=2247513320&amp;idx=1&amp;sn=72c6634b088560f6cf21655f0636e3b3">赛博禅心</source>
-</item>
-<item>
-  <title>Linear walkthroughs</title>
-  <link>https://simonwillison.net/guides/agentic-engineering-patterns/linear-walkthroughs/#atom-everything</link>
-  <description><![CDATA[Simon Willison 分享了利用 Claude Code 和 Showboat 实现自动化代码库导览的方法论。<ul><li>亮点1：提出“线性演练”模式，利用智能体生成代码库的详细结构化说明。</li><li>亮点2：作者分享了一个个人案例：他使用 Claude Code 和 Opus 4.6 氛围编码了一个 SwiftUI 应用，之后又用 Claude Code 和 Showboat 工具为该代码库生成了详细的演练文档。</li></ul>]]></description>
-  <category>AI 使用</category>
-  <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
-  <source url="https://simonwillison.net/guides/agentic-engineering-patterns/linear-walkthroughs/#atom-everything">Simon Willison</source>
-</item>
-<item>
-  <title>How to use AI for your next job interview</title>
-  <link>https://www.lennysnewsletter.com/p/how-to-use-ai-in-your-next-job-interview</link>
-  <description><![CDATA[基于调研开发的 AI 面试教练系统，将求职策略转化为可直接使用的 Claude Code 提示词/系统。<ul><li>亮点1：研究基于对数十名求职者和招聘经理的采访，揭示了AI正在改变招聘双方的行为。</li><li>亮点2：研究发现，优秀候选人的策略并非孤立的技巧，而是构建了完整的“系统”。</li><li>亮点3：研究团队将超过30名参与者的成功技巧编码成了一个基于 Claude Code 的“教练”，可供读者直接使用。</li></ul>]]></description>
-  <category>AI 使用</category>
-  <pubDate>Tue, 24 Feb 2026 00:00:00 GMT</pubDate>
-  <source url="https://www.lennysnewsletter.com/p/how-to-use-ai-in-your-next-job-interview">Lenny's Newsletter</source>
-</item>
-<item>
-  <title>独家专访千寻创始人：20 亿新融资、具身模型淘汰赛、落地非共识</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzU3Mjk1OTQ0Ng==&amp;mid=2247533464&amp;idx=1&amp;sn=595eee8fa566dadbf768e9d5f56b39c6</link>
-  <description><![CDATA[具身智能核心玩家的深度访谈，涵盖数据瓶颈、行业黑公关及落地共识。<ul><li>千寻智能完成近20亿融资，估值破百亿，成为具身智能赛道标志性事件。</li><li>创始人判断2026年竞争核心是模型性能，并开源了性能超越Pi0.5的Spirit v1.5模型。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Mon, 23 Feb 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzU3Mjk1OTQ0Ng==&amp;mid=2247533464&amp;idx=1&amp;sn=595eee8fa566dadbf768e9d5f56b39c6">晚点LatePost</source>
-</item>
-<item>
-  <title>OpenAI大佬爆料：本科生靠一篇博客杀进OpenAI！没博士，0篇论文</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652677374&amp;idx=2&amp;sn=ba6929e3247f3705b9de2ad050147b5e</link>
-  <description><![CDATA[草根研究员靠开源博客逆袭 OpenAI 的案例，提供了极具价值的职业发展路径参考。<ul><li>本科生凭借开源博客和可量化的基准测试改进项目（NanoGPT speed run）入职OpenAI。</li><li>其项目将训练token效率提升3.8倍，且单次尝试成本极低（约8美元），降低了研究门槛。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Mon, 23 Feb 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652677374&amp;idx=2&amp;sn=ba6929e3247f3705b9de2ad050147b5e">新智元</source>
-</item>
-<item>
-  <title>给 AI Agent 装上 DNA，这个项目火爆了</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzA4NzgzMjA4MQ==&amp;mid=2453480552&amp;idx=1&amp;sn=e7db7d6a6ed825e392a4a57014a7fd9f</link>
-  <description><![CDATA[探讨了 AI Agent 基因组进化协议 EvoMap，提出了 Agent 能力共享的新范式。<ul><li>EvoMap是AI Agent的“DNA系统”，通过基因胶囊和遗传协议共享经验</li><li>旨在解决Agent重复造轮子导致的巨大算力内耗问题</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzA4NzgzMjA4MQ==&amp;mid=2453480552&amp;idx=1&amp;sn=e7db7d6a6ed825e392a4a57014a7fd9f">AGI Hunt</source>
-</item>
-<item>
-  <title>AI视频有了音画同步后，我想看看语音合成能不能活下来</title>
-  <link>https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&amp;mid=2247505017&amp;idx=1&amp;sn=3d98ac69d301ef43c67f8be150c4b0c9</link>
-  <description><![CDATA[文章探讨了AI视频原生音画同步与独立TTS模型的优劣，提出通过音频驱动视频的稳定工作流，并实测了MiniMax Speech-2.8在复杂情绪控制上的表现。<ul><li>对于对话场景，先生成高质量音频再驱动视频生成，效果优于先视频后配音</li><li>新一代语音合成模型在情绪转换、语气词、换气等细节上大幅提升，增强了表现力</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&amp;mid=2247505017&amp;idx=1&amp;sn=3d98ac69d301ef43c67f8be150c4b0c9">卡尔的AI沃茨</source>
 </item>
 </channel>
 </rss>

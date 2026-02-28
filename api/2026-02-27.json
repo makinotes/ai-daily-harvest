@@ -1,10 +1,10 @@
 {
   "date": "2026-02-27",
-  "total": 39,
+  "total": 59,
   "verdict_counts": {
-    "must_read": 5,
-    "worth_reading": 14,
-    "neutral": 20
+    "must_read": 11,
+    "worth_reading": 22,
+    "neutral": 26
   },
   "articles": [
     {
@@ -27,6 +27,25 @@
       "verdict": "must_read"
     },
     {
+      "title": "New Paper: Towards a science of AI agent reliability",
+      "link": "https://www.normaltech.ai/p/new-paper-towards-a-science-of-ai",
+      "source": "AI Snake Oil",
+      "source_channel": "overseas",
+      "category": "AI 使用",
+      "pub_date": "",
+      "summary": "AI Agent可靠性科学测量框架发布，填补行业评估空白。",
+      "core_point": "主张：尽管AI代理的可靠性问题众所周知，但整个行业目前缺乏衡量可靠性的有效工具和清晰定义。论据：作者团队借鉴核能与航空安全等领域的经验，将可靠性分解为12个维度，并对14个模型在两个互补基准上进行了评估。启示：研究发现，近两年AI能力的快速进步只带来了有限的可靠性提升，这有助于解释为何AI代理的经济影响是渐进的，而非革命性的。",
+      "highlights": [
+        "亮点1：作者团队发布了一份名为《迈向AI代理可靠性科学》的草案论文，旨在对AI代理的可靠性进行全面的测量。",
+        "亮点2：研究将可靠性分解为12个不同维度，并评估了14个模型在两个互补基准上的表现。",
+        "亮点3：评估发现，近两年的快速能力进步只带来了适度的可靠性提升。"
+      ],
+      "why_matters": "对数据PM/投资者/公众号作者意味着什么：理解AI代理可靠性的系统性评估框架，有助于更理性地评估其商业应用潜力和风险。",
+      "score": 93,
+      "level": "收藏",
+      "verdict": "must_read"
+    },
+    {
       "title": "近期，Google发了2篇不错的Multi-Agent新Paper",
       "link": "https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA==&mid=2247504482&idx=2&sn=02869647fbb5aea215549487592eac76",
       "source": "PaperAgent",
@@ -40,6 +59,51 @@
         "揭示了“相互剥削”作为协作驱动力的三步因果链，为理解合作涌现提供新视角。"
       ],
       "why_matters": "对AI研究者意味着新的多智能体协作范式和算法自动化设计工具。",
+      "score": 90,
+      "level": "收藏",
+      "verdict": "must_read"
+    },
+    {
+      "title": "DeepSeek联手清北发新论文，5000行代码改写规则！V4 架构专治推理I/O瓶颈，性能暴增187%",
+      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651276519&idx=1&sn=4b4fb425f744235e11d59c7d55087969",
+      "source": "InfoQ",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-27",
+      "summary": "DeepSeek 与清北合作发布 DualPath 架构，解决 Agent 长上下文推理中的 I/O 带宽瓶颈。",
+      "core_point": "",
+      "highlights": [],
+      "why_matters": "",
+      "score": 90,
+      "level": "收藏",
+      "verdict": "must_read"
+    },
+    {
+      "title": "DeepSeek新论文剧透V4新框架！用闲置网卡加速智能体推理性能，打破PD分离瓶颈",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247870799&idx=1&sn=db1a82726be958a63025b8a8ec7d3eef",
+      "source": "量子位",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-27",
+      "summary": "DeepSeek与清北联合发布DualPath框架，通过利用闲置网卡带宽优化KV-Cache加载，解决Agent长文本推理瓶颈。",
+      "core_point": "",
+      "highlights": [],
+      "why_matters": "",
+      "score": 90,
+      "level": "收藏",
+      "verdict": "must_read"
+    },
+    {
+      "title": "首次证实RL能让3D模型学会推理，复杂文本描述下生成质量跃升！",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247870799&idx=2&sn=2b0533c6fbe7a5e606992a3ad72e0a09",
+      "source": "量子位",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-27",
+      "summary": "AR3D-R1研究首次将RL（GRPO）引入3D生成，并总结了奖励模型选择、Token级优化等关键方法论。",
+      "core_point": "",
+      "highlights": [],
+      "why_matters": "",
       "score": 90,
       "level": "收藏",
       "verdict": "must_read"
@@ -59,6 +123,39 @@
       ],
       "why_matters": "对芯片和硬件工程师意味着需要根据具体应用场景（如数据中心内部或跨园区）评估和选择不同的光互连技术方案。",
       "score": 88,
+      "level": "收藏",
+      "verdict": "must_read"
+    },
+    {
+      "title": "何恺明团队新作GeoPT，全新预训练范式用合成动力学让模型自学真实物理规律",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247870766&idx=2&sn=2fb31bcb2cd1fc0ce1ba89ea7fb4afb5",
+      "source": "量子位",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-26",
+      "summary": "何恺明团队 GeoPT 论文解读：用合成动力学解决物理仿真 Scaling 难题。",
+      "core_point": "何恺明团队提出名为GeoPT的全新预训练范式，旨在解决物理仿真中数据标注成本高和静态几何预训练缺乏动力学信息的问题。该范式通过引入合成动力学，在无标签的静态几何数据上，让模型学习粒子在随机速度场下的轨迹演化，从而预先获取物理直觉。这一方法在达到相同精度时，最高可节省60%的物理仿真数据，为数据驱动的神经网络仿真器提供了一种更高效、低成本的训练路径。",
+      "highlights": [
+        "提出“动力学提升的几何预训练”新范式，用合成动力学将静态几何表征提升至动态空间。",
+        "在无真实物理标签的情况下，通过海量无标签几何数据预训练模型，学习物理演化的通用规律。"
+      ],
+      "why_matters": "为AI物理仿真领域提供了一种显著降低数据成本、提升模型泛化能力的新方法，对相关领域的研究者和工程师具有重要参考价值。",
+      "score": 88,
+      "level": "收藏",
+      "verdict": "must_read"
+    },
+    {
+      "title": "OpenClaw深度分析：为什么突然就火了，以及对我们意味着什么",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzAxMDMxOTI2NA==&mid=2649105070&idx=1&sn=ffa36d016fc21a5735133df8f4ed86b0",
+      "source": "十字路口Crossing",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-27",
+      "summary": "深度解析 OpenClaw 爆火背后的“降维打击”逻辑及 Agent 行业的断层现状。",
+      "core_point": "",
+      "highlights": [],
+      "why_matters": "",
+      "score": 87,
       "level": "收藏",
       "verdict": "must_read"
     },
@@ -99,6 +196,25 @@
       "verdict": "must_read"
     },
     {
+      "title": "[AINews] Nano Banana 2 aka Gemini 3.1 Flash Image Preview: the new SOTA Imagegen model",
+      "link": "https://www.latent.space/p/ainews-nano-banana-2-aka-gemini-31",
+      "source": "Latent Space",
+      "source_channel": "overseas",
+      "category": "AI 使用",
+      "pub_date": "2026-02-27",
+      "summary": "Google发布SOTA级图像模型Nano Banana 2，主打极致性价比与一致性。",
+      "core_point": "主张：Nano Banana 2（即Gemini 3.1 Flash Image Preview）作为一款新的图像生成/编辑模型发布，并被认为是当前的世界顶级模型。论据：该模型在Arena和ArtificialAnalysis的评测中被评为世界第一的图像模型，但其生成图像的价格仅为每千张67美元，是Nano Banana Pro和GPT Image 1.5价格的一半。启示：它以更具竞争力的价格提供了顶级的图像生成能力。",
+      "highlights": [
+        "亮点1：Nano Banana 2（Gemini 3.1 Flash Image Preview）在Arena和ArtificialAnalysis的评测中被评为世界第一的图像模型。",
+        "亮点2：该模型生成图像的价格为每千张67美元，是Nano Banana Pro（134美元/千张）和GPT Image 1.5（133美元/千张）价格的一半。",
+        "亮点3：该模型具备6个角色一致性和搜索基础功能，以及出色的文本渲染能力，所有生成内容都带有SynthID印记。"
+      ],
+      "why_matters": "对数据PM/投资者/公众号作者意味着什么：一款在性价比上具有显著优势的顶级图像生成模型的出现，可能改变市场格局和应用成本。",
+      "score": 83,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
       "title": "Claude Code 新功能：手机远程控制",
       "link": "https://mp.weixin.qq.com/s?__biz=MzkzNDQxOTU2MQ==&mid=2247513353&idx=1&sn=4b2b8237fdf043efa807ee4a27cb5651",
       "source": "赛博禅心",
@@ -122,7 +238,7 @@
       "source": "AI工程化",
       "source_channel": "wechat-ai",
       "category": "AI/Tech",
-      "pub_date": "2026-02-27",
+      "pub_date": "",
       "summary": "Anthropic 发布 Claude Code Security 工具，展示 AI 在自动化代码安全审计方面的突破性成果。",
       "core_point": "① Anthropic发布了Claude Code Security，这是一个能理解代码逻辑、扫描漏洞并生成修复补丁的AI安全工具。② 该工具通过像人类一样阅读代码来发现复杂漏洞，并对每个发现进行多轮验证以降低误报，已在开源库中发现500多个长期存在的漏洞。③ 它的出现可能加速安全行业的攻防竞赛，并对传统依赖规则库的安全公司构成挑战，同时所有AI生成的修复建议仍需人工审核。",
       "highlights": [
@@ -130,6 +246,21 @@
         "发布后导致多家网络安全公司股价下跌，反映了市场对AI自动化核心安全工作的预期。"
       ],
       "why_matters": "对开发者意味着可能获得一个强大的AI安全助手，对投资者则需重新评估传统安全软件公司的价值。",
+      "score": 83,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "GitHub 发布 Agentic Workflows，解锁 AI 驱动的代码库自动化潜力",
+      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651276519&idx=4&sn=3514389acb5f8f349586c61ff19de47c",
+      "source": "InfoQ",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-27",
+      "summary": "GitHub 发布基于 Markdown 定义的 Agentic Workflows，推动 AI 驱动的自动化仓库管理。",
+      "core_point": "",
+      "highlights": [],
+      "why_matters": "",
       "score": 83,
       "level": "精读",
       "verdict": "worth_reading"
@@ -207,6 +338,57 @@
       "verdict": "worth_reading"
     },
     {
+      "title": "Dropbox 如何构建可扩展的企业知识搜索上下文引擎",
+      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651276519&idx=3&sn=05cd0c10cbc1cda9194834cc2fe2dbac",
+      "source": "InfoQ",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-27",
+      "summary": "Dropbox Dash 架构详解：如何通过知识图谱和索引机制解决企业 AI 搜索的规模化挑战。",
+      "core_point": "",
+      "highlights": [],
+      "why_matters": "",
+      "score": 80,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "谈谈DeepSeek DualPath以及ScaleOut直接接入存储",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzUxNzQ5MTExNw==&mid=2247497708&idx=1&sn=bd123a32fc5c13197281ed490abbd86c",
+      "source": "zartbot",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-27",
+      "summary": "深入探讨 Agent 推理场景下的 KV Cache 存储瓶颈及 DualPath 架构优化方案。",
+      "core_point": "一篇论文《DualPath》提出通过利用解码节点的前端网络带宽和ScaleOut网络，构建双路径KVCache存储服务，以解决Agentic LLM推理中前端存储带宽成为瓶颈的问题。该方法使离线推理性能提升1.87倍，在线服务性能提升1.96倍。文章同时指出，ScaleOut网络难以直接接入存储的现状与NVIDIA RDMA网卡的限制有关。",
+      "highlights": [
+        "针对Agentic LLM推理中KVCache加载效率成为性能瓶颈的问题，提出DualPath系统优化存储带宽。",
+        "揭示了当前ScaleOut网络因硬件限制难以直接接入存储的技术现状。"
+      ],
+      "why_matters": "为优化大模型Agent场景下的推理系统性能提供了具体的技术思路和瓶颈分析，对系统架构师和AI基础设施开发者有直接参考意义。",
+      "score": 80,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "「2028，全球智能危机」",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzkzNDQxOTU2MQ==&mid=2247513377&idx=1&sn=d8f0f3976b095a6d78b125ba5c5c7a41",
+      "source": "赛博禅心",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-26",
+      "summary": "以 2028 年视角撰写的 AI 经济危机推演，提出了「幽灵 GDP」和「智能替代螺旋」等深刻概念。",
+      "core_point": "一篇来自未来（2028年）的情景推演报告，假设当前对AI的乐观预期全部实现，反而可能引发“全球智能危机”。报告推演了AI生产力极大提升导致“智能替代螺旋”：企业用AI替代白领→失业增加、消费萎缩→企业利润压力下进一步投资AI，形成一个没有天然刹车的负反馈循环，最终造成经济结构性失衡。报告创造了“幽灵GDP”等概念来描述这种产出与消费脱节的现象。",
+      "highlights": [
+        "以思想实验形式，推演了AI技术成功普及后可能引发的极端经济下行风险。",
+        "提出了“智能替代螺旋”和“幽灵GDP”等概念，描述AI替代人力可能导致的宏观经济负反馈循环。"
+      ],
+      "why_matters": "为投资者、政策制定者和行业观察者提供了一个重要的风险思考框架，警示在追求AI效率的同时需关注其对社会经济的结构性冲击。",
+      "score": 80,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
       "title": "深度｜Claude Code创造者：面向六个月后模型开发，而非当下模型；未来人人皆可开发软件，跨领域通才更具竞争力",
       "link": "https://mp.weixin.qq.com/s?__biz=MzI4NTgxMDk1NA==&mid=2247514273&idx=1&sn=57ea11919d135872b452fe07e645c3fd",
       "source": "Z Potentials",
@@ -248,7 +430,7 @@
       "source": "周喆吾",
       "source_channel": "wechat-ai",
       "category": "AI/Tech",
-      "pub_date": "2026-02-27",
+      "pub_date": "",
       "summary": "通过唯品会和李牧的例子，探讨商业中“无聊”和“被忽视”作为竞争优势的深度思考。",
       "core_point": "① 作者通过对比关羽、诸葛亮与李牧，以及知名高调企业家与低调的唯品会创始人沈亚，主张“无聊”和“被忽视”本身可能是一种强大的商业竞争优势。② 文章以李牧长期练兵、一战定乾坤的典故，以及沈亚默默经营、持续盈利的案例作为论据，说明避免频繁的戏剧性冲突和媒体关注，专注于内部复利式增长的企业往往更持久。③ 这意味着在评价企业时，不应只关注高光时刻和英雄叙事，而应更重视其是否构建了稳定、可持续的运营系统。",
       "highlights": [
@@ -266,7 +448,7 @@
       "source": "周喆吾",
       "source_channel": "wechat-ai",
       "category": "AI/Tech",
-      "pub_date": "2026-02-27",
+      "pub_date": "",
       "summary": "深度剖析大公司内部创业失败的根源——Conviction（定力）缺失与代理人困局。",
       "core_point": "① 作者认为大企业内部创业失败率高，核心原因不是缺聪明人，而是缺乏“Conviction”，即在信息不全时做出高质量判断并投入足够资源穿透组织阻力的决心。② 文章用Uber、谷歌、Meta等公司的内部项目失败案例，以及创始人自身预算动摇的经历，论证了“代理人问题”和创始人“今天的我不信任昨天的我”的心理是结构性困境。③ 这意味着企业不应盲目学习字节跳动的广泛孵化模式，而应学习拼多多和亚马逊“少开枪，但每一枪都要大、要准”的集中资源打法。",
       "highlights": [
@@ -275,6 +457,40 @@
       ],
       "why_matters": "对企业管理者是重要的战略警醒：创新成功的关键在于穿透组织的决心和资源定力，而非完美的初始计划。",
       "score": 78,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "HyperRAG：用超图实现精准多跳推理（已开源）",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA==&mid=2247504506&idx=2&sn=831ca895a3e430a323506fcc3eeda03f",
+      "source": "PaperAgent",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-27",
+      "summary": "HyperRAG通过超图结构解决传统GraphRAG的二元关系碎片化问题，提供了高阶推理的新框架并已开源。",
+      "core_point": "",
+      "highlights": [],
+      "why_matters": "",
+      "score": 78,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "How much does distillation really matter for Chinese LLMs?",
+      "link": "https://www.interconnects.ai/p/how-much-does-distillation-really",
+      "source": "Interconnects",
+      "source_channel": "overseas",
+      "category": "Builder 实践",
+      "pub_date": "",
+      "summary": "深度辨析蒸馏（Distillation）在中美AI竞赛中的真实作用与定义误区。",
+      "core_point": "主张：在当前的AI语境下，“蒸馏”一词通常指的是使用更强AI模型的输出来训练较弱模型，这本质上是一种合成数据方法。论据：从API模型进行技术形式的知识蒸馏是不可能的，因为它们不向用户暴露所需信息。如今，合成数据是AI研究人员日常改进模型最有用的单一方法。启示：关于中国领先实验室使用蒸馏从美国API模型中“窃取”能力的论点，需要在这一更精确的定义背景下进行审视。",
+      "highlights": [
+        "亮点1：如今“蒸馏”的通俗定义是使用更强AI模型的输出来教导较弱模型，这本质上是一种合成数据方法。",
+        "亮点2：从API模型进行技术形式的知识蒸馏（匹配教师模型的概率分布）是不可能的，因为它们不暴露所需信息。",
+        "亮点3：合成数据是当今AI研究人员日常改进模型最有用的单一方法。"
+      ],
+      "why_matters": "对数据PM/投资者/公众号作者意味着什么：澄清“蒸馏”的真实含义和技术限制，有助于更准确地理解模型能力提升的路径和中美AI技术发展的讨论。",
+      "score": 77,
       "level": "精读",
       "verdict": "worth_reading"
     },
@@ -338,7 +554,7 @@
       "source": "喜新",
       "source_channel": "wechat-ai",
       "category": "AI/Tech",
-      "pub_date": "2026-02-27",
+      "pub_date": "",
       "summary": "分析 Agent 的“终端派”与“电脑派”差异，探讨未来应用如何进行 Agent 适配。",
       "core_point": "① 作者提出，未来做AI产品需在“终端派”（如Claude Code，AI作为副驾）和“电脑派”（如OpenClaw，AI拥有独立设备权限）之间做出选择，后者能实现7x24小时异步任务。② 对于不做Agent的普通应用，未来的关键适配方向是让自己能被Agent低成本调用，例如提供CLI接口或封装友好的API（如飞书MCP）。③ 这意味着所有产品都需要思考如何接入以Agent为主流用户的未来生态，其交互界面将主要为Agent而非人类设计。",
       "highlights": [
@@ -346,6 +562,21 @@
         "指出“Agent适配”将成为未来应用的必选项，并给出了具体路径（如提供CLI控制）。"
       ],
       "why_matters": "对产品经理和开发者意味着一个明确的未来路线图：你的产品必须准备好被AI Agent作为主要用户来使用。",
+      "score": 75,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "300万人围观，Karpathy怒喷OpenClaw。然后推荐了一个500行的替代品。",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzkxNjcyNTk2NA==&mid=2247490420&idx=1&sn=e8b916bac5117aa5debc128dd69251ee",
+      "source": "探索AGI",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-27",
+      "summary": "Karpathy 评价 OpenClaw 的新观点集锦，推荐了极简替代品 NanoClaw 并总结了 AI 时代的编程新原则。",
+      "core_point": "",
+      "highlights": [],
+      "why_matters": "",
       "score": 75,
       "level": "精读",
       "verdict": "worth_reading"
@@ -460,6 +691,21 @@
       "verdict": "neutral"
     },
     {
+      "title": "Agent全链路成功率0%？首个真实DevOps基准曝致命短板｜ICLR'26",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652678480&idx=3&sn=01b6bc0bbfab330a4b4a9b7116b10875",
+      "source": "新智元",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-27",
+      "summary": "ICLR'26 论文发布 DevOps-Gym 基准，揭示当前 AI Agent 在真实运维全链路中的致命短板。",
+      "core_point": "",
+      "highlights": [],
+      "why_matters": "",
+      "score": 73,
+      "level": "精读",
+      "verdict": "neutral"
+    },
+    {
       "title": "击败谷歌、英伟达！清华陈建宇×斯坦福Chelsea团队世界模型Ctrl-World具身能力登顶全球",
       "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651018183&idx=1&sn=d562c55c627429307182d208fde291af",
       "source": "机器之心",
@@ -496,6 +742,39 @@
       "verdict": "neutral"
     },
     {
+      "title": "吴恩达、斯坦福、谷歌云罕见同频：AI 测评逻辑正被 Agent 颠覆",
+      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651276519&idx=2&sn=3a47cf61039e938e16c6ddf1cd53cdea",
+      "source": "InfoQ",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-27",
+      "summary": "2026 年初 AI 测评逻辑转向：吴恩达与斯坦福等机构强调从“能力布道”转向“价值评估”。",
+      "core_point": "",
+      "highlights": [],
+      "why_matters": "",
+      "score": 70,
+      "level": "精读",
+      "verdict": "neutral"
+    },
+    {
+      "title": "Nano Banana 2深夜空降！一键生成20张图、4K高保真，价格还降了",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649790981&idx=1&sn=00202e54dc5dd21a55817d9d118fc5f3",
+      "source": "DeepTech深科技",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-27",
+      "summary": "Nano Banana 2 发布详情，涵盖定价策略分析与技术规格对比。",
+      "core_point": "谷歌悄然发布新一代图像生成模型Nano Banana 2，基于Gemini 3.1 Flash架构，旨在结合高速生成与高质量输出。模型继承了Pro版本的图像检索、文字生成、角色一致性等功能，并在4K分辨率下价格较Pro版本下降约37%，推理速度接近翻倍。官方定位其为综合性价比高的4K生图方案。",
+      "highlights": [
+        "基于Gemini 3.1 Flash架构，试图实现“Flash的速度，Pro的质量”。",
+        "在提升画质和功能的同时，4K图像生成API价格显著下降，性价比突出。"
+      ],
+      "why_matters": "为图像生成需求者提供了更快、更便宜且质量更高的新选择，可能改变生图工具的市场格局。",
+      "score": 70,
+      "level": "精读",
+      "verdict": "neutral"
+    },
+    {
       "title": "2025年度神经科学十大发现",
       "link": "https://mp.weixin.qq.com/s?__biz=MzI3MjQ4MDMyOQ==&mid=2247538914&idx=1&sn=5e8592450ecb3be3642dc91daaf67862",
       "source": "追问nextquestion",
@@ -527,6 +806,24 @@
         "排名揭示了国产模型在不同能力上的分化格局，如Kimi擅数学与专业能力，Seed擅编程与高难度指令。"
       ],
       "why_matters": "对开发者和用户意味着国产大模型提供了更多高性价比且能力突出的选择。",
+      "score": 67,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "我做Claude Code榜一大哥的时候，OpenClaw的作者Peter是榜三……当时他在干啥？",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI1MTUxNzgxMA==&mid=2247501197&idx=1&sn=079abd6b5d20721b603f11d2c47f72db",
+      "source": "刘小排r",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-27",
+      "summary": "通过分析知名开发者 Peter 的 GitHub 动态，复盘 Agent 时代的个人开发者工作流。",
+      "core_point": "作者发现，在OpenClaw项目开始前，其作者Peter Steinberger曾是Claude Code的重度用户（榜三）。通过分析Peter当时的博客和GitHub提交记录，作者得出结论：Peter当时正利用AI作为主力生产力，亲手搭建一整套“Agentic开发流水线”，包括开发工具（如Poltergeist）、总结工作流、反思AI成瘾文化，并形成了一套Agentic工程师的底层认知。",
+      "highlights": [
+        "通过数据（榜单、GitHub提交）和内容（博客）分析，还原了一位高产AI开发者（Peter）在特定时间段的工作重心与思考演进。",
+        "揭示了顶尖AI工具建造者如何亲身实践并体系化“AI驱动的开发范式”。"
+      ],
+      "why_matters": "为AI时代的开发者提供了一个真实、深入的高效能工作范式案例，具有极强的借鉴意义。",
       "score": 67,
       "level": "速览",
       "verdict": "neutral"
@@ -581,6 +878,36 @@
         "设置“受限资源”和“开源”双赛道，以满足不同研究目标和资源条件团队的需求。"
       ],
       "why_matters": "对AI研究员意味着一个前沿的评测平台，用于推动MLLMs在复杂真实世界场景中的实用化突破。",
+      "score": 63,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "华人天才出走xAI：算力竞赛已死，30美元解锁AI自进化！",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652678480&idx=2&sn=e6b641be0d7b4d205c15d64b3e311dc4",
+      "source": "新智元",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-27",
+      "summary": "xAI 核心成员离职及其开源项目 TinyZero 验证了小模型通过强化学习实现推理能力的低成本路径。",
+      "core_point": "",
+      "highlights": [],
+      "why_matters": "",
+      "score": 63,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "谷歌要把整个 Android 变成「豆包手机」",
+      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651082166&idx=1&sn=416b1887b4eaf23be83dd6c8a0972449",
+      "source": "APPSO",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-02-27",
+      "summary": "Google与三星联手在S26上推出Gemini智能体，通过沙盒技术和API实现跨应用自动化任务。",
+      "core_point": "",
+      "highlights": [],
+      "why_matters": "",
       "score": 63,
       "level": "速览",
       "verdict": "neutral"
@@ -645,7 +972,7 @@
       "source": "张无常",
       "source_channel": "wechat-ai",
       "category": "AI/Tech",
-      "pub_date": "2026-02-27",
+      "pub_date": "",
       "summary": "翻译 Matt Shumer 的深度长文，预测 2026 年 AI 对生产力的彻底改造及应对策略。",
       "core_point": "① 作者通过与其制造业工程师哥哥的对话，以及翻译HyperWrite CEO的文章，主张AI带来的变革堪比工业革命或电力普及，其影响深远且正在加速发生。② 文章引用从业者观点，指出AI能力进展被低估，免费版与付费版体验差距巨大，且变革将由极少数公司和研究者主导。③ 这意味着所有行业从业者，尤其是知识工作者，必须正视AI对工作的冲击，并主动学习如何与AI协作，而非认为其与己无关。",
       "highlights": [

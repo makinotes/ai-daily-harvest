@@ -12,7 +12,7 @@
       "source": "刘小排r",
       "source_channel": "wechat-ai",
       "category": "AI/Tech",
-      "pub_date": "2026-02-08",
+      "pub_date": "",
       "summary": "基于 OpenClaw 深度使用两周后的组织变革思考，提出了 AI 代替初级员工的具体路径与模型选择逻辑。",
       "core_point": "作者深度体验OpenClaw后，决定今年停止招聘人类员工，并推动现有员工使用该工具。",
       "highlights": [
@@ -84,7 +84,7 @@
       "source": "DeepTech深科技",
       "source_channel": "wechat-ai",
       "category": "AI/Tech",
-      "pub_date": "2026-02-08",
+      "pub_date": "",
       "summary": "分析谷歌 2025 Q4 财报，验证 AI 投入在云业务和搜索广告中已产生实际营收提振。",
       "core_point": "谷歌母公司Alphabet年营收首次突破4000亿美元，AI技术显著推动了其云业务和搜索广告的增长。",
       "highlights": [
@@ -102,7 +102,7 @@
       "source": "赛博禅心",
       "source_channel": "wechat-ai",
       "category": "AI/Tech",
-      "pub_date": "2026-02-08",
+      "pub_date": "",
       "summary": "介绍面壁智能开源模型 MiniCPM-o 4.5 的全双工交互能力及技术实现原理。",
       "core_point": "面壁智能开源了MiniCPM-o 4.5模型，实现了全双工全模态交互，能同时看、听、说并主动判断交互时机。",
       "highlights": [
@@ -120,7 +120,7 @@
       "source": "赛博禅心",
       "source_channel": "wechat-ai",
       "category": "AI/Tech",
-      "pub_date": "2026-02-08",
+      "pub_date": "",
       "summary": "展示 Vidu Q3 视频生成的声画同出能力，并提供了部分趣味 Prompt 示例。",
       "core_point": "Vidu Q3视频生成模型支持16秒音视频直出，将画面、对话、音效和背景音乐生成步骤合而为一。",
       "highlights": [
@@ -138,7 +138,7 @@
       "source": "DeepTech深科技",
       "source_channel": "wechat-ai",
       "category": "AI/Tech",
-      "pub_date": "2026-02-08",
+      "pub_date": "",
       "summary": "通过专访阐述端侧 AI 在隐私和延迟方面的必要性，以及全双工交互的技术逻辑。",
       "core_point": "专访指出，实现类人AI交互需将全双工全模态大模型部署在端侧，以保障低延迟和用户隐私。",
       "highlights": [
