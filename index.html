@@ -424,13 +424,15 @@ async function loadCategories() {
 async function filterByTag(el, keyword) {
   const tags = document.querySelectorAll('.trend-tag');
   const resultsSection = document.getElementById('tag-results-section');
-  const todaySections = [document.getElementById('must-read-section'), document.getElementById('worth-section')];
+  const mustReadSection = document.getElementById('must-read-section');
+  const worthSection = document.getElementById('worth-section');
 
   if (activeTag === keyword) {
     activeTag = null;
     tags.forEach(t => t.classList.remove('active'));
     resultsSection.style.display = 'none';
-    todaySections.forEach(s => s.style.display = '');
+    mustReadSection.style.display = '';
+    if (document.getElementById('worth-reading').children.length) worthSection.style.display = '';
     return;
   }
 
@@ -441,7 +443,8 @@ async function filterByTag(el, keyword) {
   const resultsEl = document.getElementById('tag-results');
   resultsEl.innerHTML = '<div class="loading">loading</div>';
   resultsSection.style.display = '';
-  todaySections.forEach(s => s.style.display = 'none');
+  mustReadSection.style.display = 'none';
+  worthSection.style.display = 'none';
 
   try {
     const data = await loadCategories();
