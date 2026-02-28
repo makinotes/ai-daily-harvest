@@ -98,6 +98,8 @@ curl -s https://raw.githubusercontent.com/makinotes/ai-daily-feed/master/indexes
 
 评分算法七维度（新颖度、深度、可行动性、可信度、逻辑、时效性、信噪比），信源精选高信噪比的。同一管道出三种格式：JSON、Markdown、JSONL。
 
+想搭自己的？底层框架已开源：**[briefing](https://github.com/makinotes/briefing)** — 插入 RSS 源、配好 LLM API key，跑一条命令就能生成你自己的每日简报。
+
 ## 参与贡献
 
 **推荐信源** — [提 issue](../../issues/new)，写上来源名、URL、语言、为什么好。
