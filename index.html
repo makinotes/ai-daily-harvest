@@ -145,10 +145,12 @@ section{padding-top:32px;margin-bottom:40px}
 .trend-tag{
   font-family:var(--mono);font-size:.7rem;
   padding:4px 12px;border:1px solid var(--border);border-radius:3px;
-  color:var(--text-dim);transition:all .15s;
+  color:var(--text-dim);transition:all .15s;cursor:pointer;
 }
 .trend-tag:hover{border-color:var(--border-hover);color:var(--text)}
+.trend-tag.active{border-color:var(--accent);color:var(--accent);background:var(--accent-soft)}
 .trend-count{color:var(--accent);margin-left:4px;opacity:.6}
+.article.dimmed{opacity:.15;transition:opacity .2s}
 
 /* ── Links grid ── */
 .links-grid{
@@ -373,7 +375,7 @@ async function loadTrending() {
     const el = document.getElementById('trending');
     if (d.trending && d.trending.length) {
       el.innerHTML = d.trending.slice(0, 12).map(t =>
-        `<span class="trend-tag">${t.keyword}<span class="trend-count">&times;${t.count}</span></span>`
+        `<span class="trend-tag" onclick="filterByTag(this,'${t.keyword.replace(/'/g,"\\\'")}')">${t.keyword}<span class="trend-count">&times;${t.count}</span></span>`
       ).join('');
     } else { el.innerHTML = ''; }
   } catch (e) { document.getElementById('trending').innerHTML = ''; }
@@ -403,6 +405,26 @@ async function loadDigests() {
   } catch (e) {
     document.getElementById('digest-list').innerHTML = '<div class="empty">加载失败</div>';
   }
+}
+
+let activeTag = null;
+function filterByTag(el, keyword) {
+  const tags = document.querySelectorAll('.trend-tag');
+  if (activeTag === keyword) {
+    activeTag = null;
+    tags.forEach(t => t.classList.remove('active'));
+    document.querySelectorAll('.article').forEach(a => a.classList.remove('dimmed'));
+    return;
+  }
+  activeTag = keyword;
+  tags.forEach(t => t.classList.remove('active'));
+  el.classList.add('active');
+  const kw = keyword.toLowerCase();
+  document.querySelectorAll('.article').forEach(a => {
+    const text = a.textContent.toLowerCase();
+    a.classList.toggle('dimmed', !text.includes(kw));
+  });
+  document.getElementById('must-read').scrollIntoView({behavior:'smooth',block:'nearest'});
 }
 
 loadPicks();
