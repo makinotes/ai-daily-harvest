@@ -45,25 +45,25 @@ a:hover{text-decoration:underline;text-underline-offset:3px}
   position:sticky;top:0;z-index:100;
   height:48px;display:flex;align-items:center;justify-content:space-between;
   padding:0 28px;
-  background:rgba(250,250,250,0.92);
+  background:rgba(255,255,255,0.92);
   backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
   border-bottom:1px solid rgba(0,0,0,0.06);
   font-family:var(--body);font-size:.8125rem;
 }
 .site-nav-brand{
   font-family:var(--serif);font-size:1.125rem;
-  color:#1A1A1A;text-decoration:none;letter-spacing:-.01em;
+  color:#111;text-decoration:none;letter-spacing:-.01em;
 }
 .site-nav-brand:hover{color:#000;text-decoration:none}
 .site-nav-links{display:flex;align-items:center;gap:24px;list-style:none}
-.site-nav-links a{color:#666;text-decoration:none;transition:color .15s}
-.site-nav-links a:hover{color:#1A1A1A;text-decoration:none}
+.site-nav-links a{color:#555;text-decoration:none;transition:color .15s}
+.site-nav-links a:hover{color:#111;text-decoration:none}
 .nav-dropdown{position:relative}
 .nav-dropdown-trigger{
   display:flex;align-items:center;gap:3px;
-  color:#666;cursor:pointer;background:none;border:none;font:inherit;padding:0;transition:color .15s;
+  color:#555;cursor:pointer;background:none;border:none;font:inherit;padding:0;transition:color .15s;
 }
-.nav-dropdown-trigger:hover{color:#1A1A1A}
+.nav-dropdown-trigger:hover{color:#111}
 .nav-dropdown-trigger svg{width:10px;height:10px;opacity:.5;transition:transform .2s,opacity .2s}
 .nav-dropdown:hover .nav-dropdown-trigger svg{transform:rotate(180deg);opacity:.8}
 .nav-dropdown-menu{
@@ -76,11 +76,11 @@ a:hover{text-decoration:underline;text-underline-offset:3px}
 .nav-dropdown:hover .nav-dropdown-menu{opacity:1;visibility:visible;transform:translateY(0)}
 .nav-dropdown-item{
   display:block;padding:10px 12px;border-radius:4px;
-  text-decoration:none;color:#1A1A1A;transition:background .12s;
+  text-decoration:none;color:#111;transition:background .12s;
 }
-.nav-dropdown-item:hover{background:#f5f5f5;color:#1A1A1A;text-decoration:none}
+.nav-dropdown-item:hover{background:#f5f5f5;color:#111;text-decoration:none}
 .nav-dropdown-item-name{font-weight:500;font-size:.8125rem;margin-bottom:2px}
-.nav-dropdown-item-desc{font-size:.7rem;color:#999;line-height:1.4}
+.nav-dropdown-item-desc{font-size:.7rem;color:#888;line-height:1.4}
 
 /* ── Container ── */
 .container{max-width:720px;margin:0 auto;padding:0 28px}
