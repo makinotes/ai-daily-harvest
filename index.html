@@ -424,7 +424,7 @@ async function loadDigests() {
       const month = ds.slice(0, 7);
       return `<div class="digest-row">
         <span class="digest-date">${ds}</span>
-        <a href="digest/${month}/${ds}.md">${ds}.md</a>
+        <a href="https://github.com/makinotes/ai-daily-feed/blob/master/digest/${month}/${ds}.md" target="_blank" rel="noopener">${ds}</a>
       </div>`;
     }).join('');
   } catch (e) {
