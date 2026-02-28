@@ -151,13 +151,6 @@ section{padding-top:32px;margin-bottom:40px}
 .trend-tag.active{border-color:var(--accent);color:var(--accent);background:var(--accent-soft)}
 .trend-count{color:var(--accent);margin-left:4px;opacity:.6}
 
-/* ── Neutral toggle ── */
-.neutral-toggle{cursor:pointer;user-select:none;display:flex;align-items:center;gap:8px}
-.neutral-toggle:hover{color:var(--text)}
-.neutral-count{font-size:.6rem;color:var(--text-dim);opacity:.7}
-.neutral-arrow{font-size:.5rem;color:var(--text-dim);transition:transform .2s;display:inline-block}
-.neutral-arrow.open{transform:rotate(90deg)}
-
 /* ── Links grid ── */
 .links-grid{
   display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;
@@ -286,11 +279,8 @@ footer a:hover{color:var(--accent);text-decoration:none}
   </section>
 
   <section id="neutral-section" class="fade-in delay-3" style="display:none">
-    <div class="section-title neutral-toggle" onclick="toggleNeutral()">
-      Also Noted <span class="neutral-count" id="neutral-count"></span>
-      <span class="neutral-arrow" id="neutral-arrow">&#9654;</span>
-    </div>
-    <div class="articles" id="neutral-list" style="display:none"></div>
+    <div class="section-title">Also Noted</div>
+    <div class="articles" id="neutral-list"></div>
   </section>
 
   <section class="fade-in delay-3">
@@ -384,7 +374,6 @@ async function loadPicks() {
     }
     if (d.neutral && d.neutral.length) {
       document.getElementById('neutral-section').style.display = '';
-      document.getElementById('neutral-count').textContent = d.neutral.length;
       document.getElementById('neutral-list').innerHTML =
         d.neutral.map(a => renderArticle(a, false)).join('');
     }
@@ -430,14 +419,6 @@ async function loadDigests() {
   } catch (e) {
     document.getElementById('digest-list').innerHTML = '<div class="empty">加载失败</div>';
   }
-}
-
-function toggleNeutral() {
-  const list = document.getElementById('neutral-list');
-  const arrow = document.getElementById('neutral-arrow');
-  const visible = list.style.display !== 'none';
-  list.style.display = visible ? 'none' : '';
-  arrow.classList.toggle('open', !visible);
 }
 
 let activeTag = null;
