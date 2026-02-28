@@ -150,7 +150,6 @@ section{padding-top:32px;margin-bottom:40px}
 .trend-tag:hover{border-color:var(--border-hover);color:var(--text)}
 .trend-tag.active{border-color:var(--accent);color:var(--accent);background:var(--accent-soft)}
 .trend-count{color:var(--accent);margin-left:4px;opacity:.6}
-.article.dimmed{opacity:.15;transition:opacity .2s}
 
 /* ── Links grid ── */
 .links-grid{
@@ -262,7 +261,12 @@ footer a:hover{color:var(--accent);text-decoration:none}
     </div>
   </section>
 
-  <section class="fade-in delay-2">
+  <section id="tag-results-section" style="display:none">
+    <div class="section-title" id="tag-results-title"></div>
+    <div class="articles" id="tag-results"></div>
+  </section>
+
+  <section class="fade-in delay-2" id="must-read-section">
     <div class="section-title">Must Read <span class="badge">Today</span></div>
     <div class="articles" id="must-read">
       <div class="loading">loading</div>
@@ -408,23 +412,63 @@ async function loadDigests() {
 }
 
 let activeTag = null;
-function filterByTag(el, keyword) {
+let categoryCache = null;
+
+async function loadCategories() {
+  if (categoryCache) return categoryCache;
+  const r = await fetch(`${BASE}/indexes/by-category.json`);
+  categoryCache = await r.json();
+  return categoryCache;
+}
+
+async function filterByTag(el, keyword) {
   const tags = document.querySelectorAll('.trend-tag');
+  const resultsSection = document.getElementById('tag-results-section');
+  const todaySections = [document.getElementById('must-read-section'), document.getElementById('worth-section')];
+
   if (activeTag === keyword) {
     activeTag = null;
     tags.forEach(t => t.classList.remove('active'));
-    document.querySelectorAll('.article').forEach(a => a.classList.remove('dimmed'));
+    resultsSection.style.display = 'none';
+    todaySections.forEach(s => s.style.display = '');
     return;
   }
+
   activeTag = keyword;
   tags.forEach(t => t.classList.remove('active'));
   el.classList.add('active');
-  const kw = keyword.toLowerCase();
-  document.querySelectorAll('.article').forEach(a => {
-    const text = a.textContent.toLowerCase();
-    a.classList.toggle('dimmed', !text.includes(kw));
-  });
-  document.getElementById('must-read').scrollIntoView({behavior:'smooth',block:'nearest'});
+
+  const resultsEl = document.getElementById('tag-results');
+  resultsEl.innerHTML = '<div class="loading">loading</div>';
+  resultsSection.style.display = '';
+  todaySections.forEach(s => s.style.display = 'none');
+
+  try {
+    const data = await loadCategories();
+    const kw = keyword.toLowerCase();
+    const matches = [];
+    for (const cat of Object.values(data.categories || {})) {
+      for (const a of cat) {
+        if (a.title && a.title.toLowerCase().includes(kw)) matches.push(a);
+      }
+    }
+    const unique = [...new Map(matches.map(a => [a.link, a])).values()]
+      .sort((a, b) => b.score - a.score)
+      .slice(0, 20);
+
+    document.getElementById('tag-results-title').innerHTML =
+      `"${keyword}" <span class="badge">${unique.length} articles</span>`;
+
+    if (unique.length) {
+      resultsEl.innerHTML = unique.map(a => renderArticle(a, true)).join('');
+    } else {
+      resultsEl.innerHTML = '<div class="empty">无匹配文章</div>';
+    }
+  } catch (e) {
+    resultsEl.innerHTML = '<div class="empty">加载失败</div>';
+  }
+
+  resultsSection.scrollIntoView({behavior:'smooth',block:'nearest'});
 }
 
 loadPicks();
