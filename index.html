@@ -167,7 +167,6 @@ section{padding-top:32px;margin-bottom:40px}
 .link-card .desc{font-size:.8125rem;color:var(--text-secondary);line-height:1.5}
 
 /* ── Digest list ── */
-.digest-list{}
 .digest-row{
   display:flex;align-items:baseline;gap:16px;
   padding:7px 0;border-bottom:1px solid var(--border);font-size:.8125rem;
@@ -349,10 +348,17 @@ function renderArticle(a, showWhy) {
   </div>`;
 }
 
+let picksCache = null;
+async function fetchPicks() {
+  if (picksCache) return picksCache;
+  const r = await fetch(`${BASE}/lists/daily-picks.json`);
+  picksCache = await r.json();
+  return picksCache;
+}
+
 async function loadPicks() {
   try {
-    const r = await fetch(`${BASE}/lists/daily-picks.json`);
-    const d = await r.json();
+    const d = await fetchPicks();
     const total = (d.must_read||[]).length + (d.worth_reading||[]).length + (d.neutral||[]).length;
     document.getElementById('meta-bar').innerHTML = `
       <span>${d.date}</span>
@@ -397,8 +403,7 @@ async function loadTrending() {
 
 async function loadDigests() {
   try {
-    const r = await fetch(`${BASE}/lists/daily-picks.json`);
-    const d = await r.json();
+    const d = await fetchPicks();
     const dates = [];
     const dt = new Date(d.date + 'T12:00:00');
     let attempts = 0;
@@ -465,7 +470,9 @@ async function filterByTag(el, keyword) {
     const matches = [];
     for (const cat of Object.values(data.categories || {})) {
       for (const a of cat) {
-        if (a.title && a.title.toLowerCase().includes(kw)) matches.push(a);
+        const inTitle = a.title && a.title.toLowerCase().includes(kw);
+        const inTags = a.tags && a.tags.some(t => t.toLowerCase().includes(kw));
+        if (inTitle || inTags) matches.push(a);
       }
     }
     const unique = [...new Map(matches.map(a => [a.link, a])).values()]
