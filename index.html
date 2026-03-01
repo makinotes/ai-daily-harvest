@@ -421,10 +421,9 @@ async function loadDigests() {
     const dates = [];
     const dt = new Date(d.date + 'T12:00:00');
     let attempts = 0;
-    while (dates.length < 10 && attempts < 20) {
+    while (dates.length < 10 && attempts < 30) {
       const ds = dt.toISOString().slice(0, 10);
-      const day = dt.getDay();
-      if (day !== 0 && day !== 6) dates.push(ds);
+      dates.push(ds);
       dt.setDate(dt.getDate() - 1);
       attempts++;
     }
