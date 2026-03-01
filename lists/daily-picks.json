@@ -1,95 +1,30 @@
 {
-  "date": "2026-02-28",
+  "date": "2026-03-01",
   "must_read": [
     {
-      "title": "V4底座浮现？DeepSeek唤醒闲置网卡，「双路径」破解长上下文I/O瓶颈",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247718066&idx=1&sn=27ecab7f00ba5039b04f0a22030e55c0",
-      "source": "PaperWeekly",
+      "title": "RCCLX: Innovating GPU Communications on AMD Platforms",
+      "link": "https://engineering.fb.com/2026/02/24/data-center-engineering/rrcclx-innovating-gpu-communications-amd-platforms-meta/",
+      "source": "Meta Engineering Blog",
       "score": 90,
-      "why": ""
-    },
-    {
-      "title": "WWW 2026 | 大模型推荐真懂你吗？首次揭示微调中的上下文偏差",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247718066&idx=2&sn=51d708263e802a02fbb90c8f0daf5d37",
-      "source": "PaperWeekly",
-      "score": 85,
-      "why": ""
+      "why": "对于依赖 AMD 硬件进行 AI 研发的工程师和团队，RCCLX 提供了关键的底层通信优化工具，有助于提升大模型训练和推理的效率。"
     }
   ],
   "worth_reading": [
     {
-      "title": "Introducing the Stateful Runtime Environment for Agents in Amazon Bedrock",
-      "link": "https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock",
-      "source": "OpenAI Blog",
-      "score": 78,
-      "why": "对开发者而言，这意味着可以构建状态更持久、更复杂的AI自动化应用。"
-    },
-    {
-      "title": "Free Claude Max for (large project) open source maintainers",
-      "link": "https://simonwillison.net/2026/Feb/27/claude-max-oss-six-months/#atom-everything",
+      "title": "Interactive explanations",
+      "link": "https://simonwillison.net/guides/agentic-engineering-patterns/interactive-explanations/#atom-everything",
       "source": "Simon Willison",
-      "score": 75,
-      "why": "对开源维护者意味着可以免费获得强大的AI编码辅助工具，提升项目开发效率。"
+      "score": 77,
+      "why": "对于使用 AI 辅助编程的开发者，管理“认知债务”是确保代码质量、维护性和未来开发效率的关键。"
     },
     {
-      "title": "Minimax出了个OpenClaw变体，把6个超好用Agent都传云上用了",
-      "link": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&mid=2247505192&idx=1&sn=4faf526db4b6ea6c936f3f28dc3c2242",
-      "source": "卡尔的AI沃茨",
-      "score": 75,
-      "why": ""
-    }
-  ],
-  "neutral": [
-    {
-      "title": "An AI agent coding skeptic tries AI agent coding, in excessive detail",
-      "link": "https://simonwillison.net/2026/Feb/27/ai-agent-coding-in-excessive-detail/#atom-everything",
-      "source": "Simon Willison",
-      "score": 73,
-      "why": "对开发者而言，这意味着需要重新评估最新AI编码工具的实际能力，它们可能已能处理非常复杂的工程任务。"
-    },
-    {
-      "title": "METR’s Joel Becker on exponential Time Horizon Evals, Threat Models, and the Limits of AI Productivity",
-      "link": "https://www.latent.space/p/metr",
+      "title": "Dylan Patel of SemiAnalysis on the $200B AI CapEx, Chip Wars, and Why Google Might Have No Profits in 2027 — In-Context Cooking",
+      "link": "https://www.latent.space/p/dylanpatel-cooking",
       "source": "Latent Space",
       "score": 73,
-      "why": "对投资者和行业观察者而言，意味着需要批判性地看待AI能力预测，避免被简化的“末日图表”所误导。"
-    },
-    {
-      "title": "Nano Banana 2 来了，又快又好，价格砍半",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzA4NzgzMjA4MQ==&mid=2453480740&idx=1&sn=b250038441b1d050388bd708911e6c24",
-      "source": "AGI Hunt",
-      "score": 73,
-      "why": ""
-    },
-    {
-      "title": "Please, please, please stop using passkeys for encrypting user data",
-      "link": "https://simonwillison.net/2026/Feb/27/passkeys/#atom-everything",
-      "source": "Simon Willison",
-      "score": 72,
-      "why": "对产品经理和开发者意味着需要重新评估安全架构，避免因误用Passkey而导致灾难性的用户体验和数据丢失风险。"
-    },
-    {
-      "title": "从学华为到学 AI，复盘理想的三年管理实验",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzU3Mjk1OTQ0Ng==&mid=2247533595&idx=1&sn=88c770a5dbbc95a84d21d6c6bc113b10",
-      "source": "晚点LatePost",
-      "score": 70,
-      "why": ""
-    },
-    {
-      "title": "Nano Banana 2发布，生图又快又好又便宜。",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MDA3NzI1Nw==&mid=2455087819&idx=1&sn=a04bedec6b0087f586c5b9ec28857d1f",
-      "source": "新西楼",
-      "score": 67,
-      "why": ""
-    },
-    {
-      "title": "晚点独家丨合肥国投、IDG 等入股蔚来芯片子公司，首轮投资额超 20 亿元",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzU3Mjk1OTQ0Ng==&mid=2247533595&idx=2&sn=da580279726a7551eabc755a2c470732",
-      "source": "晚点LatePost",
-      "score": 65,
-      "why": ""
+      "why": "为 AI 基础设施投资者、战略规划者和行业观察者提供了来自顶级分析师的、结合地缘政治与商业战略的深度行业洞察。"
     }
   ],
-  "noise": [],
+  "neutral": [],
   "overhyped": []
 }

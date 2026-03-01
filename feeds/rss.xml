@@ -5,7 +5,31 @@
   <link>https://github.com/makinotes/ai-daily-feed</link>
   <description>Daily AI learning feed. 40+ sources scored and structured.</description>
   <language>zh-cn</language>
-  <lastBuildDate>2026-02-28</lastBuildDate>
+  <lastBuildDate>2026-03-01</lastBuildDate>
+<item>
+  <title>RCCLX: Innovating GPU Communications on AMD Platforms</title>
+  <link>https://engineering.fb.com/2026/02/24/data-center-engineering/rrcclx-innovating-gpu-communications-amd-platforms-meta/</link>
+  <description><![CDATA[Meta 开源 RCCLX，优化 AMD 平台上的 GPU 通信效率。<ul><li>亮点1：RCCLX 是 Meta 为 AMD 平台开发并开源的 GPU 通信库，是 RCCL 的增强版本，并与 Torchcomms 集成。</li><li>亮点2：RCCLX 移植了部分来自 NVIDIA 平台的自定义传输库 CTran 的功能，包括支持 GPU 驻留集合通信 AllToAllvDynamic。</li><li>亮点3：RCCLX 引入了两项新特性：直接数据访问（用于轻量级节点内集合通信）和低精度集合通信，旨在提升 AMD 平台性能。</li></ul>]]></description>
+  <category>Builder 实践</category>
+  <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://engineering.fb.com/2026/02/24/data-center-engineering/rrcclx-innovating-gpu-communications-amd-platforms-meta/">Meta Engineering Blog</source>
+</item>
+<item>
+  <title>Interactive explanations</title>
+  <link>https://simonwillison.net/guides/agentic-engineering-patterns/interactive-explanations/#atom-everything</link>
+  <description><![CDATA[探讨如何通过构建交互式解释来降低 AI 编程带来的认知负债。<ul><li>亮点1：AI 代理生成的代码若成为开发者无法理解的“黑箱”，会积累“认知债务”，其负面影响类似于技术债务，会降低开发信心和进度。</li><li>亮点2：偿还“认知债务”的方法是提高对代码工作原理的理解，作者推荐的方法是构建“交互式解释”。</li><li>亮点3：作者以研究“词云”生成为例，通过向 Claude 下达研究任务，让其生成 Rust 代码和报告，从而主动探索并理解了词云算法的工作原理。</li></ul>]]></description>
+  <category>AI 使用</category>
+  <pubDate>Sat, 28 Feb 2026 00:00:00 GMT</pubDate>
+  <source url="https://simonwillison.net/guides/agentic-engineering-patterns/interactive-explanations/#atom-everything">Simon Willison</source>
+</item>
+<item>
+  <title>Dylan Patel of SemiAnalysis on the $200B AI CapEx, Chip Wars, and Why Google Might Have No Profits in 2027 — In-Context Cooking</title>
+  <link>https://www.latent.space/p/dylanpatel-cooking</link>
+  <description><![CDATA[SemiAnalysis 创始人访谈：AI 算力竞赛、芯片战争与地缘政治。<ul><li>亮点1：Dylan Patel 从匿名的芯片推文博主和养蜂人，成长为 AI 基础设施领域被广泛引用的分析师，其公司 SemiAnalysis 已发展为拥有 60 名员工的全球研究机构。</li><li>亮点2：讨论涉及台湾问题的多种可能结局（维持现状、国民党/民进党执政、政治不稳定），并认为“软性”接管比入侵更可能发生，且美国出口管制无论如何都会约束台积电。</li><li>亮点3：节目提到亚马逊和谷歌可能“故意”每年投入高达 2000 亿美元的资本支出，并探讨了最大的 AI 风险可能不是来自中国，而是来自选民。</li></ul>]]></description>
+  <category>AI 使用</category>
+  <pubDate>Sat, 28 Feb 2026 00:00:00 GMT</pubDate>
+  <source url="https://www.latent.space/p/dylanpatel-cooking">Latent Space</source>
+</item>
 <item>
   <title>V4底座浮现？DeepSeek唤醒闲置网卡，「双路径」破解长上下文I/O瓶颈</title>
   <link>https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&amp;mid=2247718066&amp;idx=1&amp;sn=27ecab7f00ba5039b04f0a22030e55c0</link>
@@ -381,30 +405,6 @@
   <category>AI 使用</category>
   <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
   <source url="https://www.lennysnewsletter.com/p/5-openclaw-agents-run-my-home-finances">Lenny's Newsletter</source>
-</item>
-<item>
-  <title>AI能写COBOL代码，砸崩IBM股价，单日蒸发310亿美元，创26年最惨纪录</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651018004&amp;idx=1&amp;sn=338c83155ec1f54074d20cd9d4c01d7c</link>
-  <description><![CDATA[深度剖析Anthropic自动化重构COBOL代码的技术如何精准打击IBM的商业模式命门。<ul><li>Anthropic的COBOL迁移能力演示直接冲击了IBM依赖大型机和COBOL专家服务的商业模式。</li><li>全球近95%的ATM交易依赖COBOL运行，但其系统深度耦合、文档缺失，迁移难度极高。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651018004&amp;idx=1&amp;sn=338c83155ec1f54074d20cd9d4c01d7c">机器之心</source>
-</item>
-<item>
-  <title>GitHub 2K星！Edit Banana一键解剖AI像素图，变身可编辑PPT/Drawio</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&amp;mid=2247717922&amp;idx=1&amp;sn=ce0092954f9d00caefbdec5cfdc8d0e4</link>
-  <description><![CDATA[开源工具Edit Banana介绍，能将AI生成的像素流程图反向解构为可编辑的PPT或Drawio文件。<ul><li>实现像素级逆向还原，将静态图像转化为结构化、可拖拽编辑的矢量文件。</li><li>内置Human-in-the-loop机制，结合自动识别与人工辅助，确保复杂图像的处理成功率。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Tue, 24 Feb 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&amp;mid=2247717922&amp;idx=1&amp;sn=ce0092954f9d00caefbdec5cfdc8d0e4">PaperWeekly</source>
-</item>
-<item>
-  <title>春晚机器人没切镜头，阿里RynnBrain让具身智能不再需要切换模型</title>
-  <link>https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA==&amp;mid=2247504426&amp;idx=2&amp;sn=9a698c404b63b6227b194bef8425c43a</link>
-  <description><![CDATA[阿里开源RynnBrain具身智能大脑，通过统一时空基础模型解决机器人多模型切换的割裂感。<ul><li>统一的时空基础模型，集成四大核心能力，告别多模型切换。</li><li>提供2B、8B、30B-MoE等多种规模及任务专用变体，适配各类机器人任务。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA==&amp;mid=2247504426&amp;idx=2&amp;sn=9a698c404b63b6227b194bef8425c43a">PaperAgent</source>
 </item>
 </channel>
 </rss>

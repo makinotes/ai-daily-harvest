@@ -1,7 +1,7 @@
 {
-  "updated": "2026-02-28",
+  "updated": "2026-03-01",
   "window": "7d",
-  "article_count": 140,
+  "article_count": 143,
   "trending": [
     {
       "keyword": "Agent",
@@ -64,6 +64,10 @@
       "count": 4
     },
     {
+      "keyword": "Google",
+      "count": 3
+    },
+    {
       "keyword": "Nano",
       "count": 3
     },
@@ -77,10 +81,6 @@
     },
     {
       "keyword": "API",
-      "count": 3
-    },
-    {
-      "keyword": "SOTA",
       "count": 3
     }
   ]
