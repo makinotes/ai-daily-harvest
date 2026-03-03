@@ -1,235 +1,6 @@
 {
-  "updated": "2026-03-02",
+  "updated": "2026-03-03",
   "categories": {
-    "AI 使用": [
-      {
-        "title": "Google API Keys Weren't Secrets. But then Gemini Changed the Rules.",
-        "link": "https://simonwillison.net/2026/Feb/26/google-api-keys/#atom-everything",
-        "source": "Simon Willison",
-        "score": 100,
-        "verdict": "must_read",
-        "pub_date": "2026-02-26",
-        "why_matters": "对开发者而言，这揭示了云服务API密钥权限管理的潜在盲区，可能导致意外的安全漏洞和财务损失；对安全从业者，这是一个典型的权限升级和配置漂移案例。"
-      },
-      {
-        "title": "New Paper: Towards a science of AI agent reliability",
-        "link": "https://www.normaltech.ai/p/new-paper-towards-a-science-of-ai",
-        "source": "AI Snake Oil",
-        "score": 93,
-        "verdict": "must_read",
-        "pub_date": "",
-        "why_matters": "对数据PM/投资者/公众号作者意味着什么：理解AI代理可靠性的系统性评估框架，有助于更理性地评估其商业应用潜力和风险。"
-      },
-      {
-        "title": "Disrupting malicious uses of AI | February 2026",
-        "link": "https://openai.com/index/disrupting-malicious-ai-uses",
-        "source": "OpenAI Blog",
-        "score": 90,
-        "verdict": "must_read",
-        "pub_date": "2026-02-25",
-        "why_matters": "对安全研究者和政策制定者而言，这揭示了AI技术被滥用的新途径和防御的紧迫性。"
-      },
-      {
-        "title": "Claude Code Remote Control",
-        "link": "https://simonwillison.net/2026/Feb/25/claude-code-remote-control/#atom-everything",
-        "source": "Simon Willison",
-        "score": 87,
-        "verdict": "must_read",
-        "pub_date": "2026-02-25",
-        "why_matters": "对开发者和技术爱好者而言，这标志着AI助手向更深度、跨设备的系统控制能力演进。"
-      },
-      {
-        "title": "Full Tutorial: Connect Claude Code to Google, Slack, Reddit, and More in 40 Min (MCPs, Skills)",
-        "link": "https://creatoreconomy.so/p/connect-claude-code-to-google-slack-reddit-carl-vellotti",
-        "source": "Peter Yang",
-        "score": 83,
-        "verdict": "worth_reading",
-        "pub_date": "2026-03-01",
-        "why_matters": "对数据PM/开发者意味着一种新的、高效的 AI 辅助工作流范式，可能改变日常任务的处理方式。"
-      },
-      {
-        "title": "The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)",
-        "link": "https://www.lennysnewsletter.com/p/the-design-process-is-dead",
-        "source": "Lenny's Newsletter",
-        "score": 83,
-        "verdict": "worth_reading",
-        "pub_date": "2026-03-01",
-        "why_matters": "对产品/设计负责人意味着需要重新思考 AI 原生时代的设计流程、团队结构和设计师的核心价值。"
-      },
-      {
-        "title": "Quoting claude.com/import-memory",
-        "link": "https://simonwillison.net/2026/Mar/1/claude-import-memory/#atom-everything",
-        "source": "Simon Willison",
-        "score": 83,
-        "verdict": "worth_reading",
-        "pub_date": "2026-03-01",
-        "why_matters": "对 AI 用户/开发者意味着掌握了一种管理和迁移个人 AI 记忆数据的具体方法，提升了数据的可控性。"
-      },
-      {
-        "title": "[AINews] Nano Banana 2 aka Gemini 3.1 Flash Image Preview: the new SOTA Imagegen model",
-        "link": "https://www.latent.space/p/ainews-nano-banana-2-aka-gemini-31",
-        "source": "Latent Space",
-        "score": 83,
-        "verdict": "worth_reading",
-        "pub_date": "2026-02-27",
-        "why_matters": "对数据PM/投资者/公众号作者意味着什么：一款在性价比上具有显著优势的顶级图像生成模型的出现，可能改变市场格局和应用成本。"
-      },
-      {
-        "title": "5 OpenClaw agents run my home, finances, and code | Jesse Genet",
-        "link": "https://www.lennysnewsletter.com/p/5-openclaw-agents-run-my-home-finances",
-        "source": "Lenny's Newsletter",
-        "score": 82,
-        "verdict": "worth_reading",
-        "pub_date": "2026-02-25",
-        "why_matters": "对个人生产力和家庭管理者而言，这展示了如何将通用AI工具系统化，以高度定制化的方式解决复杂、多维度的现实问题。"
-      },
-      {
-        "title": "⚡️The End of SWE-Bench Verified — Mia Glaese & Olivia Watkins, OpenAI Frontier Evals & Human Data",
-        "link": "https://www.latent.space/p/swe-bench-dead",
-        "source": "Latent Space",
-        "score": 82,
-        "verdict": "worth_reading",
-        "pub_date": "2026-02-23",
-        "why_matters": "对AI研究者和开发者而言，这意味着需要重新审视和选择更可靠、无缺陷的基准来评估大模型的代码生成能力，避免被过时或有问题的指标误导。"
-      },
-      {
-        "title": "Bitter Lessons in Venture vs Growth: Anthropic vs OpenAI, Noam Shazeer, World Labs, Thinking Machines, Cursor, ASIC Economics — Martin Casado & Sarah Wang of a16z",
-        "link": "https://www.latent.space/p/a16z",
-        "source": "Latent Space",
-        "score": 80,
-        "verdict": "worth_reading",
-        "pub_date": "",
-        "why_matters": ""
-      },
-      {
-        "title": "Introducing the Stateful Runtime Environment for Agents in Amazon Bedrock",
-        "link": "https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock",
-        "source": "OpenAI Blog",
-        "score": 78,
-        "verdict": "worth_reading",
-        "pub_date": "2026-02-27",
-        "why_matters": "对开发者而言，这意味着可以构建状态更持久、更复杂的AI自动化应用。"
-      },
-      {
-        "title": "Linear walkthroughs",
-        "link": "https://simonwillison.net/guides/agentic-engineering-patterns/linear-walkthroughs/#atom-everything",
-        "source": "Simon Willison",
-        "score": 78,
-        "verdict": "worth_reading",
-        "pub_date": "2026-02-25",
-        "why_matters": "这为开发者，尤其是需要快速理解复杂或陌生代码库的工程师，提供了一种高效的知识获取和文档生成方法。"
-      },
-      {
-        "title": "How to use AI for your next job interview",
-        "link": "https://www.lennysnewsletter.com/p/how-to-use-ai-in-your-next-job-interview",
-        "source": "Lenny's Newsletter",
-        "score": 78,
-        "verdict": "worth_reading",
-        "pub_date": "2026-02-24",
-        "why_matters": "对于求职者，这提供了一个基于真实成功案例的系统化AI辅助工具，能显著提升面试准备的效率和针对性。"
-      },
-      {
-        "title": "A New Wharton Study on AI Warns of a Growing Problem: Cognitive Surrender",
-        "link": "https://www.thealgorithmicbridge.com/p/a-new-wharton-study-on-ai-warns-of",
-        "source": "The Algorithmic Bridge",
-        "score": 78,
-        "verdict": "worth_reading",
-        "pub_date": "2026-02-23",
-        "why_matters": ""
-      },
-      {
-        "title": "Interactive explanations",
-        "link": "https://simonwillison.net/guides/agentic-engineering-patterns/interactive-explanations/#atom-everything",
-        "source": "Simon Willison",
-        "score": 77,
-        "verdict": "worth_reading",
-        "pub_date": "2026-02-28",
-        "why_matters": "对于使用 AI 辅助编程的开发者，管理“认知债务”是确保代码质量、维护性和未来开发效率的关键。"
-      },
-      {
-        "title": "First run the tests",
-        "link": "https://simonwillison.net/guides/agentic-engineering-patterns/first-run-the-tests/#atom-everything",
-        "source": "Simon Willison",
-        "score": 77,
-        "verdict": "worth_reading",
-        "pub_date": "2026-02-24",
-        "why_matters": "对使用AI辅助编程的开发者而言，这提供了一个简单有效的实践模式，能显著提升与编码智能体协作的可靠性和效率，确保代码质量。"
-      },
-      {
-        "title": "Head of Claude Code: What happens after coding is solved | Boris Cherny",
-        "link": "https://www.lennysnewsletter.com/p/head-of-claude-code-what-happens",
-        "source": "Lenny's Newsletter",
-        "score": 77,
-        "verdict": "worth_reading",
-        "pub_date": "",
-        "why_matters": ""
-      },
-      {
-        "title": "Free Claude Max for (large project) open source maintainers",
-        "link": "https://simonwillison.net/2026/Feb/27/claude-max-oss-six-months/#atom-everything",
-        "source": "Simon Willison",
-        "score": 75,
-        "verdict": "worth_reading",
-        "pub_date": "2026-02-27",
-        "why_matters": "对开源维护者意味着可以免费获得强大的AI编码辅助工具，提升项目开发效率。"
-      },
-      {
-        "title": "🔬Searching the Space of All Possible Materials — Prof. Max Welling, CuspAI",
-        "link": "https://www.latent.space/p/cuspai",
-        "source": "Latent Space",
-        "score": 75,
-        "verdict": "worth_reading",
-        "pub_date": "2026-02-25",
-        "why_matters": "对AI科学家和气候科技投资者而言，这指向了一个将前沿AI理论与重大现实世界问题（如材料科学和能源）相结合的、资金充裕的新兴前沿领域。"
-      },
-      {
-        "title": "A Guide to Which AI to Use in the Agentic Era",
-        "link": "https://www.oneusefulthing.org/p/a-guide-to-which-ai-to-use-in-the",
-        "source": "One Useful Thing",
-        "score": 75,
-        "verdict": "worth_reading",
-        "pub_date": "",
-        "why_matters": ""
-      }
-    ],
-    "Builder 实践": [
-      {
-        "title": "RCCLX: Innovating GPU Communications on AMD Platforms",
-        "link": "https://engineering.fb.com/2026/02/24/data-center-engineering/rrcclx-innovating-gpu-communications-amd-platforms-meta/",
-        "source": "Meta Engineering Blog",
-        "score": 90,
-        "verdict": "must_read",
-        "pub_date": "",
-        "why_matters": "对于依赖 AMD 硬件进行 AI 研发的工程师和团队，RCCLX 提供了关键的底层通信优化工具，有助于提升大模型训练和推理的效率。"
-      },
-      {
-        "title": "How Codex is built",
-        "link": "https://newsletter.pragmaticengineer.com/p/how-codex-is-built",
-        "source": "The Pragmatic Engineer",
-        "score": 90,
-        "verdict": "must_read",
-        "pub_date": "",
-        "why_matters": ""
-      },
-      {
-        "title": "Directory Snapshots: Resumable project state for Sandboxes",
-        "link": "https://modal.com/blog/directory-snapshots-resumable-project-state-for-sandboxes",
-        "source": "Modal Labs Blog",
-        "score": 83,
-        "verdict": "worth_reading",
-        "pub_date": "2026-02-24",
-        "why_matters": "对于开发者而言，这提供了一种更灵活、可移植的方式来管理和复用项目状态，提升了开发环境的效率。"
-      },
-      {
-        "title": "How much does distillation really matter for Chinese LLMs?",
-        "link": "https://www.interconnects.ai/p/how-much-does-distillation-really",
-        "source": "Interconnects",
-        "score": 77,
-        "verdict": "worth_reading",
-        "pub_date": "",
-        "why_matters": "对数据PM/投资者/公众号作者意味着什么：澄清“蒸馏”的真实含义和技术限制，有助于更准确地理解模型能力提升的路径和中美AI技术发展的讨论。"
-      }
-    ],
     "AI/Tech": [
       {
         "title": "Adam/Muon退位！谷歌Magma：随机丢弃50%梯度却拿下LLM优化SOTA",
@@ -295,6 +66,15 @@
         "why_matters": ""
       },
       {
+        "title": "脑细胞组成的计算机跑起了《毁灭战士》！20万活体神经元实时学习开枪杀敌，代码全部开源",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649791182&idx=1&sn=03668cb428cf0ff2c75067a62fd2d12a",
+        "source": "DeepTech深科技",
+        "score": 93,
+        "verdict": "must_read",
+        "pub_date": "2026-03-02",
+        "why_matters": "对投资者和AI研究者而言，这展示了生物计算接口的进展，但也揭示了评估此类混合系统真实学习能力的技术复杂性。"
+      },
+      {
         "title": "ICLR2026 Oral | 当情感识别不再是分类题：EmotionThinker 让 SpeechLLM 学会“解释情绪”",
         "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651018004&idx=3&sn=c6e8d56b302a53920392d5cc498ad546",
         "source": "机器之心",
@@ -347,6 +127,15 @@
         "verdict": "must_read",
         "pub_date": "2026-02-06",
         "why_matters": ""
+      },
+      {
+        "title": "150B tokens实测反转！你的DeepSeek mHC可能根本不需要“m”约束",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247718198&idx=1&sn=877a6e15d019329017b730a5ee344c52",
+        "source": "PaperWeekly",
+        "score": 90,
+        "verdict": "must_read",
+        "pub_date": "2026-03-02",
+        "why_matters": "对AI研究者意味着，看似精妙的算法改进可能需要更严格的消融实验验证，避免过度工程化。"
       },
       {
         "title": "V4底座浮现？DeepSeek唤醒闲置网卡，「双路径」破解长上下文I/O瓶颈",
@@ -545,6 +334,15 @@
         "verdict": "must_read",
         "pub_date": "2026-02-03",
         "why_matters": ""
+      },
+      {
+        "title": "DeepMind新论文炸锅：AI全自动进化算法，写出专家都想不到的解，网友：这可能就是“王牌”",
+        "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651276826&idx=2&sn=8c332905db7bd08e40f45099a37bb3ea",
+        "source": "InfoQ",
+        "score": 87,
+        "verdict": "must_read",
+        "pub_date": "2026-03-02",
+        "why_matters": "对算法研究者和AI工程师意味着，算法设计本身可能进入自动化时代，改变了研究和开发的范式。"
       },
       {
         "title": "OpenClaw深度分析：为什么突然就火了，以及对我们意味着什么",
@@ -1087,6 +885,24 @@
         "why_matters": ""
       },
       {
+        "title": "范式跃迁：LLM + EC重构算法设计范式，华为&港城大夺冠CVRP国际顶级赛事",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651018881&idx=1&sn=b1a610953f1cb57a931918ee0a1d5254",
+        "source": "机器之心",
+        "score": 80,
+        "verdict": "worth_reading",
+        "pub_date": "2026-03-02",
+        "why_matters": "对算法工程师和投资者而言，这证明了AI不仅能用算法，还能设计更优算法，是范式级别的突破。"
+      },
+      {
+        "title": "福特把造车压到 93 分钟，AI 正在把“软件生产线”重做一遍",
+        "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651276826&idx=3&sn=8f089d22aaf4aa8d3cfe7572ab5a2d37",
+        "source": "InfoQ",
+        "score": 80,
+        "verdict": "worth_reading",
+        "pub_date": "2026-03-02",
+        "why_matters": "对研发管理者意味着必须重构研发流程与团队分工，否则将面临效率代差。"
+      },
+      {
         "title": "Dropbox 如何构建可扩展的企业知识搜索上下文引擎",
         "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651276519&idx=3&sn=05cd0c10cbc1cda9194834cc2fe2dbac",
         "source": "InfoQ",
@@ -1420,6 +1236,15 @@
         "why_matters": ""
       },
       {
+        "title": "吴恩达复盘百度岁月：我带过的自动驾驶、智能音箱都成了！Altman 我也带过，但 Gemini 3 比 ChatGPT 强",
+        "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651276826&idx=1&sn=ab4fdb26221877a86da62e36971bcdf4",
+        "source": "InfoQ",
+        "score": 77,
+        "verdict": "worth_reading",
+        "pub_date": "2026-03-02",
+        "why_matters": "对投资者和行业观察者意味着需要理性看待AGI炒作，关注有实际商业价值的AI落地与人才技能重塑。"
+      },
+      {
         "title": "揭开具身智能黑盒！清华等团队破译隐藏动力学密码：极限环编码行为",
         "link": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247718008&idx=2&sn=b72e53a2c4a860dc886abf29eb1ce053",
         "source": "PaperWeekly",
@@ -1742,6 +1567,280 @@
         "verdict": "worth_reading",
         "pub_date": "2026-02-01",
         "why_matters": ""
+      }
+    ],
+    "AI 使用": [
+      {
+        "title": "Google API Keys Weren't Secrets. But then Gemini Changed the Rules.",
+        "link": "https://simonwillison.net/2026/Feb/26/google-api-keys/#atom-everything",
+        "source": "Simon Willison",
+        "score": 100,
+        "verdict": "must_read",
+        "pub_date": "2026-02-26",
+        "why_matters": "对开发者而言，这揭示了云服务API密钥权限管理的潜在盲区，可能导致意外的安全漏洞和财务损失；对安全从业者，这是一个典型的权限升级和配置漂移案例。"
+      },
+      {
+        "title": "New Paper: Towards a science of AI agent reliability",
+        "link": "https://www.normaltech.ai/p/new-paper-towards-a-science-of-ai",
+        "source": "AI Snake Oil",
+        "score": 93,
+        "verdict": "must_read",
+        "pub_date": "",
+        "why_matters": "对数据PM/投资者/公众号作者意味着什么：理解AI代理可靠性的系统性评估框架，有助于更理性地评估其商业应用潜力和风险。"
+      },
+      {
+        "title": "Disrupting malicious uses of AI | February 2026",
+        "link": "https://openai.com/index/disrupting-malicious-ai-uses",
+        "source": "OpenAI Blog",
+        "score": 90,
+        "verdict": "must_read",
+        "pub_date": "2026-02-25",
+        "why_matters": "对安全研究者和政策制定者而言，这揭示了AI技术被滥用的新途径和防御的紧迫性。"
+      },
+      {
+        "title": "GIF optimization tool using WebAssembly and Gifsicle",
+        "link": "https://simonwillison.net/guides/agentic-engineering-patterns/gif-optimization/#atom-everything",
+        "source": "Simon Willison",
+        "score": 87,
+        "verdict": "must_read",
+        "pub_date": "2026-03-02",
+        "why_matters": "展示了如何利用AI编码助手和WebAssembly技术，将高性能的本地命令行工具快速转化为易用的Web应用，为前端开发者提供了媒体处理的新思路。"
+      },
+      {
+        "title": "Claude Code Remote Control",
+        "link": "https://simonwillison.net/2026/Feb/25/claude-code-remote-control/#atom-everything",
+        "source": "Simon Willison",
+        "score": 87,
+        "verdict": "must_read",
+        "pub_date": "2026-02-25",
+        "why_matters": "对开发者和技术爱好者而言，这标志着AI助手向更深度、跨设备的系统控制能力演进。"
+      },
+      {
+        "title": "Import AI 447: The AGI economy; testing AIs with generated games; and agent ecologies",
+        "link": "https://importai.substack.com/p/import-ai-447-the-agi-economy-testing",
+        "source": "Import AI",
+        "score": 83,
+        "verdict": "worth_reading",
+        "pub_date": "2026-03-02",
+        "why_matters": "为投资者和政策制定者提供了一个思考AGI社会经济影响的理论框架，指出未来人类角色的可能转变和关键瓶颈。"
+      },
+      {
+        "title": "Full Tutorial: Connect Claude Code to Google, Slack, Reddit, and More in 40 Min (MCPs, Skills)",
+        "link": "https://creatoreconomy.so/p/connect-claude-code-to-google-slack-reddit-carl-vellotti",
+        "source": "Peter Yang",
+        "score": 83,
+        "verdict": "worth_reading",
+        "pub_date": "2026-03-01",
+        "why_matters": "对数据PM/开发者意味着一种新的、高效的 AI 辅助工作流范式，可能改变日常任务的处理方式。"
+      },
+      {
+        "title": "The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)",
+        "link": "https://www.lennysnewsletter.com/p/the-design-process-is-dead",
+        "source": "Lenny's Newsletter",
+        "score": 83,
+        "verdict": "worth_reading",
+        "pub_date": "2026-03-01",
+        "why_matters": "对产品/设计负责人意味着需要重新思考 AI 原生时代的设计流程、团队结构和设计师的核心价值。"
+      },
+      {
+        "title": "Quoting claude.com/import-memory",
+        "link": "https://simonwillison.net/2026/Mar/1/claude-import-memory/#atom-everything",
+        "source": "Simon Willison",
+        "score": 83,
+        "verdict": "worth_reading",
+        "pub_date": "2026-03-01",
+        "why_matters": "对 AI 用户/开发者意味着掌握了一种管理和迁移个人 AI 记忆数据的具体方法，提升了数据的可控性。"
+      },
+      {
+        "title": "[AINews] Nano Banana 2 aka Gemini 3.1 Flash Image Preview: the new SOTA Imagegen model",
+        "link": "https://www.latent.space/p/ainews-nano-banana-2-aka-gemini-31",
+        "source": "Latent Space",
+        "score": 83,
+        "verdict": "worth_reading",
+        "pub_date": "2026-02-27",
+        "why_matters": "对数据PM/投资者/公众号作者意味着什么：一款在性价比上具有显著优势的顶级图像生成模型的出现，可能改变市场格局和应用成本。"
+      },
+      {
+        "title": "5 OpenClaw agents run my home, finances, and code | Jesse Genet",
+        "link": "https://www.lennysnewsletter.com/p/5-openclaw-agents-run-my-home-finances",
+        "source": "Lenny's Newsletter",
+        "score": 82,
+        "verdict": "worth_reading",
+        "pub_date": "2026-02-25",
+        "why_matters": "对个人生产力和家庭管理者而言，这展示了如何将通用AI工具系统化，以高度定制化的方式解决复杂、多维度的现实问题。"
+      },
+      {
+        "title": "⚡️The End of SWE-Bench Verified — Mia Glaese & Olivia Watkins, OpenAI Frontier Evals & Human Data",
+        "link": "https://www.latent.space/p/swe-bench-dead",
+        "source": "Latent Space",
+        "score": 82,
+        "verdict": "worth_reading",
+        "pub_date": "2026-02-23",
+        "why_matters": "对AI研究者和开发者而言，这意味着需要重新审视和选择更可靠、无缺陷的基准来评估大模型的代码生成能力，避免被过时或有问题的指标误导。"
+      },
+      {
+        "title": "🎙️ This week on How I AI: 5 OpenClaw agents run my home, finances, and code & How Coinbase scaled AI to 1,000+ engineers",
+        "link": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-5-openclaw",
+        "source": "Lenny's Newsletter",
+        "score": 80,
+        "verdict": "worth_reading",
+        "pub_date": "2026-03-02",
+        "why_matters": "为个人和家庭用户展示了AI代理在生活自动化方面的前沿实践，提供了将AI深度融入日常管理和创造工作的具体案例。"
+      },
+      {
+        "title": "Bitter Lessons in Venture vs Growth: Anthropic vs OpenAI, Noam Shazeer, World Labs, Thinking Machines, Cursor, ASIC Economics — Martin Casado & Sarah Wang of a16z",
+        "link": "https://www.latent.space/p/a16z",
+        "source": "Latent Space",
+        "score": 80,
+        "verdict": "worth_reading",
+        "pub_date": "",
+        "why_matters": ""
+      },
+      {
+        "title": "Introducing the Stateful Runtime Environment for Agents in Amazon Bedrock",
+        "link": "https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock",
+        "source": "OpenAI Blog",
+        "score": 78,
+        "verdict": "worth_reading",
+        "pub_date": "2026-02-27",
+        "why_matters": "对开发者而言，这意味着可以构建状态更持久、更复杂的AI自动化应用。"
+      },
+      {
+        "title": "Linear walkthroughs",
+        "link": "https://simonwillison.net/guides/agentic-engineering-patterns/linear-walkthroughs/#atom-everything",
+        "source": "Simon Willison",
+        "score": 78,
+        "verdict": "worth_reading",
+        "pub_date": "2026-02-25",
+        "why_matters": "这为开发者，尤其是需要快速理解复杂或陌生代码库的工程师，提供了一种高效的知识获取和文档生成方法。"
+      },
+      {
+        "title": "How to use AI for your next job interview",
+        "link": "https://www.lennysnewsletter.com/p/how-to-use-ai-in-your-next-job-interview",
+        "source": "Lenny's Newsletter",
+        "score": 78,
+        "verdict": "worth_reading",
+        "pub_date": "2026-02-24",
+        "why_matters": "对于求职者，这提供了一个基于真实成功案例的系统化AI辅助工具，能显著提升面试准备的效率和针对性。"
+      },
+      {
+        "title": "A New Wharton Study on AI Warns of a Growing Problem: Cognitive Surrender",
+        "link": "https://www.thealgorithmicbridge.com/p/a-new-wharton-study-on-ai-warns-of",
+        "source": "The Algorithmic Bridge",
+        "score": 78,
+        "verdict": "worth_reading",
+        "pub_date": "2026-02-23",
+        "why_matters": ""
+      },
+      {
+        "title": "How Coinbase scaled AI to 1,000+ engineers | Chintan Turakhia",
+        "link": "https://www.lennysnewsletter.com/p/how-coinbase-scaled-ai-to-1000-engineers",
+        "source": "Lenny's Newsletter",
+        "score": 77,
+        "verdict": "worth_reading",
+        "pub_date": "2026-03-02",
+        "why_matters": "为大型科技公司的工程领导者提供了可复制的AI工具规模化采纳策略、具体实施技巧和关键衡量指标。"
+      },
+      {
+        "title": "Interactive explanations",
+        "link": "https://simonwillison.net/guides/agentic-engineering-patterns/interactive-explanations/#atom-everything",
+        "source": "Simon Willison",
+        "score": 77,
+        "verdict": "worth_reading",
+        "pub_date": "2026-02-28",
+        "why_matters": "对于使用 AI 辅助编程的开发者，管理“认知债务”是确保代码质量、维护性和未来开发效率的关键。"
+      },
+      {
+        "title": "First run the tests",
+        "link": "https://simonwillison.net/guides/agentic-engineering-patterns/first-run-the-tests/#atom-everything",
+        "source": "Simon Willison",
+        "score": 77,
+        "verdict": "worth_reading",
+        "pub_date": "2026-02-24",
+        "why_matters": "对使用AI辅助编程的开发者而言，这提供了一个简单有效的实践模式，能显著提升与编码智能体协作的可靠性和效率，确保代码质量。"
+      },
+      {
+        "title": "Head of Claude Code: What happens after coding is solved | Boris Cherny",
+        "link": "https://www.lennysnewsletter.com/p/head-of-claude-code-what-happens",
+        "source": "Lenny's Newsletter",
+        "score": 77,
+        "verdict": "worth_reading",
+        "pub_date": "",
+        "why_matters": ""
+      },
+      {
+        "title": "Free Claude Max for (large project) open source maintainers",
+        "link": "https://simonwillison.net/2026/Feb/27/claude-max-oss-six-months/#atom-everything",
+        "source": "Simon Willison",
+        "score": 75,
+        "verdict": "worth_reading",
+        "pub_date": "2026-02-27",
+        "why_matters": "对开源维护者意味着可以免费获得强大的AI编码辅助工具，提升项目开发效率。"
+      },
+      {
+        "title": "🔬Searching the Space of All Possible Materials — Prof. Max Welling, CuspAI",
+        "link": "https://www.latent.space/p/cuspai",
+        "source": "Latent Space",
+        "score": 75,
+        "verdict": "worth_reading",
+        "pub_date": "2026-02-25",
+        "why_matters": "对AI科学家和气候科技投资者而言，这指向了一个将前沿AI理论与重大现实世界问题（如材料科学和能源）相结合的、资金充裕的新兴前沿领域。"
+      },
+      {
+        "title": "A Guide to Which AI to Use in the Agentic Era",
+        "link": "https://www.oneusefulthing.org/p/a-guide-to-which-ai-to-use-in-the",
+        "source": "One Useful Thing",
+        "score": 75,
+        "verdict": "worth_reading",
+        "pub_date": "",
+        "why_matters": ""
+      }
+    ],
+    "Builder 实践": [
+      {
+        "title": "RCCLX: Innovating GPU Communications on AMD Platforms",
+        "link": "https://engineering.fb.com/2026/02/24/data-center-engineering/rrcclx-innovating-gpu-communications-amd-platforms-meta/",
+        "source": "Meta Engineering Blog",
+        "score": 90,
+        "verdict": "must_read",
+        "pub_date": "",
+        "why_matters": "对于依赖 AMD 硬件进行 AI 研发的工程师和团队，RCCLX 提供了关键的底层通信优化工具，有助于提升大模型训练和推理的效率。"
+      },
+      {
+        "title": "How Codex is built",
+        "link": "https://newsletter.pragmaticengineer.com/p/how-codex-is-built",
+        "source": "The Pragmatic Engineer",
+        "score": 90,
+        "verdict": "must_read",
+        "pub_date": "",
+        "why_matters": ""
+      },
+      {
+        "title": "Evals Skills for Coding Agents",
+        "link": "https://hamel.dev/blog/posts/evals-skills/",
+        "source": "Hamel Husain",
+        "score": 87,
+        "verdict": "must_read",
+        "pub_date": "2026-03-02",
+        "why_matters": "为AI产品经理和评估工程师提供了构建更精细、有效评估体系的框架，强调评估需要针对具体错误类型，而非依赖笼统的分数。"
+      },
+      {
+        "title": "Directory Snapshots: Resumable project state for Sandboxes",
+        "link": "https://modal.com/blog/directory-snapshots-resumable-project-state-for-sandboxes",
+        "source": "Modal Labs Blog",
+        "score": 83,
+        "verdict": "worth_reading",
+        "pub_date": "2026-02-24",
+        "why_matters": "对于开发者而言，这提供了一种更灵活、可移植的方式来管理和复用项目状态，提升了开发环境的效率。"
+      },
+      {
+        "title": "How much does distillation really matter for Chinese LLMs?",
+        "link": "https://www.interconnects.ai/p/how-much-does-distillation-really",
+        "source": "Interconnects",
+        "score": 77,
+        "verdict": "worth_reading",
+        "pub_date": "",
+        "why_matters": "对数据PM/投资者/公众号作者意味着什么：澄清“蒸馏”的真实含义和技术限制，有助于更准确地理解模型能力提升的路径和中美AI技术发展的讨论。"
       }
     ],
     "YouTube": [

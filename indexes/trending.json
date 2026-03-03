@@ -1,50 +1,46 @@
 {
-  "updated": "2026-03-02",
+  "updated": "2026-03-03",
   "window": "7d",
-  "article_count": 127,
+  "article_count": 117,
   "trending": [
     {
       "keyword": "Claude",
-      "count": 12
+      "count": 11
     },
     {
       "keyword": "Agent",
-      "count": 12
-    },
-    {
-      "keyword": "Anthropic",
-      "count": 9
-    },
-    {
-      "keyword": "大模型",
-      "count": 8
+      "count": 11
     },
     {
       "keyword": "Code",
-      "count": 7
+      "count": 8
+    },
+    {
+      "keyword": "Anthropic",
+      "count": 8
     },
     {
       "keyword": "OpenClaw",
       "count": 7
     },
     {
-      "keyword": "智能体",
+      "keyword": "DeepSeek",
       "count": 5
     },
     {
-      "keyword": "谷歌",
+      "keyword": "推理",
       "count": 5
     },
     {
-      "keyword": "OpenAI",
+      "keyword": "大模型",
       "count": 5
     },
     {
-      "keyword": "Google",
+      "keyword": "Gemini",
       "count": 4
     },
     {
-      "keyword": "DeepSeek",
+      "keyword": "Google",
       "count": 4
     },
     {
@@ -52,27 +48,31 @@
       "count": 4
     },
     {
-      "keyword": "推理",
+      "keyword": "智能体",
       "count": 4
     },
     {
-      "keyword": "训练",
+      "keyword": "谷歌",
       "count": 4
+    },
+    {
+      "keyword": "开源",
+      "count": 3
+    },
+    {
+      "keyword": "Coding",
+      "count": 3
+    },
+    {
+      "keyword": "agent",
+      "count": 3
+    },
+    {
+      "keyword": "LLM",
+      "count": 3
     },
     {
       "keyword": "Nano",
-      "count": 3
-    },
-    {
-      "keyword": "华为",
-      "count": 3
-    },
-    {
-      "keyword": "API",
-      "count": 3
-    },
-    {
-      "keyword": "Gemini",
       "count": 3
     },
     {
@@ -80,7 +80,7 @@
       "count": 3
     },
     {
-      "keyword": "安全",
+      "keyword": "OpenAI",
       "count": 3
     }
   ]
