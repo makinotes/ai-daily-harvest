@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-03",
+  "updated": "2026-03-04",
   "categories": {
     "AI/Tech": [
       {
@@ -64,6 +64,15 @@
         "verdict": "must_read",
         "pub_date": "2026-02-22",
         "why_matters": ""
+      },
+      {
+        "title": "Mac变身AI超算！用Claude逆向M4芯片，纯推理引擎跑通Transformer",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247718241&idx=1&sn=c4cc6c6555827f1824bdb16c72150bd1",
+        "source": "PaperWeekly",
+        "score": 93,
+        "verdict": "must_read",
+        "pub_date": "2026-03-03",
+        "why_matters": "对硬件开发者和AI研究者而言，这展示了消费级芯片在专业AI计算任务上的巨大潜力，可能改变边缘计算和高效能计算的硬件选择思路。"
       },
       {
         "title": "脑细胞组成的计算机跑起了《毁灭战士》！20万活体神经元实时学习开枪杀敌，代码全部开源",
@@ -396,15 +405,6 @@
         "score": 87,
         "verdict": "must_read",
         "pub_date": "2026-02-08",
-        "why_matters": ""
-      },
-      {
-        "title": "我爬了Moltbook所有的帖子，发现这就是一场骗局。",
-        "link": "https://mp.weixin.qq.com/s?__biz=MzkxNjcyNTk2NA==&mid=2247489770&idx=1&sn=71c361ad91ad6085a0dd789b148e210c",
-        "source": "探索AGI",
-        "score": 87,
-        "verdict": "must_read",
-        "pub_date": "2026-02-02",
         "why_matters": ""
       },
       {
@@ -876,13 +876,13 @@
         "why_matters": ""
       },
       {
-        "title": "AI社交网络Moltbook背后其实是人类？多张刷屏截图被质疑有猫腻",
-        "link": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649789657&idx=1&sn=80db10e27cd7daad227c038ca0093be4",
-        "source": "DeepTech深科技",
-        "score": 81,
+        "title": "通义开源Mobile-Agent-v3.5：面向多端自动化操作，20+榜单实现SOTA",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247718241&idx=2&sn=f91251523b3f8526dc6aeb833cde5465",
+        "source": "PaperWeekly",
+        "score": 80,
         "verdict": "worth_reading",
-        "pub_date": "2026-02-01",
-        "why_matters": ""
+        "pub_date": "2026-03-03",
+        "why_matters": "对产品经理和RPA开发者而言，这提供了一个强大的、可落地的多端自动化基座，能显著提升GUI自动化任务的复杂度和完成率。"
       },
       {
         "title": "范式跃迁：LLM + EC重构算法设计范式，华为&港城大夺冠CVRP国际顶级赛事",
@@ -1236,6 +1236,24 @@
         "why_matters": ""
       },
       {
+        "title": "“钱袋子”起火了",
+        "link": "https://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656155301&idx=1&sn=4fed04cf2b241aba5da5212b45fc00d0",
+        "source": "虎嗅",
+        "score": 77,
+        "verdict": "worth_reading",
+        "pub_date": "2026-03-03",
+        "why_matters": "对投资者而言，此文提供了在突发地缘危机中分析市场脉络、区分短期情绪与长期影响的框架。"
+      },
+      {
+        "title": "是的，美国和伊朗的冲突让全世界的AI中断了",
+        "link": "https://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656155301&idx=4&sn=43064b6aff58b4c609aa236b58ca1531",
+        "source": "虎嗅",
+        "score": 77,
+        "verdict": "worth_reading",
+        "pub_date": "2026-03-03",
+        "why_matters": "对所有依赖云端AI服务的企业和个人而言，这是一次关于数字基础设施物理脆弱性和业务连续性的严峻警示。"
+      },
+      {
         "title": "吴恩达复盘百度岁月：我带过的自动驾驶、智能音箱都成了！Altman 我也带过，但 Gemini 3 比 ChatGPT 强",
         "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651276826&idx=1&sn=ab4fdb26221877a86da62e36971bcdf4",
         "source": "InfoQ",
@@ -1341,15 +1359,6 @@
         "score": 77,
         "verdict": "worth_reading",
         "pub_date": "2026-02-02",
-        "why_matters": ""
-      },
-      {
-        "title": "有道新战事：当 AI 进入一支笔",
-        "link": "https://mp.weixin.qq.com/s?__biz=MzU3Mjk1OTQ0Ng==&mid=2247532564&idx=1&sn=f6d73577e36ad925a6cff0f6b8f47553",
-        "source": "晚点LatePost",
-        "score": 77,
-        "verdict": "worth_reading",
-        "pub_date": "2026-02-01",
         "why_matters": ""
       },
       {
@@ -1558,15 +1567,62 @@
         "verdict": "worth_reading",
         "pub_date": "2026-02-02",
         "why_matters": ""
+      }
+    ],
+    "Builder 实践": [
+      {
+        "title": "RCCLX: Innovating GPU Communications on AMD Platforms",
+        "link": "https://engineering.fb.com/2026/02/24/data-center-engineering/rrcclx-innovating-gpu-communications-amd-platforms-meta/",
+        "source": "Meta Engineering Blog",
+        "score": 90,
+        "verdict": "must_read",
+        "pub_date": "",
+        "why_matters": "对于依赖 AMD 硬件进行 AI 研发的工程师和团队，RCCLX 提供了关键的底层通信优化工具，有助于提升大模型训练和推理的效率。"
       },
       {
-        "title": "1.8亿token，Clawdbot是这么吞掉的~",
-        "link": "https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA==&mid=2247503353&idx=1&sn=fe0157240a1717a0de303c61837d192a",
-        "source": "PaperAgent",
-        "score": 75,
-        "verdict": "worth_reading",
-        "pub_date": "2026-02-01",
+        "title": "How Codex is built",
+        "link": "https://newsletter.pragmaticengineer.com/p/how-codex-is-built",
+        "source": "The Pragmatic Engineer",
+        "score": 90,
+        "verdict": "must_read",
+        "pub_date": "",
         "why_matters": ""
+      },
+      {
+        "title": "Latest open artifacts (#19): Qwen 3.5, GLM 5, MiniMax 2.5 — Chinese labs' latest push of the frontier",
+        "link": "https://www.interconnects.ai/p/latest-open-artifacts-19-qwen-35",
+        "source": "Interconnects",
+        "score": 87,
+        "verdict": "must_read",
+        "pub_date": "2026-03-03",
+        "why_matters": "对投资者和开发者而言，RAM指标提供了一个新的、标准化的视角来评估开源模型的真实市场接受度和潜力，有助于识别被低估的模型。"
+      },
+      {
+        "title": "Evals Skills for Coding Agents",
+        "link": "https://hamel.dev/blog/posts/evals-skills/",
+        "source": "Hamel Husain",
+        "score": 87,
+        "verdict": "must_read",
+        "pub_date": "2026-03-02",
+        "why_matters": "为AI产品经理和评估工程师提供了构建更精细、有效评估体系的框架，强调评估需要针对具体错误类型，而非依赖笼统的分数。"
+      },
+      {
+        "title": "Directory Snapshots: Resumable project state for Sandboxes",
+        "link": "https://modal.com/blog/directory-snapshots-resumable-project-state-for-sandboxes",
+        "source": "Modal Labs Blog",
+        "score": 83,
+        "verdict": "worth_reading",
+        "pub_date": "2026-02-24",
+        "why_matters": "对于开发者而言，这提供了一种更灵活、可移植的方式来管理和复用项目状态，提升了开发环境的效率。"
+      },
+      {
+        "title": "How much does distillation really matter for Chinese LLMs?",
+        "link": "https://www.interconnects.ai/p/how-much-does-distillation-really",
+        "source": "Interconnects",
+        "score": 77,
+        "verdict": "worth_reading",
+        "pub_date": "",
+        "why_matters": "对数据PM/投资者/公众号作者意味着什么：澄清“蒸馏”的真实含义和技术限制，有助于更准确地理解模型能力提升的路径和中美AI技术发展的讨论。"
       }
     ],
     "AI 使用": [
@@ -1677,6 +1733,15 @@
         "verdict": "worth_reading",
         "pub_date": "2026-02-23",
         "why_matters": "对AI研究者和开发者而言，这意味着需要重新审视和选择更可靠、无缺陷的基准来评估大模型的代码生成能力，避免被过时或有问题的指标误导。"
+      },
+      {
+        "title": "The Problem of the 99%: Why Almost No One Uses AI Well (And How to Solve It)",
+        "link": "https://www.thealgorithmicbridge.com/p/the-problem-of-the-99-why-almost",
+        "source": "The Algorithmic Bridge",
+        "score": 80,
+        "verdict": "worth_reading",
+        "pub_date": "2026-03-03",
+        "why_matters": "对产品经理和公司而言，这揭示了当前AI产品在推动主流用户有效使用上面临的核心挑战，需要重新思考用户引导和价值传递策略。"
       },
       {
         "title": "🎙️ This week on How I AI: 5 OpenClaw agents run my home, finances, and code & How Coinbase scaled AI to 1,000+ engineers",
@@ -1796,51 +1861,15 @@
         "why_matters": ""
       }
     ],
-    "Builder 实践": [
+    "AI 观点": [
       {
-        "title": "RCCLX: Innovating GPU Communications on AMD Platforms",
-        "link": "https://engineering.fb.com/2026/02/24/data-center-engineering/rrcclx-innovating-gpu-communications-amd-platforms-meta/",
-        "source": "Meta Engineering Blog",
-        "score": 90,
-        "verdict": "must_read",
-        "pub_date": "",
-        "why_matters": "对于依赖 AMD 硬件进行 AI 研发的工程师和团队，RCCLX 提供了关键的底层通信优化工具，有助于提升大模型训练和推理的效率。"
-      },
-      {
-        "title": "How Codex is built",
-        "link": "https://newsletter.pragmaticengineer.com/p/how-codex-is-built",
-        "source": "The Pragmatic Engineer",
-        "score": 90,
-        "verdict": "must_read",
-        "pub_date": "",
-        "why_matters": ""
-      },
-      {
-        "title": "Evals Skills for Coding Agents",
-        "link": "https://hamel.dev/blog/posts/evals-skills/",
-        "source": "Hamel Husain",
-        "score": 87,
-        "verdict": "must_read",
-        "pub_date": "2026-03-02",
-        "why_matters": "为AI产品经理和评估工程师提供了构建更精细、有效评估体系的框架，强调评估需要针对具体错误类型，而非依赖笼统的分数。"
-      },
-      {
-        "title": "Directory Snapshots: Resumable project state for Sandboxes",
-        "link": "https://modal.com/blog/directory-snapshots-resumable-project-state-for-sandboxes",
-        "source": "Modal Labs Blog",
-        "score": 83,
-        "verdict": "worth_reading",
-        "pub_date": "2026-02-24",
-        "why_matters": "对于开发者而言，这提供了一种更灵活、可移植的方式来管理和复用项目状态，提升了开发环境的效率。"
-      },
-      {
-        "title": "How much does distillation really matter for Chinese LLMs?",
-        "link": "https://www.interconnects.ai/p/how-much-does-distillation-really",
-        "source": "Interconnects",
+        "title": "A Tale of Three Contracts",
+        "link": "https://thezvi.substack.com/p/a-tale-of-three-contracts",
+        "source": "Zvi Mowshowitz",
         "score": 77,
         "verdict": "worth_reading",
-        "pub_date": "",
-        "why_matters": "对数据PM/投资者/公众号作者意味着什么：澄清“蒸馏”的真实含义和技术限制，有助于更准确地理解模型能力提升的路径和中美AI技术发展的讨论。"
+        "pub_date": "2026-03-03",
+        "why_matters": "对投资者和行业观察者而言，这揭示了AI公司与政府合作的高度政治化和合同风险，可能影响公司生存和行业格局。"
       }
     ],
     "YouTube": [

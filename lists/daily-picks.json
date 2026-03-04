@@ -1,170 +1,156 @@
 {
-  "date": "2026-03-03",
+  "date": "2026-03-04",
   "must_read": [
     {
-      "title": "脑细胞组成的计算机跑起了《毁灭战士》！20万活体神经元实时学习开枪杀敌，代码全部开源",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649791182&idx=1&sn=03668cb428cf0ff2c75067a62fd2d12a",
-      "source": "DeepTech深科技",
-      "score": 93,
-      "why": "对投资者和AI研究者而言，这展示了生物计算接口的进展，但也揭示了评估此类混合系统真实学习能力的技术复杂性。"
-    },
-    {
-      "title": "150B tokens实测反转！你的DeepSeek mHC可能根本不需要“m”约束",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247718198&idx=1&sn=877a6e15d019329017b730a5ee344c52",
+      "title": "Mac变身AI超算！用Claude逆向M4芯片，纯推理引擎跑通Transformer",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247718241&idx=1&sn=c4cc6c6555827f1824bdb16c72150bd1",
       "source": "PaperWeekly",
-      "score": 90,
-      "why": "对AI研究者意味着，看似精妙的算法改进可能需要更严格的消融实验验证，避免过度工程化。"
+      "score": 93,
+      "why": "对硬件开发者和AI研究者而言，这展示了消费级芯片在专业AI计算任务上的巨大潜力，可能改变边缘计算和高效能计算的硬件选择思路。"
     },
     {
-      "title": "GIF optimization tool using WebAssembly and Gifsicle",
-      "link": "https://simonwillison.net/guides/agentic-engineering-patterns/gif-optimization/#atom-everything",
-      "source": "Simon Willison",
+      "title": "Latest open artifacts (#19): Qwen 3.5, GLM 5, MiniMax 2.5 — Chinese labs' latest push of the frontier",
+      "link": "https://www.interconnects.ai/p/latest-open-artifacts-19-qwen-35",
+      "source": "Interconnects",
       "score": 87,
-      "why": "展示了如何利用AI编码助手和WebAssembly技术，将高性能的本地命令行工具快速转化为易用的Web应用，为前端开发者提供了媒体处理的新思路。"
-    },
-    {
-      "title": "Evals Skills for Coding Agents",
-      "link": "https://hamel.dev/blog/posts/evals-skills/",
-      "source": "Hamel Husain",
-      "score": 87,
-      "why": "为AI产品经理和评估工程师提供了构建更精细、有效评估体系的框架，强调评估需要针对具体错误类型，而非依赖笼统的分数。"
-    },
-    {
-      "title": "DeepMind新论文炸锅：AI全自动进化算法，写出专家都想不到的解，网友：这可能就是“王牌”",
-      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651276826&idx=2&sn=8c332905db7bd08e40f45099a37bb3ea",
-      "source": "InfoQ",
-      "score": 87,
-      "why": "对算法研究者和AI工程师意味着，算法设计本身可能进入自动化时代，改变了研究和开发的范式。"
+      "why": "对投资者和开发者而言，RAM指标提供了一个新的、标准化的视角来评估开源模型的真实市场接受度和潜力，有助于识别被低估的模型。"
     }
   ],
   "worth_reading": [
     {
-      "title": "Import AI 447: The AGI economy; testing AIs with generated games; and agent ecologies",
-      "link": "https://importai.substack.com/p/import-ai-447-the-agi-economy-testing",
-      "source": "Import AI",
-      "score": 83,
-      "why": "为投资者和政策制定者提供了一个思考AGI社会经济影响的理论框架，指出未来人类角色的可能转变和关键瓶颈。"
-    },
-    {
-      "title": "🎙️ This week on How I AI: 5 OpenClaw agents run my home, finances, and code & How Coinbase scaled AI to 1,000+ engineers",
-      "link": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-5-openclaw",
-      "source": "Lenny's Newsletter",
+      "title": "The Problem of the 99%: Why Almost No One Uses AI Well (And How to Solve It)",
+      "link": "https://www.thealgorithmicbridge.com/p/the-problem-of-the-99-why-almost",
+      "source": "The Algorithmic Bridge",
       "score": 80,
-      "why": "为个人和家庭用户展示了AI代理在生活自动化方面的前沿实践，提供了将AI深度融入日常管理和创造工作的具体案例。"
+      "why": "对产品经理和公司而言，这揭示了当前AI产品在推动主流用户有效使用上面临的核心挑战，需要重新思考用户引导和价值传递策略。"
     },
     {
-      "title": "范式跃迁：LLM + EC重构算法设计范式，华为&港城大夺冠CVRP国际顶级赛事",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651018881&idx=1&sn=b1a610953f1cb57a931918ee0a1d5254",
-      "source": "机器之心",
-      "score": 80,
-      "why": "对算法工程师和投资者而言，这证明了AI不仅能用算法，还能设计更优算法，是范式级别的突破。"
-    },
-    {
-      "title": "福特把造车压到 93 分钟，AI 正在把“软件生产线”重做一遍",
-      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651276826&idx=3&sn=8f089d22aaf4aa8d3cfe7572ab5a2d37",
-      "source": "InfoQ",
-      "score": 80,
-      "why": "对研发管理者意味着必须重构研发流程与团队分工，否则将面临效率代差。"
-    },
-    {
-      "title": "How Coinbase scaled AI to 1,000+ engineers | Chintan Turakhia",
-      "link": "https://www.lennysnewsletter.com/p/how-coinbase-scaled-ai-to-1000-engineers",
-      "source": "Lenny's Newsletter",
-      "score": 77,
-      "why": "为大型科技公司的工程领导者提供了可复制的AI工具规模化采纳策略、具体实施技巧和关键衡量指标。"
-    },
-    {
-      "title": "吴恩达复盘百度岁月：我带过的自动驾驶、智能音箱都成了！Altman 我也带过，但 Gemini 3 比 ChatGPT 强",
-      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651276826&idx=1&sn=ab4fdb26221877a86da62e36971bcdf4",
-      "source": "InfoQ",
-      "score": 77,
-      "why": "对投资者和行业观察者意味着需要理性看待AGI炒作，关注有实际商业价值的AI落地与人才技能重塑。"
-    },
-    {
-      "title": "How to Kill the Code Review",
-      "link": "https://www.latent.space/p/reviews-dead",
-      "source": "Latent Space",
-      "score": 73,
-      "why": "向工程管理者和开发者提出了一个迫近的挑战：在AI编码时代，需要彻底重新思考代码质量保障和发布流程的范式。"
-    },
-    {
-      "title": "ICDE 2026 | 从匹配困境到推理突破：阿里REG4Rec 激活生成式推荐的个性化潜力",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651018881&idx=3&sn=a49c461de62e904ccb4daf654c358c64",
-      "source": "机器之心",
-      "score": 73,
-      "why": "对推荐算法工程师和电商平台意味着，生成式推荐可能成为下一代推荐系统的关键技术方向。"
-    },
-    {
-      "title": "FFmpeg at Meta: Media Processing at Scale",
-      "link": "https://engineering.fb.com/2026/03/02/video-engineering/ffmpeg-at-meta-media-processing-at-scale/",
-      "source": "Meta Engineering Blog",
-      "score": 70,
-      "why": "为处理超大规模媒体服务的工程师揭示了在依赖强大开源项目时，平衡内部定制需求与上游同步所面临的复杂性和技术债务问题。"
-    },
-    {
-      "title": "🦞别在 OpenClaw 上花冤枉钱了，这份小白指南手把手教你 1 分钟搞定",
-      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651082600&idx=1&sn=5e7b43e5f035e4bdb518b54f87389c4b",
-      "source": "APPSO",
-      "score": 70,
-      "why": "对普通上班族和效率追求者意味着，可以几乎零成本地体验前沿AI自动化工具，提升工作效率。"
-    },
-    {
-      "title": "63万指令微调！LEADS登Nature子刊，重塑医学文献挖掘工作流",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247718198&idx=2&sn=41f2d4ddd660f364f06f6bf0a57cac2b",
+      "title": "通义开源Mobile-Agent-v3.5：面向多端自动化操作，20+榜单实现SOTA",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247718241&idx=2&sn=f91251523b3f8526dc6aeb833cde5465",
       "source": "PaperWeekly",
+      "score": 80,
+      "why": "对产品经理和RPA开发者而言，这提供了一个强大的、可落地的多端自动化基座，能显著提升GUI自动化任务的复杂度和完成率。"
+    },
+    {
+      "title": "A Tale of Three Contracts",
+      "link": "https://thezvi.substack.com/p/a-tale-of-three-contracts",
+      "source": "Zvi Mowshowitz",
+      "score": 77,
+      "why": "对投资者和行业观察者而言，这揭示了AI公司与政府合作的高度政治化和合同风险，可能影响公司生存和行业格局。"
+    },
+    {
+      "title": "“钱袋子”起火了",
+      "link": "https://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656155301&idx=1&sn=4fed04cf2b241aba5da5212b45fc00d0",
+      "source": "虎嗅",
+      "score": 77,
+      "why": "对投资者而言，此文提供了在突发地缘危机中分析市场脉络、区分短期情绪与长期影响的框架。"
+    },
+    {
+      "title": "是的，美国和伊朗的冲突让全世界的AI中断了",
+      "link": "https://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656155301&idx=4&sn=43064b6aff58b4c609aa236b58ca1531",
+      "source": "虎嗅",
+      "score": 77,
+      "why": "对所有依赖云端AI服务的企业和个人而言，这是一次关于数字基础设施物理脆弱性和业务连续性的严峻警示。"
+    },
+    {
+      "title": "AI Tooling for Software Engineers in 2026",
+      "link": "https://newsletter.pragmaticengineer.com/p/ai-tooling-2026",
+      "source": "The Pragmatic Engineer",
+      "score": 73,
+      "why": "对软件工程师和工具开发者而言，这份调查清晰地描绘了AI工具在开发领域的采纳现状和趋势，是选择工具和制定策略的重要参考。"
+    },
+    {
+      "title": "Are AI Datacenters Increasing Electric Bills for American Households?",
+      "link": "https://newsletter.semianalysis.com/p/are-ai-datacenters-increasing-electric",
+      "source": "SemiAnalysis",
+      "score": 73,
+      "why": "对政策制定者和投资者而言，这澄清了AI数据中心与电费上涨关系的误区，指出真正的驱动因素可能是区域性能源政策，而非技术本身。"
+    },
+    {
+      "title": "The warning signs your AI vendor is becoming your cage",
+      "link": "https://gradientflow.substack.com/p/we-watched-this-happen-with-the-internet",
+      "source": "Gradient Flow",
+      "score": 73,
+      "why": "对企业和产品负责人而言，这是在AI平台化早期规避未来供应商锁定风险、保持业务灵活性和自主权的关键指南。"
+    },
+    {
+      "title": "光年之外居然做了能用Skills的AI浏览器：超实用实用案例+现成脚本",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzU0MDk3NTUxMA==&mid=2247495983&idx=1&sn=0b177b80e95de8d9ed55937ea950bc91",
+      "source": "歸藏的AI工具箱",
+      "score": 73,
+      "why": "对频繁使用浏览器进行研究和创作的用户而言，Tabbit将信息处理的关键环节自动化，能极大提升工作效率。"
+    },
+    {
+      "title": "你的同事不是人，AI时代的职场生存与自救指南",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI3MjQ4MDMyOQ==&mid=2247539028&idx=1&sn=b03a021ba8d55b6276bfb3844044a7da",
+      "source": "追问nextquestion",
       "score": 70,
-      "why": "对医学研究者和AI应用开发者意味着，在严肃专业领域，基于领域工作流和数据的专用模型比通用模型更可靠、有效。"
+      "why": "对所有职场人而言，理解AI对工作心理的潜在影响，是未来在“人机共事”时代保持竞争力和心理健康的前提。"
+    },
+    {
+      "title": "票房暴跌40%，影视股集体跳水，2026春节档输给了短剧？",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI2NDk5NzA0Mw==&mid=2248880118&idx=4&sn=6e585811b6ebc88958d2c462a09ae28d",
+      "source": "36氪",
+      "score": 70,
+      "why": "对影视从业者和投资者而言，这揭示了内容消费市场结构性变迁的强烈信号，传统模式面临严峻挑战。"
+    },
+    {
+      "title": "上门安装 OpenClaw，年入百万？",
+      "link": "https://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656155223&idx=1&sn=4b1ac5498ef91f14842382de0b38a133",
+      "source": "虎嗅",
+      "score": 70,
+      "why": "对AI产品经理而言，这凸显了产品“最后一公里”部署体验的重要性，即使是强大工具，糟糕的入门体验也会将大量用户挡在门外。"
     }
   ],
   "neutral": [
     {
-      "title": "MiniMax交卷，闫俊杰瞄准三大战场",
-      "link": "https://mp.weixin.qq.com/s?__biz=Mjc1NjM3MjY2MA==&mid=2691565343&idx=1&sn=5a637ae4f2219aa9b095fe56d077f726",
-      "source": "腾讯科技",
+      "title": "一年百亿利润的大疆无人机生意，护城河能挖多深",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzU3Mjk1OTQ0Ng==&mid=2247533830&idx=1&sn=8a8cb590a47e00413d385bd8f2219467",
+      "source": "晚点LatePost",
       "score": 67,
-      "why": "对投资者而言，这是观察大模型创业公司商业化路径和财务健康度的重要样本；对同行则展示了产品驱动增长和成本控制的可能性。"
+      "why": "对硬件创业者和投资者而言，大疆案例展示了在成熟硬件市场，深度技术整合和持续创新是构建统治性优势的关键。"
     },
     {
-      "title": "MiniMax 财报发布：首份大模型成绩单",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzkzNDQxOTU2MQ==&mid=2247513850&idx=1&sn=f771c95d6209451de38c344f3e709e3e",
-      "source": "赛博禅心",
+      "title": "OpenClaw 之后，AI 创业的逻辑变了",
+      "link": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653100317&idx=2&sn=a3554629db294b08ec094b88552c5c4e",
+      "source": "极客公园",
       "score": 67,
-      "why": "对投资者和行业分析师而言，这份财报提供了评估大模型公司是否具备健康增长模式和持续降本能力的关键指标。"
+      "why": "对AI创业者而言，这标志着赛道进入新阶段：拼的不再是模型大小，而是对场景的理解、产品设计和商业化能力。"
     },
     {
-      "title": "Obsidian+OpenClaw组合技！花9分钟重构你的AI知识管理体系",
-      "link": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&mid=2247505302&idx=1&sn=d0cc0321dfc5963f2bb55b980d51e077",
-      "source": "卡尔的AI沃茨",
-      "score": 67,
-      "why": "对知识工作者和内容创作者意味着，可以构建一个与AI深度协同、覆盖从信息摄入到内容产出全流程的个性化效率系统。"
-    },
-    {
-      "title": "jQuery 4.0 发布，近 10 年来首个重大版本",
-      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651276826&idx=4&sn=b446007da441c6a6899a2c80bbadef47",
-      "source": "InfoQ",
-      "score": 67,
-      "why": "对Web开发者而言，这标志着一个时代的演进，但同时也提醒着大量遗留项目仍需维护，jQuery的生态影响力依然存在。"
-    },
-    {
-      "title": "化疗副作用有望被克服，新型纳米药精准杀癌，肿瘤完全消退不伤正常细胞",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649791182&idx=2&sn=99dbd753e2f5df445a3334bb94f80b10",
-      "source": "DeepTech深科技",
+      "title": "LLMs can unmask pseudonymous users at scale with surprising accuracy",
+      "link": "https://arstechnica.com/security/2026/03/llms-can-unmask-pseudonymous-users-at-scale-with-surprising-accuracy/",
+      "source": "Ars Technica AI",
       "score": 63,
-      "why": "对生物医学研究者和投资者而言，这代表了一种更具靶向性和效力的癌症治疗新策略，可能减少化疗副作用。"
-    },
-    {
-      "title": "喝杯咖啡或帮助抗癌？华人团队打造咖啡因+CRISPR黑科技，能激活体内基因编辑",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649791182&idx=3&sn=34182d8605e8694967c2e6d73f0f6d12",
-      "source": "DeepTech深科技",
-      "score": 63,
-      "why": "对生物医学工程领域意味着，这项技术为未来开发可由口服日常物质远程精准控制的细胞疗法或基因疗法提供了全新思路。"
-    },
-    {
-      "title": "AI Just Entered Its Manhattan Project Era",
-      "link": "https://www.thealgorithmicbridge.com/p/ai-just-entered-its-manhattan-project",
-      "source": "The Algorithmic Bridge",
-      "score": 60,
       "why": ""
+    },
+    {
+      "title": "The Pentagon’s bombshell deal with OpenAI, explained",
+      "link": "https://www.understandingai.org/p/the-pentagons-bombshell-deal-with",
+      "source": "Understanding AI",
+      "score": 63,
+      "why": ""
+    },
+    {
+      "title": "Cloudflare just slop forked Next.js…",
+      "link": "https://www.youtube.com/watch?v=abbeIUOCzmw",
+      "source": "Fireship",
+      "score": 63,
+      "why": ""
+    },
+    {
+      "title": "让财务官当CEO，利润全球第一的丰田也缺钱了？",
+      "link": "https://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656155301&idx=2&sn=f20ceeae70964ad194915c3eb4822029",
+      "source": "虎嗅",
+      "score": 63,
+      "why": "对汽车行业观察者而言，丰田的困境和换帅决策，是传统巨头在激进转型中如何平衡当下与未来的一个典型样本。"
+    },
+    {
+      "title": "又一个「中女品牌」入华，这到底是个怎样的市场｜New Look专访",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI2NDk5NzA0Mw==&mid=2248880118&idx=2&sn=9ffc0cde462a189a2e3b1fd7d9946b8b",
+      "source": "36氪",
+      "score": 63,
+      "why": "对品牌经营者和投资者而言，这揭示了在消费分级趋势下，一个介于奢侈与快时尚之间的、由产品本身价值驱动的新兴市场正在崛起。"
     }
   ],
   "overhyped": []

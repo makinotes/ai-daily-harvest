@@ -1,22 +1,14 @@
 {
-  "updated": "2026-03-03",
+  "updated": "2026-03-04",
   "window": "7d",
-  "article_count": 117,
+  "article_count": 110,
   "trending": [
     {
       "keyword": "Claude",
-      "count": 11
+      "count": 10
     },
     {
       "keyword": "Agent",
-      "count": 11
-    },
-    {
-      "keyword": "Code",
-      "count": 8
-    },
-    {
-      "keyword": "Anthropic",
       "count": 8
     },
     {
@@ -24,20 +16,24 @@
       "count": 7
     },
     {
-      "keyword": "DeepSeek",
-      "count": 5
+      "keyword": "Code",
+      "count": 7
     },
     {
       "keyword": "推理",
+      "count": 6
+    },
+    {
+      "keyword": "Anthropic",
+      "count": 6
+    },
+    {
+      "keyword": "DeepSeek",
       "count": 5
     },
     {
       "keyword": "大模型",
       "count": 5
-    },
-    {
-      "keyword": "Gemini",
-      "count": 4
     },
     {
       "keyword": "Google",
@@ -52,11 +48,15 @@
       "count": 4
     },
     {
-      "keyword": "谷歌",
-      "count": 4
+      "keyword": "开源",
+      "count": 3
     },
     {
-      "keyword": "开源",
+      "keyword": "SOTA",
+      "count": 3
+    },
+    {
+      "keyword": "Skills",
       "count": 3
     },
     {
@@ -68,7 +68,7 @@
       "count": 3
     },
     {
-      "keyword": "LLM",
+      "keyword": "Gemini",
       "count": 3
     },
     {
@@ -76,12 +76,12 @@
       "count": 3
     },
     {
-      "keyword": "SOTA",
+      "keyword": "谷歌",
       "count": 3
     },
     {
-      "keyword": "OpenAI",
-      "count": 3
+      "keyword": "open",
+      "count": 2
     }
   ]
 }
