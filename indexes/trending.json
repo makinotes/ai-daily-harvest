@@ -1,42 +1,38 @@
 {
-  "updated": "2026-03-05",
+  "updated": "2026-03-06",
   "window": "7d",
-  "article_count": 106,
+  "article_count": 94,
   "trending": [
     {
-      "keyword": "Claude",
-      "count": 11
-    },
-    {
       "keyword": "OpenClaw",
-      "count": 8
-    },
-    {
-      "keyword": "Code",
-      "count": 8
-    },
-    {
-      "keyword": "推理",
       "count": 7
+    },
+    {
+      "keyword": "Claude",
+      "count": 6
     },
     {
       "keyword": "Agent",
-      "count": 7
-    },
-    {
-      "keyword": "DeepSeek",
       "count": 5
     },
     {
-      "keyword": "大模型",
+      "keyword": "阿里",
       "count": 4
     },
     {
-      "keyword": "Google",
+      "keyword": "Skills",
       "count": 4
     },
     {
-      "keyword": "Agents",
+      "keyword": "Code",
+      "count": 4
+    },
+    {
+      "keyword": "OpenAI",
+      "count": 3
+    },
+    {
+      "keyword": "GPT",
       "count": 3
     },
     {
@@ -44,19 +40,7 @@
       "count": 3
     },
     {
-      "keyword": "Skills",
-      "count": 3
-    },
-    {
-      "keyword": "Coding",
-      "count": 3
-    },
-    {
-      "keyword": "agent",
-      "count": 3
-    },
-    {
-      "keyword": "Gemini",
+      "keyword": "Banana",
       "count": 3
     },
     {
@@ -64,23 +48,39 @@
       "count": 3
     },
     {
-      "keyword": "Banana",
+      "keyword": "source",
       "count": 3
     },
     {
-      "keyword": "智能体",
+      "keyword": "open",
       "count": 3
     },
     {
-      "keyword": "谷歌",
+      "keyword": "推理",
       "count": 3
     },
     {
-      "keyword": "model",
+      "keyword": "Agents",
+      "count": 3
+    },
+    {
+      "keyword": "Introducing",
       "count": 2
     },
     {
-      "keyword": "source",
+      "keyword": "Building",
+      "count": 2
+    },
+    {
+      "keyword": "Context",
+      "count": 2
+    },
+    {
+      "keyword": "Thinking",
+      "count": 2
+    },
+    {
+      "keyword": "Anthropic",
       "count": 2
     }
   ]

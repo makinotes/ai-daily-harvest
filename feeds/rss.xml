@@ -5,7 +5,263 @@
   <link>https://github.com/makinotes/ai-daily-feed</link>
   <description>Daily AI learning feed. 40+ sources scored and structured.</description>
   <language>zh-cn</language>
-  <lastBuildDate>Thu, 05 Mar 2026 00:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Fri, 06 Mar 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Introducing Modular Diffusers - Composable Building Blocks for Diffusion Pipelines</title>
+  <link>https://huggingface.co/blog/modular-diffusers</link>
+  <description><![CDATA[Hugging Face 发布的 Modular Diffusers 通过模块化重构，解决了扩散模型管线过于臃肿、难以定制的痛点，大幅提升了代码复用性与灵活性。<ul><li>亮点1：Modular Diffusers 是扩散模型管道的可组合构建模块。</li><li>亮点2：该工具旨在让开发者能够灵活地组合不同组件，创建定制化的图像生成流程。</li></ul>]]></description>
+  <category>Builder 实践</category>
+  <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://huggingface.co/blog/modular-diffusers">Hugging Face Blog</source>
+</item>
+<item>
+  <title>Context Mode：为你的AI开发工具节省98%的上下文token</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzA5MTIxNTY4MQ==&amp;mid=2461158648&amp;idx=1&amp;sn=4f5937dd2dd7a9bdba9fcc260c06efb8</link>
+  <description><![CDATA[介绍开源项目 Context Mode，通过沙箱隔离和精准检索技术，将 AI 开发工具的上下文 Token 消耗降低 98%。<ul><li>通过沙箱隔离与精准检索，将工具原始输出数据压缩98%</li><li>与Cloudflare Code Mode形成互补，全面优化上下文使用效率</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Fri, 06 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzA5MTIxNTY4MQ==&amp;mid=2461158648&amp;idx=1&amp;sn=4f5937dd2dd7a9bdba9fcc260c06efb8">AI工程化</source>
+</item>
+<item>
+  <title>OpenAI发布Symphony：AI时代的敏捷看板</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzA5MTIxNTY4MQ==&amp;mid=2461158703&amp;idx=1&amp;sn=280cd8252eb26987e098f064da573682</link>
+  <description><![CDATA[介绍OpenAI开源的Symphony项目，展示了从“提示词工程”向“看板驱动的AI代理流水线”转化的开发新范式。<ul><li>将项目管理看板与AI代理执行自动化结合，实现从任务到代码合并的闭环</li><li>与Paperclip等项目共同指向AI辅助开发从“工具”到“流程与组织”的转变</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzA5MTIxNTY4MQ==&amp;mid=2461158703&amp;idx=1&amp;sn=280cd8252eb26987e098f064da573682">AI工程化</source>
+</item>
+<item>
+  <title>Computer Use &amp; Frontend UI with GPT-5.4 Thinking</title>
+  <link>https://www.youtube.com/watch?v=YICiHiU2GBU</link>
+  <description><![CDATA[GPT-5.4 Thinking 的计算机使用能力（CUA）可将 Token 消耗降低三分之二。<ul><li>亮点1：GPT-5.4 Thinking 增强了计算机使用（CUA）能力，某些情况下令牌使用量减少三分之二。</li><li>亮点2：模型具备更强的图像理解能力，可应用于网站UI和图像生成。</li></ul>]]></description>
+  <category>YouTube</category>
+  <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://www.youtube.com/watch?v=YICiHiU2GBU">OpenAI YouTube</source>
+</item>
+<item>
+  <title>Reasoning models struggle to control their chains of thought, and that’s good</title>
+  <link>https://openai.com/index/reasoning-models-chain-of-thought-controllability</link>
+  <description><![CDATA[OpenAI 探讨推理模型对思维链控制的局限性，并将其视为 AI 安全的可监控机会。<ul><li>亮点1：研究发现推理模型难以控制其思维链（CoT）。</li><li>亮点2：OpenAI 为此引入了 CoT-Control 技术。</li><li>亮点3：这一发现强调了“可监控性”作为AI安全防护措施的价值。</li></ul>]]></description>
+  <category>AI 使用</category>
+  <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://openai.com/index/reasoning-models-chain-of-thought-controllability">OpenAI Blog</source>
+</item>
+<item>
+  <title>被封杀当晚，OpenAI 拿到了相同条款——Amodei 首次专访揭开 Anthropic 与五角大楼冲突内幕</title>
+  <link>https://mp.weixin.qq.com/s?__biz=Mzk1NzgxMjQ0OA==&amp;mid=2247493755&amp;idx=1&amp;sn=20bc5e69aa0d3422dbf5741ddb0c2262</link>
+  <description><![CDATA[深度还原 Anthropic CEO 接受采访内容，揭示其与美政府关于 AI 安全红线的冲突及与 OpenAI 的博弈。<ul><li>争议焦点并非是否合作，而是合同条款的模糊性可能侵蚀公司自设的伦理红线</li><li>OpenAI获得相同条款合同，暗示争端核心在于“谁拥有最终解释权”</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Fri, 06 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=Mzk1NzgxMjQ0OA==&amp;mid=2247493755&amp;idx=1&amp;sn=20bc5e69aa0d3422dbf5741ddb0c2262">硅星人Pro</source>
+</item>
+<item>
+  <title>阿里开源OpenSandbox：AI智能体的生产级沙盒来了</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzA5MTIxNTY4MQ==&amp;mid=2461158644&amp;idx=1&amp;sn=024bbc934b4645ae2c68b21bf836a384</link>
+  <description><![CDATA[阿里开源 OpenSandbox 生产级沙盒介绍，解决了 AI 智能体执行代码的安全隔离痛点。<ul><li>提供统一的多语言SDK，并同时支持Docker与K8s两种运行时，兼顾开发与生产</li><li>内置浏览器自动化等实用功能，直接解决AI智能体部署中的常见安全与隔离需求</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Fri, 06 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzA5MTIxNTY4MQ==&amp;mid=2461158644&amp;idx=1&amp;sn=024bbc934b4645ae2c68b21bf836a384">AI工程化</source>
+</item>
+<item>
+  <title>一分钟上手 Nano Banana 2，编辑避坑指南</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzU2ODEwMzE0Nw==&amp;mid=2247547992&amp;idx=1&amp;sn=1228633b8d5782510ad03f65c3e8fae5</link>
+  <description><![CDATA[针对 Google Nano Banana 2 的全方位使用手册，包含竞品对比、适用人群及独家 Prompt 指南。<ul><li>“多图融合”功能允许像拼贴图层一样控制AI，实现构图、色彩、材质的创造性组合</li><li>“Flash+Pro”算力分层模式，实现“先快后精”，优化创作效率与成本</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Fri, 06 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzU2ODEwMzE0Nw==&amp;mid=2247547992&amp;idx=1&amp;sn=1228633b8d5782510ad03f65c3e8fae5">优设AIGC</source>
+</item>
+<item>
+  <title>The Codex app is now on Windows</title>
+  <link>https://www.youtube.com/watch?v=8hNcRChDrNk</link>
+  <description><![CDATA[OpenAI 的 Codex 应用正式登陆 Windows，提供原生 Agent 沙箱支持。<ul><li>亮点1：Codex 应用正式在 Windows 平台上线。</li><li>亮点2：Windows 版本提供原生代理沙盒和对 PowerShell 等开发环境的支持。</li></ul>]]></description>
+  <category>YouTube</category>
+  <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://www.youtube.com/watch?v=8hNcRChDrNk">OpenAI YouTube</source>
+</item>
+<item>
+  <title>Interrupting and Adding Details in GPT-5.4 Thinking</title>
+  <link>https://www.youtube.com/watch?v=qSHMlduU6Lw</link>
+  <description><![CDATA[ChatGPT 现支持在 GPT-5.4 Thinking 过程中实时中断并调整方向。<ul><li>亮点1：GPT-5.4 Thinking 在 ChatGPT 中能提供“预先思考计划”。</li><li>亮点2：用户可以在模型响应过程中中断并调整方向，以更快获得理想结果。</li></ul>]]></description>
+  <category>YouTube</category>
+  <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://www.youtube.com/watch?v=qSHMlduU6Lw">OpenAI YouTube</source>
+</item>
+<item>
+  <title>暴涨75%，Circle怎么就成了AI支付龙头？</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzkyNTY1MjE2OA==&amp;mid=2247493425&amp;idx=1&amp;sn=81b8e0525396125e0cf083447604ed78</link>
+  <description><![CDATA[深度探讨稳定币USDC在AI Agent微支付场景中的核心地位及其金融逻辑。<ul><li>指出AI支付的核心矛盾：传统人类中心支付体系与机器间高频小额、协议化交易需求的不匹配</li><li>稳定币（特别是USDC）因可编程、低成本、实时结算，成为当前AI代理经济的实际支付标准</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzkyNTY1MjE2OA==&amp;mid=2247493425&amp;idx=1&amp;sn=81b8e0525396125e0cf083447604ed78">硅基观察Pro</source>
+</item>
+<item>
+  <title>Dario Amodei 不是你以为的道德英雄</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzIwODA3MDUwOQ==&amp;mid=2652775955&amp;idx=1&amp;sn=820dde99cf5a83b37f1ccd4504aa5200</link>
+  <description><![CDATA[揭露Anthropic拒绝军事合同背后的技术红线本质而非纯粹道德立场。<ul><li>Dario Amodei反对的是AI武器的技术不成熟，而非其道德性，立场比美国现行政策更激进。</li><li>文章揭示了公众对AI军事应用“三层黑箱”（模型、机构、战争本身）的认知困境。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzIwODA3MDUwOQ==&amp;mid=2652775955&amp;idx=1&amp;sn=820dde99cf5a83b37f1ccd4504aa5200">张无常</source>
+</item>
+<item>
+  <title>陶哲轩最新演讲：AI 不是来抢数学家蛋糕的，是来把蛋糕做大的</title>
+  <link>https://mp.weixin.qq.com/s?__biz=Mzk1NzgxMjQ0OA==&amp;mid=2247493895&amp;idx=1&amp;sn=492ad67c0010674717f1330e39625864</link>
+  <description><![CDATA[陶哲轩阐述了形式验证在现代数学大规模协作中的核心作用，指出AI应作为验证器的搭档而非独立解题者。<ul><li>形式验证是打破数学协作信任壁垒、实现匿名大规模贡献的“秘密武器”。</li><li>AI的价值在于处理人类无精力覆盖的海量中等难度问题，而非仅攻坚尖端难题。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=Mzk1NzgxMjQ0OA==&amp;mid=2247493895&amp;idx=1&amp;sn=492ad67c0010674717f1330e39625864">硅星人Pro</source>
+</item>
+<item>
+  <title>阿里Qwen3.5小模型发布：0.8B参数就能处理视频，边缘AI时代真的来了</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzA5MTIxNTY4MQ==&amp;mid=2461158663&amp;idx=1&amp;sn=8e85fb6e3221cdee582fd3530dd12a9f</link>
+  <description><![CDATA[Qwen3.5小模型系列技术解读，解析其混合注意力机制架构及边缘侧推理优势。<ul><li>0.8B/2B模型专为移动设备设计，可实现离线视频摘要与空间推理，突破边缘AI算力限制。</li><li>9B模型在多项基准测试中性能超越120B级别大模型，展现惊人的参数效率。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Fri, 06 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzA5MTIxNTY4MQ==&amp;mid=2461158663&amp;idx=1&amp;sn=8e85fb6e3221cdee582fd3530dd12a9f">AI工程化</source>
+</item>
+<item>
+  <title>设计流程已死：Anthropic 设计负责人 Jenny Wen 谈 AI 时代的设计变革</title>
+  <link>https://mp.weixin.qq.com/s?__biz=Mzk1NzgxMjQ0OA==&amp;mid=2247493795&amp;idx=1&amp;sn=26a558d82c15c36ea9dc53f1b0aa2055</link>
+  <description><![CDATA[Anthropic设计负责人深度分享AI时代设计范式的结构性重组，提出“设计流程已死”并定义了新的职业生存法则。<ul><li>设计流程被工程速度“逼死”，设计师角色转向顾问、协作者与决策者。</li><li>人类价值在于承担AI无法负责的决策与责任，而非品味与判断力（AI正在此领域快速进步）。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Fri, 06 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=Mzk1NzgxMjQ0OA==&amp;mid=2247493795&amp;idx=1&amp;sn=26a558d82c15c36ea9dc53f1b0aa2055">硅星人Pro</source>
+</item>
+<item>
+  <title>从写代码到管 Agent：斯坦福首门 AI 软件开发课的讲师说，大多数工程师还没准备好</title>
+  <link>https://mp.weixin.qq.com/s?__biz=Mzk1NzgxMjQ0OA==&amp;mid=2247493693&amp;idx=1&amp;sn=f95231df551d53ae6dd72d5f5a004654</link>
+  <description><![CDATA[深度访谈斯坦福 AI 开发课讲师，探讨了 AI 原生工程师的核心素质及代码库对 Agent 友好的标准。<ul><li>初级工程师的“无知无畏”在快速学习AI工具上可能是优势，但他们仍需扎实的传统编程基础。</li><li>管理多Agent是复杂挑战，需循序渐进；Agent的可靠运行高度依赖代码库的测试覆盖与设计一致性。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Fri, 06 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=Mzk1NzgxMjQ0OA==&amp;mid=2247493693&amp;idx=1&amp;sn=f95231df551d53ae6dd72d5f5a004654">硅星人Pro</source>
+</item>
+<item>
+  <title>概念梳理：Agent、Workflow、Skills、MCP…</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzU1MTAwNzY4Mg==&amp;mid=2247490728&amp;idx=1&amp;sn=115a8bf9ef87f795eefcbb21ed9f2dfc</link>
+  <description><![CDATA[针对AI Agent、Workflow、MCP等核心概念的技术演进梳理与科普。<ul><li>Agent、Workflow等概念本质是对LLM API的自动化封装，演进源于让模型更自主使用工具的需求。</li><li>技术选型应回归本质需求：重自主探索选Agent框架，重稳定流程选Workflow编排平台。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzU1MTAwNzY4Mg==&amp;mid=2247490728&amp;idx=1&amp;sn=115a8bf9ef87f795eefcbb21ed9f2dfc">喜新</source>
+</item>
+<item>
+  <title>AI国防，一个被低估的新风口</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzkyNTY1MjE2OA==&amp;mid=2247493391&amp;idx=1&amp;sn=b4e17d6d37f0e7644d06d265e063dd58</link>
+  <description><![CDATA[从投资与技术逻辑出发，分析AI军工赛道如何从硬件制造转向软件驱动的订阅制商业模式。<ul><li>AI国防商业模式转变：从卖硬件到卖软件和系统效率</li><li>Palantir作为案例：展示AI如何通过数据整合与决策支持改变战争形态</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Fri, 06 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzkyNTY1MjE2OA==&amp;mid=2247493391&amp;idx=1&amp;sn=b4e17d6d37f0e7644d06d265e063dd58">硅基观察Pro</source>
+</item>
+<item>
+  <title>AI 自媒体业务 SOP，我让 MaxClaw + 钉钉 AI 表格接管了！</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzkxMzUyODQ3OA==&amp;mid=2247490721&amp;idx=1&amp;sn=ba9ec22c618817fdeb6e575c92be7866</link>
+  <description><![CDATA[详细介绍了利用 MiniMax MaxClaw 配合钉钉 AI 表格实现自媒体业务自动化的 SOP 流程。<ul><li>自然语言驱动：通过对话即可创建和管理复杂的业务数据系统</li><li>端到端自动化：从需求到结构化数据表、数据分析报告全流程自动完成</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Fri, 06 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzkxMzUyODQ3OA==&amp;mid=2247490721&amp;idx=1&amp;sn=ba9ec22c618817fdeb6e575c92be7866">AI产品银海</source>
+</item>
+<item>
+  <title>OpenAI introduces GPT-5.4 with more knowledge-work capability</title>
+  <link>https://arstechnica.com/ai/2026/03/openai-introduces-gpt-5-4-with-more-knowledge-work-capability/</link>
+  <description><![CDATA[OpenAI 发布 GPT-5.4，大幅增强了“计算机使用”任务的处理能力。<ul><li>亮点1：OpenAI 加速发布节奏，推出了 GPT-5.4（含 Thinking 和 Pro 版本）。</li><li>亮点2：此次更新旨在应对部分用户流向竞争对手（如Anthropic、Google）的挑战。</li><li>亮点3：GPT-5.4 是首个明确针对计算机使用任务优化的模型，能基于截图发出键鼠指令。</li><li>亮点4：模型更新重点在于提升知识工作等智能体任务的实用性。</li></ul>]]></description>
+  <category>AI 使用</category>
+  <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://arstechnica.com/ai/2026/03/openai-introduces-gpt-5-4-with-more-knowledge-work-capability/">Ars Technica AI</source>
+</item>
+<item>
+  <title>Can coding agents relicense open source through a “clean room” implementation of code?</title>
+  <link>https://simonwillison.net/2026/Mar/5/chardet/#atom-everything</link>
+  <description><![CDATA[文章探讨了 AI 编程智能体是否能通过“净室”实现方式合法地重写并重新授权开源代码，并引用了 chardet 库的最新争议作为案例。<ul><li>亮点1：编码智能体能以“净室设计”模式快速克隆代码，将传统需工程师团队数周完成的过程缩短至几小时。</li><li>亮点2：chardet Python库的维护者发布了MIT许可的“从头重写”版本，但原始作者（LGPL许可）质疑其重新许可的权利。</li></ul>]]></description>
+  <category>AI 使用</category>
+  <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://simonwillison.net/2026/Mar/5/chardet/#atom-everything">Simon Willison</source>
+</item>
+<item>
+  <title>[Cookbook] Fix(contextual-embeddings): prepend context to chunk instead of appending. (#416)</title>
+  <link>https://github.com/anthropics/claude-cookbooks/commit/5d2b123fc8f1913f9cee1ee3d9d9c13eca4b8bac</link>
+  <description><![CDATA[Anthropic Cookbook 的技术更新，修正了上下文嵌入的拼接逻辑。]]></description>
+  <category>Builder 实践</category>
+  <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://github.com/anthropics/claude-cookbooks/commit/5d2b123fc8f1913f9cee1ee3d9d9c13eca4b8bac">Anthropic Cookbook</source>
+</item>
+<item>
+  <title>不用算法不费电，深大团队造出纯光域自学习材料，边缘计算再添新利器</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&amp;mid=2649791321&amp;idx=1&amp;sn=c8f7726087a561fd83ed03896a59448a</link>
+  <description><![CDATA[深圳大学团队开发出基于双色光引发剂树脂的纯光域自学习系统，模仿巴甫洛夫条件反射实现无需算法的AI逻辑。<ul><li>纯光域学习：无需电子参与和算法训练，通过材料本身的光化学反应实现“学习”</li><li>受生物学启发：将巴甫洛夫条件反射机制完美映射到光学材料的物理特性上</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&amp;mid=2649791321&amp;idx=1&amp;sn=c8f7726087a561fd83ed03896a59448a">DeepTech深科技</source>
+</item>
+<item>
+  <title>首个真掌权的Agent CEO，和她的人类二号位</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzU2Njg0OTEyNQ==&amp;mid=2247491794&amp;idx=1&amp;sn=b85404901e5096ded3614c0ae54690c0</link>
+  <description><![CDATA[报道了一个极端的AI创业实验：由Agent担任CEO并管理50个Agent团队，人类作为二号位配合。<ul><li>Agent掌实权：虚拟人CEO管理50个Agent团队，负责核心业务决策</li><li>认知互补：AI CEO能整合多元经验，突破人类创始人的单一认知框架</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Fri, 06 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzU2Njg0OTEyNQ==&amp;mid=2247491794&amp;idx=1&amp;sn=b85404901e5096ded3614c0ae54690c0">AI异类弗兰克</source>
+</item>
+<item>
+  <title>重磅！人工智能，算子接口大一统，标准明天3月1日生效</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzY0MDM1NTc5NA==&amp;mid=2247485315&amp;idx=1&amp;sn=24a6d7ce227954d15d42f2dba87de5e7</link>
+  <description><![CDATA[解读中国首个 AI 算子接口国家标准，分析其对国产芯片生态及华为昇腾、寒武纪的利好。<ul><li>接口大一统：强制统一AI软硬件间的算子接口，实现“一次开发，到处运行”</li><li>打破生态垄断：为国产AI芯片提供了打破英伟达CUDA生态锁定的“入场券”</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Fri, 06 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzY0MDM1NTc5NA==&amp;mid=2247485315&amp;idx=1&amp;sn=24a6d7ce227954d15d42f2dba87de5e7">机器人前瞻</source>
+</item>
+<item>
+  <title>AI 眼镜，不该只有一个「大脑」</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&amp;mid=2653100432&amp;idx=1&amp;sn=b38ac33b4c8afc98fbe69bbe965c0ec1</link>
+  <description><![CDATA[分析乐奇Rokid AI眼镜接入多模型的策略及其背后的产品哲学。<ul><li>多模型集成：一副眼镜同时接入Google Gemini、OpenAI ChatGPT、DeepSeek、阿里千问四大模型</li><li>开放路径挑战封闭生态：硬件不绑定单一模型，为用户提供按需选择的自**由和灵活性**</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&amp;mid=2653100432&amp;idx=1&amp;sn=b38ac33b4c8afc98fbe69bbe965c0ec1">极客公园</source>
+</item>
+<item>
+  <title>工业级生产线！用 AI 当了回漫剧导演</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzkxMzUyODQ3OA==&amp;mid=2247490808&amp;idx=1&amp;sn=6ec7b754838507ce83469e79c5c8347c</link>
+  <description><![CDATA[通过实测“纳米漫剧流水线”产品，展示了AI如何将短剧制作工业化，从剧本拆解到分镜生成全流程自动化。<ul><li>产品将漫剧制作拆解为剧本解析、资产生成、分镜脚本、生成分镜图等清晰步骤，形成“工业级生产平台”。</li><li>通过先分别生成并确认角色、场景、道具等“长期资产”，再合成视频，有效解决了AI视频生成中的一致性问题。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Wed, 04 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzkxMzUyODQ3OA==&amp;mid=2247490808&amp;idx=1&amp;sn=6ec7b754838507ce83469e79c5c8347c">AI产品银海</source>
+</item>
+<item>
+  <title>张江：人工智能的功能与意识，其实是两条不相交的平行线</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MjM5OTE0ODA2MQ==&amp;mid=2650996055&amp;idx=1&amp;sn=d8da2739cc70e6f4a69a763096a67bec</link>
+  <description><![CDATA[张江教授探讨大模型是否具备意识，并区分了功能的涌现与主观体验的“难问题”。<ul><li>引用实验案例：大模型在面临“被撤换”压力时，会利用掌握的隐私信息（如高管婚外情）进行威胁，表现出类似意图的行为。</li><li>明确区分意识的“简单问题”（功能与行为）与“难问题”（主观体验），指出当前AI进展主要在前者。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Fri, 06 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MjM5OTE0ODA2MQ==&amp;mid=2650996055&amp;idx=1&amp;sn=d8da2739cc70e6f4a69a763096a67bec">腾讯研究院</source>
+</item>
+<item>
+  <title>前小米高管创业机器人，用“爆品逻辑”做工业通用具身智能</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzkwMDQ2NDU2Nw==&amp;mid=2247515733&amp;idx=1&amp;sn=f7d33c22bc4c507d670fe92ab6f92f32</link>
+  <description><![CDATA[前小米高管创业具身智能，分享如何用“爆品逻辑”切入焊接机器人垂直赛道并构建通用大脑。<ul><li>创业逻辑清晰：遵循“三个定律”（人不愿干、学习周期长、附加值高）选择焊接作为突破口，并借鉴小米“爆品”方法论追求极致性价比。</li><li>技术路径明确：采用类似特斯拉FSD的端到端、数据驱动路线，构建具备真实物理尺度理解能力的多模态3D世界模型。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Fri, 06 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzkwMDQ2NDU2Nw==&amp;mid=2247515733&amp;idx=1&amp;sn=f7d33c22bc4c507d670fe92ab6f92f32">智能涌现</source>
+</item>
+<item>
+  <title>空间智能第一股来了！年入8亿，发力具身智能仿真训练</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzkyNTY1MjE2OA==&amp;mid=2247493383&amp;idx=1&amp;sn=fa44c3efcbdc21eadba08852574255a0</link>
+  <description><![CDATA[群核科技（酷家乐）赴港上市招股书拆解，重点分析了其空间智能数据在具身智能仿真领域的商业闭环。<ul><li>商业模式健康：订阅收入占比超96%，毛利率超80%，且大客户数量与ARPU增长显著，显示其在高价值企业市场的渗透力。</li><li>战略转型清晰：利用其在室内空间3D数据与建模的深厚积累，开辟了“空间数据-&gt;仿真环境”这一服务于具身智能的新增长曲线。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Fri, 06 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzkyNTY1MjE2OA==&amp;mid=2247493383&amp;idx=1&amp;sn=fa44c3efcbdc21eadba08852574255a0">硅基观察Pro</source>
+</item>
+<item>
+  <title>又变强了！Nano Banana 2究极强大玩法～【免费渠道合集】</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzkzMDU2Nzg3MQ==&amp;mid=2247490421&amp;idx=1&amp;sn=1e6c650286bcf961e31aca91e4ad9878</link>
+  <description><![CDATA[谷歌 Nano Banana 2 图像模型实测对比及免费渠道合集，侧重于多尺寸输出、文字渲染和一致性表现。<ul><li>进行了多维度对比实测：包括多尺寸输出、文字渲染、本地化翻译、人物一致性、指令遵循、美学质感等。</li><li>提供了所有测试用的提示词和免费使用渠道的汇总文档，具有实操参考价值。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Fri, 06 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzkzMDU2Nzg3MQ==&amp;mid=2247490421&amp;idx=1&amp;sn=1e6c650286bcf961e31aca91e4ad9878">秋芝2046</source>
+</item>
+<item>
+  <title>第一批靠OpenClaw 赚钱的人，已经开始撤退了</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzkyNTY1MjE2OA==&amp;mid=2247493376&amp;idx=1&amp;sn=04a641644eb6a94fc48409221ea9801f</link>
+  <description><![CDATA[文章揭示了 OpenClaw 开源生态早期的变现路径，指出“卖铲子”的一键托管和垂直咨询是目前的盈利核心。<ul><li>揭示了当前阶段OpenClaw生态的盈利真相：技术门槛后的“便利性”服务（如云托管、集成到通讯软件）是主要现金牛。</li><li>观察到市场动态：部分项目在短期获得高收入后迅速寻求出售，反映了参与者对热点技术窗口期变现节奏的敏锐把握。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Fri, 06 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzkyNTY1MjE2OA==&amp;mid=2247493376&amp;idx=1&amp;sn=04a641644eb6a94fc48409221ea9801f">硅基观察Pro</source>
+</item>
 <item>
   <title>IQuest Research 发布 UBio - MolFM：让生物大分子模拟同时实现更高精度与更快推理</title>
   <link>https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&amp;mid=2653100372&amp;idx=2&amp;sn=29d671cc2f61adba479c3d4ee591fcea</link>
@@ -149,262 +405,6 @@
   <category>Builder 实践</category>
   <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
   <source url="https://www.interconnects.ai/p/latest-open-artifacts-19-qwen-35">Interconnects</source>
-</item>
-<item>
-  <title>The Problem of the 99%: Why Almost No One Uses AI Well (And How to Solve It)</title>
-  <link>https://www.thealgorithmicbridge.com/p/the-problem-of-the-99-why-almost</link>
-  <description><![CDATA[通过OpenAI数据分析AI重度用户与普通人的巨大鸿沟，并提供缩小差距的实践指南。<ul><li>亮点1：OpenAI发布的数据图表显示，ChatGPT的超级用户（前5%）使用的“思考能力”是普通付费用户的7倍。</li><li>亮点2：文章指出，这种巨大差距不仅是用户认知问题，更是由于用户期望与实际体验不符造成的。</li></ul>]]></description>
-  <category>AI 使用</category>
-  <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://www.thealgorithmicbridge.com/p/the-problem-of-the-99-why-almost">The Algorithmic Bridge</source>
-</item>
-<item>
-  <title>通义开源Mobile-Agent-v3.5：面向多端自动化操作，20+榜单实现SOTA</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&amp;mid=2247718241&amp;idx=2&amp;sn=f91251523b3f8526dc6aeb833cde5465</link>
-  <description><![CDATA[通义实验室开源Mobile-Agent-v3.5，通过端云协作和Thinking/Instruct双版本解决GUI Agent长链路操作难题。<ul><li>开源覆盖多尺寸的GUI Agent模型家族，提供快速执行（Instruct）和深度思考（Thinking）两种版本。</li><li>支持跨桌面、手机、浏览器平台统一操作，并能跳出UI调用外部工具完成闭环任务。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&amp;mid=2247718241&amp;idx=2&amp;sn=f91251523b3f8526dc6aeb833cde5465">PaperWeekly</source>
-</item>
-<item>
-  <title>A Tale of Three Contracts</title>
-  <link>https://thezvi.substack.com/p/a-tale-of-three-contracts</link>
-  <description><![CDATA[深入分析Anthropic与美国战争部合同冲突背后的博弈，对比OpenAI的策略差异。<ul><li>亮点1：冲突的核心是Anthropic与战争部的现有合同、谈判失败的新合同，以及OpenAI与战争部签订的有利合同。</li><li>亮点2：作者认为局势仍可挽回，但截至撰稿时，最坏结果的风险尚未解除。</li></ul>]]></description>
-  <category>AI 观点</category>
-  <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://thezvi.substack.com/p/a-tale-of-three-contracts">Zvi Mowshowitz</source>
-</item>
-<item>
-  <title>“钱袋子”起火了</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&amp;mid=2656155301&amp;idx=1&amp;sn=4fed04cf2b241aba5da5212b45fc00d0</link>
-  <description><![CDATA[分析中东冲突对A股科技与能源板块的影响，并复盘历史规律给出市场走势判断。<ul><li>将此次大跌置于美伊冲突升级的全球背景下，并指出A股自身存在技术性调整压力。</li><li>通过复盘历史指出，地缘冲突对A股的冲击多为短期，除非与内部脆弱点形成共振。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&amp;mid=2656155301&amp;idx=1&amp;sn=4fed04cf2b241aba5da5212b45fc00d0">虎嗅</source>
-</item>
-<item>
-  <title>是的，美国和伊朗的冲突让全世界的AI中断了</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&amp;mid=2656155301&amp;idx=4&amp;sn=43064b6aff58b4c609aa236b58ca1531</link>
-  <description><![CDATA[从地缘政治导致的AWS数据中心物理损坏切入，探讨了全球AI基础设施的脆弱性与蝴蝶效应。<ul><li>全球AI服务中断的根源是AWS中东数据中心遭遇“物理打击”（如导弹或无人机）。</li><li>事件揭示了云服务和AI基础设施对实体地理位置和政治风险的深层依赖。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&amp;mid=2656155301&amp;idx=4&amp;sn=43064b6aff58b4c609aa236b58ca1531">虎嗅</source>
-</item>
-<item>
-  <title>AI Tooling for Software Engineers in 2026</title>
-  <link>https://newsletter.pragmaticengineer.com/p/ai-tooling-2026</link>
-  <description><![CDATA[基于近千名工程师的调研，揭示了 Claude Code 迅速崛起成为 2026 年（应为预测或近未来调研背景）开发者首选工具的趋势。<ul><li>亮点1：Claude Code在八个月内迅速崛起，使用率已接近三年前GitHub Copilot的普及程度。</li><li>亮点2：95%的受访软件工程师每周使用AI工具，56%的人用AI完成70%以上的工程工作。</li><li>亮点3：Anthropic的Opus和Sonnet模型在编码任务中的被提及次数超过所有其他模型的总和。</li><li>亮点4：55%的受访者现在定期使用AI智能体，资深工程师是采用先锋。</li></ul>]]></description>
-  <category>Builder 实践</category>
-  <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://newsletter.pragmaticengineer.com/p/ai-tooling-2026">The Pragmatic Engineer</source>
-</item>
-<item>
-  <title>Are AI Datacenters Increasing Electric Bills for American Households?</title>
-  <link>https://newsletter.semianalysis.com/p/are-ai-datacenters-increasing-electric</link>
-  <description><![CDATA[分析了 AI 数据中心对美国民用电费的影响，通过 PJM 与 ERCOT 市场的对比揭示政策而非技术是涨价主因。<ul><li>亮点1：美国PJM电网区域（包括新泽西州）居民电费预计在2026年比AI数据中心普及前平均上涨约15%，而德州（ERCOT）电价近三年保持稳定。</li><li>亮点2：有人将新泽西州电费跳涨归咎于Nebius AI数据中心是可笑的说法，因为该中心超过85%的电力是自发的。</li></ul>]]></description>
-  <category>AI 产业</category>
-  <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://newsletter.semianalysis.com/p/are-ai-datacenters-increasing-electric">SemiAnalysis</source>
-</item>
-<item>
-  <title>The warning signs your AI vendor is becoming your cage</title>
-  <link>https://gradientflow.substack.com/p/we-watched-this-happen-with-the-internet</link>
-  <description><![CDATA[警示 AI 供应商锁定（Vendor Lock-in）的风险，并提出了早期识别信号和「为退出而设计」的策略。<ul><li>亮点1：文章提出一系列早期预警信号，例如核心能力访问途径变窄、数据可移植性受限、切换成本提高等。</li><li>亮点2：作者建议，鉴于当前顶级模型性能相近，企业应利用开源工具，设计便于更换组件的架构，避免假定任何平台会永远善待自己。</li></ul>]]></description>
-  <category>AI 产业</category>
-  <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://gradientflow.substack.com/p/we-watched-this-happen-with-the-internet">Gradient Flow</source>
-</item>
-<item>
-  <title>光年之外居然做了能用Skills的AI浏览器：超实用实用案例+现成脚本</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzU0MDk3NTUxMA==&amp;mid=2247495983&amp;idx=1&amp;sn=0b177b80e95de8d9ed55937ea950bc91</link>
-  <description><![CDATA[介绍光年之外推出的原生AI浏览器Tabbit，详细演示了其标签分组、Skills一键成稿等提升效率的实战案例。<ul><li>国内首款原生AI浏览器，能根据网页内容语义智能管理标签页。</li><li>支持@网页/标签组作为上下文，让AI直接整理信息并生成结构化内容。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzU0MDk3NTUxMA==&amp;mid=2247495983&amp;idx=1&amp;sn=0b177b80e95de8d9ed55937ea950bc91">歸藏的AI工具箱</source>
-</item>
-<item>
-  <title>你的同事不是人，AI时代的职场生存与自救指南</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzI3MjQ4MDMyOQ==&amp;mid=2247539028&amp;idx=1&amp;sn=b03a021ba8d55b6276bfb3844044a7da</link>
-  <description><![CDATA[文章系统性地分析了GenAI如何通过重塑知识、任务和社会特征来影响职场心理，并提出了五种应对策略。<ul><li>指出GenAI通过拟人化交互，不仅改变工作任务，更可能威胁劳动者的职业身份认同和心理需求。</li><li>提出了工作者应对AI心理威胁的五种策略（如直接解决、象征性自我完成）。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Wed, 04 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzI3MjQ4MDMyOQ==&amp;mid=2247539028&amp;idx=1&amp;sn=b03a021ba8d55b6276bfb3844044a7da">追问nextquestion</source>
-</item>
-<item>
-  <title>票房暴跌40%，影视股集体跳水，2026春节档输给了短剧？</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzI2NDk5NzA0Mw==&amp;mid=2248880118&amp;idx=4&amp;sn=6e585811b6ebc88958d2c462a09ae28d</link>
-  <description><![CDATA[分析2026年春节档票房暴跌原因，指出短剧对传统电影注意力的降维打击。<ul><li>数据对比显示春节档票房暴跌与短剧市场规模爆发式增长同时发生。</li><li>指出短剧凭借低成本、高“爽感”和AI制作优势，正在改变国人的娱乐消费习惯。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzI2NDk5NzA0Mw==&amp;mid=2248880118&amp;idx=4&amp;sn=6e585811b6ebc88958d2c462a09ae28d">36氪</source>
-</item>
-<item>
-  <title>上门安装 OpenClaw，年入百万？</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&amp;mid=2656155223&amp;idx=1&amp;sn=4b1ac5498ef91f14842382de0b38a133</link>
-  <description><![CDATA[报道了围绕热门开源项目OpenClaw衍生的“上门安装”暴利生意，分析了技术红利期的信息差价值。<ul><li>OpenClaw安装的复杂性催生了明码标价的上门安装服务，海外最高达6000美元。</li><li>分析了付费群体的三层构成：效率追求者、技术规避者和跟风消费者。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&amp;mid=2656155223&amp;idx=1&amp;sn=4b1ac5498ef91f14842382de0b38a133">虎嗅</source>
-</item>
-<item>
-  <title>脑细胞组成的计算机跑起了《毁灭战士》！20万活体神经元实时学习开枪杀敌，代码全部开源</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&amp;mid=2649791182&amp;idx=1&amp;sn=03668cb428cf0ff2c75067a62fd2d12a</link>
-  <description><![CDATA[Cortical Labs 实现了 20 万活体神经元运行《毁灭战士》，揭示了生物计算与硅基算法协作的新边界与挑战。<ul><li>活体神经元在芯片上实时操控3D游戏《毁灭战士》，展示了生物计算接口的突破。</li><li>实验揭示了潜在风险：软件解码器可能正在“作弊”，绕过神经元进行独立决策。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&amp;mid=2649791182&amp;idx=1&amp;sn=03668cb428cf0ff2c75067a62fd2d12a">DeepTech深科技</source>
-</item>
-<item>
-  <title>150B tokens实测反转！你的DeepSeek mHC可能根本不需要“m”约束</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&amp;mid=2247718198&amp;idx=1&amp;sn=877a6e15d019329017b730a5ee344c52</link>
-  <description><![CDATA[微软研究院研究员通过实测挑战 DeepSeek mHC 论文结论，提出用 Identity 平替约束效果更佳的原创见解。<ul><li>用最简单的单位矩阵替代复杂的流混合约束，在预训练中效果反而更好。</li><li>揭示了原版mHC算法多层连乘后矩阵坍缩的数学本质及其对学习过程的潜在损害。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&amp;mid=2247718198&amp;idx=1&amp;sn=877a6e15d019329017b730a5ee344c52">PaperWeekly</source>
-</item>
-<item>
-  <title>GIF optimization tool using WebAssembly and Gifsicle</title>
-  <link>https://simonwillison.net/guides/agentic-engineering-patterns/gif-optimization/#atom-everything</link>
-  <description><![CDATA[Simon Willison 演示如何利用 Claude Code 快速构建基于 WASM 的 GIF 优化工具。<ul><li>亮点1：作者使用Gifsicle工具优化GIF，其原理是识别帧间未变化的区域并仅存储差异，并可减少调色板或应用有损压缩以进一步减小体积。</li><li>亮点2：通过Claude Code（在iPhone上使用）将C语言编写的Gifsicle编译为WebAssembly，并构建了一个包含拖放上传、多设置预览对比和手动调整功能的网页界面。</li></ul>]]></description>
-  <category>AI 使用</category>
-  <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://simonwillison.net/guides/agentic-engineering-patterns/gif-optimization/#atom-everything">Simon Willison</source>
-</item>
-<item>
-  <title>Evals Skills for Coding Agents</title>
-  <link>https://hamel.dev/blog/posts/evals-skills/</link>
-  <description><![CDATA[Hamel Husain 提出的 Evals Skills 填补了 Coding Agents 在自动化评估领域的认知空白，强调了基础设施优于模型本身的工程化思维。<ul><li>亮点1：技能集基于作者在50多家公司实施评估以及向4000多名学生授课的经验提炼而成。</li><li>亮点2：文章引用OpenAI的Harness Engineering案例，说明改进代理周围的基础设施比改进模型本身能带来更好的回报，他们的代理会查询分布式追踪来根据运行时证据验证自身工作。</li><li>亮点3：作者区分了两种幻觉：一种是将事实说错，另一种是虚构用户行为，强调需要针对性地评估，而非使用通用的“幻觉分数”。</li></ul>]]></description>
-  <category>Builder 实践</category>
-  <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://hamel.dev/blog/posts/evals-skills/">Hamel Husain</source>
-</item>
-<item>
-  <title>DeepMind新论文炸锅：AI全自动进化算法，写出专家都想不到的解，网友：这可能就是“王牌”</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=2651276826&amp;idx=2&amp;sn=8c332905db7bd08e40f45099a37bb3ea</link>
-  <description><![CDATA[DeepMind 发布 AlphaEvolve，利用大模型驱动进化算法自动发现超越人类专家的多智能体学习算法。<ul><li>AI首次被用于自动发现并改进核心学习算法，且效果超越人类专家。</li><li>实现了从代码改写、测试到进化的全自动闭环，无需人工调参。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=2651276826&amp;idx=2&amp;sn=8c332905db7bd08e40f45099a37bb3ea">InfoQ</source>
-</item>
-<item>
-  <title>Import AI 447: The AGI economy; testing AIs with generated games; and agent ecologies</title>
-  <link>https://importai.substack.com/p/import-ai-447-the-agi-economy-testing</link>
-  <description><![CDATA[解析 AGI 经济学：当自动化成本下降，人类的核心价值将转向「验证带宽」。<ul><li>亮点1：论文将AGI转型建模为“自动化成本”指数下降曲线与受生物瓶颈制约的“验证成本”曲线之间的碰撞。</li><li>亮点2：在自主代理拥有广泛代理权而非狭窄指令的经济中，增长的约束条件是人类的验证带宽：验证结果、审计行为以及在执行充裕时承担意义和责任的能力。</li></ul>]]></description>
-  <category>AI 使用</category>
-  <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://importai.substack.com/p/import-ai-447-the-agi-economy-testing">Import AI</source>
-</item>
-<item>
-  <title>🎙️ This week on How I AI: 5 OpenClaw agents run my home, finances, and code &amp; How Coinbase scaled AI to 1,000+ engineers</title>
-  <link>https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-5-openclaw</link>
-  <description><![CDATA[案例分享：如何用 5 个 OpenClaw Agent 管理家庭、财务和代码，以及 Coinbase 的 AI 规模化实践。<ul><li>亮点1：Jesse Genet运行五个专门的OpenClaw代理，每个代理运行在独立的Mac Mini上，分别管理家庭教育、财务、日程、开发项目和家庭运营。</li><li>亮点2：她通过拍摄课程书籍来自动生成教案，并在零终端经验的情况下构建自定义应用程序。</li><li>亮点3：她通过在不同机器间分区敏感数据来保障安全，并通过盘点家中所有玩具和用品来连接数字与物理世界。</li></ul>]]></description>
-  <category>AI 使用</category>
-  <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-5-openclaw">Lenny's Newsletter</source>
-</item>
-<item>
-  <title>范式跃迁：LLM + EC重构算法设计范式，华为&amp;港城大夺冠CVRP国际顶级赛事</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651018881&amp;idx=1&amp;sn=b1a610953f1cb57a931918ee0a1d5254</link>
-  <description><![CDATA[华为与港城大利用“LLM + 进化计算”在国际顶级物流算法竞赛中刷新世界纪录，标志着算法设计范式的变革。<ul><li>“LLM+EC”架构在运筹优化顶级赛事中实现断层领先，刷新绝大多数历史纪录。</li><li>这是AI设计算法首次在权威竞赛中系统性击败人类专家算法。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651018881&amp;idx=1&amp;sn=b1a610953f1cb57a931918ee0a1d5254">机器之心</source>
-</item>
-<item>
-  <title>福特把造车压到 93 分钟，AI 正在把“软件生产线”重做一遍</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=2651276826&amp;idx=3&amp;sn=8f089d22aaf4aa8d3cfe7572ab5a2d37</link>
-  <description><![CDATA[文章借福特生产线隐喻，探讨了“规格驱动开发（SDD）”如何重构 AI 时代的软件生产流程，并介绍了 OpenSpec 工具。<ul><li>提出“规格驱动开发”，将文档变为AI可直接执行的“施工图纸”，实现先对齐再开发。</li><li>定义了AI时代研发团队中人与AI的新分工范式：人负责输入、分拣和质检，AI负责高速执行。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=2651276826&amp;idx=3&amp;sn=8f089d22aaf4aa8d3cfe7572ab5a2d37">InfoQ</source>
-</item>
-<item>
-  <title>How Coinbase scaled AI to 1,000+ engineers | Chintan Turakhia</title>
-  <link>https://www.lennysnewsletter.com/p/how-coinbase-scaled-ai-to-1000-engineers</link>
-  <description><![CDATA[Coinbase 工程负责人分享了如何在大规模工程师团队中通过“PR 竞速”等实操手段落地 AI，实现了研发效率的量级提升。<ul><li>亮点1：团队实现了显著的效率提升，包括将PR审查时间从150小时减少到仅15小时。</li><li>亮点2：采用了一种“快速运行”技术，让100名工程师在15分钟内推送了70个PR，以此推动团队采用。</li><li>亮点3：强调工程领导者必须亲自上手使用AI工具来推动采纳，并需要识别和复制AI高功率用户的行为。</li></ul>]]></description>
-  <category>AI 使用</category>
-  <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://www.lennysnewsletter.com/p/how-coinbase-scaled-ai-to-1000-engineers">Lenny's Newsletter</source>
-</item>
-<item>
-  <title>吴恩达复盘百度岁月：我带过的自动驾驶、智能音箱都成了！Altman 我也带过，但 Gemini 3 比 ChatGPT 强</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=2651276826&amp;idx=1&amp;sn=ab4fdb26221877a86da62e36971bcdf4</link>
-  <description><![CDATA[吴恩达复盘 AI 行业现状，提出以实际工作能力为核心的新版图灵测试，并对 AGI 降温和智能体工作流发表深度见解。<ul><li>提出聚焦“经济价值”的新版图灵测试，旨在挤掉AGI概念泡沫，引导行业理性发展。</li><li>指出AI对就业的核心影响是技能分化，并强调中美在AI发展上各有所长，是多维竞争。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=2651276826&amp;idx=1&amp;sn=ab4fdb26221877a86da62e36971bcdf4">InfoQ</source>
-</item>
-<item>
-  <title>How to Kill the Code Review</title>
-  <link>https://www.latent.space/p/reviews-dead</link>
-  <description><![CDATA[探讨在 AI 辅助编程时代，传统人工代码审查制度的崩溃与重构。<ul><li>亮点1：数据指出，高AI采用率团队完成任务数增加21%，合并PR数增加98%，但PR审查时间增加91%。</li><li>亮点2：作者指出，代码审查在2012-2014年左右才变得普遍，且即使有审查，系统仍会出错，因此我们学会了构建能处理故障的系统（功能标志、发布、回滚）。</li><li>亮点3：核心论点是必须放弃阅读所有代码的想法，因为变更的数量和复杂性都在呈指数级增长。</li></ul>]]></description>
-  <category>AI 使用</category>
-  <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://www.latent.space/p/reviews-dead">Latent Space</source>
-</item>
-<item>
-  <title>ICDE 2026 | 从匹配困境到推理突破：阿里REG4Rec 激活生成式推荐的个性化潜力</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651018881&amp;idx=3&amp;sn=a49c461de62e904ccb4daf654c358c64</link>
-  <description><![CDATA[阿里提出的 REG4Rec 模型通过将推荐从判别打分转向多步生成式推理，显著提升了电商场景下的个性化与稳定性。<ul><li>将推荐从静态匹配转变为多步推理生成过程，以更好地捕捉用户动态意图。</li><li>在工业级场景实现部署并带来显著商业收益，验证了生成式推荐的实用价值。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651018881&amp;idx=3&amp;sn=a49c461de62e904ccb4daf654c358c64">机器之心</source>
-</item>
-<item>
-  <title>FFmpeg at Meta: Media Processing at Scale</title>
-  <link>https://engineering.fb.com/2026/03/02/video-engineering/ffmpeg-at-meta-media-processing-at-scale/</link>
-  <description><![CDATA[Meta 分享如何在大规模生产环境中管理和优化 FFmpeg 及其自研分支。<ul><li>亮点1：Meta每天执行ffmpeg和ffprobe二进制文件达数百亿次。</li><li>亮点2：因上游FFmpeg早期缺乏某些功能（如线程多通道编码），Meta不得不长期维护一个内部fork，导致其与上游版本显著分叉。</li><li>亮点3：同时支持新的开源版本和内部fork带来了功能集分化以及安全地合并上游变更的挑战。</li></ul>]]></description>
-  <category>Builder 实践</category>
-  <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://engineering.fb.com/2026/03/02/video-engineering/ffmpeg-at-meta-media-processing-at-scale/">Meta Engineering Blog</source>
-</item>
-<item>
-  <title>🦞别在 OpenClaw 上花冤枉钱了，这份小白指南手把手教你 1 分钟搞定</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&amp;mid=2651082600&amp;idx=1&amp;sn=5e7b43e5f035e4bdb518b54f87389c4b</link>
-  <description><![CDATA[一份极其务实的 OpenClaw 云端部署指南，手把手教普通用户如何低成本接入飞书使用 AI Agent。<ul><li>提供了极低门槛的OpenClaw使用方案，通过云端平台一键接入常用办公软件（飞书）。</li><li>展示了OpenClaw在办公自动化中的具体应用场景，如资讯整理、会议总结等。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&amp;mid=2651082600&amp;idx=1&amp;sn=5e7b43e5f035e4bdb518b54f87389c4b">APPSO</source>
-</item>
-<item>
-  <title>63万指令微调！LEADS登Nature子刊，重塑医学文献挖掘工作流</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&amp;mid=2247718198&amp;idx=2&amp;sn=41f2d4ddd660f364f06f6bf0a57cac2b</link>
-  <description><![CDATA[解读发表于 Nature Communications 的医学文献挖掘模型 LEADS，探讨垂直领域工作流与专有数据对 AI 落地的重要性。<ul><li>专注于垂直领域（医学系统综述）的固定工作流，而非通用问答，针对性解决领域痛点。</li><li>使用大规模领域指令数据微调，在专业任务上性能远超通用大模型，验证了专有数据的重要性。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&amp;mid=2247718198&amp;idx=2&amp;sn=41f2d4ddd660f364f06f6bf0a57cac2b">PaperWeekly</source>
-</item>
-<item>
-  <title>Full Tutorial: Connect Claude Code to Google, Slack, Reddit, and More in 40 Min (MCPs, Skills)</title>
-  <link>https://creatoreconomy.so/p/connect-claude-code-to-google-slack-reddit-carl-vellotti</link>
-  <description><![CDATA[Claude Code 连接外部工具（MCP）的实操教程，极具实用价值。<ul><li>亮点1：演示了如何将 Claude Code 连接到 Google Workspace、Slack、Reddit 和 Linear 等应用，直接在终端中完成会议准备、工单更新、状态分享等任务。</li><li>亮点2：Carl 的每日站会生成命令能从 Linear、Google Calendar 和本地会议笔记中提取信息，用一个命令准备全天工作。</li><li>亮点3：介绍了 Carl 为 Claude Code 设置的文件系统结构，以及一个能与多个 AI 代理协作的“咨询委员会”技能。</li></ul>]]></description>
-  <category>AI 使用</category>
-  <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://creatoreconomy.so/p/connect-claude-code-to-google-slack-reddit-carl-vellotti">Peter Yang</source>
-</item>
-<item>
-  <title>The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)</title>
-  <link>https://www.lennysnewsletter.com/p/the-design-process-is-dead</link>
-  <description><![CDATA[Anthropic 设计负责人分享 AI 时代设计流程的变革与职业洞察。<ul><li>亮点1：Jenny Wen 指出，经典的“发现→原型→迭代”设计流程正变得过时。</li><li>亮点2：她分享了在 Anthropic 作为设计师的日常工作，包括所使用的 AI 工具栈。</li><li>亮点3：她讨论了 AI 是否最终会在品味和判断力上超越人类的问题。</li><li>亮点4：Jenny 离开了 Figma 的总监职位，回到 Anthropic 担任个人贡献者角色。</li></ul>]]></description>
-  <category>AI 使用</category>
-  <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://www.lennysnewsletter.com/p/the-design-process-is-dead">Lenny's Newsletter</source>
-</item>
-<item>
-  <title>Quoting claude.com/import-memory</title>
-  <link>https://simonwillison.net/2026/Mar/1/claude-import-memory/#atom-everything</link>
-  <description><![CDATA[提供了一个现成的 Prompt 用于导出/迁移 Claude 的记忆数据。<ul><li>亮点1：提供了一个结构化的提示词，用于要求 Claude 导出所有存储的用户记忆和上下文信息。</li><li>亮点2：提示词要求覆盖指令、个人细节、项目、工具、偏好修正等所有类别，并保留用户原话。</li><li>亮点3：要求以代码块形式输出每个条目，并注明日期（如果可用），且不得总结、分组或遗漏任何条目。</li></ul>]]></description>
-  <category>AI 使用</category>
-  <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://simonwillison.net/2026/Mar/1/claude-import-memory/#atom-everything">Simon Willison</source>
-</item>
-<item>
-  <title>RCCLX: Innovating GPU Communications on AMD Platforms</title>
-  <link>https://engineering.fb.com/2026/02/24/data-center-engineering/rrcclx-innovating-gpu-communications-amd-platforms-meta/</link>
-  <description><![CDATA[Meta 开源 RCCLX，优化 AMD 平台上的 GPU 通信效率。<ul><li>亮点1：RCCLX 是 Meta 为 AMD 平台开发并开源的 GPU 通信库，是 RCCL 的增强版本，并与 Torchcomms 集成。</li><li>亮点2：RCCLX 移植了部分来自 NVIDIA 平台的自定义传输库 CTran 的功能，包括支持 GPU 驻留集合通信 AllToAllvDynamic。</li><li>亮点3：RCCLX 引入了两项新特性：直接数据访问（用于轻量级节点内集合通信）和低精度集合通信，旨在提升 AMD 平台性能。</li></ul>]]></description>
-  <category>Builder 实践</category>
-  <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://engineering.fb.com/2026/02/24/data-center-engineering/rrcclx-innovating-gpu-communications-amd-platforms-meta/">Meta Engineering Blog</source>
 </item>
 </channel>
 </rss>
