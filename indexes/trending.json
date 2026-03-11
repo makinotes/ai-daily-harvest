@@ -1,26 +1,30 @@
 {
-  "updated": "2026-03-10",
+  "updated": "2026-03-11",
   "window": "7d",
-  "article_count": 116,
+  "article_count": 125,
   "trending": [
     {
       "keyword": "OpenClaw",
-      "count": 10
-    },
-    {
-      "keyword": "Claude",
-      "count": 7
+      "count": 11
     },
     {
       "keyword": "GPT",
-      "count": 7
-    },
-    {
-      "keyword": "开源",
-      "count": 6
+      "count": 8
     },
     {
       "keyword": "Agent",
+      "count": 6
+    },
+    {
+      "keyword": "Claude",
+      "count": 6
+    },
+    {
+      "keyword": "Anthropic",
+      "count": 5
+    },
+    {
+      "keyword": "开源",
       "count": 5
     },
     {
@@ -28,7 +32,7 @@
       "count": 5
     },
     {
-      "keyword": "Anthropic",
+      "keyword": "Codex",
       "count": 4
     },
     {
@@ -36,7 +40,27 @@
       "count": 4
     },
     {
-      "keyword": "without",
+      "keyword": "Open",
+      "count": 3
+    },
+    {
+      "keyword": "训练",
+      "count": 3
+    },
+    {
+      "keyword": "Coding",
+      "count": 3
+    },
+    {
+      "keyword": "code",
+      "count": 3
+    },
+    {
+      "keyword": "source",
+      "count": 3
+    },
+    {
+      "keyword": "AINews",
       "count": 3
     },
     {
@@ -44,7 +68,7 @@
       "count": 3
     },
     {
-      "keyword": "Codex",
+      "keyword": "without",
       "count": 3
     },
     {
@@ -56,32 +80,8 @@
       "count": 3
     },
     {
-      "keyword": "Qwen",
-      "count": 3
-    },
-    {
       "keyword": "Nano",
       "count": 3
-    },
-    {
-      "keyword": "Banana",
-      "count": 3
-    },
-    {
-      "keyword": "阿里",
-      "count": 3
-    },
-    {
-      "keyword": "训练",
-      "count": 2
-    },
-    {
-      "keyword": "create",
-      "count": 2
-    },
-    {
-      "keyword": "complex",
-      "count": 2
     }
   ]
 }
