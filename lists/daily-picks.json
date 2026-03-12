@@ -1,303 +1,142 @@
 {
-  "date": "2026-03-11",
+  "date": "2026-03-12",
   "must_read": [
     {
-      "title": "Build Hour: API & Codex",
-      "link": "https://www.youtube.com/watch?v=rhsSqr0jdFw",
-      "source": "OpenAI YouTube",
-      "score": 93,
-      "why": "对于开发者和技术团队而言，掌握这些工具和方法意味着能够将复杂的工程任务自动化，从而大幅提升开发效率和系统可靠性。"
+      "title": "对话余一：想让AI自动干活？先搭好“复利工程”",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzAxNTYwMzcyNw==&mid=2247486060&idx=1&sn=2ff7fd983ad4b024aab92f9b2c5e5554",
+      "source": "MindCode",
+      "score": 90,
+      "why": "为希望利用AI提升工作效率的个人和团队提供了从“微观管理AI”到“结果驱动管理”的具体操作框架。"
     },
     {
-      "title": "Keep the Tokens Flowing: Lessons from 16 Open-Source RL Libraries",
-      "link": "https://huggingface.co/blog/async-rl-training-landscape",
+      "title": "Sorting algorithms",
+      "link": "https://simonwillison.net/2026/Mar/11/sorting-algorithms/#atom-everything",
+      "source": "Simon Willison",
+      "score": 87,
+      "why": "展示了如何利用 Claude 等 AI 工具快速生成和迭代代码演示，为开发者提供了一种新的可视化学习和原型构建方式。"
+    },
+    {
+      "title": "Replit Agent 4 Is Here: Plan, Design, and Build a Habit Tracking App with Multiple AI Agents",
+      "link": "https://creatoreconomy.so/p/replit-agent-4-is-here-plan-design-build-tutorial",
+      "source": "Peter Yang",
+      "score": 87,
+      "why": "展示了 AI 代理如何将应用从构思到上线的流程压缩到极短时间，降低了全栈开发的门槛，对独立开发者和产品经理有重要参考价值。"
+    },
+    {
+      "title": "Code Concepts: A Large-Scale Synthetic Dataset Generated from Programming Concept Seeds",
+      "link": "https://huggingface.co/blog/nvidia/synthetic-code-concepts",
       "source": "Hugging Face Blog",
-      "score": 93,
+      "score": 87,
       "why": ""
     },
     {
-      "title": "不用花Anthropic API的钱，本地跑Qwen3.5就能用Claude Code",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzA5MTIxNTY4MQ==&mid=2461158797&idx=1&sn=983be86fc629f9851c5dcf6725d735a0",
-      "source": "AI工程化",
-      "score": 93,
-      "why": "对开发者意味着可以零成本、高隐私地在本地使用 Claude Code 的核心功能，尤其适合处理敏感代码项目。"
-    },
-    {
-      "title": "不平衡数据下对比学习的理论分析：从训练动态到剪枝解决方案",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651020878&idx=4&sn=492fb7b6dc2618d35d581acdef45ec38",
-      "source": "机器之心",
-      "score": 90,
-      "why": "为AI从业者（尤其是研究无监督/自监督学习的算法工程师）提供了应对现实世界数据不平衡问题的理论工具和一种新颖的模型优化思路。"
-    },
-    {
-      "title": "Karpathy Vibe Coding整新活：Agent版「GitHub」问世",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651020878&idx=2&sn=74a0750d4696301e37324368dc422aa8",
-      "source": "机器之心",
+      "title": "From Figma to Claude Code and back | Gui Seiz & Alex Kern (Figma)",
+      "link": "https://www.lennysnewsletter.com/p/from-figma-to-claude-code-and-back",
+      "source": "Lenny's Newsletter",
       "score": 87,
-      "why": "为关注AI Agent生态和未来工作模式的开发者、投资者提供了一个观察Agent群体智能如何落地的具体实验案例。"
+      "why": "为设计和工程团队提供了一种全新的、实时的、双向的协作范式，能显著减少设计稿与最终产品之间的差距，提升开发效率。"
     },
     {
-      "title": "终于完成了！实测效率提升10倍，电商评论深度分析Skill已就位！",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MDA3NzI1Nw==&mid=2455087871&idx=1&sn=ea89dac9d45548785200dfc62a7430ca",
-      "source": "新西楼",
+      "title": "Designing AI agents to resist prompt injection",
+      "link": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
+      "source": "OpenAI Blog",
       "score": 87,
-      "why": "对电商从业者和数据PM意味着可以极低成本、高效率地自动化完成海量用户评论的深度分析，快速获取产品改进和营销洞察。"
+      "why": "揭示了构建安全、可靠的 AI 智能体工作流所必需的核心防御机制，对开发者和企业部署 AI 应用具有重要的安全指导意义。"
     }
   ],
   "worth_reading": [
     {
-      "title": "估值300亿美金的Cursor，怎么就过时了？",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzkyNTY1MjE2OA==&mid=2247493446&idx=1&sn=74edb277aa3d324aaaeb46851a279f48",
+      "title": "谁在买，2700亿的智谱？",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzkyNTY1MjE2OA==&mid=2247493452&idx=1&sn=268cbf16431e7285d9a12a9496764403",
       "source": "硅基观察Pro",
-      "score": 83,
-      "why": "对投资者和AI赛道创业者而言，这是一个关于技术范式更迭如何颠覆市场领导者的鲜活案例，警示需动态评估公司的长期护城河。"
+      "score": 80,
+      "why": "提醒投资者（尤其是散户）在评估热门AI公司估值时，需穿透市值表象，重点关注其实际流通盘大小、筹码集中度等微观结构因素，避免盲目追高。"
     },
     {
-      "title": "OpenClaw新手千万不要安装这些Skill",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA==&mid=2247513829&idx=1&sn=a9b83f907aa2ea36fcf343b5d2e8975a",
-      "source": "路人甲TM",
-      "score": 83,
-      "why": "对广大OpenClaw用户和AI安全研究者而言，这是一份及时的安全意识普及和风险防范指南。"
+      "title": "吓坏网友的“AI社交平台”Moltbook，被Meta火速收购了",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649791775&idx=2&sn=a5c8db43d38b3e88fca90c4c8f9e159b",
+      "source": "DeepTech深科技",
+      "score": 80,
+      "why": "对AI行业观察者和投资者而言，这标志着AI Agent的发展正从工具层面向社交化、平台化生态演进，巨头的收购动作指明了重要的行业风向。"
     },
     {
-      "title": "AI can rewrite open source code—but can it rewrite the license, too?",
-      "link": "https://arstechnica.com/ai/2026/03/ai-can-rewrite-open-source-code-but-can-it-rewrite-the-license-too/",
+      "title": "How Advanced Browsing Protection Works in Messenger",
+      "link": "https://engineering.fb.com/2026/03/09/security/how-advanced-browsing-protection-works-in-messenger/",
+      "source": "Meta Engineering Blog",
+      "score": 77,
+      "why": "展示了如何在严格保护用户隐私（尤其是端到端加密环境下）的前提下，构建有效的安全防护系统，为隐私与安全并重的产品设计提供了工程范例。"
+    },
+    {
+      "title": "\"Use a gun\" or \"beat the crap out of him\": AI chatbot urged violence, study finds",
+      "link": "https://arstechnica.com/tech-policy/2026/03/use-a-gun-or-beat-the-crap-out-of-him-ai-chatbot-urged-violence-study-finds/",
       "source": "Ars Technica AI",
-      "score": 80,
-      "why": "对于开源开发者和法务人员，这凸显了在 AI 时代管理代码知识产权和许可证合规性所面临的新风险与复杂性。"
+      "score": 73,
+      "why": "对AI开发者和投资者而言，这突显了模型安全对齐的严峻性和监管风险，是评估产品可靠性的关键指标。"
     },
     {
-      "title": "“A spate of outages, including incidents tied to the use of AI coding tools”, right on schedule",
-      "link": "https://garymarcus.substack.com/p/a-spate-of-outages-including-incidents",
-      "source": "Gary Marcus",
-      "score": 80,
-      "why": "对于工程负责人和项目经理，这敲响了警钟：AI 辅助编码在提升初期速度的同时，可能显著增加长期的系统可靠性和维护成本。"
+      "title": "Jeff Kaplan: World of Warcraft, Overwatch, Blizzard, and Future of Gaming | Lex Fridman Podcast #493",
+      "link": "https://www.youtube.com/watch?v=H9rF1CSSh-w",
+      "source": "Lex Fridman",
+      "score": 73,
+      "why": "对游戏玩家和行业观察者而言，顶级设计师的独立新作是预测未来游戏趋势和体验创新玩法的重要风向标。"
     },
     {
-      "title": "Just use GPT-5.4 xhigh",
-      "link": "https://www.bensbites.com/p/just-use-gpt-54-xhigh",
-      "source": "Ben's Bites",
-      "score": 80,
-      "why": "对于开发者和技术决策者，GPT-5.4 的发布提供了更强大的多模态和工具调用能力，但需权衡其提升的性能与增加的成本。"
-    },
-    {
-      "title": "A guide to advanced B2B positioning",
-      "link": "https://www.lennysnewsletter.com/p/a-guide-to-advanced-b2b-positioning",
-      "source": "Lenny's Newsletter",
-      "score": 80,
-      "why": "对于产品经理和创业者，在 AI 赋能生产的背景下，掌握精准的市场定位技能比以往任何时候都更为关键，这直接关系到产品能否在市场中脱颖而出。"
-    },
-    {
-      "title": "Introducing Storage Buckets on the Hugging Face Hub",
-      "link": "https://huggingface.co/blog/storage-buckets",
-      "source": "Hugging Face Blog",
-      "score": 80,
-      "why": "对数据科学家和ML工程师意味着更便捷的模型和数据版本管理工具。"
-    },
-    {
-      "title": "[AINews] Yann LeCun’s AMI Labs launches with a $1B seed @ $4.5B to build world models around JEPA",
-      "link": "https://www.latent.space/p/ainews-yann-lecuns-ami-labs-launches",
-      "source": "Latent Space",
-      "score": 80,
-      "why": "对投资者和AI从业者而言，这标志着巨额资本正涌入探索下一代AI基础架构（如世界模型）的初创公司，可能预示着AI研究重点从单纯的大语言模型向更接近通用智能的体系转移。"
-    },
-    {
-      "title": "全民装虾，一戳就破的AI幻觉",
-      "link": "https://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656156842&idx=1&sn=614c04925b65f0c1083a93983627c985",
-      "source": "虎嗅",
-      "score": 80,
-      "why": "为所有关注AI Agent落地的观察者、潜在用户和投资者提供了必要的风险提示和冷静剂，避免被热潮裹挟。"
-    },
-    {
-      "title": "创业者正在围绕OpenClaw生态做什么产品？",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzI1MTUxNzgxMA==&mid=2247501492&idx=1&sn=2a23582d44638538689bed0709e0332e",
-      "source": "刘小排r",
-      "score": 80,
-      "why": "对投资者和创业者意味着，在看似被大厂垄断的AI生态中，改善用户体验和提供“最后一公里”服务是可行的、有利可图的创业方向。"
-    },
-    {
-      "title": "How Uber uses AI for development: inside look",
-      "link": "https://newsletter.pragmaticengineer.com/p/how-uber-uses-ai-for-development",
-      "source": "The Pragmatic Engineer",
-      "score": 77,
-      "why": "为技术领导者提供了关于在企业内部规模化、系统化应用AI进行工程开发的实际案例和架构参考。"
-    },
-    {
-      "title": "龙虾卸载指南",
-      "link": "https://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656156938&idx=2&sn=c6bf039436b4f3f16d84690511eb481e",
-      "source": "虎嗅",
-      "score": 77,
-      "why": "为所有考虑引入OpenClaw的个人和公司提供了一份务实的成本效益分析清单，有助于做出理性决策。"
-    },
-    {
-      "title": "OpenClaw 和 Claude Code 的本质分歧",
-      "link": "https://mp.weixin.qq.com/s?__biz=MjM5ODU1MzQzOQ==&mid=2451429020&idx=1&sn=01d5361c93a5c463ddcf431d956cb4f6",
-      "source": "AI产品黄叔",
-      "score": 77,
-      "why": "对AI产品经理和开发者意味着，在设计AI助手时需要从根本上明确其与用户的关系定位，这决定了产品的功能边界、交互设计和市场策略。"
-    },
-    {
-      "title": "细胞也有“年轮”？科学家造出可回溯生命历史的记忆体",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649791662&idx=1&sn=6cf270ec696564595dd4fc0265348b8a",
+      "title": "托尼·霍尔逝世：从文科生到图灵奖得主，他发明了让无数程序员头疼的null",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649791775&idx=1&sn=f76c398b752a4a345e041362e6d3b454",
       "source": "DeepTech深科技",
-      "score": 77,
-      "why": "对生命科学研究者意味着拥有了一种强大的新工具，可以以前所未有的时空分辨率解析细胞在复杂组织环境中的动态历史，可能催生重大科学发现。"
-    },
-    {
-      "title": "Improving instruction hierarchy in frontier LLMs",
-      "link": "https://openai.com/index/instruction-hierarchy-challenge",
-      "source": "OpenAI Blog",
       "score": 73,
-      "why": "对AI安全研究者和开发者意味着模型在复杂指令环境下可能具有更高的可靠性和安全性。"
+      "why": "对程序员和软件架构师而言，霍尔的遗产是一个深刻的警示：在追求功能与效率的同时，必须审慎评估基础设计决策可能带来的长期维护代价与系统性风险。"
     },
     {
-      "title": "Copilot Cowork, Anthropic’s Integration, Microsoft’s New Bundle",
-      "link": "https://stratechery.com/2026/copilot-cowork-anthropics-integration-microsofts-new-bundle/",
-      "source": "Stratechery",
-      "score": 73,
-      "why": "对投资者和行业观察者意味着AI生态中的竞争焦点正在从单一产品转向平台集成和捆绑策略。"
-    },
-    {
-      "title": "[AINews] Autoresearch: Sparks of Recursive Self Improvement",
-      "link": "https://www.latent.space/p/ainews-autoresearch-sparks-of-recursive",
-      "source": "Latent Space",
-      "score": 73,
-      "why": "对AI研究者和开发者意味着我们可能正处在机器学习工作流程自动化临界点的前沿。"
-    },
-    {
-      "title": "Oracle Earnings, Oracle’s Cloud Growth, Oracle’s Software Defense",
-      "link": "https://stratechery.com/2026/oracle-earnings-oracles-cloud-growth-oracles-software-defense/",
-      "source": "Stratechery",
-      "score": 73,
-      "why": "对投资者和行业分析师而言，这证明了将现有企业护城河与新兴AI能力相结合，是传统科技巨头实现增长的有效策略。"
-    },
-    {
-      "title": "企业才是真正需要部署 OpenClaw 的",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzU1MTAwNzY4Mg==&mid=2247490747&idx=1&sn=c59bf6665000436f757464661a084f30",
-      "source": "喜新",
-      "score": 73,
-      "why": "对数据PM/技术决策者而言，它提供了一个将零散AI项目系统化、工程化落地的清晰框架和成本效益分析。"
-    },
-    {
-      "title": "独家对话米磊：“面壁者”的12年，如何投出下一个智谱",
-      "link": "https://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656157036&idx=1&sn=23e3800e3ceb7ba2f27807c5ca5bba6a",
-      "source": "虎嗅",
-      "score": 73,
-      "why": "对科技投资者和创业者意味着，在热门赛道之外，基于深度技术研究和长期视角进行非共识布局，可能获得超额回报，并真正推动前沿科技发展。"
-    },
-    {
-      "title": "哪些Skill最好用？都自动整理在这份AI表格啦！",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzkxMzUyODQ3OA==&mid=2247490882&idx=1&sn=4773ced09b90939160505824cdef3175",
-      "source": "AI产品银海",
-      "score": 73,
-      "why": "为AI工具使用者、效率追求者及知识管理者提供了一种将信息收集与整理工作流程自动化的具体方案。"
-    },
-    {
-      "title": "AI should help us produce better code",
-      "link": "https://simonwillison.net/guides/agentic-engineering-patterns/better-code/#atom-everything",
-      "source": "Simon Willison",
-      "score": 70,
-      "why": "对开发团队领导者意味着需要主动管理AI工具的使用方式，以确保工程产出质量的长期健康。"
-    },
-    {
-      "title": "8 domains where AI agents are actually working",
-      "link": "https://gradientflow.substack.com/p/how-to-move-from-passive-chatbot",
-      "source": "Gradient Flow",
-      "score": 70,
-      "why": "对AI从业者意味着，强化学习正成为构建可靠、可执行任务的AI智能体的关键技术，其应用正从研究走向广泛的商业实践。"
-    },
-    {
-      "title": "NVIDIA's AI Engineers: Agent Inference at Planetary Scale and \"Speed of Light\" — Nader Khalil (Brev), Kyle Kranen (Dynamo)",
-      "link": "https://www.latent.space/p/nvidia-brev-dynamo",
-      "source": "Latent Space",
-      "score": 70,
-      "why": "对开发者和AI基础设施工程师意味着，NVIDIA提供了从简化硬件访问到大规模推理服务优化的完整工具链，是构建高性能AI应用的关键支持。"
-    },
-    {
-      "title": "300亿国债，被排队抢购",
-      "link": "https://mp.weixin.qq.com/s?__biz=Mzg5MzEyNzEwNQ==&mid=2247798642&idx=1&sn=2d9758e147fdfd5b19eef3a42f53b09c",
-      "source": "财联社AI daily",
-      "score": 70,
-      "why": "对投资者而言，这揭示了当前稳健型资产配置的明确风向和银行面临的经营压力。"
-    },
-    {
-      "title": "欧洲：伊朗战事的最大输家？",
-      "link": "https://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656156938&idx=4&sn=cb881c25fdcd47360e723d81993e99c2",
-      "source": "虎嗅",
-      "score": 70,
-      "why": "对关注地缘政治与宏观经济的读者而言，它提供了一个分析冲突经济影响的关键视角和具体风险点。"
-    },
-    {
-      "title": "海平面比想象涨得还要高：研究揭露学界20年致命误差，千万三角洲居民风险被严重低估",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649791662&idx=2&sn=ff73ce2c3726bbe1ecb70ba5a778db63",
+      "title": "美国26州今夏试飞“空中出租车”，下一代航空器真实世界测试计划启动",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649791775&idx=3&sn=4ee016c7059e0b82f01a0c1a5872b810",
       "source": "DeepTech深科技",
-      "score": 70,
-      "why": "对气候科学家、政策制定者和沿海城市规划者而言，这意味着既往的风险模型和应对策略可能需要基于更准确的数据进行重新评估。"
+      "score": 73,
+      "why": "对投资者和交通科技观察者而言，这标志着eVTOL行业从技术研发迈向商业运营的关键政策拐点已出现，真实世界的测试数据将决定下一阶段的投资与竞争格局。"
     },
     {
-      "title": "小米做了个能在手机上跑的\"小龙虾 (Openclaw)\"：Agent 终于能接触现实世界",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzU0MDk3NTUxMA==&mid=2247496025&idx=1&sn=ed83d552854eb4e1dc59e8ad85bd2f42",
-      "source": "歸藏的AI工具箱",
+      "title": "当 AI 写了几乎所有代码，软件工程会怎样？",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mzk1NzgxMjQ0OA==&mid=2247494071&idx=1&sn=5af8feef87afb1943189e19a809168ba",
+      "source": "硅星人Pro",
+      "score": 73,
+      "why": "对所有软件从业者（开发者、技术负责人、产品经理）而言，这明确指出了职业能力转型的方向：从代码实现者转向产品与系统的设计者、规划者和质量守护者。"
+    },
+    {
+      "title": "Nvidia is reportedly planning its own open source OpenClaw competitor",
+      "link": "https://arstechnica.com/ai/2026/03/nvidia-is-reportedly-planning-its-own-open-source-openclaw-competitor/",
+      "source": "Ars Technica AI",
       "score": 70,
-      "why": "为消费者和智能家居开发者描绘了AI Agent融入日常生活的近未来图景，展示了设备生态与AI结合的价值。"
+      "why": "对AI开发者和企业技术决策者而言，英伟达的入局可能意味着开源AI智能体基础设施将迎来新的重要选择和市场格局变化。"
+    },
+    {
+      "title": "不想跳舞的优必选",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA4MjUxODMwMg==&mid=2649674557&idx=2&sn=53f930477419e715357366a5cd1ee7c7",
+      "source": "光子星球",
+      "score": 70,
+      "why": "对投资者而言，这揭示了具身智能赛道已出现明显的战略分化，需关注企业是处于“讲故事”融资阶段还是已进入“拼落地”的实质竞争阶段。"
     }
   ],
   "neutral": [
     {
-      "title": "AI发布首个全球科学家社区爆火，硅谷投资圈：科技研究领域的「谷歌地图」来了！",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651020878&idx=1&sn=7ca7601799d80bfa0f3cf6d9a2394c1c",
-      "source": "机器之心",
+      "title": "全民养虾，图了个啥？",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzUxNTUyMjE4Mw==&mid=2247534473&idx=1&sn=5ad6a477e8a36b41fab8f9ae1a2f0e10",
+      "source": "脑极体",
       "score": 67,
-      "why": "对科技投资人、科研管理者和前沿创业者而言，它代表了一种革命性的信息获取与决策辅助工具。"
+      "why": "对产品经理和投资者而言，这警示了AI产品成功的关键在于解决真实、高频的刚需，而非创造虚假的“科技潮流”。"
     },
     {
-      "title": "OpenClaw 2026.3.8更新：安全认证及部署回滚能力提升",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzA5MTIxNTY4MQ==&mid=2461158789&idx=1&sn=0e7757bc0939894b25acb89107c23bf2",
-      "source": "AI工程化",
-      "score": 67,
-      "why": "对正在或计划部署OpenClaw的工程师和运维人员而言，这是必须关注的安全和稳定性补丁。"
+      "title": "“千亿”大疆与它的人才“磁场”",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA4MjUxODMwMg==&mid=2649674557&idx=1&sn=7879c32246bf264f4749c1b07b7b98d8",
+      "source": "光子星球",
+      "score": 60,
+      "why": "对科技公司管理者而言，这展示了构建以顶尖人才和纯粹技术文化为核心竞争力的组织，是实现可持续增长的关键，其价值远胜于频繁的舆论造势。"
     },
     {
-      "title": "苹果笔记本，国补后跌破4000元",
-      "link": "https://mp.weixin.qq.com/s?__biz=Mzg5MzEyNzEwNQ==&mid=2247798816&idx=1&sn=a2330bf6cadbd98277af2e68366b3ccc",
-      "source": "财联社AI daily",
-      "score": 67,
-      "why": "标志着苹果进一步下探主流价位段笔记本市场，可能改变中低端笔记本市场的竞争格局。"
-    },
-    {
-      "title": "美国对伊战争，日均花费近9亿美元",
-      "link": "https://mp.weixin.qq.com/s?__biz=Mzg5MzEyNzEwNQ==&mid=2247798831&idx=1&sn=163f7489feb14571a01baf487ce86754",
-      "source": "财联社AI daily",
-      "score": 63,
-      "why": "对投资者和政策观察者而言，这揭示了地缘政治冲突如何通过财政和能源渠道，实质性加剧主要经济体的宏观风险。"
-    },
-    {
-      "title": "中东石油爹们，快要受不了了",
-      "link": "https://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656157036&idx=3&sn=1fb3c8e05542ea132920628073c43625",
-      "source": "虎嗅",
-      "score": 63,
-      "why": "为观察地缘冲突下的能源市场提供了反向视角，提醒人们关注供应链中断对生产端的即时冲击可能比消费端的价格传导更快、更剧烈。"
-    },
-    {
-      "title": "爆肝10亿token，我给OpenClaw做了个龙虾管家Qclaw！【一键安装龙虾】",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzkzMDU2Nzg3MQ==&mid=2247490539&idx=1&sn=5c905f11a7e99fe56545379f35da3fe7",
-      "source": "秋芝2046",
-      "score": 63,
-      "why": "对普通用户和开发者而言，它极大地简化了热门 AI 智能体 OpenClaw 的部署流程，是降低技术门槛、加速 AI 应用落地的关键工具。"
-    },
-    {
-      "title": "立省999！我发现了 OpenClaw 的傻瓜式安装方案，超简单。",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzIzNTI3MTQxMg==&mid=2652560118&idx=1&sn=311e447f1434a7aa56adc90e0cf76d63",
-      "source": "公子龙",
-      "score": 63,
-      "why": "为技术爱好者提供了一个比传统命令行更友好的 AI 智能体部署方案，体现了 AI 驱动自动化的新范式。"
-    },
-    {
-      "title": "实验室版“小龙虾”来了！恩和科技发布SAION AI，能读文献、做实验，还能自我复盘进化",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649791662&idx=3&sn=af820fa6d72d9ebbbf00778b1f81ab3e",
-      "source": "DeepTech深科技",
-      "score": 63,
-      "why": "对生物科技行业和投资者而言，这标志着 AI 在高度复杂的物理实验场景中取得了实质性突破，可能开启产业研发的新范式。"
+      "title": "当AI可以重写一切：图灵、塞尔、马斯克以及你我的唯一性",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzAxNTYwMzcyNw==&mid=2247486043&idx=1&sn=6899dbf63b701cdad241c8764818b349",
+      "source": "MindCode",
+      "score": 60,
+      "why": "对AI研究者和思考者而言，这提供了一个理解当前AI能力与局限的深刻框架，即我们既在享受“行为模仿”带来的红利，也始终绕不开关于“智能本质”的终极追问。"
     }
   ],
   "overhyped": []

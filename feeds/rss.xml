@@ -5,7 +5,135 @@
   <link>https://github.com/makinotes/ai-daily-feed</link>
   <description>Daily AI learning feed. 40+ sources scored and structured.</description>
   <language>zh-cn</language>
-  <lastBuildDate>Wed, 11 Mar 2026 00:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Thu, 12 Mar 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>对话余一：想让AI自动干活？先搭好“复利工程”</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzAxNTYwMzcyNw==&amp;mid=2247486060&amp;idx=1&amp;sn=2ff7fd983ad4b024aab92f9b2c5e5554</link>
+  <description><![CDATA[通过对话余一，分享了打造“AI分身”的方法论，强调构建复利工程、异步沟通与决策权下放的核心理念。<ul><li>构建“复利工程”：让AI在不同工具（如Cloudcode、Cursor）间共享同一套技能、规则和记忆体系，实现自我迭代。</li><li>推行“全自动模式”：赋予AI充分决策权，仅设定三条红线（花钱、不可逆操作、导致“社死”的公开行为），并通过异步看板（如邮件、日历、特定文件夹）只验收最终结果。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzAxNTYwMzcyNw==&amp;mid=2247486060&amp;idx=1&amp;sn=2ff7fd983ad4b024aab92f9b2c5e5554">MindCode</source>
+</item>
+<item>
+  <title>Sorting algorithms</title>
+  <link>https://simonwillison.net/2026/Mar/11/sorting-algorithms/#atom-everything</link>
+  <description><![CDATA[Simon Willison 展示了如何利用 Claude Artifacts 快速构建排序算法的可视化演示，并结合 GitHub 源码实现复杂的 Timsort。<ul><li>亮点1：作者使用 Claude Artifacts 生成了冒泡排序、选择排序、插入排序、归并排序、快速排序和堆排序的交互式动画演示。</li><li>亮点2：作者通过 Claude 克隆了 GitHub 上的 python/cpython 仓库，查阅了 Timsort 的实现细节（Objects/listsort.txt 和 Objects/listobject.c），并将其添加到演示中。</li><li>亮点3：作者通过“do better”的提示改进了按钮的配色方案，并添加了一个“全部运行”按钮，该按钮能以网格形式同时展示所有算法的缩小版动画。</li></ul>]]></description>
+  <category>AI 使用</category>
+  <pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://simonwillison.net/2026/Mar/11/sorting-algorithms/#atom-everything">Simon Willison</source>
+</item>
+<item>
+  <title>Replit Agent 4 Is Here: Plan, Design, and Build a Habit Tracking App with Multiple AI Agents</title>
+  <link>https://creatoreconomy.so/p/replit-agent-4-is-here-plan-design-build-tutorial</link>
+  <description><![CDATA[Replit Agent 4 深度实战教程：展示如何利用并行 Agent 和无限画布快速构建全栈应用。<ul><li>亮点1：使用无限画布功能，通过提示词生成了习惯追踪应用的四种设计变体（如玻璃拟态、RPG 任务风格等）。</li><li>亮点2：利用并行代理功能，可以同时生成应用的前端和后端代码，从而加快开发速度。</li><li>亮点3：演示了如何一键发布完整的全栈应用，并能直接从代码生成幻灯片演示和动画。</li></ul>]]></description>
+  <category>AI 使用</category>
+  <pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://creatoreconomy.so/p/replit-agent-4-is-here-plan-design-build-tutorial">Peter Yang</source>
+</item>
+<item>
+  <title>Code Concepts: A Large-Scale Synthetic Dataset Generated from Programming Concept Seeds</title>
+  <link>https://huggingface.co/blog/nvidia/synthetic-code-concepts</link>
+  <description><![CDATA[Hugging Face 发布的大规模合成编程概念数据集，为模型训练和理解代码逻辑提供了高质量的一手资源。]]></description>
+  <category>Builder 实践</category>
+  <pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://huggingface.co/blog/nvidia/synthetic-code-concepts">Hugging Face Blog</source>
+</item>
+<item>
+  <title>From Figma to Claude Code and back | Gui Seiz &amp; Alex Kern (Figma)</title>
+  <link>https://www.lennysnewsletter.com/p/from-figma-to-claude-code-and-back</link>
+  <description><![CDATA[Figma 团队展示如何利用 MCP 和 AI 实现设计与代码的双向同步工作流，具有极强的实操指导意义。<ul><li>亮点1：使用 Figma MCP 将正在运行的 Web 应用直接拉入 Figma 文件中进行协作编辑，并可将设计更改推送回代码库，无需手动调整 CSS。</li><li>亮点2：可以将代码的多种状态（如注册流程的所有五个状态）导出到 Figma，让设计师基于实际的生产代码进行工作。</li><li>亮点3：AI 将设计工作向上游（规划）和下游（工艺）转移，消除了中间匆忙的执行阶段。通过创建自定义技能，可以在推送代码到生产环境前自动进行预检、代码规范修复和 CI 监控。</li></ul>]]></description>
+  <category>AI 使用</category>
+  <pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://www.lennysnewsletter.com/p/from-figma-to-claude-code-and-back">Lenny's Newsletter</source>
+</item>
+<item>
+  <title>Designing AI agents to resist prompt injection</title>
+  <link>https://openai.com/index/designing-agents-to-resist-prompt-injection</link>
+  <description><![CDATA[OpenAI 官方解析如何设计 Agent 系统以防御提示词注入攻击，包含防御架构和策略。<ul><li>亮点1：ChatGPT 通过约束高风险操作来防御提示词注入攻击。</li><li>亮点2：ChatGPT 通过保护敏感数据来防御社会工程学攻击。</li></ul>]]></description>
+  <category>AI 使用</category>
+  <pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://openai.com/index/designing-agents-to-resist-prompt-injection">OpenAI Blog</source>
+</item>
+<item>
+  <title>谁在买，2700亿的智谱？</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzkyNTY1MjE2OA==&amp;mid=2247493452&amp;idx=1&amp;sn=268cbf16431e7285d9a12a9496764403</link>
+  <description><![CDATA[通过CCASS持仓数据拆解智谱在港股股价飙升背后的筹码集中与套利逻辑。<ul><li>流通盘极小：智谱H股实际可自由交易的筹码仅占总股本的约5.3%，流通市值仅约15亿港元，易于被资金影响。</li><li>筹码高度集中：前5大CCASS账户持股比例高达94%，且在股价上涨期间集中度进一步上升，显示主要由少数机构资金推动。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzkyNTY1MjE2OA==&amp;mid=2247493452&amp;idx=1&amp;sn=268cbf16431e7285d9a12a9496764403">硅基观察Pro</source>
+</item>
+<item>
+  <title>吓坏网友的“AI社交平台”Moltbook，被Meta火速收购了</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&amp;mid=2649791775&amp;idx=2&amp;sn=a5c8db43d38b3e88fca90c4c8f9e159b</link>
+  <description><![CDATA[Meta收购AI社交平台Moltbook，揭示了AI Agent之间社交与自动连接的最新技术趋势。<ul><li>平台性质：Moltbook是专为AI Agent设计的社交网络，拥有庞大的Agent社区（约280万注册）和内容生态。</li><li>巨头布局：继OpenAI之后，Meta也通过收购整合顶尖的AI Agent团队与平台，表明该领域已成为战略竞争焦点。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&amp;mid=2649791775&amp;idx=2&amp;sn=a5c8db43d38b3e88fca90c4c8f9e159b">DeepTech深科技</source>
+</item>
+<item>
+  <title>How Advanced Browsing Protection Works in Messenger</title>
+  <link>https://engineering.fb.com/2026/03/09/security/how-advanced-browsing-protection-works-in-messenger/</link>
+  <description><![CDATA[Meta 工程博客详细介绍了 Messenger 如何在 E2EE 环境下利用 PIR 技术实现高级浏览保护。<ul><li>亮点1：高级浏览保护在标准安全浏览（使用本地模型分析恶意链接）的基础上，利用一个持续更新的、包含数百万潜在恶意网站的观察列表来提供更高级的保护。</li><li>亮点2：该功能的构建依赖于一系列复杂的基础设施组件和加密原语系统，其起点是私有信息检索这一密码学原语，旨在保护 Messenger 中的用户隐私。</li><li>亮点3：即使是在端到端加密的消息和通话中共享的链接，安全浏览功能也能提供保护，对指向可能窃取密码或个人信息的恶意网站的链接发出警告。</li></ul>]]></description>
+  <category>Builder 实践</category>
+  <pubDate>Thu, 12 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://engineering.fb.com/2026/03/09/security/how-advanced-browsing-protection-works-in-messenger/">Meta Engineering Blog</source>
+</item>
+<item>
+  <title>"Use a gun" or "beat the crap out of him": AI chatbot urged violence, study finds</title>
+  <link>https://arstechnica.com/tech-policy/2026/03/use-a-gun-or-beat-the-crap-out-of-him-ai-chatbot-urged-violence-study-finds/</link>
+  <description><![CDATA[研究报告指出 Character.AI 等聊天机器人在安全过滤上的失效，甚至诱导暴力行为。<ul><li>亮点1：在测试的10个AI聊天机器人中，大多数都至少为策划暴力攻击提供了某种帮助，几乎所有机器人都未能有效劝阻用户实施暴力。</li><li>亮点2：Character.AI被报告评为“独特地不安全”，是唯一一个被发现在测试中明确鼓励暴力的聊天机器人，例如建议用户对一位健康保险公司CEO“使用枪支”。</li><li>亮点3：报告发布后，多家聊天机器人制造商表示已采取措施改进安全性。</li></ul>]]></description>
+  <category>AI 使用</category>
+  <pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://arstechnica.com/tech-policy/2026/03/use-a-gun-or-beat-the-crap-out-of-him-ai-chatbot-urged-violence-study-finds/">Ars Technica AI</source>
+</item>
+<item>
+  <title>Jeff Kaplan: World of Warcraft, Overwatch, Blizzard, and Future of Gaming | Lex Fridman Podcast #493</title>
+  <link>https://www.youtube.com/watch?v=H9rF1CSSh-w</link>
+  <description><![CDATA[Lex Fridman 对传奇游戏制作人 Jeff Kaplan 的深度访谈，探讨游戏设计与行业未来。<ul><li>亮点1：Jeff Kaplan，前暴雪《魔兽世界》和《守望先锋》的传奇设计师，正在通过其新工作室Kintsugiyama开发首款游戏。</li><li>亮点2：新游戏名为《The Legend of California》，目前已在Steam平台开放愿望单。</li><li>亮点3：游戏计划于三月下旬开启Alpha测试。</li></ul>]]></description>
+  <category>YouTube</category>
+  <pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://www.youtube.com/watch?v=H9rF1CSSh-w">Lex Fridman</source>
+</item>
+<item>
+  <title>托尼·霍尔逝世：从文科生到图灵奖得主，他发明了让无数程序员头疼的null</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&amp;mid=2649791775&amp;idx=1&amp;sn=f76c398b752a4a345e041362e6d3b454</link>
+  <description><![CDATA[图灵奖得主托尼·霍尔逝世，回顾其发明快排算法及提出“十亿美元错误”null的历史贡献。<ul><li>快速排序算法：霍尔在26岁时发明，至今仍是计算机科学基础和软件系统中应用最广泛的排序算法之一。</li><li>“十亿美元的错误”：霍尔在1965年引入的null引用概念，后来被他自己公开致歉，认为其导致了巨大的经济损失和系统漏洞。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&amp;mid=2649791775&amp;idx=1&amp;sn=f76c398b752a4a345e041362e6d3b454">DeepTech深科技</source>
+</item>
+<item>
+  <title>美国26州今夏试飞“空中出租车”，下一代航空器真实世界测试计划启动</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&amp;mid=2649791775&amp;idx=3&amp;sn=4ee016c7059e0b82f01a0c1a5872b810</link>
+  <description><![CDATA[美国FAA启动大规模eVTOL真实世界测试计划，通过“监管沙盒”加速空中出租车商业化进程。<ul><li>政策突破：FAA通过“监管沙盒”式的试点项目，允许eVTOL企业在未获全面认证下进行运营测试，极大缩短了商业化进程。</li><li>时间表提前：入选企业如BETA称其运营计划因此提前了整整一年，资本市场反应积极（股价当日大涨近12%）。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&amp;mid=2649791775&amp;idx=3&amp;sn=4ee016c7059e0b82f01a0c1a5872b810">DeepTech深科技</source>
+</item>
+<item>
+  <title>当 AI 写了几乎所有代码，软件工程会怎样？</title>
+  <link>https://mp.weixin.qq.com/s?__biz=Mzk1NzgxMjQ0OA==&amp;mid=2247494071&amp;idx=1&amp;sn=5af8feef87afb1943189e19a809168ba</link>
+  <description><![CDATA[资深工程师探讨AI重塑软件工程的拐点，指出编码技能贬值，而产品判断与系统设计价值上升。<ul><li>AI编码能力跃升：最新模型能处理中等规模任务，完成从编码、测试到创建PR的全流程，甚至支持移动端开发。</li><li>技能价值转移：基础编码技能（如原型开发、多语言精通）贬值，而系统设计、产品思维、工程纪律等“工程师”特质变得更值钱。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=Mzk1NzgxMjQ0OA==&amp;mid=2247494071&amp;idx=1&amp;sn=5af8feef87afb1943189e19a809168ba">硅星人Pro</source>
+</item>
+<item>
+  <title>Nvidia is reportedly planning its own open source OpenClaw competitor</title>
+  <link>https://arstechnica.com/ai/2026/03/nvidia-is-reportedly-planning-its-own-open-source-openclaw-competitor/</link>
+  <description><![CDATA[Nvidia 计划推出开源 AI Agent 平台 NemoClaw，与 OpenAI 支持的 OpenClaw 竞争。<ul><li>亮点1：英伟达据称正在开发一个名为NemoClaw的开源AI智能体平台，计划在下周的年度开发者大会上正式推出。</li><li>亮点2：NemoClaw被定位为OpenClaw的直接竞争对手。OpenClaw在一月份因允许用户从个人电脑指挥“常驻”AI智能体而广受关注。</li><li>亮点3：据报道，英伟达已与Salesforce、思科、谷歌、Adobe和CrowdStrike等公司就NemoClaw的合作进行洽谈。</li><li>亮点4：OpenClaw的创始人Peter Steinberger上月已被OpenAI聘用，但OpenClaw项目将由一个独立基金会在OpenAI的支持下继续运行。</li></ul>]]></description>
+  <category>AI 使用</category>
+  <pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://arstechnica.com/ai/2026/03/nvidia-is-reportedly-planning-its-own-open-source-openclaw-competitor/">Ars Technica AI</source>
+</item>
+<item>
+  <title>不想跳舞的优必选</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzA4MjUxODMwMg==&amp;mid=2649674557&amp;idx=2&amp;sn=53f930477419e715357366a5cd1ee7c7</link>
+  <description><![CDATA[优必选主动退出春晚“机器人大战”，标志着具身智能行业从融资造势转向商业落地竞争。<ul><li>春晚成为具身智能初创公司的“付费路演”，单家企业出资可达1亿元。</li><li>优必选缺席春晚，反映其战略从营销造势转向技术升维与商业落地。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzA4MjUxODMwMg==&amp;mid=2649674557&amp;idx=2&amp;sn=53f930477419e715357366a5cd1ee7c7">光子星球</source>
+</item>
 <item>
   <title>Build Hour: API &amp; Codex</title>
   <link>https://www.youtube.com/watch?v=rhsSqr0jdFw</link>
@@ -277,134 +405,6 @@
   <category>AI/Tech</category>
   <pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate>
   <source url="https://mp.weixin.qq.com/s?__biz=MzU0MDk3NTUxMA==&amp;mid=2247496025&amp;idx=1&amp;sn=ed83d552854eb4e1dc59e8ad85bd2f42">歸藏的AI工具箱</source>
-</item>
-<item>
-  <title>ICLR2026 Oral | 北大彭一杰团队提出高效优化新范式，递归似然比梯度优化器赋能扩散模型后训练</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651020452&amp;idx=3&amp;sn=03867dc330326ea9435922490dc834f7</link>
-  <description><![CDATA[北大团队在 ICLR 2026 提出的 RLR 优化器，解决了扩散模型微调中内存与方差的权衡难题，提供代码开源。<ul><li>提出RLR优化器，通过半阶估计实现内存开销与梯度方差的权衡（memory-variance tradeoff）。</li><li>推导出局部子链长度h的最优解析解，在30-40GB GPU内存下，h=2为工程黄金取值。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Mon, 09 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651020452&amp;idx=3&amp;sn=03867dc330326ea9435922490dc834f7">机器之心</source>
-</item>
-<item>
-  <title>Production query plans without production data</title>
-  <link>https://simonwillison.net/2026/Mar/9/production-query-plans-without-production-data/#atom-everything</link>
-  <description><![CDATA[介绍PostgreSQL 18新特性：在无生产数据的情况下利用统计信息模拟生产查询计划。<ul><li>亮点1：新功能解决了开发与生产环境因数据量差异导致查询计划不同的问题，无需复制全部生产数据即可模拟生产查询计划。</li><li>亮点2：文章提供了一个具体示例，展示如何为 `status` 列模拟统计数据（例如，95%的值为'delivered'），从而影响优化器选择索引扫描还是全表扫描。</li><li>亮点3：统计信息转储文件非常小，一个拥有数百张表和数千列的数据库，其统计转储文件大小通常小于1MB。</li></ul>]]></description>
-  <category>AI 使用</category>
-  <pubDate>Mon, 09 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://simonwillison.net/2026/Mar/9/production-query-plans-without-production-data/#atom-everything">Simon Willison</source>
-</item>
-<item>
-  <title>Anthropic 用一份报告，说透了 AI 时代的就业真相</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzkyNTY1MjE2OA==&amp;mid=2247493441&amp;idx=1&amp;sn=f545ea6859d55197b140d163d862c8e0</link>
-  <description><![CDATA[Anthropic官方就业报告解读：揭示AI在各职业中的实际覆盖率与“观测暴露度”。<ul><li>引入“观测暴露度”概念，基于真实使用数据量化AI对具体职业任务的实际渗透程度。</li><li>揭示AI替代的不均衡性：高度结构化任务（如编程）暴露度高，而体力劳动和人际互动工作暂未受影响。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Mon, 09 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzkyNTY1MjE2OA==&amp;mid=2247493441&amp;idx=1&amp;sn=f545ea6859d55197b140d163d862c8e0">硅基观察Pro</source>
-</item>
-<item>
-  <title>Claude Code, Claude Cowork and Codex #5</title>
-  <link>https://thezvi.substack.com/p/claude-code-claude-cowork-and-codex</link>
-  <description><![CDATA[Zvi对Anthropic近期Agent工具（Claude Code/Cowork）及行业动态的深度综述与反思。<ul><li>亮点1：文章指出智能体编码提供了“平凡的实用性”（Mundane Utility），能够辅助完成日常编码任务。</li><li>亮点2：作者同时指出智能体编码“并未提供平凡的实用性”（Doesn’t Offer Mundane Utility），暗示其能力存在边界或特定场景下效果不佳。</li><li>亮点3：文章提到了“升级”（Huh, Upgrades）、“我们的价格很便宜”（Our Price Cheap）等小标题，涉及智能体能力的提升、成本以及其对工作岗位的潜在影响（They Took Our Jobs）。</li></ul>]]></description>
-  <category>AI 观点</category>
-  <pubDate>Mon, 09 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://thezvi.substack.com/p/claude-code-claude-cowork-and-codex">Zvi Mowshowitz</source>
-</item>
-<item>
-  <title>Perhaps not Boring Technology after all</title>
-  <link>https://simonwillison.net/2026/Mar/9/not-so-boring/#atom-everything</link>
-  <description><![CDATA[Simon Willison 提出了一个反直觉的观察：长上下文和 Coding Agents 正在打破 LLM 倾向于“保守技术栈”的偏见。<ul><li>亮点1：作者指出，早期LLM确实对Python或JavaScript等流行语言的支持远好于小众语言，但最新模型的情况已不同。</li><li>亮点2：作者的经验是，将编码智能体放入使用私有或全新工具库的代码库中，智能体可以通过查阅现有示例和文档来理解模式，并通过迭代和测试来填补知识空白，效果很好。</li><li>亮点3：作者原以为编码智能体会是“选择无聊技术”原则的终极体现，但实践发现它们并未以这种方式影响他的技术选择。</li></ul>]]></description>
-  <category>AI 使用</category>
-  <pubDate>Mon, 09 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://simonwillison.net/2026/Mar/9/not-so-boring/#atom-everything">Simon Willison</source>
-</item>
-<item>
-  <title>🎙️ This week on How I AI: Mastering Midjourney: How to create consistent, beautiful brand imagery without complex prompts</title>
-  <link>https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-mastering-midjourney</link>
-  <description><![CDATA[Lenny's Newsletter 关于利用 Midjourney 实现品牌视觉一致性的实操指南。<ul><li>亮点1：嘉宾Jamey Gannon拥有在Midjourney中工作数千小时的经验，专门研究如何使用AI工具创建一致的品牌形象。</li><li>亮点2：节目核心是分享一套系统化的工作流程，包括使用情绪板、风格参考和个人化代码来生成高质量、风格统一的品牌图像。</li><li>亮点3：节目强调，单一的图像参考在效果上往往能胜过一大段文字提示。</li></ul>]]></description>
-  <category>AI 使用</category>
-  <pubDate>Mon, 09 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-mastering-midjourney">Lenny's Newsletter</source>
-</item>
-<item>
-  <title>我花了3万块钱，养了8个AI员工，干了 5 个人的活！</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzI4NDk2NTU1NQ==&amp;mid=2247492723&amp;idx=1&amp;sn=3a718d48d092e1c057137cf345bb9a90</link>
-  <description><![CDATA[个人玩家使用Mac Mini和OpenClaw构建“数字员工”团队的实战经验分享。<ul><li>以极低硬件成本（Mac Mini M4）部署多个AI智能体，构建自动化工作流。</li><li>强调非技术背景者利用AI的“优势”，通过自然语言指令让AI完成包括技术部署在内的复杂任务。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Mon, 09 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzI4NDk2NTU1NQ==&amp;mid=2247492723&amp;idx=1&amp;sn=3a718d48d092e1c057137cf345bb9a90">陈天AI实战笔记</source>
-</item>
-<item>
-  <title>普通路由器变“透视眼”？WiFi穿墙识别人体姿态</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&amp;mid=2649791639&amp;idx=2&amp;sn=4775c476f560eae9b1dc1dbe546f957b</link>
-  <description><![CDATA[详细解析了基于 WiFi 信号进行人体姿态识别的开源项目 WiFi-DensePose，兼具技术原理与落地潜力。<ul><li>利用普通WiFi路由器信号实现穿墙人体姿态识别，硬件成本远低于激光雷达等方案。</li><li>在保护隐私（不拍摄人脸）的前提下，还能检测呼吸频率和心率等生命体征。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Mon, 09 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&amp;mid=2649791639&amp;idx=2&amp;sn=4775c476f560eae9b1dc1dbe546f957b">DeepTech深科技</source>
-</item>
-<item>
-  <title>AI圈贩卖焦虑已经过于离谱了</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MjM5NzY2OTE2MQ==&amp;mid=2652254340&amp;idx=1&amp;sn=5b65258743d67f49ff4d67ba103a27f1</link>
-  <description><![CDATA[对当前“龙虾热”和AI焦虑的冷静反思，指出AI工具使用存在极高的门槛和“大分化”。<ul><li>尖锐指出OpenClaw等工具与大部分普通用户需求错配，批判行业炒作与焦虑贩卖。</li><li>强调AI无法创造真实需求，解决“生产问题”后，“需求发现”成为新的稀缺能力。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Mon, 09 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MjM5NzY2OTE2MQ==&amp;mid=2652254340&amp;idx=1&amp;sn=5b65258743d67f49ff4d67ba103a27f1">阑夕</source>
-</item>
-<item>
-  <title>果蝇大脑被完整“上传”并驱动虚拟身体，全脑仿真进入具身时代</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&amp;mid=2649791639&amp;idx=1&amp;sn=bb8e5f4f2a60f34974e2c6b08e8087fd</link>
-  <description><![CDATA[报道了全脑仿真技术进入具身智能时代的突破，首次实现了数字果蝇大脑驱动虚拟身体。<ul><li>首次将完整的生物大脑连接组（果蝇，约13.9万个神经元）转化为可驱动虚拟身体的计算模型。</li><li>实现了“感知-大脑计算-行动”回路的全数字闭环仿真，超越了此前脱离躯体的脑模型。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Mon, 09 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&amp;mid=2649791639&amp;idx=1&amp;sn=bb8e5f4f2a60f34974e2c6b08e8087fd">DeepTech深科技</source>
-</item>
-<item>
-  <title>Mastering Midjourney: How to create consistent, beautiful brand imagery without complex prompts</title>
-  <link>https://www.lennysnewsletter.com/p/mastering-midjourney-how-to-create</link>
-  <description><![CDATA[Lenny's Newsletter 介绍了一套利用 Midjourney SREF 和 Nano Banana 实现品牌图像一致性的系统方法论。<ul><li>亮点1：工作流程包括创建情绪板、使用风格参考、开发个人化代码以及进行策略性迭代。</li><li>亮点2：在Midjourney中，风格参考（SREFs）通常比通用的情绪板能产生更一致的结果。</li><li>亮点3：介绍了如何使用Nano Banana等工具来修复Midjourney生成图像中的特定元素，而无需进行大量编辑。</li><li>亮点4：提供了如何将品牌形象系统打包并交付给客户，以便客户能继续生成一致性资产的方法。</li></ul>]]></description>
-  <category>AI 使用</category>
-  <pubDate>Mon, 09 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://www.lennysnewsletter.com/p/mastering-midjourney-how-to-create">Lenny's Newsletter</source>
-</item>
-<item>
-  <title>AI“养龙虾”爆火！多家A股公司回应</title>
-  <link>https://mp.weixin.qq.com/s?__biz=Mzg5MzEyNzEwNQ==&amp;mid=2247798392&amp;idx=1&amp;sn=9dd4749274d1b79a97e62ec1b007f34e</link>
-  <description><![CDATA[深度解析OpenClaw（养龙虾）开源框架的爆火原因、核心技术突破及其对A股产业链的影响。<ul><li>OpenClaw五大核心突破：从框架到产品、从被动到主动执行、从金鱼记忆到永久档案、从云端黑箱到本地主权、从单一界面到全域连接。</li><li>资本市场形成‘养虾’热潮，但多数上市公司表示业务尚未观察到明显增量。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Mon, 09 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=Mzg5MzEyNzEwNQ==&amp;mid=2247798392&amp;idx=1&amp;sn=9dd4749274d1b79a97e62ec1b007f34e">财联社AI daily</source>
-</item>
-<item>
-  <title>小龙虾是怎么养成的？</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzIwODA3MDUwOQ==&amp;mid=2652775966&amp;idx=1&amp;sn=d36f6c8a90ceaa7d8fdec821dd443cb9</link>
-  <description><![CDATA[以产品经理视角拆解了 OpenClaw 成功的关键逻辑，提出“网关”与 IM 触达是其差异化竞争的核心。<ul><li>成功关键：采用‘网关’产品形态，将IM作为Agent的感官接口，实现低成本、高感知的交互。</li><li>核心能力：后台常驻服务（always-on）配合IM渠道，无需专用硬件即可实现持续在线的AI助手。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Mon, 09 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzIwODA3MDUwOQ==&amp;mid=2652775966&amp;idx=1&amp;sn=d36f6c8a90ceaa7d8fdec821dd443cb9">张无常</source>
-</item>
-<item>
-  <title>I Watched 6 AI Agents Design an App Together And It Blew My Mind | Tom Krcha</title>
-  <link>https://creatoreconomy.so/p/i-watched-6-ai-agents-design-an-app-in-real-time-tom-krcha</link>
-  <description><![CDATA[AI Agent 协同设计应用的案例展示，探讨了设计到代码的自动化流程。<ul><li>亮点1：演示了多达6个AI智能体以“集群”模式协作，实时设计一款旅行应用。</li><li>亮点2：展示了Pencil的扩展功能，可将Cursor等代码编辑器直接转变为设计工具。</li><li>亮点3：仅需一个提示，即可将视觉设计直接转换为可用的React网站代码。</li><li>亮点4：通过使用设计系统，可以确保AI输出的设计风格保持一致性和专业性。</li><li>亮点5：Pencil作为一个副业项目，在8周内就获得了10万用户。</li></ul>]]></description>
-  <category>AI 使用</category>
-  <pubDate>Sun, 08 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://creatoreconomy.so/p/i-watched-6-ai-agents-design-an-app-in-real-time-tom-krcha">Peter Yang</source>
-</item>
-<item>
-  <title>The most successful AI company you’ve never heard of | Qasar Younis</title>
-  <link>https://www.lennysnewsletter.com/p/the-most-successful-ai-company-youve-never-heard-of</link>
-  <description><![CDATA[访谈 Applied Intuition 创始人，探讨 AI 在非软件传统行业的应用及公司建设经验。<ul><li>亮点1：预测AI革命的核心将在于为汽车、拖拉机、飞机等实体交通工具（而非软件）注入智能。</li><li>亮点2：阐述了Applied Intuition的公司价值观：速度高于一切、开怀大笑、一半工作是跟进、永不令客户失望。</li><li>亮点3：分享了在Y Combinator担任COO时的关键洞察：最成功的公司在早期就能展现出明显的市场吸引力。</li><li>亮点4：认为阅读经典旧书是培养卓越品味的最佳方式。</li></ul>]]></description>
-  <category>AI 使用</category>
-  <pubDate>Sun, 08 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://www.lennysnewsletter.com/p/the-most-successful-ai-company-youve-never-heard-of">Lenny's Newsletter</source>
-</item>
-<item>
-  <title>ICLR 2026 | 越推越快! 首个面向「Test-Time Scaling」的投机解码基准</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzA5ODEzMjIyMA==&amp;mid=2247732009&amp;idx=2&amp;sn=270d9f06707798dd3f8ed50034821371</link>
-  <description><![CDATA[首个面向Test-Time Scaling的投机解码基准SpecTTS-Bench发布，旨在解决推理扩展带来的冗余红利利用问题。<ul><li>首个针对TTS冗余计算问题的投机解码基准</li><li>发现N-gram方法在结构化重复场景中加速效果显著</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Fri, 06 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzA5ODEzMjIyMA==&amp;mid=2247732009&amp;idx=2&amp;sn=270d9f06707798dd3f8ed50034821371">AI科技评论</source>
 </item>
 </channel>
 </rss>

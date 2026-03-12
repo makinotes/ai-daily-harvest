@@ -1,14 +1,14 @@
 {
-  "updated": "2026-03-11",
+  "updated": "2026-03-12",
   "window": "7d",
   "article_count": 136,
   "trending": [
     {
       "keyword": "OpenClaw",
-      "count": 13
+      "count": 12
     },
     {
-      "keyword": "Claude",
+      "keyword": "Agent",
       "count": 8
     },
     {
@@ -16,7 +16,7 @@
       "count": 8
     },
     {
-      "keyword": "Agent",
+      "keyword": "Claude",
       "count": 7
     },
     {
@@ -48,7 +48,19 @@
       "count": 4
     },
     {
-      "keyword": "Open",
+      "keyword": "Agents",
+      "count": 3
+    },
+    {
+      "keyword": "agents",
+      "count": 3
+    },
+    {
+      "keyword": "open",
+      "count": 3
+    },
+    {
+      "keyword": "source",
       "count": 3
     },
     {
@@ -64,23 +76,11 @@
       "count": 3
     },
     {
-      "keyword": "source",
-      "count": 3
-    },
-    {
       "keyword": "code",
       "count": 3
     },
     {
-      "keyword": "data",
-      "count": 3
-    },
-    {
       "keyword": "without",
-      "count": 3
-    },
-    {
-      "keyword": "Agents",
       "count": 3
     }
   ]
