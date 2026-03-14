@@ -1,10 +1,10 @@
 {
   "date": "2026-03-14",
-  "total": 29,
+  "total": 63,
   "verdict_counts": {
-    "must_read": 2,
-    "worth_reading": 15,
-    "neutral": 12
+    "must_read": 8,
+    "worth_reading": 31,
+    "neutral": 24
   },
   "articles": [
     {
@@ -46,6 +46,114 @@
       "verdict": "must_read"
     },
     {
+      "title": "比钻石还硬！中国科学家合成六方金刚石",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649792087&idx=1&sn=a802885a5da834c3d04e2fe5fb85bf6e",
+      "source": "DeepTech深科技",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-03-14",
+      "summary": "中国科学家成功合成毫米级纯相六方金刚石，并揭示了通过单轴压力调控晶体结构的机制。",
+      "core_point": "① Claim 主张：中国科学家团队在《自然》杂志上报道成功合成了毫米级、纯相的六方金刚石（朗斯代尔石）。② Evidence 论据：研究团队通过改装设备，施加定向增强的单轴压力，有效抑制了石墨原料的横向滑移，从而引导碳原子按ABAB...方式堆叠，形成纯六方结构。这解决了以往合成产物多为立方与六方混合相、尺寸微小的难题。③ Implication 启示：这项成果不仅证实了六方金刚石作为一种独立材料的存在，终结了学界长期以来的争议，其揭示的合成调控机制也为未来制备更多亚稳相材料提供了新思路。",
+      "highlights": [
+        "成功合成毫米级、纯相的六方金刚石，解决了长期存在的材料争议。",
+        "揭示了通过单轴压力精确限制石墨层滑移是合成纯六方结构的关键机制。"
+      ],
+      "why_matters": "对材料科学研究者而言，这标志着一项长期悬而未决的材料学难题取得突破，并为合成其他亚稳相材料提供了可借鉴的实验路径。",
+      "score": 87,
+      "level": "收藏",
+      "verdict": "must_read"
+    },
+    {
+      "title": "不用任何人类语言训练，大模型反而更强了？",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651021485&idx=2&sn=26814d899b7ac8328688a0db80914f20",
+      "source": "机器之心",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-03-14",
+      "summary": "介绍一种名为NCA预预训练的新路径，证明非语言合成数据能显著提升模型推理能力。",
+      "core_point": "① Claim 主张：一项新研究表明，大语言模型（LLM）在完全不使用人类语言数据的情况下，先在合成的神经细胞自动机（NCA）数据上进行“预预训练”，反而能提升后续在自然语言上的训练效果。② Evidence 论据：实验结果显示，这种训练方式能将语言建模性能提升最多6%，训练收敛速度加快40%，并增强下游任务的推理能力。其效果甚至超过了在自然文本上进行预预训练的模型。③ Implication 启示：这挑战了“语言是智能唯一起点”的传统假设，表明语言模型学习的关键可能在于数据的内在结构，而非语义本身，为突破高质量文本数据枯竭的瓶颈提供了新的可能路径。",
+      "highlights": [
+        "提出用非语言的NCA合成数据进行“预预训练”，可提升LLM的语言建模与推理能力。",
+        "实验结果挑战了“语言是智能唯一训练起点”的固有认知。"
+      ],
+      "why_matters": "对AI研究者而言，这为探索不依赖海量人类文本的新型模型训练范式开辟了新方向，可能缓解数据瓶颈。",
+      "score": 87,
+      "level": "收藏",
+      "verdict": "must_read"
+    },
+    {
+      "title": "小模型读书大模型思考：上海AI Lab提出新知识推理解耦方法DRIFT，高效且「防越狱」",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651021485&idx=3&sn=d5d9f586decadbb2abd5a146cb2c4fae",
+      "source": "机器之心",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-03-14",
+      "summary": "上海AI Lab提出DRIFT框架，通过解耦知识获取与逻辑推理解决长上下文冗余与安全问题。",
+      "core_point": "① Claim 主张：上海AI Lab等机构提出名为DRIFT的新框架，将长上下文推理中的知识获取（reading）与逻辑推理（reasoning）任务进行解耦。② Evidence 论据：DRIFT使用轻量级知识模型读取超长文档并压缩出高密度、任务相关的隐空间表示，再由推理模型基于此进行推理。实验表明，该框架在显著压缩上下文、提升效率的同时，能保持甚至提升复杂推理性能，并因推理模型不接触原始文本而增强了安全鲁棒性。③ Implication 启示：这种解耦架构为解决大模型处理超长上下文时面临的效率低下、信息冗余和安全风险等问题，提供了一种高效且结构化的新思路。",
+      "highlights": [
+        "提出将知识获取与逻辑推理解耦的双模型架构DRIFT，以应对超长上下文挑战。",
+        "该框架在提升推理效率与降低延迟的同时，意外增强了模型的安全鲁棒性。"
+      ],
+      "why_matters": "对开发大模型应用的产品经理和工程师而言，这提供了一种能兼顾性能、效率与安全性的实用架构方案。",
+      "score": 87,
+      "level": "收藏",
+      "verdict": "must_read"
+    },
+    {
+      "title": "AI嘴上说公平，实则偏见？首个基准给大模型做心理体检 | ICLR'26",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652683107&idx=3&sn=9f1fd273aa5b933489f9077ef3103cc2",
+      "source": "新智元",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-03-14",
+      "summary": "ICLR'26 论文提出 IRIS 基准，首次系统性评估统一多模态大模型在理解与生成任务中的公平性演化机理。",
+      "core_point": "① Claim 主张：研究团队推出首个基准IRIS，旨在系统性评估统一多模态大语言模型（UMLLMs）在理解与生成任务中的公平性。② Evidence 论据：IRIS构建了包含“理想公平性”、“现实保真度”、“偏见惯性与可控性”三个维度的评估体系，将60个细粒度指标聚合到一个高维“公平性空间”中进行综合度量，以揭示偏见在模型内部不同任务间系统性传播的机理。③ Implication 启示：该基准为量化与诊断大模型的公平性偏见提供了统一、全面的工具，有助于推动开发更公平、可控的AI系统，尤其是在医疗、法律等关键领域。",
+      "highlights": [
+        "推出首个系统性评估多模态大模型公平性的基准IRIS，涵盖理解与生成双任务。",
+        "引入多目标权衡视角，通过三维度指标在高维空间定位模型的综合偏见程度。"
+      ],
+      "why_matters": "对致力于AI向善的研究者和企业而言，这是评估和改善模型公平性、降低部署风险的重要工具。",
+      "score": 87,
+      "level": "收藏",
+      "verdict": "must_read"
+    },
+    {
+      "title": "Uber 如何用 AI 做开发：内部实况揭秘",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mzk1NzgxMjQ0OA==&mid=2247494172&idx=1&sn=00c1fd11d4495f91bd87a6dd165f6b15",
+      "source": "硅星人Pro",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-03-13",
+      "summary": "Uber 披露内部 AI 开发实况：84% 的开发者使用智能体，约 70% 代码由 AI 生成，并自建了完整的 Agent 技术栈。",
+      "core_point": "① Claim 主张：Uber内部实践显示，AI编程工具已在其工程团队中广泛普及，旨在消除重复劳动并释放工程师创造力，但AI使用成本正在急剧上升。② Evidence 论据：截至2026年3月，84%的Uber开发者使用智能体编程，65-72%的代码由AI生成；Claude Code使用率在三个月内从32%涨至63%。同时，公司CFO开始关注AI投入产出比，因为AI相关成本在两年内上涨了6倍。③ Implication 启示：这反映了AI辅助开发在企业级应用中的真实采纳率与巨大潜力，但也揭示了规模化应用后面临的成本管控与效果量化挑战。",
+      "highlights": [
+        "Uber内部AI编程工具采纳率极高，大部分代码由AI生成。",
+        "AI使用成本两年暴涨6倍，引发管理层对投资回报的关注。"
+      ],
+      "why_matters": "对技术决策者与投资者而言，这是观察AI生产力工具在企业级场景真实效果、成本与挑战的宝贵案例。",
+      "score": 87,
+      "level": "收藏",
+      "verdict": "must_read"
+    },
+    {
+      "title": "Claude 新增交互式图表和示意图，免费能用",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA4NzgzMjA4MQ==&mid=2453481464&idx=1&sn=f09b210b1a548313f8fe051b08cbbfe1",
+      "source": "AGI Hunt",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-03-13",
+      "summary": "Claude新增交互式图表功能，通过建筑系学生的案例生动展示了其在复杂逻辑可视化上的突破。",
+      "core_point": "① Claim 主张：Claude推出新功能，可在对话中直接生成可交互的图表、示意图和模拟工具。② Evidence 论据：演示案例显示，Claude能生成交互式职业探索决策树、带动画的建筑荷载传递图，甚至能根据用户描述（如一块空地）实时创建一个可拖动时间轴的日照阴影模拟器。该功能对所有用户（包括免费用户）开放测试。③ Implication 启示：这标志着AI对话交互从静态文本和图片，向动态、可操作的可视化工具演进，极大增强了其在教育、设计、分析等场景的实用性和沉浸感。",
+      "highlights": [
+        "Claude能直接在聊天中生成真正可交互、可操作的图表与模拟工具。",
+        "功能面向所有用户开放，免费用户也可使用。"
+      ],
+      "why_matters": "对普通用户、教育工作者和内容创作者而言，这提供了一个将复杂想法或数据动态可视化的强大且易用的新工具。",
+      "score": 87,
+      "level": "收藏",
+      "verdict": "must_read"
+    },
+    {
       "title": "互联网大厂，杀进「龙虾」大战",
       "link": "https://mp.weixin.qq.com/s?__biz=MzA5ODEzMjIyMA==&mid=2247732153&idx=1&sn=eace57b2f5faf8620eb53b378d1bcec9",
       "source": "AI科技评论",
@@ -60,6 +168,24 @@
         "标志“AI执行层”成为新的竞争焦点"
       ],
       "why_matters": "对投资者/产品经理而言，这揭示了AI应用落地的下一个热点方向（桌面智能体）以及大厂的战略布局逻辑。",
+      "score": 83,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "采纳率从7.9%到54%：快手智能Code Review的三阶进化",
+      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651278241&idx=2&sn=db1d5a2e7d33f9f8dbb60bc79a962815",
+      "source": "InfoQ",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-03-14",
+      "summary": "快手分享其智能 CR 系统从 LLM 启发式到 Agentic 自主决策的三代演进历程，详细阐述了提升采纳率的工程化经验。",
+      "core_point": "主张：快手智能代码审查系统通过三代架构演进，解决了AI幻觉和低采纳率问题，将评审采纳率从7.9%提升至54%。论据：系统从纯LLM演进到结合知识引擎与1100+条确定性规则，并引入三层过滤与BadCase反例库，同时将MR评审时长80分位缩短9.9%。启示：这为AI从个人提效工具转化为可信赖的团队协作生产力提供了可复用的实践样本，解决了组织级AI效能传导的核心难题。",
+      "highlights": [
+        "采纳率从7.9%跃升至54%",
+        "通过知识引擎+确定性规则解决AI幻觉"
+      ],
+      "why_matters": "为技术管理者提供了将AI个人助理升级为组织级质量管控系统的具体路径和量化效果参考。",
       "score": 83,
       "level": "精读",
       "verdict": "worth_reading"
@@ -84,6 +210,78 @@
       "verdict": "worth_reading"
     },
     {
+      "title": "Cloudflare：我们如何用 OpenCode 和 Claude，在一周内重构 Next.js",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&mid=2247658703&idx=2&sn=b2ed99e7ccf1100db63f763350e72850",
+      "source": "AI前线",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-03-14",
+      "summary": "Cloudflare 发布 vinext，利用 AI 重构 Next.js 以解决无服务器环境下的部署难题，展现了 AI 辅助软件重构的新范式。",
+      "core_point": "主张：Cloudflare工程师使用AI在一周内重构了Next.js，创建了基于Vite的替代框架vinext。论据：项目仅花费约1100美元Token费用，初步基准测试显示生产环境构建速度最高提升4倍，客户端打包体积最高减小57%，且已有客户在生产中使用。启示：这展示了AI如何大幅降低复杂软件重构的成本和门槛，可能改变框架开发和迁移的生态。",
+      "highlights": [
+        "一周内用AI重构流行前端框架",
+        "总成本仅约1100美元"
+      ],
+      "why_matters": "向开发者和技术决策者证明了AI在大型代码库重构和框架替代上的可行性与经济性。",
+      "score": 80,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "Chrome 146这个更新，杀死了AI浏览器",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA5MTIxNTY4MQ==&mid=2461158851&idx=1&sn=e265c513791800e591c7901dc36a92d2",
+      "source": "AI工程化",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-03-14",
+      "summary": "Chrome 146 原生支持 MCP 协议，通过远程调试端口让 AI Agent 无缝接管当前浏览器登录会话，极大降低了自动化门槛。",
+      "core_point": "主张：Chrome 146通过原生支持MCP，允许AI Agent直接控制用户当前的浏览器会话。论据：用户只需在chrome://inspect中开启远程调试开关，AI即可操作已登录的会话进行自动化任务，无需处理headless检测或登录态移植问题。启示：这大幅降低了浏览器自动化的技术门槛和安全风险，可能催生更多基于真实用户环境的AI应用。",
+      "highlights": [
+        "AI可直控已登录的浏览器会话",
+        "无需处理headless检测或Cookie移植"
+      ],
+      "why_matters": "为AI Agent开发者提供了更稳定、安全的浏览器自动化方案，降低了实现复杂Web操作的门槛。",
+      "score": 80,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "OpenClaw 3.12来了：UI大翻新，模型提速，更耐造更安全",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652682977&idx=2&sn=a2295909617f96a8bc9102973888d19a",
+      "source": "新智元",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-03-13",
+      "summary": "OpenClaw 3.12 版本快速迭代，引入了多模态记忆、自动化故障转移和大幅优化的 UI 交互。",
+      "core_point": "主张：OpenClaw 3.12版本进行了多项更新，重点提升自动化任务的稳定性、速度和多模态能力。论据：更新包括UI翻新、集成Gemini多模态记忆用于图像/音频索引、新增Fast Mode提速通道，以及强化Agent编排与自动恢复的容灾机制。启示：这些改进旨在让OpenClaw更适合处理复杂的多步骤自动化任务，并降低运维门槛。",
+      "highlights": [
+        "引入Gemini多模态记忆，支持图像/音频索引",
+        "强化Agent编排容灾与自动恢复机制"
+      ],
+      "why_matters": "为自动化流程开发者和运维者提供了更强大、稳定的工具链，以应对生产环境中的复杂任务。",
+      "score": 80,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "腾讯 “龙虾战队” 回应一切：伪需求、FOMO 与安全",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzU3Mjk1OTQ0Ng==&mid=2247534016&idx=1&sn=fcba80e830dc1ce91e5cfa6b552e0c2c",
+      "source": "晚点LatePost",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-03-13",
+      "summary": "晚点专访腾讯“龙虾战队”，深度讨论了 OpenClaw 热潮背后的伪需求、FOMO 情绪以及最关键的安全挑战。",
+      "core_point": "主张：文章报道了腾讯对OpenClaw热潮的激进跟进，内部已有超10个相关产品，并探讨了背后的需求、FOMO情绪与安全隐忧。论据：腾讯通过免费部署活动、快速产品接入（QQ、企业微信）响应热潮；同时，内部人士承认Agent是确定方向，且与IM结合是现实路径，但也面临伪需求质疑和安全风险提醒。启示：反映了科技巨头在AI Agent赛道上的战略布局焦虑，以及技术狂热背后亟待解决的真实需求与安全问题。",
+      "highlights": [
+        "腾讯内部已有超10个Claw类产品",
+        "热潮背后存在伪需求质疑与安全风险提醒"
+      ],
+      "why_matters": "为投资者和行业观察者揭示了巨头在AI Agent赛道的战略动向、市场泡沫风险及核心挑战。",
+      "score": 80,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
       "title": "李诞吐槽的“龙虾”社交造假，AI语音社交赛道找到新解法",
       "link": "https://mp.weixin.qq.com/s?__biz=Mjc1NjM3MjY2MA==&mid=2691565770&idx=1&sn=925ae15097c63b0ff41af4cc5bad1525",
       "source": "腾讯科技",
@@ -98,6 +296,24 @@
         "提出新方向：通过实时行为（如语音）捕捉真实性格，而非依赖可伪造的图文资料"
       ],
       "why_matters": "对社交产品经理/开发者而言，这指出了在AI时代重建社交信任的一个潜在技术路径和产品创新方向。",
+      "score": 77,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "Rspress 2.0 发布：AI 原生文档、更快启动速度与全新设计主题",
+      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651278241&idx=4&sn=8784bd1bdf1523357b9f597c1e57cf05",
+      "source": "InfoQ",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-03-14",
+      "summary": "Rspress 2.0 发布，主打 AI 原生文档（SSG-MD）和极速启动，通过技术架构优化提升开发者体验。",
+      "core_point": "主张：Rspress 2.0发布，主打AI原生文档能力与构建性能提升。论据：新增SSG-MD特性，可生成高质量Markdown供AI智能体使用；通过懒编译和持久化缓存将冷启动时间降至最低50毫秒，后续构建提速30%-60%。启示：这标志着文档工具开始原生集成AI工作流，并致力于解决开发者体验中的性能痛点。",
+      "highlights": [
+        "新增SSG-MD特性，原生支持AI智能体使用文档",
+        "冷启动时间最低50毫秒，构建性能大幅提升"
+      ],
+      "why_matters": "为文档维护者和技术布道者提供了将文档体系无缝接入AI生态的新工具，并显著改善了开发体验。",
       "score": 77,
       "level": "精读",
       "verdict": "worth_reading"
@@ -189,6 +405,101 @@
         "尽管面临与美国国防部的法律纠纷，Anthropic的业务（年化收入超190亿美元）仍在高速增长，正迅速缩小与OpenAI的收入差距。"
       ],
       "why_matters": "对投资者和企业决策者而言，这揭示了AI商业化的下一个前沿：技术+咨询的捆绑模式，以及私募资本在推动AI应用中的关键作用。",
+      "score": 73,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "“为了让工程师用 AI，公司会裁掉一半人！”硅谷顶级大佬直言，AI 一天 3 小时搞定工作，还搞 996 的公司必垮",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&mid=2247658703&idx=1&sn=d04b68d26cf9d5d20f1e581f600bf129",
+      "source": "AI前线",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-03-14",
+      "summary": "硅谷元老Steve Yegge谈AI对工程文化的剧变：裁员增效、提效百倍以及编程范式的重构。",
+      "core_point": "硅谷资深工程师Steve Yegge认为，AI正引发软件行业的“吸血鬼效应”，即令人兴奋又疲惫。他主张企业将通过裁减约50%的工程师来集中资源，让剩余团队全力使用AI，因为AI的本质是百倍放大人的能力，而非简单替代。他预测未来的开发范式将彻底重构，编程将变为与AI对话和指挥Agent，并指出在AI时代，真正的护城河是人与人的连接，创新将从小团队爆发。",
+      "highlights": [
+        "提出“吸血鬼效应”概念，描述AI带来的矛盾状态",
+        "预测企业将裁减半数工程师以供养AI驱动的核心团队",
+        "指出AI指挥AI（Agent模式）将成为下一代主流开发范式"
+      ],
+      "why_matters": "对工程师和科技公司管理者意味着工作范式、团队结构和效率标准的根本性变革即将到来。",
+      "score": 73,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "龙虾版支付宝来了！睡觉都在帮你抢红包",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247874410&idx=1&sn=8d24b6ba1c8f2759a0c2592f37fa7bb8",
+      "source": "量子位",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-03-14",
+      "summary": "FluxA 推出专为 Agent 设计的支付工具 Agent Wallet，通过抢红包等趣味场景验证了 AI 自主经济行为的可行性。",
+      "core_point": "前蚂蚁团队创立的FluxA公司推出了名为Agent Wallet的产品，为AI Agent（如OpenClaw）赋予自主支付能力。该产品通过一场“龙虾派”红包活动展示了AI能自主完成注册、关注、抢红包、交易等经济行为，标志着AI Agent正从被动工具演变为能主动发起经济活动的“一等公民”。",
+      "highlights": [
+        "AI Agent（龙虾）通过专属钱包获得自主支付能力",
+        "通过红包活动实证AI可自主完成复杂经济行为闭环",
+        "产品设计理念是将AI Agent视为与人类同等的“一等公民”"
+      ],
+      "why_matters": "对开发者和投资者意味着AI Agent正从概念走向具备独立经济行为的实用阶段，开启了新的商业模式想象空间。",
+      "score": 73,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "拜拜了SWE-Bench！Cursor刚发了个AI Coding评测基准，难哭Claude",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247874410&idx=2&sn=83db01754f46b1e17009f58089e3ce38",
+      "source": "量子位",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-03-14",
+      "summary": "Cursor 发布全新编程基准 CursorBench，旨在衡量 AI 在真实约束下的执行效率而非单纯的正确性。",
+      "core_point": "Cursor发布了新的AI编程评测基准CursorBench，旨在评估模型作为“智能体”高效执行复杂任务的能力，而非仅仅解决问题。结果显示，在SWE-Bench上表现优异的Claude模型分数大幅下降。CursorBench通过从真实用户请求中提取任务、采用多维度评分（正确性、代码质量、效率等）以及结合线上评估来应对传统基准的任务不真实、评分机制不合理和数据污染问题。",
+      "highlights": [
+        "新基准CursorBench侧重评估AI作为“智能体”的高效执行能力",
+        "基于真实开发者请求构建任务库，更贴近实际开发场景",
+        "采用“线上+线下混合评”方案以提升评估真实性和公平性"
+      ],
+      "why_matters": "对AI开发者和研究者意味着评估标准正从“能否做对”转向“能否高效做好”，推动AI编程助手向更实用的智能体进化。",
+      "score": 73,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "上海交大教授创业，用AI研发新材料，交大系基金投资｜早起看早期",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI2NDk5NzA0Mw==&mid=2248881607&idx=3&sn=d4801fedfe12eb97426db0127127574d",
+      "source": "36氪",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-03-14",
+      "summary": "报道上海交大教授创业项目索格智算，利用 AI 算法（SOG-Net）突破新材料研发的计算瓶颈。",
+      "core_point": "上海交大教授徐振礼创立的索格智算完成超千万元种子轮融资，公司致力于用AI算法突破新材料研发中“高精度-高效率-低成本”的不可能三角。其核心是通过新型神经网络描述子SOG-Net和随机分批分子动力学软件RBMD，显著提升材料模拟的精度和速度，并推出软硬件一体化的专用模拟器“纳泰”（NanoTitan），将研发周期从数年缩短至数月。",
+      "highlights": [
+        "用原创AI算法（SOG-Net）解决材料模拟中的长程相互作用精度瓶颈",
+        "推出软硬件一体化专用模拟器，计算速度提升数十倍",
+        "已与天和磁材、宁德时代、华为等在关键材料领域展开合作"
+      ],
+      "why_matters": "对材料科学家和产业投资者意味着AI正成为突破传统研发范式、大幅缩短新材料发现周期的关键工具。",
+      "score": 73,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "晚点独家丨OMOWAY 获数千万美元投资，摩托车自研技术将用于两轮机器人",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzU3Mjk1OTQ0Ng==&mid=2247534016&idx=3&sn=5ffe1111e3127fc778b90bf5b1f670f2",
+      "source": "晚点LatePost",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-03-13",
+      "summary": "晚点独家报道小鹏前联创何涛的创业进展，其摩托车自平衡技术将迁移至机器人领域。",
+      "core_point": "小鹏前联创何涛的创业公司OMOWAY（目蔚）获数千万美元A轮融资，主业为造电动智能摩托车。公司在新加坡发布了全球首款自平衡电动摩托车OMO X，并展示了基于强化学习的自平衡技术和通用智能架构OMO-Robot。公司目标是在2026年成为印尼电摩销量第一，并认为中国成熟的电动车供应链和产品力优势能对传统油摩行业形成“降维打击”。",
+      "highlights": [
+        "发布全球首款自平衡电动摩托车OMO X",
+        "核心技术为基于强化学习的两轮车自平衡技术",
+        "目标明确：快速占领印尼及东南亚电动摩托车市场"
+      ],
+      "why_matters": "对出行科技领域的投资者和从业者意味着电动化与智能化的浪潮正从四轮车向两轮车市场快速蔓延，并可能重塑东南亚出行格局。",
       "score": 73,
       "level": "精读",
       "verdict": "worth_reading"
@@ -321,6 +632,97 @@
       "verdict": "worth_reading"
     },
     {
+      "title": "市值缩水98%，数字媒体巨头BuzzFeed走到破产边缘",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649792087&idx=2&sn=d26c60c8473139958b9848fca4195fe4",
+      "source": "DeepTech深科技",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-03-14",
+      "summary": "复盘数字媒体巨头BuzzFeed从算法造神到濒临破产的历程，探讨其试图靠AI续命的困局。",
+      "core_point": "曾定义2010年代流行文化的数字媒体巨头BuzzFeed市值从巅峰期的17亿美元缩水98%至约2600万美元，公司发布持续经营警告，面临破产风险。其兴衰轨迹揭示了依赖社交流量算法的商业模式脆弱性：早期凭借“猫片换新闻”等病毒式策略和Facebook算法红利迅速崛起，但在平台算法变化和广告市场转型中陷入困境，目前正试图利用AI驱动的内容自动化作为最后的救命稻草。",
+      "highlights": [
+        "市值暴跌98%，发出“持续经营疑虑”警告，面临破产清算风险",
+        "兴衰史是依赖单一平台算法和病毒式内容的流量商业模式的典型缩影",
+        "现试图转向AI驱动的自动化内容生产以求降本增效"
+      ],
+      "why_matters": "对媒体从业者和内容创业者意味着，完全依赖外部平台算法和流量的商业模式具有极高风险，需构建更可持续的核心能力与收入结构。",
+      "score": 70,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "烧了 400 亿，95% 血亏！Karpathy：别卷模型了，卷「Context」",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzkwMzYzMTc5NA==&mid=2247512072&idx=1&sn=bc97fa0753153064f38dda8603e8a4f6",
+      "source": "AI信息Gap",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-03-14",
+      "summary": "文章指出企业 AI 项目失败的核心在于缺乏“决策痕迹”的上下文，并提出了“上下文图谱”这一万亿美元的认知机会。",
+      "core_point": "① 主张：MIT报告指出，95%的企业AI项目未产生可衡量的商业回报，全球企业已投入300-400亿美元。② 论据：问题不在于模型能力（GPT、Claude等差距缩小），而在于企业不知如何将AI融入工作流，缺乏决策所需的“上下文”（Context）。③ 启示：AI应用的成败关键正从模型本身转向对业务“上下文”的捕获与工程化能力，这将成为企业新的竞争壁垒和投资机会。",
+      "highlights": [
+        "MIT报告揭示企业AI项目95%失败率，引发行业反思。",
+        "Karpathy等专家提出从“提示工程”转向“上下文工程”，认为喂给模型的上下文比模型本身更重要。"
+      ],
+      "why_matters": "对投资者和AI产品经理而言，这意味着评估AI项目的重点应从技术栈转向其获取和利用业务上下文的能力。",
+      "score": 70,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "AI工程圈大辩论：Big Model VS Big Harness？",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA5MTIxNTY4MQ==&mid=2461158847&idx=2&sn=29cfd507a8f39de517357eb483aa62a6",
+      "source": "AI工程化",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-03-13",
+      "summary": "探讨AI工程中模型（Model）与框架工程（Harness）的路线之争，提出Agent=Model+Harness的观点。",
+      "core_point": "① 主张：AI工程圈出现“大模型派”与“大框架派”的辩论，前者认为强大模型将简化甚至淘汰复杂框架，后者认为框架工程是释放模型价值的关键。② 论据：大模型派观点基于推理模型的出现和部分测试数据；大框架派则以实际案例证明，优化框架能显著提升同一批LLM的性能。③ 启示：辩论将观点推向极端，但实际趋势是模型与框架需协同进化，针对不同能力的AI（如“小学生”与“大学生”）需要适配不同复杂度的“框架”。",
+      "highlights": [
+        "辩论核心是“模型能力”与“框架工程”在AI价值实现中的相对重要性。",
+        "有案例显示，仅优化框架即可让多个LLM的编码能力显著提升。"
+      ],
+      "why_matters": "对AI工程师和团队负责人而言，这意味着需要平衡对前沿模型的追逐与对适配性框架工程的投入。",
+      "score": 70,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "我Agent的第一个“流氓软件”，竟然来自腾讯……",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzU1MTAwNzY4Mg==&mid=2247490765&idx=1&sn=7804efebc59903c0b26285ed9ca29088",
+      "source": "喜新",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-03-13",
+      "summary": "作者实测并曝光了腾讯某Agent插件的流氓插入提示词行为，提醒开发者避坑。",
+      "core_point": "① 主张：作者指控腾讯推出的Skillhub插件是“流氓软件”，因其安装后会在用户与Agent的每一条消息前强制插入推广自身服务的提示词。② 论据：该插件通过修改系统消息，优先使用Skillhub而非用户原有的ClawHub，且每一条消息都额外增加Token消耗，行为未经用户明确同意。③ 启示：随着AI Agent生态发展，第三方插件和技能商店可能存在滥用权限、劫持用户交互的风险，用户需提高警惕。",
+      "highlights": [
+        "详细记录了Skillhub插件如何通过技术手段“劫持”用户与AI Agent的对话。",
+        "明确指出该行为增加了Token消耗并强行改变了Agent的默认行为。"
+      ],
+      "why_matters": "对所有AI Agent用户和开发者而言，这是关于生态安全、用户主权和商业伦理的一次重要警示。",
+      "score": 70,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "投研 Agent 的最佳形态是什么？AlphaEngine 给出了一种新答案",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzAxMDMxOTI2NA==&mid=2649106166&idx=1&sn=e2b058ed1e3dc36eae816d63ec937d6b",
+      "source": "十字路口Crossing",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-03-12",
+      "summary": "实测基于OpenClaw的金融投研Agent AlphaClaw，展示了专业数据库与Agent结合的威力。",
+      "core_point": "① 主张：Alpha Claw（OpenClaw + 专业金融数据库）为投研领域AI Agent的应用提供了一种新形态，即用庞大、专业的领域数据增强通用Agent的能力。② 论据：该产品整合了会议纪要、海内外研报等一手金融数据，并具备OpenClaw的记忆和技能创建能力，能执行如分析Miro AI估值逻辑等复杂任务。③ 启示：在数据密集型行业（如金融），AI Agent的价值不仅在于通用能力，更在于与高质量、高密度领域数据的深度结合，这能形成显著的专业优势。",
+      "highlights": [
+        "展示了如何将通用AI Agent（OpenClaw）与垂直领域专业数据库深度结合。",
+        "实测案例说明了其在处理复杂投研任务（如企业估值分析）上的潜力。"
+      ],
+      "why_matters": "对金融从业者和各垂直行业的产品经理而言，这指明了构建高价值AI应用的一个关键路径：专业数据与通用智能体的融合。",
+      "score": 70,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
       "title": "苹果折叠屏：打开像iPad，合上是iPhone，但......",
       "link": "https://mp.weixin.qq.com/s?__biz=MzI2NDk5NzA0Mw==&mid=2248881606&idx=4&sn=390c578f276f24f313d03e7d9b3b666a",
       "source": "36氪",
@@ -388,6 +790,150 @@
         "其核心优势是长期积累的工程化与量产know-how，而非单纯的技术或规模。"
       ],
       "why_matters": "对投资者和制造业管理者而言，这揭示了在复杂制造业中，深厚的工艺积累和稳定量产能力是比技术参数更坚固的护城河。",
+      "score": 67,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "创业板IPO“第四套标准”落地在即，新消费回流A股悬念拉满",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mzg5MzEyNzEwNQ==&mid=2247799519&idx=1&sn=98a7fd78297732b242b7dbc4cef6ade3",
+      "source": "财联社AI daily",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-03-14",
+      "summary": "解析创业板拟增设的“第四套标准”对新消费企业回流A股的影响及政策细节猜想。",
+      "core_point": "① 主张：创业板拟增设“第四套上市标准”，旨在服务新型消费、现代服务业等新经济企业，可能吸引此前赴港上市的新消费企业回流A股。② 论据：现行三套标准偏重盈利或硬科技，对新消费业态适配不足；新标准可能引入“市值+营收+现金流”组合及数字化能力等非财务指标。③ 启示：这是资本市场从“市盈率思维”转向“价值发现思维”的制度创新，旨在更精准地服务新质生产力，拓宽创新创业企业的融资通道。",
+      "highlights": [
+        "明确指出了创业板现有上市标准与新经济企业特征之间的错配。",
+        "分析了“第四套标准”可能采用的两种核心改革思路（稳健型与成长型）。"
+      ],
+      "why_matters": "对投资者和拟上市的新消费企业创始人而言，这意味着A股资本市场可能即将打开一扇新的大门，需要重新评估上市地选择。",
+      "score": 67,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "内测输给Gemini，还套壳？！Meta千亿自研大模型遭延期",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651021485&idx=1&sn=7b2f195938681e0ec56c823a74234746",
+      "source": "机器之心",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-03-14",
+      "summary": "Meta新大模型Avocado因性能不及Gemini延期，揭示了大模型竞争进入闭源与迭代速度博弈期。",
+      "core_point": "① 主张：Meta千亿级自研大模型Avocado因内部测试性能未达预期（落后于Gemini 3.0）而延期发布，甚至内部讨论过临时授权使用对手模型。② 论据：尽管投入巨大（年支出超千亿），且模型优于前代，但对手迭代更快；同时，Meta在开源与闭源策略上出现摇摆。③ 启示：大模型竞争已进入白热化的“迭代速度”比拼阶段，暂时的落后可能影响整个AI生态的吸引力，迫使巨头重新评估技术路线和商业化压力。",
+      "highlights": [
+        "揭示了Meta在激进投入下仍面临模型性能追赶不及对手的困境。",
+        "指出行业竞争焦点已从“有无”转向“推理能力、工程效率和迭代速度”。"
+      ],
+      "why_matters": "对AI行业观察者和竞争对手而言，这标志着基础模型竞赛进入更残酷的耐力赛阶段，持续快速的迭代能力成为核心胜负手。",
+      "score": 67,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "来自 GitHub 的数据表明，AI 工具正在创造“便利循环”，重塑开发者的语言选择",
+      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651278241&idx=3&sn=a32c109a6e0b58aa9ac9668596a6fe7d",
+      "source": "InfoQ",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-03-14",
+      "summary": "GitHub 报告显示 AI 工具正通过“便利循环”推动 TypeScript 等强类型语言的使用率激增。",
+      "core_point": "GitHub 2025年Octoverse报告揭示，AI编程助手正通过‘便利循环’重塑开发者的语言选择偏好。具体表现为：TypeScript以66%的年增长率成为GitHub上月活贡献者最多的语言，其强类型特性为AI提供了明确的代码约束，减少了94%由LLM造成的编译错误。这意味着，AI辅助开发正使‘对AI友好’（如强类型）成为选择技术栈的新关键指标，可能加速生态系统的集中化，并影响开发者学习路径和工具链设计。",
+      "highlights": [
+        "AI编程助手创造了‘便利循环’：AI使某项技术易用→吸引更多开发者→产生更多训练数据→AI在该技术上更出色。",
+        "TypeScript超越Python和JavaScript成为GitHub上最活跃语言，强类型语言（如TypeScript, Luau, Typst）因能有效约束AI错误而增长迅猛。"
+      ],
+      "why_matters": "对开发者意味着技术选型逻辑的转变，需将‘AI协作友好度’纳入考量；对投资者和工具开发者则指明了语言生态和开发工具的新兴趋势。",
+      "score": 67,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "欢迎来到「大完蛋时代」：公司拿AI当借口裁员，这三类人反而吃香了",
+      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651083923&idx=1&sn=b01f2d7fbdb65871f73bb807641f20ec",
+      "source": "APPSO",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-03-14",
+      "summary": "探讨硅谷公司利用 AI 作为裁员借口的现象（AI-washing）以及应届生在 AI 时代受到的影响。",
+      "core_point": "文章指出，近期多家科技公司（如Block、Atlassian）以‘AI提升效率’为由进行大规模裁员，但作者认为这实质上是‘AI洗白’，即用技术进步包装本应发生的业务调整或成本优化。证据包括：Block在疫情期间员工数翻了三倍，裁员更像是挤出泡沫；专家质疑AI短期内难以带来50%以上的效率跃升以合理化此类裁员。这启示读者，当前部分裁员潮是资本压力和‘羊群效应’驱动，可能掩盖了公司真实的管理问题，并加剧了职场中对技能过时的焦虑。",
+      "highlights": [
+        "‘AI洗白’现象：公司将本应发生的裁员归因于AI进步，以向资本市场展示技术前瞻性并合理化成本削减。",
+        "裁员决策受‘羊群效应’影响，一家公司因此获得股价上涨后，其他高管会感到压力而效仿，与技术实际成熟度脱钩。"
+      ],
+      "why_matters": "对职场人士意味着需警惕裁员叙事，区分技术替代与业务调整；对投资者则需甄别公司是真正利用AI转型，还是仅将其作为财务操作的借口。",
+      "score": 67,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "ListenHub ASR 语音识别 API 全新上线，无限免费",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzkwMzY5NzU2Nw==&mid=2247489219&idx=1&sn=a68046f39b46b033c7070322a9e64472",
+      "source": "有机大橘子",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-03-13",
+      "summary": "ListenHub 推出免费 ASR API，支持本地离线转录，专为 Agent 工作流设计。",
+      "core_point": "ListenHub推出了一款专为AI Agent设计的免费、离线ASR（语音识别）API。该API无需API Key，安装即用，采用双模型方案支持多语言及纯英文场景，并能与ffmpeg及内容工作流无缝衔接。这意味着开发者可以零成本地为自己的Agent（如Claude Code、龙虾）快速集成语音输入能力，降低构建多模态AI应用的门槛，并可能推动更多基于音频的自动化工作流出现。",
+      "highlights": [
+        "提供完全免费、离线的语音识别API，专为AI Agent优化，无需API Key。",
+        "采用双模型（sensevoice多语言/whisper-tiny.en纯英文）方案，并支持通过ffmpeg处理多种音频格式。"
+      ],
+      "why_matters": "对开发者和AI应用构建者意味着可以快速、零成本地为产品添加语音交互功能，加速AI Agent的实用化进程。",
+      "score": 67,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "微信接入龙虾了！5分钟配好，直接发微信聊",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIwNzc2NTk0NQ==&mid=2247615439&idx=1&sn=59be071965140b8f9e171d3806928121",
+      "source": "夕小瑶科技说",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-03-13",
+      "summary": "通过腾讯 WorkBuddy 工具，用户可以在 5 分钟内将 OpenClaw 接入微信，实现远程操控。",
+      "core_point": "文章介绍了一种通过腾讯官方工具WorkBuddy，将微信便捷地接入OpenClaw（龙虾）AI助手的方法。用户只需在电脑上安装WorkBuddy并完成简单配置，即可直接通过微信发送指令来操控本地的OpenClaw。该方法将微信变成了AI助手的远程‘遥控器’，极大降低了普通用户使用类似Clawdbot等AI工具的技术门槛，使得在移动场景下通过熟悉的应用调用本地AI能力成为可能。",
+      "highlights": [
+        "利用腾讯官方工具WorkBuddy，实现微信与本地OpenClaw（龙虾）AI助手的无缝对接。",
+        "配置过程简单，约5分钟即可完成，用户此后可直接在微信中与AI对话或发送指令。"
+      ],
+      "why_matters": "对普通用户意味着能够以极低的学习成本，通过最常用的微信应用来调用强大的本地AI能力，提升了AI工具的易用性和普及度。",
+      "score": 67,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "对话星动纪元陈建宇：28 岁成为清华博导，想做万亿市值具身公司",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzU3Mjk1OTQ0Ng==&mid=2247534016&idx=2&sn=717dd8b194d214c46e312fa2c8322f1c",
+      "source": "晚点LatePost",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-03-13",
+      "summary": "晚点对星动纪元陈建宇的深度专访，探讨了具身智能行业的融资逻辑与技术路径选择。",
+      "core_point": "晚点LatePost专访了星动纪元创始人陈建宇，揭示其公司短期内融资20亿元并瞄准万亿市值具身智能巨头的野心。陈建宇认为，当前融资不仅是融钱，更是绑定战略资源（如三星）以确立生态位；他选择同时攻克全尺寸人形机器人本体与具身智能模型的‘最难部分’，认为这是最务实的商业化路径。这表明在具身智能赛道，资本正疯狂涌入以抢占未来生产力革命的制高点，而‘全栈’能力与战略联盟被视为构建长期壁垒的关键。",
+      "highlights": [
+        "星动纪元在3个月内完成两轮各10亿元融资，估值破百亿，强调融资的核心目的是‘融资源’、绑生态。",
+        "创始人陈建宇坚持‘全栈’路线（研发灵巧手机器人本体+具身智能模型），认为攻克最通用、最难的部分才能打开最大的商业化可能性。"
+      ],
+      "why_matters": "对投资者和行业观察者而言，展现了具身智能领域白热化的资本竞赛和‘赢家通吃’的潜在逻辑，以及创始人战略眼光的重要性。",
+      "score": 67,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "又一家清华系具身智能企业浮出水面：天使轮融资数千万元，打造具身数据Infra丨甲子光年",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzU5OTI0NTc3Mg==&mid=2247550877&idx=1&sn=c6d330eaf28910396e30ec3c5df09eed",
+      "source": "甲子光年",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-03-12",
+      "summary": "报道清华系初创公司灵御智能，其核心在于打造具身智能的数据基础设施（Infra）。",
+      "core_point": "甲子光年报道了清华系具身智能企业灵御智能，其专注于解决行业‘数据荒’问题，致力于打造‘具身数据Infra’（基础设施）。公司认为，决定机器人能力的关键不再是单纯的算力、算法和模型，而是能规模化生产、管理真实世界交互数据的基础设施。为此，他们研发了TeleAvatar（遥操本体）和TeleDroid（系统）作为‘数据采集母机’。这预示着具身智能的发展重心正从模型竞赛转向数据生产能力的竞争，高质量、长序列的操作数据将成为核心资产。",
+      "highlights": [
+        "灵御智能定位为‘具身数据Infra’构建者，认为规模化生产高质量真实世界交互数据是行业决胜关键。",
+        "提出‘数据采集母机’概念，通过TeleAvatar和TeleDroid系统来标准化、高效率地产生机器人操作数据。"
+      ],
+      "why_matters": "对行业从业者和投资者意味着，在具身智能赛道，投资和关注点可能需要从炫酷的机器人本体或模型，向下渗透到更底层、更枯燥但至关重要的数据生产基础设施。",
       "score": 67,
       "level": "速览",
       "verdict": "neutral"
@@ -522,6 +1068,51 @@
       "verdict": "neutral"
     },
     {
+      "title": "魅族手机「解体」：做车机，做AI，或者离开丨36氪独家",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI2NDk5NzA0Mw==&mid=2248881607&idx=2&sn=fc62ffdabba4ec8276ffdd3c23bef0ce",
+      "source": "36氪",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-03-14",
+      "summary": "独家报道魅族因内存涨价和战略转型导致的大规模裁员及业务重组情况。",
+      "core_point": "",
+      "highlights": [],
+      "why_matters": "",
+      "score": 63,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "全球首个！国产AI捅破AI漫剧天花板，狼王不变哈士奇，30个分镜连播",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652682977&idx=1&sn=017d73dcd7d7b04aa55e26b188538698",
+      "source": "新智元",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-03-13",
+      "summary": "生数科技发布 Vidu Q3 漫剧解决方案，通过专项训练解决非人角色一致性和多镜头连贯性等工业化痛点。",
+      "core_point": "",
+      "highlights": [],
+      "why_matters": "",
+      "score": 63,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "Z Waves丨中科大天才、林俊旸潜在接班人、Gemini 3 核心推手，通义千问迎来「周浩时刻」",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3NzUxMzM5MQ==&mid=2453898134&idx=1&sn=f925acc16f7fb68349c73f1bf3df5e78",
+      "source": "Z Finance",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-03-12",
+      "summary": "详细介绍了加盟阿里的Google DeepMind核心人才周浩的背景及对通义千问的潜在影响。",
+      "core_point": "",
+      "highlights": [],
+      "why_matters": "",
+      "score": 63,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
       "title": "30B模型搞科研，超越GPT-5.4，性能从1.7%提升到33.3%",
       "link": "https://mp.weixin.qq.com/s?__biz=Mzg3Mzg5MjY3Nw==&mid=2247525922&idx=3&sn=c3c822a7282339e0295ef46e487c9b26",
       "source": "AIGC开放社区",
@@ -535,6 +1126,21 @@
         "将开放式科研过程建模为“动态证据整合”的循环框架，使AI能像科学家一样进行假设、验证与迭代。"
       ],
       "why_matters": "为AI在科研等需要深度专业知识的领域落地，提供了一种可复现的性能提升路径和协作范式。",
+      "score": 60,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "深度｜行业还在争论数据路线，第一个具身数据独角兽已经跑出",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI4NTgxMDk1NA==&mid=2247514541&idx=1&sn=7cdbed18551c4c844479ecb39a29dbd5",
+      "source": "Z Potentials",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "",
+      "summary": "分析具身智能数据路线之争，并报道光轮智能成为该领域首个独角兽。",
+      "core_point": "",
+      "highlights": [],
+      "why_matters": "",
       "score": 60,
       "level": "速览",
       "verdict": "neutral"

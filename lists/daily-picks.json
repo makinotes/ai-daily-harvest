@@ -14,6 +14,48 @@
       "source": "AI科技评论",
       "score": 87,
       "why": "对AI研发者/团队而言，该研究为如何高效训练多领域通用大模型提供了关键的方法论参考和实证分析。"
+    },
+    {
+      "title": "比钻石还硬！中国科学家合成六方金刚石",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649792087&idx=1&sn=a802885a5da834c3d04e2fe5fb85bf6e",
+      "source": "DeepTech深科技",
+      "score": 87,
+      "why": "对材料科学研究者而言，这标志着一项长期悬而未决的材料学难题取得突破，并为合成其他亚稳相材料提供了可借鉴的实验路径。"
+    },
+    {
+      "title": "不用任何人类语言训练，大模型反而更强了？",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651021485&idx=2&sn=26814d899b7ac8328688a0db80914f20",
+      "source": "机器之心",
+      "score": 87,
+      "why": "对AI研究者而言，这为探索不依赖海量人类文本的新型模型训练范式开辟了新方向，可能缓解数据瓶颈。"
+    },
+    {
+      "title": "小模型读书大模型思考：上海AI Lab提出新知识推理解耦方法DRIFT，高效且「防越狱」",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651021485&idx=3&sn=d5d9f586decadbb2abd5a146cb2c4fae",
+      "source": "机器之心",
+      "score": 87,
+      "why": "对开发大模型应用的产品经理和工程师而言，这提供了一种能兼顾性能、效率与安全性的实用架构方案。"
+    },
+    {
+      "title": "AI嘴上说公平，实则偏见？首个基准给大模型做心理体检 | ICLR'26",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652683107&idx=3&sn=9f1fd273aa5b933489f9077ef3103cc2",
+      "source": "新智元",
+      "score": 87,
+      "why": "对致力于AI向善的研究者和企业而言，这是评估和改善模型公平性、降低部署风险的重要工具。"
+    },
+    {
+      "title": "Uber 如何用 AI 做开发：内部实况揭秘",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mzk1NzgxMjQ0OA==&mid=2247494172&idx=1&sn=00c1fd11d4495f91bd87a6dd165f6b15",
+      "source": "硅星人Pro",
+      "score": 87,
+      "why": "对技术决策者与投资者而言，这是观察AI生产力工具在企业级场景真实效果、成本与挑战的宝贵案例。"
+    },
+    {
+      "title": "Claude 新增交互式图表和示意图，免费能用",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA4NzgzMjA4MQ==&mid=2453481464&idx=1&sn=f09b210b1a548313f8fe051b08cbbfe1",
+      "source": "AGI Hunt",
+      "score": 87,
+      "why": "对普通用户、教育工作者和内容创作者而言，这提供了一个将复杂想法或数据动态可视化的强大且易用的新工具。"
     }
   ],
   "worth_reading": [
@@ -25,6 +67,13 @@
       "why": "对投资者/产品经理而言，这揭示了AI应用落地的下一个热点方向（桌面智能体）以及大厂的战略布局逻辑。"
     },
     {
+      "title": "采纳率从7.9%到54%：快手智能Code Review的三阶进化",
+      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651278241&idx=2&sn=db1d5a2e7d33f9f8dbb60bc79a962815",
+      "source": "InfoQ",
+      "score": 83,
+      "why": "为技术管理者提供了将AI个人助理升级为组织级质量管控系统的具体路径和量化效果参考。"
+    },
+    {
       "title": "大厂「养虾」，各怀心事",
       "link": "https://mp.weixin.qq.com/s?__biz=MzI2NDk5NzA0Mw==&mid=2248881606&idx=2&sn=236e5cc7bc84ec57fc7c33fcd552baea",
       "source": "36氪",
@@ -32,11 +81,46 @@
       "why": "对行业观察者/创业者而言，这反映了AI技术从聊天向执行演进的关键节点，以及生态竞争的新态势。"
     },
     {
+      "title": "Cloudflare：我们如何用 OpenCode 和 Claude，在一周内重构 Next.js",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&mid=2247658703&idx=2&sn=b2ed99e7ccf1100db63f763350e72850",
+      "source": "AI前线",
+      "score": 80,
+      "why": "向开发者和技术决策者证明了AI在大型代码库重构和框架替代上的可行性与经济性。"
+    },
+    {
+      "title": "Chrome 146这个更新，杀死了AI浏览器",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA5MTIxNTY4MQ==&mid=2461158851&idx=1&sn=e265c513791800e591c7901dc36a92d2",
+      "source": "AI工程化",
+      "score": 80,
+      "why": "为AI Agent开发者提供了更稳定、安全的浏览器自动化方案，降低了实现复杂Web操作的门槛。"
+    },
+    {
+      "title": "OpenClaw 3.12来了：UI大翻新，模型提速，更耐造更安全",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652682977&idx=2&sn=a2295909617f96a8bc9102973888d19a",
+      "source": "新智元",
+      "score": 80,
+      "why": "为自动化流程开发者和运维者提供了更强大、稳定的工具链，以应对生产环境中的复杂任务。"
+    },
+    {
+      "title": "腾讯 “龙虾战队” 回应一切：伪需求、FOMO 与安全",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzU3Mjk1OTQ0Ng==&mid=2247534016&idx=1&sn=fcba80e830dc1ce91e5cfa6b552e0c2c",
+      "source": "晚点LatePost",
+      "score": 80,
+      "why": "为投资者和行业观察者揭示了巨头在AI Agent赛道的战略动向、市场泡沫风险及核心挑战。"
+    },
+    {
       "title": "李诞吐槽的“龙虾”社交造假，AI语音社交赛道找到新解法",
       "link": "https://mp.weixin.qq.com/s?__biz=Mjc1NjM3MjY2MA==&mid=2691565770&idx=1&sn=925ae15097c63b0ff41af4cc5bad1525",
       "source": "腾讯科技",
       "score": 77,
       "why": "对社交产品经理/开发者而言，这指出了在AI时代重建社交信任的一个潜在技术路径和产品创新方向。"
+    },
+    {
+      "title": "Rspress 2.0 发布：AI 原生文档、更快启动速度与全新设计主题",
+      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651278241&idx=4&sn=8784bd1bdf1523357b9f597c1e57cf05",
+      "source": "InfoQ",
+      "score": 77,
+      "why": "为文档维护者和技术布道者提供了将文档体系无缝接入AI生态的新工具，并显著改善了开发体验。"
     },
     {
       "title": "马斯克致歉",
@@ -72,6 +156,41 @@
       "source": "Z Potentials",
       "score": 73,
       "why": "对投资者和企业决策者而言，这揭示了AI商业化的下一个前沿：技术+咨询的捆绑模式，以及私募资本在推动AI应用中的关键作用。"
+    },
+    {
+      "title": "“为了让工程师用 AI，公司会裁掉一半人！”硅谷顶级大佬直言，AI 一天 3 小时搞定工作，还搞 996 的公司必垮",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&mid=2247658703&idx=1&sn=d04b68d26cf9d5d20f1e581f600bf129",
+      "source": "AI前线",
+      "score": 73,
+      "why": "对工程师和科技公司管理者意味着工作范式、团队结构和效率标准的根本性变革即将到来。"
+    },
+    {
+      "title": "龙虾版支付宝来了！睡觉都在帮你抢红包",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247874410&idx=1&sn=8d24b6ba1c8f2759a0c2592f37fa7bb8",
+      "source": "量子位",
+      "score": 73,
+      "why": "对开发者和投资者意味着AI Agent正从概念走向具备独立经济行为的实用阶段，开启了新的商业模式想象空间。"
+    },
+    {
+      "title": "拜拜了SWE-Bench！Cursor刚发了个AI Coding评测基准，难哭Claude",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247874410&idx=2&sn=83db01754f46b1e17009f58089e3ce38",
+      "source": "量子位",
+      "score": 73,
+      "why": "对AI开发者和研究者意味着评估标准正从“能否做对”转向“能否高效做好”，推动AI编程助手向更实用的智能体进化。"
+    },
+    {
+      "title": "上海交大教授创业，用AI研发新材料，交大系基金投资｜早起看早期",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI2NDk5NzA0Mw==&mid=2248881607&idx=3&sn=d4801fedfe12eb97426db0127127574d",
+      "source": "36氪",
+      "score": 73,
+      "why": "对材料科学家和产业投资者意味着AI正成为突破传统研发范式、大幅缩短新材料发现周期的关键工具。"
+    },
+    {
+      "title": "晚点独家丨OMOWAY 获数千万美元投资，摩托车自研技术将用于两轮机器人",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzU3Mjk1OTQ0Ng==&mid=2247534016&idx=3&sn=5ffe1111e3127fc778b90bf5b1f670f2",
+      "source": "晚点LatePost",
+      "score": 73,
+      "why": "对出行科技领域的投资者和从业者意味着电动化与智能化的浪潮正从四轮车向两轮车市场快速蔓延，并可能重塑东南亚出行格局。"
     },
     {
       "title": "Quoting Craig Mod",
@@ -121,6 +240,41 @@
       "source": "AIGC开放社区",
       "score": 70,
       "why": "对科技投资者和生命科学研究者而言，这指明了脑机接口在特定感官修复领域的可行路径与明确边界。"
+    },
+    {
+      "title": "市值缩水98%，数字媒体巨头BuzzFeed走到破产边缘",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649792087&idx=2&sn=d26c60c8473139958b9848fca4195fe4",
+      "source": "DeepTech深科技",
+      "score": 70,
+      "why": "对媒体从业者和内容创业者意味着，完全依赖外部平台算法和流量的商业模式具有极高风险，需构建更可持续的核心能力与收入结构。"
+    },
+    {
+      "title": "烧了 400 亿，95% 血亏！Karpathy：别卷模型了，卷「Context」",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzkwMzYzMTc5NA==&mid=2247512072&idx=1&sn=bc97fa0753153064f38dda8603e8a4f6",
+      "source": "AI信息Gap",
+      "score": 70,
+      "why": "对投资者和AI产品经理而言，这意味着评估AI项目的重点应从技术栈转向其获取和利用业务上下文的能力。"
+    },
+    {
+      "title": "AI工程圈大辩论：Big Model VS Big Harness？",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA5MTIxNTY4MQ==&mid=2461158847&idx=2&sn=29cfd507a8f39de517357eb483aa62a6",
+      "source": "AI工程化",
+      "score": 70,
+      "why": "对AI工程师和团队负责人而言，这意味着需要平衡对前沿模型的追逐与对适配性框架工程的投入。"
+    },
+    {
+      "title": "我Agent的第一个“流氓软件”，竟然来自腾讯……",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzU1MTAwNzY4Mg==&mid=2247490765&idx=1&sn=7804efebc59903c0b26285ed9ca29088",
+      "source": "喜新",
+      "score": 70,
+      "why": "对所有AI Agent用户和开发者而言，这是关于生态安全、用户主权和商业伦理的一次重要警示。"
+    },
+    {
+      "title": "投研 Agent 的最佳形态是什么？AlphaEngine 给出了一种新答案",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzAxMDMxOTI2NA==&mid=2649106166&idx=1&sn=e2b058ed1e3dc36eae816d63ec937d6b",
+      "source": "十字路口Crossing",
+      "score": 70,
+      "why": "对金融从业者和各垂直行业的产品经理而言，这指明了构建高价值AI应用的一个关键路径：专业数据与通用智能体的融合。"
     }
   ],
   "neutral": [
@@ -151,6 +305,62 @@
       "source": "虎嗅",
       "score": 67,
       "why": "对投资者和制造业管理者而言，这揭示了在复杂制造业中，深厚的工艺积累和稳定量产能力是比技术参数更坚固的护城河。"
+    },
+    {
+      "title": "创业板IPO“第四套标准”落地在即，新消费回流A股悬念拉满",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mzg5MzEyNzEwNQ==&mid=2247799519&idx=1&sn=98a7fd78297732b242b7dbc4cef6ade3",
+      "source": "财联社AI daily",
+      "score": 67,
+      "why": "对投资者和拟上市的新消费企业创始人而言，这意味着A股资本市场可能即将打开一扇新的大门，需要重新评估上市地选择。"
+    },
+    {
+      "title": "内测输给Gemini，还套壳？！Meta千亿自研大模型遭延期",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651021485&idx=1&sn=7b2f195938681e0ec56c823a74234746",
+      "source": "机器之心",
+      "score": 67,
+      "why": "对AI行业观察者和竞争对手而言，这标志着基础模型竞赛进入更残酷的耐力赛阶段，持续快速的迭代能力成为核心胜负手。"
+    },
+    {
+      "title": "来自 GitHub 的数据表明，AI 工具正在创造“便利循环”，重塑开发者的语言选择",
+      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651278241&idx=3&sn=a32c109a6e0b58aa9ac9668596a6fe7d",
+      "source": "InfoQ",
+      "score": 67,
+      "why": "对开发者意味着技术选型逻辑的转变，需将‘AI协作友好度’纳入考量；对投资者和工具开发者则指明了语言生态和开发工具的新兴趋势。"
+    },
+    {
+      "title": "欢迎来到「大完蛋时代」：公司拿AI当借口裁员，这三类人反而吃香了",
+      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651083923&idx=1&sn=b01f2d7fbdb65871f73bb807641f20ec",
+      "source": "APPSO",
+      "score": 67,
+      "why": "对职场人士意味着需警惕裁员叙事，区分技术替代与业务调整；对投资者则需甄别公司是真正利用AI转型，还是仅将其作为财务操作的借口。"
+    },
+    {
+      "title": "ListenHub ASR 语音识别 API 全新上线，无限免费",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzkwMzY5NzU2Nw==&mid=2247489219&idx=1&sn=a68046f39b46b033c7070322a9e64472",
+      "source": "有机大橘子",
+      "score": 67,
+      "why": "对开发者和AI应用构建者意味着可以快速、零成本地为产品添加语音交互功能，加速AI Agent的实用化进程。"
+    },
+    {
+      "title": "微信接入龙虾了！5分钟配好，直接发微信聊",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIwNzc2NTk0NQ==&mid=2247615439&idx=1&sn=59be071965140b8f9e171d3806928121",
+      "source": "夕小瑶科技说",
+      "score": 67,
+      "why": "对普通用户意味着能够以极低的学习成本，通过最常用的微信应用来调用强大的本地AI能力，提升了AI工具的易用性和普及度。"
+    },
+    {
+      "title": "对话星动纪元陈建宇：28 岁成为清华博导，想做万亿市值具身公司",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzU3Mjk1OTQ0Ng==&mid=2247534016&idx=2&sn=717dd8b194d214c46e312fa2c8322f1c",
+      "source": "晚点LatePost",
+      "score": 67,
+      "why": "对投资者和行业观察者而言，展现了具身智能领域白热化的资本竞赛和‘赢家通吃’的潜在逻辑，以及创始人战略眼光的重要性。"
+    },
+    {
+      "title": "又一家清华系具身智能企业浮出水面：天使轮融资数千万元，打造具身数据Infra丨甲子光年",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzU5OTI0NTc3Mg==&mid=2247550877&idx=1&sn=c6d330eaf28910396e30ec3c5df09eed",
+      "source": "甲子光年",
+      "score": 67,
+      "why": "对行业从业者和投资者意味着，在具身智能赛道，投资和关注点可能需要从炫酷的机器人本体或模型，向下渗透到更底层、更枯燥但至关重要的数据生产基础设施。"
     },
     {
       "title": "Figuring out why AIs get flummoxed by some games",
@@ -202,11 +412,39 @@
       "why": "对科研人员和科学哲学研究者而言，这强调了审视科学经典背后隐含假设的重要性，以避免思维被单一范式过度束缚。"
     },
     {
+      "title": "魅族手机「解体」：做车机，做AI，或者离开丨36氪独家",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI2NDk5NzA0Mw==&mid=2248881607&idx=2&sn=fc62ffdabba4ec8276ffdd3c23bef0ce",
+      "source": "36氪",
+      "score": 63,
+      "why": ""
+    },
+    {
+      "title": "全球首个！国产AI捅破AI漫剧天花板，狼王不变哈士奇，30个分镜连播",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652682977&idx=1&sn=017d73dcd7d7b04aa55e26b188538698",
+      "source": "新智元",
+      "score": 63,
+      "why": ""
+    },
+    {
+      "title": "Z Waves丨中科大天才、林俊旸潜在接班人、Gemini 3 核心推手，通义千问迎来「周浩时刻」",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3NzUxMzM5MQ==&mid=2453898134&idx=1&sn=f925acc16f7fb68349c73f1bf3df5e78",
+      "source": "Z Finance",
+      "score": 63,
+      "why": ""
+    },
+    {
       "title": "30B模型搞科研，超越GPT-5.4，性能从1.7%提升到33.3%",
       "link": "https://mp.weixin.qq.com/s?__biz=Mzg3Mzg5MjY3Nw==&mid=2247525922&idx=3&sn=c3c822a7282339e0295ef46e487c9b26",
       "source": "AIGC开放社区",
       "score": 60,
       "why": "为AI在科研等需要深度专业知识的领域落地，提供了一种可复现的性能提升路径和协作范式。"
+    },
+    {
+      "title": "深度｜行业还在争论数据路线，第一个具身数据独角兽已经跑出",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI4NTgxMDk1NA==&mid=2247514541&idx=1&sn=7cdbed18551c4c844479ecb39a29dbd5",
+      "source": "Z Potentials",
+      "score": 60,
+      "why": ""
     }
   ],
   "overhyped": []

@@ -435,6 +435,60 @@
         "why_matters": "对AI研发者/团队而言，该研究为如何高效训练多领域通用大模型提供了关键的方法论参考和实证分析。"
       },
       {
+        "title": "比钻石还硬！中国科学家合成六方金刚石",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649792087&idx=1&sn=a802885a5da834c3d04e2fe5fb85bf6e",
+        "source": "DeepTech深科技",
+        "score": 87,
+        "verdict": "must_read",
+        "pub_date": "2026-03-14",
+        "why_matters": "对材料科学研究者而言，这标志着一项长期悬而未决的材料学难题取得突破，并为合成其他亚稳相材料提供了可借鉴的实验路径。"
+      },
+      {
+        "title": "不用任何人类语言训练，大模型反而更强了？",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651021485&idx=2&sn=26814d899b7ac8328688a0db80914f20",
+        "source": "机器之心",
+        "score": 87,
+        "verdict": "must_read",
+        "pub_date": "2026-03-14",
+        "why_matters": "对AI研究者而言，这为探索不依赖海量人类文本的新型模型训练范式开辟了新方向，可能缓解数据瓶颈。"
+      },
+      {
+        "title": "小模型读书大模型思考：上海AI Lab提出新知识推理解耦方法DRIFT，高效且「防越狱」",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651021485&idx=3&sn=d5d9f586decadbb2abd5a146cb2c4fae",
+        "source": "机器之心",
+        "score": 87,
+        "verdict": "must_read",
+        "pub_date": "2026-03-14",
+        "why_matters": "对开发大模型应用的产品经理和工程师而言，这提供了一种能兼顾性能、效率与安全性的实用架构方案。"
+      },
+      {
+        "title": "AI嘴上说公平，实则偏见？首个基准给大模型做心理体检 | ICLR'26",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652683107&idx=3&sn=9f1fd273aa5b933489f9077ef3103cc2",
+        "source": "新智元",
+        "score": 87,
+        "verdict": "must_read",
+        "pub_date": "2026-03-14",
+        "why_matters": "对致力于AI向善的研究者和企业而言，这是评估和改善模型公平性、降低部署风险的重要工具。"
+      },
+      {
+        "title": "Uber 如何用 AI 做开发：内部实况揭秘",
+        "link": "https://mp.weixin.qq.com/s?__biz=Mzk1NzgxMjQ0OA==&mid=2247494172&idx=1&sn=00c1fd11d4495f91bd87a6dd165f6b15",
+        "source": "硅星人Pro",
+        "score": 87,
+        "verdict": "must_read",
+        "pub_date": "2026-03-13",
+        "why_matters": "对技术决策者与投资者而言，这是观察AI生产力工具在企业级场景真实效果、成本与挑战的宝贵案例。"
+      },
+      {
+        "title": "Claude 新增交互式图表和示意图，免费能用",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzA4NzgzMjA4MQ==&mid=2453481464&idx=1&sn=f09b210b1a548313f8fe051b08cbbfe1",
+        "source": "AGI Hunt",
+        "score": 87,
+        "verdict": "must_read",
+        "pub_date": "2026-03-13",
+        "why_matters": "对普通用户、教育工作者和内容创作者而言，这提供了一个将复杂想法或数据动态可视化的强大且易用的新工具。"
+      },
+      {
         "title": "为什么算力不足才会涌现出智能？",
         "link": "https://mp.weixin.qq.com/s?__biz=MzkyNDYwMzg3OA==&mid=2247490742&idx=1&sn=c6969b71282af75aa863f32ae3095527",
         "source": "GeekSavvy",
@@ -759,6 +813,15 @@
         "why_matters": "对投资者/产品经理而言，这揭示了AI应用落地的下一个热点方向（桌面智能体）以及大厂的战略布局逻辑。"
       },
       {
+        "title": "采纳率从7.9%到54%：快手智能Code Review的三阶进化",
+        "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651278241&idx=2&sn=db1d5a2e7d33f9f8dbb60bc79a962815",
+        "source": "InfoQ",
+        "score": 83,
+        "verdict": "worth_reading",
+        "pub_date": "2026-03-14",
+        "why_matters": "为技术管理者提供了将AI个人助理升级为组织级质量管控系统的具体路径和量化效果参考。"
+      },
+      {
         "title": "我用Claude code开发了一个微信小程序：实测78个skills，这5个组合最香",
         "link": "https://mp.weixin.qq.com/s?__biz=MzIwNzc2NTk0NQ==&mid=2247615347&idx=1&sn=46c21532edd761430e44bd9416c0fa3d",
         "source": "夕小瑶科技说",
@@ -1036,6 +1099,42 @@
         "verdict": "worth_reading",
         "pub_date": "2026-03-13",
         "why_matters": "对行业观察者/创业者而言，这反映了AI技术从聊天向执行演进的关键节点，以及生态竞争的新态势。"
+      },
+      {
+        "title": "Cloudflare：我们如何用 OpenCode 和 Claude，在一周内重构 Next.js",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&mid=2247658703&idx=2&sn=b2ed99e7ccf1100db63f763350e72850",
+        "source": "AI前线",
+        "score": 80,
+        "verdict": "worth_reading",
+        "pub_date": "2026-03-14",
+        "why_matters": "向开发者和技术决策者证明了AI在大型代码库重构和框架替代上的可行性与经济性。"
+      },
+      {
+        "title": "Chrome 146这个更新，杀死了AI浏览器",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzA5MTIxNTY4MQ==&mid=2461158851&idx=1&sn=e265c513791800e591c7901dc36a92d2",
+        "source": "AI工程化",
+        "score": 80,
+        "verdict": "worth_reading",
+        "pub_date": "2026-03-14",
+        "why_matters": "为AI Agent开发者提供了更稳定、安全的浏览器自动化方案，降低了实现复杂Web操作的门槛。"
+      },
+      {
+        "title": "OpenClaw 3.12来了：UI大翻新，模型提速，更耐造更安全",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652682977&idx=2&sn=a2295909617f96a8bc9102973888d19a",
+        "source": "新智元",
+        "score": 80,
+        "verdict": "worth_reading",
+        "pub_date": "2026-03-13",
+        "why_matters": "为自动化流程开发者和运维者提供了更强大、稳定的工具链，以应对生产环境中的复杂任务。"
+      },
+      {
+        "title": "腾讯 “龙虾战队” 回应一切：伪需求、FOMO 与安全",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzU3Mjk1OTQ0Ng==&mid=2247534016&idx=1&sn=fcba80e830dc1ce91e5cfa6b552e0c2c",
+        "source": "晚点LatePost",
+        "score": 80,
+        "verdict": "worth_reading",
+        "pub_date": "2026-03-13",
+        "why_matters": "为投资者和行业观察者揭示了巨头在AI Agent赛道的战略动向、市场泡沫风险及核心挑战。"
       },
       {
         "title": "计算所 x 上交大论文：只用双人数据，也能生成多人动画丨CVPR 2026",
@@ -1666,6 +1765,15 @@
         "verdict": "worth_reading",
         "pub_date": "2026-03-13",
         "why_matters": "对社交产品经理/开发者而言，这指出了在AI时代重建社交信任的一个潜在技术路径和产品创新方向。"
+      },
+      {
+        "title": "Rspress 2.0 发布：AI 原生文档、更快启动速度与全新设计主题",
+        "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651278241&idx=4&sn=8784bd1bdf1523357b9f597c1e57cf05",
+        "source": "InfoQ",
+        "score": 77,
+        "verdict": "worth_reading",
+        "pub_date": "2026-03-14",
+        "why_matters": "为文档维护者和技术布道者提供了将文档体系无缝接入AI生态的新工具，并显著改善了开发体验。"
       },
       {
         "title": "叫板OpenClaw，一款主动找活干的agent原生硬件即将发售",
