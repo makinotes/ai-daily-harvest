@@ -1,15 +1,15 @@
 {
-  "updated": "2026-03-14",
+  "updated": "2026-03-15",
   "window": "7d",
-  "article_count": 239,
+  "article_count": 229,
   "trending": [
     {
       "keyword": "OpenClaw",
-      "count": 29
+      "count": 25
     },
     {
       "keyword": "Claude",
-      "count": 16
+      "count": 15
     },
     {
       "keyword": "腾讯",
@@ -17,18 +17,18 @@
     },
     {
       "keyword": "Agent",
-      "count": 11
-    },
-    {
-      "keyword": "大模型",
       "count": 10
     },
     {
-      "keyword": "训练",
-      "count": 7
+      "keyword": "大模型",
+      "count": 9
     },
     {
       "keyword": "Code",
+      "count": 8
+    },
+    {
+      "keyword": "训练",
       "count": 7
     },
     {
@@ -36,19 +36,7 @@
       "count": 7
     },
     {
-      "keyword": "开源",
-      "count": 7
-    },
-    {
       "keyword": "多模态",
-      "count": 6
-    },
-    {
-      "keyword": "ICLR",
-      "count": 5
-    },
-    {
-      "keyword": "Coding",
       "count": 5
     },
     {
@@ -56,12 +44,12 @@
       "count": 5
     },
     {
-      "keyword": "Openclaw",
-      "count": 5
+      "keyword": "Google",
+      "count": 4
     },
     {
-      "keyword": "Codex",
-      "count": 5
+      "keyword": "ICLR",
+      "count": 4
     },
     {
       "keyword": "LLM",
@@ -69,6 +57,10 @@
     },
     {
       "keyword": "安全",
+      "count": 4
+    },
+    {
+      "keyword": "Coding",
       "count": 4
     },
     {
@@ -81,6 +73,14 @@
     },
     {
       "keyword": "智能体",
+      "count": 4
+    },
+    {
+      "keyword": "谷歌",
+      "count": 4
+    },
+    {
+      "keyword": "code",
       "count": 4
     }
   ]

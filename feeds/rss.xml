@@ -5,7 +5,87 @@
   <link>https://github.com/makinotes/ai-daily-feed</link>
   <description>Daily AI learning feed. 40+ sources scored and structured.</description>
   <language>zh-cn</language>
-  <lastBuildDate>Sat, 14 Mar 2026 00:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Sun, 15 Mar 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>RL102: 从ORM到PRM, Reasoning模型诞生</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzUxNzQ5MTExNw==&amp;mid=2247497834&amp;idx=1&amp;sn=5670d911aa83dd45a971fec5a888af01</link>
+  <description><![CDATA[深度技术解析：从 RLHF 到强化学习推理模型（Reasoning Model）的演进，重点讲解了 PRM 与 GRPO 算法。<ul><li>指出第一代RLHF模型在复杂推理任务上的核心问题：稀疏且模糊的奖励信号。</li><li>介绍第二代模型增强推理能力的主要技术方向，如思维链、思维树、GRPO算法等。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzUxNzQ5MTExNw==&amp;mid=2247497834&amp;idx=1&amp;sn=5670d911aa83dd45a971fec5a888af01">zartbot</source>
+</item>
+<item>
+  <title>谈谈Feynman+LPU的架构</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzUxNzQ5MTExNw==&amp;mid=2247497834&amp;idx=2&amp;sn=a08a61944726d7c1ccc5f1dab6e97396</link>
+  <description><![CDATA[从底层硬件架构视角分析 Nvidia Feynman 架构吸收 Groq LPU 技术的可能性与优势。<ul><li>详细分析了Groq LPU在数据路径、控制路径上的具体架构优势及其PPA收益来源。</li><li>探讨了Nvidia通过3D堆叠技术整合Groq LPU的潜在硬件与软件方案。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzUxNzQ5MTExNw==&amp;mid=2247497834&amp;idx=2&amp;sn=a08a61944726d7c1ccc5f1dab6e97396">zartbot</source>
+</item>
+<item>
+  <title>深度｜对话Google首席AI科学家：垂直模型是伪命题，AI 下半场是蒸馏、软硬协同与推理廉价化的战争</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzA3NzUxMzM5MQ==&amp;mid=2453898185&amp;idx=1&amp;sn=14920b7efb40aab80c453223bbebb9d3</link>
+  <description><![CDATA[Jeff Dean 深度访谈：详解模型双轨策略、知识蒸馏与推理廉价化的未来趋势。<ul><li>提出“移动数据成本比计算贵1000倍”，点明能效是AI竞争的核心。</li><li>系统阐述了“模型双轨策略”：前沿模型突破性能天花板，轻量化模型通过蒸馏实现大规模部署。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzA3NzUxMzM5MQ==&amp;mid=2453898185&amp;idx=1&amp;sn=14920b7efb40aab80c453223bbebb9d3">Z Finance</source>
+</item>
+<item>
+  <title>「文科生友好」手把手教你部署Claude Code，顺便聊聊OpenClaw</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzA3MDA3NzI1Nw==&amp;mid=2455087903&amp;idx=1&amp;sn=6a60e72d25d25253ae02efed703c21de</link>
+  <description><![CDATA[一份针对文科生的Claude Code深度指南，详细解释了Agentic Loop核心机制并提供了Task/Skill等概念的教学。<ul><li>清晰解释了Claude Code作为AI Agent的核心工作机制（Agentic Loop）。</li><li>提供了从安装到实操的“文科生友好”型详细步骤指南。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzA3MDA3NzI1Nw==&amp;mid=2455087903&amp;idx=1&amp;sn=6a60e72d25d25253ae02efed703c21de">新西楼</source>
+</item>
+<item>
+  <title>刚刚，国家队讯飞下场「养虾」！一键部署 + 满级防护（附实测）</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzkwMzYzMTc5NA==&amp;mid=2247512226&amp;idx=1&amp;sn=fd5a6acad3fab3684b8372ce907fb83b</link>
+  <description><![CDATA[科大讯飞推出基于云端沙箱的OpenClaw（小龙虾）托管版AstronClaw，解决了开源版API暴露的安全痛点并提供一键部署体验。<ul><li>指出AstronClaw通过“云端沙箱隔离”核心解决了OpenClaw的本地安全风险。</li><li>详细展示了从注册、部署到使用的全流程，突出其“一键部署”和“新手友好”特性。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzkwMzYzMTc5NA==&amp;mid=2247512226&amp;idx=1&amp;sn=fd5a6acad3fab3684b8372ce907fb83b">AI信息Gap</source>
+</item>
+<item>
+  <title>中国最大家电展上，一批想帮你做家务的机器人来了！</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzkwMDQ2NDU2Nw==&amp;mid=2247515945&amp;idx=1&amp;sn=92f81af866add7af93f82113225fe683</link>
+  <description><![CDATA[AWE 2026现场观察：追觅、科沃斯、海尔等企业展示了接入AI大模型的具身智能机器人及其实际应用场景。<ul><li>指出家电企业已成为具身智能机器人赛道的主力军，并聚焦家庭服务场景。</li><li>具体介绍了追觅、科沃斯等公司机器人的特色功能（如轮椅形态、接入OpenClaw、分体设计等）及当前局限性。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzkwMDQ2NDU2Nw==&amp;mid=2247515945&amp;idx=1&amp;sn=92f81af866add7af93f82113225fe683">智能涌现</source>
+</item>
+<item>
+  <title>输入 /loop，让 Claude Code 彻底沦为你的牛马</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzI4MjUyNTg1OQ==&amp;mid=2247567000&amp;idx=1&amp;sn=0506d786b2054c5afe9f70d3880e9d3b</link>
+  <description><![CDATA[Claude Code 新功能 /loop 指令实战教程，教你如何实现定时监控与自动化任务。<ul><li>/loop 命令可将 Claude Code 变为后台自动执行的“值班助理”，支持定时文本生成、数据监控、一次性提醒等任务。</li><li>该功能能与 Claude Code 的其他“/”命令结合，自动化上限高，例如可定时审查代码或运行测试。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzI4MjUyNTg1OQ==&amp;mid=2247567000&amp;idx=1&amp;sn=0506d786b2054c5afe9f70d3880e9d3b">莫理</source>
+</item>
+<item>
+  <title>My fireside chat about agentic engineering at the Pragmatic Summit</title>
+  <link>https://simonwillison.net/2026/Mar/14/pragmatic-summit/#atom-everything</link>
+  <description><![CDATA[Simon Willison 探讨 Agentic Engineering 的阶段演进及 AI 自动编程的信任边界。<ul><li>亮点1：作者描述了程序员采用AI的三个阶段：从用ChatGPT辅助，到AI代理编写代码量超过自己，再到近期出现的“无人编写或阅读代码”的极端模式。</li><li>亮点2：作者以安全公司StrongDM为例，指出其“无人写代码、无人读代码”的软件工厂原则是“疯狂的”和“极不负责任的”，并对此表示高度关注。</li></ul>]]></description>
+  <category>AI 使用</category>
+  <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://simonwillison.net/2026/Mar/14/pragmatic-summit/#atom-everything">Simon Willison</source>
+</item>
+<item>
+  <title>为了让机器人学会做家务，这家公司做了一副 200 美元的「技能手套」</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&amp;mid=2653101134&amp;idx=1&amp;sn=d9eb6064f79ef589832b01e7d4022f58</link>
+  <description><![CDATA[Sunday公司通过200美元的「技能手套」众包家庭场景数据，试图解决具身智能落地中的数据瓶颈问题。<ul><li>Sunday 通过可穿戴设备“众包”收集真实家庭环境下的动作数据，以低成本解决机器人训练数据稀缺的难题。</li><li>公司承诺在 2026 年感恩节前出货，旨在抢占“具身智能的 ChatGPT 时刻”，并已获得巨额融资支持。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&amp;mid=2653101134&amp;idx=1&amp;sn=d9eb6064f79ef589832b01e7d4022f58">极客公园</source>
+</item>
+<item>
+  <title>对话历史学家马拉比：哈萨比斯像奥本海默，奥尔特曼比他差远了丨甲子光年</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzU5OTI0NTc3Mg==&amp;mid=2247550935&amp;idx=1&amp;sn=12b055bc2eb17e4f81114fd2c1705e01</link>
+  <description><![CDATA[通过对历史学家马拉比的访谈，深度剖析了DeepMind创始人哈萨比斯的科学追求及其与奥尔特曼在权力观上的本质差异。<ul><li>哈萨比斯被描绘为兼具顶尖科学天才特质与温和、开放、善于沟通的“正常人”性格的复杂体。</li><li>他将自己与奥尔特曼区分为“追求知识”与“追求权力”两种截然不同的AI领袖范式，并自比肩负重任的科幻主角。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzU5OTI0NTc3Mg==&amp;mid=2247550935&amp;idx=1&amp;sn=12b055bc2eb17e4f81114fd2c1705e01">甲子光年</source>
+</item>
 <item>
   <title>LLM幻觉不只是「胡说八道」？新理论首次拆解幻觉的两大根源丨ICLR'2026</title>
   <link>https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247874287&amp;idx=3&amp;sn=1eec732000bbc3fdbc085b92237b261d</link>
@@ -325,86 +405,6 @@
   <category>AI/Tech</category>
   <pubDate>Thu, 12 Mar 2026 00:00:00 GMT</pubDate>
   <source url="https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=2651278059&amp;idx=1&amp;sn=1ac806426cea58f14f1e8da1b71bee1b">InfoQ</source>
-</item>
-<item>
-  <title>Build an Agent That Thinks Like a Data Scientist: How We Hit #1 on DABStep with Reusable Tool Generation</title>
-  <link>https://huggingface.co/blog/nvidia/nemo-agent-toolkit-data-explorer-dabstep-1st-place</link>
-  <description><![CDATA[文章详细介绍了在 DABStep 榜单夺魁的 AI Agent 架构，核心创新在于让 Agent 模拟数据科学家“生成可复用工具”的思维模式。<ul><li>亮点1：团队提出的方法使智能体能够自主生成可复用的数据处理工具，而不是局限于使用固定的工具库。</li><li>亮点2：该方法在 DABStep 基准测试中取得了排名第一的成绩，证明了其有效性。</li><li>亮点3：这种“像数据科学家一样思考”的范式，旨在让智能体更灵活地应对复杂、多步骤的数据科学任务。</li></ul>]]></description>
-  <category>Builder 实践</category>
-  <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://huggingface.co/blog/nvidia/nemo-agent-toolkit-data-explorer-dabstep-1st-place">Hugging Face Blog</source>
-</item>
-<item>
-  <title>Shopify/liquid: Performance: 53% faster parse+render, 61% fewer allocations</title>
-  <link>https://simonwillison.net/2026/Mar/13/liquid/#atom-everything</link>
-  <description><![CDATA[Shopify CEO 利用 AI Agent (autoresearch) 对 Liquid 引擎进行了突破性的性能优化，提升达 53%。<ul><li>亮点1：优化方法独特，采用了受 Andrej Karpathy 启发的“autoresearch”系统，让编码代理运行数百个半自主实验来寻找有效的优化技术。</li><li>亮点2：具体优化措施包括：用 `String#byteindex` 替换 `StringScanner` 分词器，使单字节搜索速度提升约40%；通过纯字节解析标签令牌，消除了每次调用 `StringScanner#string=` 的重置开销；预计算并缓存0-999的整数到字符串的转换，避免了大量 `Integer#to_s` 分配。</li><li>亮点3：最终成果显著，在基准测试中实现了53%的性能提升和61%的内存分配减少，对于一个有20年历史、经过数百名贡献者修改的代码库而言，这一成果令人印象深刻。</li></ul>]]></description>
-  <category>AI 使用</category>
-  <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://simonwillison.net/2026/Mar/13/liquid/#atom-everything">Simon Willison</source>
-</item>
-<item>
-  <title>模型不再是关键？LangChain 创始人：真正决定Agent 上限的是运行框架</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&amp;mid=2247658581&amp;idx=1&amp;sn=5bb3721d3a180eab12ff1b65b67b73d5</link>
-  <description><![CDATA[LangChain创始人深度访谈：定义现代智能体四大组件，断言框架比模型更具壁垒。<ul><li>智能体的四大核心组件：系统提示词（SOP）、规划工具、子智能体、文件系统（用于上下文管理）。</li><li>框架的价值在于提供结构化能力，使智能体行为更可预测、可靠，适合生产环境。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&amp;mid=2247658581&amp;idx=1&amp;sn=5bb3721d3a180eab12ff1b65b67b73d5">AI前线</source>
-</item>
-<item>
-  <title>Retrieval After RAG: Hybrid Search, Agents, and Database Design — Simon Hørup Eskildsen of Turbopuffer</title>
-  <link>https://www.latent.space/p/turbopuffer</link>
-  <description><![CDATA[Turbopuffer创始人分享如何通过新一代数据库架构解决RAG中昂贵的向量搜索成本问题。<ul><li>亮点1：Turbopuffer 的创立源于一个具体需求：帮助 Readwise 将语义搜索功能的月度成本从预估的 2-3 万美元降低，使其从无法上线变为可行。</li><li>亮点2：Simon 的核心观点是，AI 模型需要连接到能完整、高保真地保存“真相”的外部系统，因为模型本身无法将所有知识压缩到其参数中。</li><li>亮点3：构建一个伟大数据库公司需要三个要素：新的工作负载、新的存储架构，以及最终支持客户对其数据的所有查询计划的能力。</li></ul>]]></description>
-  <category>AI 使用</category>
-  <pubDate>Thu, 12 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://www.latent.space/p/turbopuffer">Latent Space</source>
-</item>
-<item>
-  <title>为什么算力不足才会涌现出智能？</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzkyNDYwMzg3OA==&amp;mid=2247490742&amp;idx=1&amp;sn=c6969b71282af75aa863f32ae3095527</link>
-  <description><![CDATA[解析CMU与NYU关于智能本质的论文，提出智能源于受限算力下的信息压缩与抽象，观点新颖且极具认知冲击力。<ul><li>智能被定义为算力不足时被迫进行的压缩与抽象。</li><li>论文提出“时间受限熵”与“认知复杂度（Epiplexity）”概念，量化了算力限制下观察者对数据的理解差异。</li><li>一个反直觉发现：增加算力可能降低模型学到的结构化知识（Epiplexity）。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Thu, 12 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzkyNDYwMzg3OA==&amp;mid=2247490742&amp;idx=1&amp;sn=c6969b71282af75aa863f32ae3095527">GeekSavvy</source>
-</item>
-<item>
-  <title>马斯克直言“奇点降临”：卡帕西让AI自己研究LLM，两天后训练时间暴砍11%</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzIwNzc2NTk0NQ==&amp;mid=2247615417&amp;idx=2&amp;sn=922736582d33627ac613bb50a104e6a3</link>
-  <description><![CDATA[卡帕西开源 autoresearch：实现 AI 自主优化模型训练，效率提升 11%。<ul><li>AI代理在48小时内完全自主运行，通过数百次实验找到了人类研究员忽略的29个训练优化点。</li><li>优化叠加后，模型达到相同训练损失所需时间缩短了11%。</li><li>项目理念简单：单GPU运行，每次训练约5分钟，形成“修改-运行-评估”的无限循环。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Thu, 12 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzIwNzc2NTk0NQ==&amp;mid=2247615417&amp;idx=2&amp;sn=922736582d33627ac613bb50a104e6a3">夕小瑶科技说</source>
-</item>
-<item>
-  <title>被AI夺走工作的白领们，正在被雇来训练AI夺走更多工作</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&amp;mid=2649791978&amp;idx=3&amp;sn=c23709271ad1cdf360043fb1de505210</link>
-  <description><![CDATA[揭示了失业专业人士成为AI数据标注员的‘强化学习经济’荒诞链条及RLHF背后的精密流水线。<ul><li>AI性能增长面临数据瓶颈，公开互联网数据消耗殆尽，迫使公司转向雇佣人类专家制造高质量训练数据。</li><li>被取代的专业人士在新经济中沦为按秒计酬的零工，其专业判断力被拆解为结构化数据。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&amp;mid=2649791978&amp;idx=3&amp;sn=c23709271ad1cdf360043fb1de505210">DeepTech深科技</source>
-</item>
-<item>
-  <title>有效思考激发多模态智能体决策潜力！清华&amp;北大&amp;腾讯联合提出GTR训练新框架</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651021367&amp;idx=3&amp;sn=b7b35b16e17903e153208b3dbe638c74</link>
-  <description><![CDATA[提出 GTR 训练框架以解决多模态智能体在强化学习中的‘思维崩塌’现象。<ul><li>揭示了多模态智能体RL训练中的“思维崩塌”现象：模型输出思路但丧失实际思考能力。</li><li>GTR框架的核心是用自动化、可规模化的过程引导替代需要人类标注的过程奖励模型（PRMs）。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651021367&amp;idx=3&amp;sn=b7b35b16e17903e153208b3dbe638c74">机器之心</source>
-</item>
-<item>
-  <title>所有用OpenClaw的朋友，我都劝你先装上这个能保命的Skill。</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&amp;mid=2647680584&amp;idx=1&amp;sn=e855a0f04661660b215c0fc9b3bab55d</link>
-  <description><![CDATA[强烈推荐安装 Skill Vetter 插件以防御 OpenClaw 插件投毒风险，保障 AI 智能体安全。<ul><li>OpenClaw等智能体的能力严重依赖第三方Skills，这构成了最大的安全风险来源之一。</li><li>Skill Vetter类似于“杀毒软件”，能自动化进行安全审查，帮助用户做出安装决策。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&amp;mid=2647680584&amp;idx=1&amp;sn=e855a0f04661660b215c0fc9b3bab55d">数字生命卡兹克</source>
-</item>
-<item>
-  <title>2秒终结AI 3D不可能三角，我们和VAST首席科学家曹炎培聊了聊</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651021287&amp;idx=1&amp;sn=3ca66cd1501888b3aee50055a269c1b1</link>
-  <description><![CDATA[VAST 发布 Tripo P1.0，实现 2 秒生成原生 3D 模型，突破了速度、质量、管线可用性的不可能三角。<ul><li>生成速度较现有方案提升百倍以上，且输出质量达到“管线级”，无需中间复杂建模流程。</li><li>其核心突破在于放弃了基于图像或语言的AI范式，转向“原生三维”空间生成，解决了三维空间无天然顺序的根本困境。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Thu, 12 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651021287&amp;idx=1&amp;sn=3ca66cd1501888b3aee50055a269c1b1">机器之心</source>
 </item>
 </channel>
 </rss>

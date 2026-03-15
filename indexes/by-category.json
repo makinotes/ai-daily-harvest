@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-14",
+  "updated": "2026-03-15",
   "categories": {
     "AI/Tech": [
       {
@@ -417,13 +417,22 @@
         "why_matters": "为模型架构师和研究者提供了从几何拓扑角度理解和优化Attention机制的新框架，是提升长上下文处理效率的关键。"
       },
       {
-        "title": "ICLR 2026 oral | AI代码真能进生产环境？SwingArena：从「写对代码Commit」到「通过CI审查」",
-        "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651016616&idx=3&sn=624e454e083a33187f767ac1244eab1f",
-        "source": "机器之心",
-        "score": 88,
+        "title": "RL102: 从ORM到PRM, Reasoning模型诞生",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzUxNzQ5MTExNw==&mid=2247497834&idx=1&sn=5670d911aa83dd45a971fec5a888af01",
+        "source": "zartbot",
+        "score": 87,
         "verdict": "must_read",
-        "pub_date": "2026-02-12",
-        "why_matters": ""
+        "pub_date": "2026-03-14",
+        "why_matters": "对AI研究者而言，这指明了提升模型复杂任务性能的关键技术路径和当前研究的核心范式。"
+      },
+      {
+        "title": "谈谈Feynman+LPU的架构",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzUxNzQ5MTExNw==&mid=2247497834&idx=2&sn=a08a61944726d7c1ccc5f1dab6e97396",
+        "source": "zartbot",
+        "score": 87,
+        "verdict": "must_read",
+        "pub_date": "2026-03-14",
+        "why_matters": "对芯片架构师和投资者而言，这揭示了下一代AI芯片可能的关键技术演进方向和竞争格局。"
       },
       {
         "title": "三星发力大模型！三星研究院联合北大发布 M2RL，系统揭秘多领域RL训练机制",
@@ -723,15 +732,6 @@
         "why_matters": ""
       },
       {
-        "title": "华为升级行业Agent算法架构！MindScale自己写prompt和工作流，KV Cache减少5.7倍token",
-        "link": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247868538&idx=2&sn=dbf9170c9fcb5e3656a44e1c498a2442",
-        "source": "量子位",
-        "score": 86,
-        "verdict": "must_read",
-        "pub_date": "2026-02-12",
-        "why_matters": ""
-      },
-      {
         "title": "WWW 2026 | 大模型推荐真懂你吗？首次揭示微调中的上下文偏差",
         "link": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247718066&idx=2&sn=51d708263e802a02fbb90c8f0daf5d37",
         "source": "PaperWeekly",
@@ -792,15 +792,6 @@
         "score": 85,
         "verdict": "must_read",
         "pub_date": "2026-02-21",
-        "why_matters": ""
-      },
-      {
-        "title": "大模型桌游试玩员来了：用五大画像模拟「千人千面」，评分精准度超越GPT-5.1",
-        "link": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247868538&idx=3&sn=2bdd4203f5f0e8e99a2ed813f0af654a",
-        "source": "量子位",
-        "score": 84,
-        "verdict": "worth_reading",
-        "pub_date": "2026-02-12",
         "why_matters": ""
       },
       {
@@ -1056,40 +1047,22 @@
         "why_matters": ""
       },
       {
-        "title": "年末 AI 回顾：从模型到应用，从技术到商战，拽住洪流中的意义之线",
-        "link": "https://mp.weixin.qq.com/s?__biz=MzU3Mjk1OTQ0Ng==&mid=2247532900&idx=1&sn=17da5474eae944b3eb78833488b68ba6",
-        "source": "晚点LatePost",
-        "score": 82,
+        "title": "深度｜对话Google首席AI科学家：垂直模型是伪命题，AI 下半场是蒸馏、软硬协同与推理廉价化的战争",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzA3NzUxMzM5MQ==&mid=2453898185&idx=1&sn=14920b7efb40aab80c453223bbebb9d3",
+        "source": "Z Finance",
+        "score": 80,
         "verdict": "worth_reading",
-        "pub_date": "2026-02-12",
-        "why_matters": ""
+        "pub_date": "2026-03-14",
+        "why_matters": "对AI公司战略制定者和投资者而言，这明确了未来技术投资和商业化的核心方向是效率与成本。"
       },
       {
-        "title": "视觉强≠能干活！清北普林斯顿等开源WorldArena，世界模型评测被颠覆",
-        "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651016856&idx=2&sn=9613e49139f0374059f1e04c79d9614a",
-        "source": "机器之心",
-        "score": 82,
+        "title": "「文科生友好」手把手教你部署Claude Code，顺便聊聊OpenClaw",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzA3MDA3NzI1Nw==&mid=2455087903&idx=1&sn=6a60e72d25d25253ae02efed703c21de",
+        "source": "新西楼",
+        "score": 80,
         "verdict": "worth_reading",
-        "pub_date": "2026-02-13",
-        "why_matters": ""
-      },
-      {
-        "title": "AI、AI、AI，一天到晚都是AI，这背后是不是有什么阴谋？",
-        "link": "https://mp.weixin.qq.com/s?__biz=MzI3MjQ4MDMyOQ==&mid=2247538775&idx=1&sn=9165cd4e0cd3c4fb13a44152511e2458",
-        "source": "追问nextquestion",
-        "score": 81,
-        "verdict": "worth_reading",
-        "pub_date": "2026-02-13",
-        "why_matters": ""
-      },
-      {
-        "title": "Open Responses 规范实现智能体式 LLM 工作流的统一",
-        "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651275254&idx=4&sn=d2e272f5b71e53e36509bbadbffc4ecb",
-        "source": "InfoQ",
-        "score": 81,
-        "verdict": "worth_reading",
-        "pub_date": "2026-02-12",
-        "why_matters": ""
+        "pub_date": "",
+        "why_matters": "对普通用户和内容创作者而言，这降低了一个强大AI生产力工具的入门门槛，能直接提升工作效率。"
       },
       {
         "title": "大厂「养虾」，各怀心事",
@@ -1641,15 +1614,6 @@
         "why_matters": ""
       },
       {
-        "title": "开源多模态推理「破壁」时刻：MMFineReason助力4B逆袭30B",
-        "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651016856&idx=3&sn=f518aba917e70e50301993fa33ec0cba",
-        "source": "机器之心",
-        "score": 79,
-        "verdict": "worth_reading",
-        "pub_date": "2026-02-13",
-        "why_matters": ""
-      },
-      {
         "title": "深度｜Claude Code创造者：面向六个月后模型开发，而非当下模型；未来人人皆可开发软件，跨领域通才更具竞争力",
         "link": "https://mp.weixin.qq.com/s?__biz=MzI4NTgxMDk1NA==&mid=2247514273&idx=1&sn=57ea11919d135872b452fe07e645c3fd",
         "source": "Z Potentials",
@@ -1756,6 +1720,33 @@
         "verdict": "worth_reading",
         "pub_date": "2026-02-21",
         "why_matters": ""
+      },
+      {
+        "title": "刚刚，国家队讯飞下场「养虾」！一键部署 + 满级防护（附实测）",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzkwMzYzMTc5NA==&mid=2247512226&idx=1&sn=fd5a6acad3fab3684b8372ce907fb83b",
+        "source": "AI信息Gap",
+        "score": 77,
+        "verdict": "worth_reading",
+        "pub_date": "2026-03-15",
+        "why_matters": "对希望尝试AI Agent但担心安全和部署复杂性的用户与企业，这提供了一个即用型的安全解决方案。"
+      },
+      {
+        "title": "中国最大家电展上，一批想帮你做家务的机器人来了！",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzkwMDQ2NDU2Nw==&mid=2247515945&idx=1&sn=92f81af866add7af93f82113225fe683",
+        "source": "智能涌现",
+        "score": 77,
+        "verdict": "worth_reading",
+        "pub_date": "2026-03-14",
+        "why_matters": "对消费者和机器人行业观察者而言，这提供了具身智能当前在家庭场景落地进展的一手市场图景。"
+      },
+      {
+        "title": "输入 /loop，让 Claude Code 彻底沦为你的牛马",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzI4MjUyNTg1OQ==&mid=2247567000&idx=1&sn=0506d786b2054c5afe9f70d3880e9d3b",
+        "source": "莫理",
+        "score": 77,
+        "verdict": "worth_reading",
+        "pub_date": "2026-03-14",
+        "why_matters": "对开发者而言，这意味着能将重复、定时的开发或监控任务自动化，显著提升个人工作效率。"
       },
       {
         "title": "李诞吐槽的“龙虾”社交造假，AI语音社交赛道找到新解法",
@@ -2100,24 +2091,6 @@
         "why_matters": ""
       },
       {
-        "title": "视听分离SOTA提速6倍！清华发布首个6M高性能模型｜ICLR'26",
-        "link": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652675192&idx=3&sn=9958ecd7335bbed783874ea6d0829285",
-        "source": "新智元",
-        "score": 77,
-        "verdict": "worth_reading",
-        "pub_date": "2026-02-13",
-        "why_matters": ""
-      },
-      {
-        "title": "Z Tech｜ICLR 2026字节发布：从短句到篇章，DiscoX为长文翻译提供评测新范式",
-        "link": "https://mp.weixin.qq.com/s?__biz=MzI4NTgxMDk1NA==&mid=2247514118&idx=2&sn=2cbe4c5d3b47e98afe21e44054b91a3b",
-        "source": "Z Potentials",
-        "score": 77,
-        "verdict": "worth_reading",
-        "pub_date": "2026-02-13",
-        "why_matters": ""
-      },
-      {
         "title": "Minimax出了个OpenClaw变体，把6个超好用Agent都传云上用了",
         "link": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&mid=2247505192&idx=1&sn=4faf526db4b6ea6c936f3f28dc3c2242",
         "source": "卡尔的AI沃茨",
@@ -2188,15 +2161,6 @@
         "verdict": "worth_reading",
         "pub_date": "2026-02-24",
         "why_matters": "对投资者和传统软件服务商意味着，需要重新评估那些依赖高技能人力壁垒和漫长周期的商业模式在AI时代的可持续性。"
-      },
-      {
-        "title": "LinkedIn 重构服务发现：在大规模环境中用 Kafka 和 xDS 取代 Zookeeper",
-        "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651275377&idx=4&sn=27faf5f51d6842d930aa45ef7894ab57",
-        "source": "InfoQ",
-        "score": 75,
-        "verdict": "worth_reading",
-        "pub_date": "2026-02-13",
-        "why_matters": ""
       }
     ],
     "Builder 实践": [
